@@ -1,0 +1,44 @@
+---
+title: Welcome to Kinderly
+description: Guides for running enrollment, paperwork, and day-to-day childcare operations with Kinderly.
+template: splash
+hero:
+  tagline: Enrollment, paperwork, and daily operations — built for childcare providers.
+  actions:
+    - text: Get started
+      link: /getting-started/welcome/
+      icon: right-arrow
+      variant: primary
+    - text: Manage your center
+      link: /manage/overview/
+      icon: external
+---
+
+import { Card, CardGrid } from "@astrojs/starlight/components";
+
+<CardGrid stagger>
+	<Card title="Forms" icon="document">
+		Build the forms families fill out — enrollment, consents, emergency contacts.
+		[Learn more →](/forms/overview/)
+	</Card>
+	<Card title="Packets" icon="puzzle">
+		Bundle forms, documents, and automated follow-ups into a single onboarding flow.
+		[Learn more →](/packets/overview/)
+	</Card>
+	<Card title="Shares" icon="seti:lock">
+		Send paperwork to families with a secure PIN-protected link.
+		[Learn more →](/shares/overview/)
+	</Card>
+	<Card title="Kinderly Grow" icon="list-format">
+		Track prospective families from first tour through enrollment.
+		[Learn more →](/grow/overview/)
+	</Card>
+	<Card title="Kinderly Manage" icon="rocket">
+		Children, staff, classrooms, attendance, billing — your whole center in one place.
+		[Learn more →](/manage/overview/)
+	</Card>
+	<Card title="Mobile Apps" icon="phone">
+		Teacher and parent apps for daily check-in, messaging, and billing.
+		[Learn more →](/mobile/overview/)
+	</Card>
+</CardGrid>

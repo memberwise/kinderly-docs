@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+/*
+  Kinderly brand theme for Starlight.
+  Primary brand color (purple): oklch(0.541 0.281 293.009)
+  Font: Poppins
+*/
+
+:root {
+	--sl-font: "Poppins", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+	/* Accent (light mode) — Kinderly purple ramp */
+	--sl-color-accent-low: oklch(0.94 0.04 293);
+	--sl-color-accent: oklch(0.541 0.281 293.009);
+	--sl-color-accent-high: oklch(0.42 0.22 293);
+}
+
+:root[data-theme="dark"] {
+	/* Accent (dark mode) */
+	--sl-color-accent-low: oklch(0.26 0.08 293);
+	--sl-color-accent: oklch(0.606 0.25 292.717);
+	--sl-color-accent-high: oklch(0.85 0.1 293);
+}
+
+/* Logo sizing when replacesTitle is on */
+.site-title img {
+	height: 2rem;
+	width: auto;
+}
+
+/* Slightly tighter heading rhythm to match marketing/enroll */
+.sl-markdown-content h1,
+.sl-markdown-content h2,
+.sl-markdown-content h3 {
+	font-weight: 700;
+	letter-spacing: -0.01em;
+}
