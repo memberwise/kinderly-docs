@@ -41,6 +41,32 @@ Tap any item to open the PIN-protected share and complete it.
 - Save a card for faster payments next time.
 - Remove a saved card.
 
+### Tax documents
+
+Under **Tax Documents**, pick a period — last month, last 3 or 6 months, this
+year, last year, all time, or **Custom range** to choose any two dates — and tap
+**Generate statement**. Kinderly builds a PDF listing every payment recorded
+against that billing account in the period, with the total paid, and opens it in
+your device's PDF viewer so you can save, print or email it.
+
+Each statement is also filed automatically into your **Files** list, so you can
+come back to it later without regenerating. Re-generating the same period
+replaces that copy rather than adding a second one; different periods are kept
+as separate documents. Delete one like any other file — generating it again
+brings it back.
+
+The statement lists **payments**, not invoices — an unpaid invoice won't appear
+until a payment is recorded against it. Only *fulfilled* payments count,
+including ones a staff member recorded manually (cash, check), so the statement
+works even if your center doesn't take card payments in the app. State subsidy
+paid on your behalf is excluded, since it isn't your expense to claim.
+
+Payments are shown for the whole billing account, so if two guardians share an
+account both of their payments appear, and the statement names each payer. The statement carries the center's name, address and
+phone number, plus its **Tax ID (EIN/TIN)** and **Provider Number (DVN)** when
+the center has filled those in — that's what a tax preparer needs for IRS Form
+2441. If they're missing, ask your center to add them under Center Settings.
+
 ## Messaging
 
 Two-way chat with your center's staff. You'll get a **push notification** on new replies.

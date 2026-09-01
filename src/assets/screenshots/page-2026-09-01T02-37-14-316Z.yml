@@ -1,0 +1,56 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - link [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Kinderly" [ref=e6]
+      - navigation [ref=e8]:
+        - link [ref=e9] [cursor=pointer]:
+          - /url: /
+        - link [ref=e15] [cursor=pointer]:
+          - /url: /enroll
+        - link [ref=e22] [cursor=pointer]:
+          - /url: /manage
+        - link [ref=e28] [cursor=pointer]:
+          - /url: /grow
+        - link [ref=e34] [cursor=pointer]:
+          - /url: /funding
+      - navigation [ref=e43]:
+        - link [ref=e44] [cursor=pointer]:
+          - /url: /settings
+      - button "Account menu" [ref=e52]:
+        - generic [ref=e53]: L
+    - complementary [ref=e55]:
+      - generic [ref=e56]:
+        - paragraph [ref=e57]: Workspace
+        - paragraph [ref=e58]: Kinderly - Enroll
+      - navigation [ref=e59]:
+        - link [ref=e61] [cursor=pointer]:
+          - /url: /enroll
+        - generic [ref=e66]:
+          - paragraph [ref=e67]: Library
+          - generic [ref=e68]:
+            - link [ref=e69] [cursor=pointer]:
+              - /url: /enroll/documents
+            - link [ref=e74] [cursor=pointer]:
+              - /url: /enroll/forms
+            - link [ref=e79] [cursor=pointer]:
+              - /url: /enroll/packets
+        - generic [ref=e84]:
+          - paragraph [ref=e85]: Distribution
+          - link [ref=e87] [cursor=pointer]:
+            - /url: /enroll/shares
+    - main [ref=e92]:
+      - navigation "breadcrumb" [ref=e95]:
+        - list [ref=e96]:
+          - listitem [ref=e97]:
+            - link "Kinderly Enroll" [ref=e98] [cursor=pointer]:
+              - /url: /enroll
+          - listitem [ref=e99]
+          - listitem [ref=e102]:
+            - link "My Documents" [ref=e103] [cursor=pointer]:
+              - /url: /enroll/documents
+      - generic [ref=e105]:
+        - generic [ref=e106]: Documents
+        - generic [ref=e107]: Upload documents and manage your files all in one place.
+  - region "Notifications alt+T"

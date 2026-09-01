@@ -10,6 +10,12 @@ sidebar:
 ## Sections
 
 - **Agency Info** — organization name, address, license number.
+- **Center Information** — name, address, contact details, time zone, and your
+  provider identifiers: **Tax ID (EIN/TIN)** and **Provider Number (DVN)**. Both
+  are optional and both print on the tax statements families download from the
+  [Parent app](/mobile/parent-app/) — a preparer needs the TIN for IRS Form 2441,
+  so filling it in saves your families a phone call. Leave either blank to keep
+  it off the statement.
 - **Meals** — configure meal types (breakfast, AM snack, lunch, PM snack, supper) and CACFP reimbursement rates.
 - **Allergies Catalog** — the allergy types your staff can pick from on child records.
 - **Immunizations Catalog** — the immunization types your staff can record.

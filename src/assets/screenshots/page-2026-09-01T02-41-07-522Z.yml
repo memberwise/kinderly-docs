@@ -1,0 +1,216 @@
+- generic:
+  - generic:
+    - generic:
+      - complementary:
+        - link:
+          - /url: /
+        - navigation:
+          - link:
+            - /url: /
+          - link:
+            - /url: /enroll
+          - link:
+            - /url: /manage
+          - link:
+            - /url: /grow
+          - link:
+            - /url: /funding
+        - navigation:
+          - link:
+            - /url: /settings
+          - link:
+            - /url: mailto:support@mykinderly.com
+        - generic:
+          - button
+      - main:
+        - generic:
+          - generic:
+            - navigation:
+              - list:
+                - listitem:
+                  - link [disabled]: Dashboard
+        - generic:
+          - generic:
+            - generic:
+              - heading [level=1]: Dashboard
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - paragraph: Bloom plan
+                      - paragraph: $49.99/mo · usage this team
+                  - link:
+                    - /url: /settings#payment-billing-card
+                    - text: Manage plan
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: Forms
+                      - generic: 1 / ∞
+                  - generic:
+                    - generic:
+                      - generic: Packets
+                      - generic: 1 / ∞
+                  - generic:
+                    - generic:
+                      - generic: Shares
+                      - generic: 1 / ∞
+                  - generic:
+                    - generic:
+                      - generic: Storage
+                      - generic:
+                        - text: 13 MB
+                        - generic: / 1.0 GB
+                  - generic:
+                    - generic:
+                      - generic: Children
+                      - generic:
+                        - text: "3"
+                        - generic: / 50
+                  - generic:
+                    - generic:
+                      - generic: Pipeline boards
+                      - generic:
+                        - text: "1"
+                        - generic: / 3
+              - generic:
+                - generic:
+                  - generic:
+                    - paragraph: Enrollment activity
+                    - paragraph: Shares sent & submissions received — last 30 days
+                  - paragraph: "2"
+                - generic:
+                  - generic:
+                    - img:
+                      - generic:
+                        - generic:
+                          - generic: Aug 3
+                          - generic: Aug 10
+                          - generic: Aug 17
+                          - generic: Aug 24
+                          - generic: Aug 31
+                      - generic:
+                        - generic:
+                          - generic: "0"
+                          - generic: "1"
+                          - generic: "2"
+                          - generic: "3"
+                          - generic: "4"
+                    - generic:
+                      - list:
+                        - listitem:
+                          - generic: shares sent
+                        - listitem:
+                          - generic: submissions
+              - generic:
+                - generic:
+                  - generic:
+                    - paragraph: New children enrolled
+                    - paragraph: Children added to your roster — last 30 days
+                  - paragraph: "3"
+                - generic:
+                  - generic:
+                    - img:
+                      - generic:
+                        - generic:
+                          - generic: Aug 3
+                          - generic: Aug 10
+                          - generic: Aug 17
+                          - generic: Aug 24
+                          - generic: Aug 31
+                      - generic:
+                        - generic:
+                          - generic: "0"
+                          - generic: "1"
+                          - generic: "2"
+                          - generic: "3"
+                          - generic: "4"
+              - generic:
+                - generic:
+                  - paragraph: Compliance & action needed
+                - generic:
+                  - generic:
+                    - paragraph: Manage
+                    - link:
+                      - /url: /manage/children
+                      - generic: 1 child has no immunization records
+                  - generic:
+                    - paragraph: Enroll
+                    - link:
+                      - /url: /enroll/shares
+                      - generic: 1 share is awaiting submission
+              - generic:
+                - generic:
+                  - generic:
+                    - heading [level=2]: Pinned Reports
+                  - button: Add Report
+                - generic:
+                  - paragraph: No reports pinned yet
+                  - paragraph: Pin saved reports to see them here each time you visit the dashboard.
+                  - button: Add Report
+              - generic:
+                - link:
+                  - /url: /enroll
+                  - generic:
+                    - paragraph: Enroll
+                    - paragraph: Forms, packets & shares
+                - link:
+                  - /url: /manage
+                  - generic:
+                    - paragraph: Manage
+                    - paragraph: Children, staff & classrooms
+                - link:
+                  - /url: /grow
+                  - generic:
+                    - paragraph: Grow
+                    - paragraph: Sites, tours & pipeline
+    - region "Notifications alt+T"
+  - dialog [ref=f4e2]:
+    - generic [ref=f4e3]:
+      - heading "What's new?" [level=2] [ref=f4e9]
+      - paragraph [ref=f4e10]: The latest updates and improvements to Kinderly.
+    - generic [ref=f4e11]:
+      - link "Funding center Aug 27 The new funding center helps you find, manage and track all funding opportunities for your center. Access detailed reports, submit applications, and stay on top of deadlines. Learn more" [ref=f4e13] [cursor=pointer]:
+        - /url: /funding
+        - generic [ref=f4e14]:
+          - generic [ref=f4e15]:
+            - paragraph [ref=f4e16]: Funding center
+            - generic [ref=f4e17]: Aug 27
+          - paragraph [ref=f4e18]: The new funding center helps you find, manage and track all funding opportunities for your center. Access detailed reports, submit applications, and stay on top of deadlines.
+          - generic [ref=f4e19]: Learn more
+      - link "Post video to the feed Aug 27 Posts now take video as well as photos — up to 20 attachments per post, 200 MB per clip. Drop a clip into the composer in Manage or record one straight from the Teachers app, and families see it play right in their feed, with a still frame standing in while it loads. Learn more" [ref=f4e24] [cursor=pointer]:
+        - /url: /manage/feed
+        - generic [ref=f4e25]:
+          - generic [ref=f4e26]:
+            - paragraph [ref=f4e27]: Post video to the feed
+            - generic [ref=f4e28]: Aug 27
+          - paragraph [ref=f4e29]: Posts now take video as well as photos — up to 20 attachments per post, 200 MB per clip. Drop a clip into the composer in Manage or record one straight from the Teachers app, and families see it play right in their feed, with a still frame standing in while it loads.
+          - generic [ref=f4e30]: Learn more
+      - link "Recurring and all-day events Aug 27 Set an event or closure to repeat — pick the weekdays and a date range and every occurrence is created for you, up to a year out. The feed collapses a series into one row with its cadence (“Occurs every Mon, Wed & Fri”), and you can drop individual dates or delete the whole series in a click. Events and closures can also be marked all-day, so a week-long closure reads as dates rather than times. Learn more" [ref=f4e35] [cursor=pointer]:
+        - /url: /manage/feed
+        - generic [ref=f4e36]:
+          - generic [ref=f4e37]:
+            - paragraph [ref=f4e38]: Recurring and all-day events
+            - generic [ref=f4e39]: Aug 27
+          - paragraph [ref=f4e40]: Set an event or closure to repeat — pick the weekdays and a date range and every occurrence is created for you, up to a year out. The feed collapses a series into one row with its cadence (“Occurs every Mon, Wed & Fri”), and you can drop individual dates or delete the whole series in a click. Events and closures can also be marked all-day, so a week-long closure reads as dates rather than times.
+          - generic [ref=f4e41]: Learn more
+      - link "Out-of-ratio alerts Aug 27 Kinderly now watches your classrooms during operating hours and alerts staff in the Teachers app when a room drops below its required staff-to-child ratio. It counts who is actually signed in — not who is enrolled — so an empty room at 6 am never triggers it. Switch it on, choose how often to repeat the reminder, and decide whether the room’s own teachers are alerted or administrators only, under Center Settings → App Settings. Learn more" [ref=f4e46] [cursor=pointer]:
+        - /url: /manage/settings/app-settings
+        - generic [ref=f4e47]:
+          - generic [ref=f4e48]:
+            - paragraph [ref=f4e49]: Out-of-ratio alerts
+            - generic [ref=f4e50]: Aug 27
+          - paragraph [ref=f4e51]: Kinderly now watches your classrooms during operating hours and alerts staff in the Teachers app when a room drops below its required staff-to-child ratio. It counts who is actually signed in — not who is enrolled — so an empty room at 6 am never triggers it. Switch it on, choose how often to repeat the reminder, and decide whether the room’s own teachers are alerted or administrators only, under Center Settings → App Settings.
+          - generic [ref=f4e52]: Learn more
+      - link "Document expiration dates & reporting Aug 21 Documents can now carry an expiration date — center documents, child, guardian and staff files, and share links. Rows show how long they have left, and a reminder goes out a week before one lapses. The new Expiring Documents & Shares report lists everything that has expired or is about to, so you can chase renewals before a licensing visit. Nothing is deleted or hidden when it expires; it's only labelled. Learn more" [ref=f4e57] [cursor=pointer]:
+        - /url: /manage/reports/expiring-documents-shares
+        - generic [ref=f4e58]:
+          - generic [ref=f4e59]:
+            - paragraph [ref=f4e60]: Document expiration dates & reporting
+            - generic [ref=f4e61]: Aug 21
+          - paragraph [ref=f4e62]: Documents can now carry an expiration date — center documents, child, guardian and staff files, and share links. Rows show how long they have left, and a reminder goes out a week before one lapses. The new Expiring Documents & Shares report lists everything that has expired or is about to, so you can chase renewals before a licensing visit. Nothing is deleted or hidden when it expires; it's only labelled.
+          - generic [ref=f4e63]: Learn more
+    - button "Got it" [active] [ref=f4e68]
+    - button "Close" [ref=f4e69]
+  - generic: "0"

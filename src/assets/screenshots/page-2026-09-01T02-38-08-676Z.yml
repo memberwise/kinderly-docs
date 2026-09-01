@@ -1,0 +1,264 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - complementary [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img "Kinderly" [ref=e6]
+        - navigation [ref=e8]:
+          - link [ref=e9] [cursor=pointer]:
+            - /url: /
+          - link [ref=e15] [cursor=pointer]:
+            - /url: /enroll
+          - link [ref=e22] [cursor=pointer]:
+            - /url: /manage
+          - link [ref=e28] [cursor=pointer]:
+            - /url: /grow
+          - link [ref=e34] [cursor=pointer]:
+            - /url: /funding
+        - navigation [ref=e43]:
+          - link [ref=e44] [cursor=pointer]:
+            - /url: /settings
+          - link [ref=e118] [cursor=pointer]:
+            - /url: mailto:support@mykinderly.com
+        - button "Account menu" [ref=e52]:
+          - img "Tyler Buese" [ref=e124]
+      - complementary [ref=e55]:
+        - generic [ref=e56]:
+          - paragraph [ref=e57]: My Center's Super Cool
+          - paragraph [ref=e58]: Kinderly - Enroll
+        - navigation [ref=e59]:
+          - link [ref=e61] [cursor=pointer]:
+            - /url: /enroll
+          - generic [ref=e66]:
+            - paragraph [ref=e67]: Library
+            - generic [ref=e68]:
+              - link [ref=e69] [cursor=pointer]:
+                - /url: /enroll/documents
+              - link [ref=e74] [cursor=pointer]:
+                - /url: /enroll/forms
+              - link [ref=e79] [cursor=pointer]:
+                - /url: /enroll/packets
+          - generic [ref=e84]:
+            - paragraph [ref=e85]: Distribution
+            - link [ref=e87] [cursor=pointer]:
+              - /url: /enroll/shares
+      - main [ref=e92]:
+        - navigation "breadcrumb" [ref=e95]:
+          - list [ref=e96]:
+            - listitem [ref=e97]:
+              - link "Kinderly Enroll" [ref=e98] [cursor=pointer]:
+                - /url: /enroll
+            - listitem [ref=e99]
+            - listitem [ref=e102]:
+              - link "My Documents" [ref=e103] [cursor=pointer]:
+                - /url: /enroll/documents
+            - listitem [ref=e169]
+            - listitem [ref=e172]:
+              - link "MO Childcare Enrollment Form" [disabled] [ref=e173]
+        - generic [ref=e174]:
+          - button "Back to documents" [ref=e175]
+          - generic [ref=e177]:
+            - generic [ref=e184]:
+              - heading "MO Childcare Enrollment Form" [level=1] [ref=e185]
+              - paragraph [ref=e186]: PDF document
+            - generic [ref=e187]:
+              - generic [ref=e189]:
+                - generic [ref=e190]:
+                  - generic [ref=e191]:
+                    - button [ref=e192]
+                    - generic [ref=e193]: 125%
+                    - button [ref=e194]
+                    - button "Reset zoom" [ref=e195]
+                  - generic [ref=e196]:
+                    - button [disabled]
+                    - generic [ref=e197]:
+                      - combobox [ref=e198]:
+                        - generic: "1"
+                      - generic [ref=e199]: of 4
+                    - button [ref=e200]
+                  - generic [ref=e201]:
+                    - button "Sign" [ref=e202]
+                    - button "Undo" [disabled]
+                  - button "Annotate" [ref=e203]
+                  - generic [ref=e204]:
+                    - button "Save" [ref=e205]
+                    - button "Print" [ref=e207]
+                    - button "Packet" [ref=e209]
+                    - button "Share" [ref=e211]
+                  - button "Fields" [ref=e213]
+                - generic [ref=e219]:
+                  - generic: MISSOURI DEPARTMENT OF HEALTH AND SENIOR SERVICES BUREAU OF COMMUNITY FOOD & NUTRITION ASSISTANCE
+                  - generic: MISSOURI DEPARTMENT OF ELEMENTARY AND SECONDARY EDUCATION OFFICE OF CHILDHOOD – CHILD CARE COMPLIANCE
+                  - generic: CHILD CARE ENROLLMENT FORM
+                  - generic: FACILITY/PROVIDER NAME
+                  - generic: ADMISSION DATE
+                  - generic: DISCHARGE DATE
+                  - generic: CHILD’S NAME
+                  - generic: GENDER
+                  - generic: BIRTHDATE
+                  - generic: CHILD’S ADDRESS (STREET, CITY, STATE, ZIP CODE)
+                  - generic: IDENTIFYING INFORMATION
+                  - generic: PARENT/ GUARDIAN NAME
+                  - generic: TELEPHONE NUMBER
+                  - generic: ADDRESS (STREET, CITY, STATE, ZIP C ODE) OR CHECK IF SAME AS CHILD’S ADDRESS ☐
+                  - generic: EMAIL ADDRESS
+                  - generic: EMPLOYER OR SCHOOL
+                  - generic: WORK/SCHOOL SCHEDULE
+                  - generic: EMPLOYER/SCHOOL ADDRESS (STREET, CITY, STATE, ZIP CODE)
+                  - generic: WORK TELEPHONE NUMBER
+                  - generic: PARENT /GUARDIAN NAME
+                  - generic: TELEPHONE NUMBER
+                  - generic: ADDRESS (STREET, CITY, STATE, ZIP CODE) OR CHECK IF SAME AS CHILD’S ADDRESS ☐
+                  - generic: EMAIL ADDRESS
+                  - generic: EMPLOYER OR SCHOOL
+                  - generic: WORK/SCHOOL SCHEDULE
+                  - generic: EMPLOYER/SCHOOL ADDRESS (STREET, CITY, STATE, ZIP CODE)
+                  - generic: WORK TELEPHONE NUMBER
+                  - generic: If you or a member of your immediate family ever served in the U.S. Armed Forces
+                  - generic: ","
+                  - generic: click here for more information about
+                  - generic: militar
+                  - generic: y- related services in Missour
+                  - generic: i
+                  - generic: o
+                  - generic: r
+                  - generic: vi
+                  - generic: si
+                  - generic: t
+                  - generic: www.dese.mo.gov/veterans
+                  - generic: "-"
+                  - generic: service
+                  - generic: s
+                  - generic: .
+                  - generic: EMERGENCY CONTACT AND PERSONS AUTHORIZ ED TO TAKE CHILD FROM FACILITY OTHER THAN PARENT ( AT LEAST ONE EMERGENCY CONTACT IS REQUIRED )
+                  - generic: NAME
+                  - generic: RELATIONSHIP TO CHILD
+                  - generic: TELEPHONE NUMBER(S)
+                  - generic: ADDRESS (STREET, CITY, STATE, ZIP CODE)
+                  - generic: NAME
+                  - generic: RELATIONSHIP TO CHILD
+                  - generic: TELEPHONE NUMBER(S)
+                  - generic: ADDRESS (STREET, CITY, STATE, ZIP CODE)
+                  - generic: The Department of Elementary and Secondary Education does not discriminate on the basis of race, color, religion, gender, gender identity, sexual orientation, national origin, age, veteran status, mental or physical disability, or any other basis prohibited by statute in its programs and activities. Inquiries related to department programs and to the location of services, activities, and facilities that are accessible by persons with disabilities may be directed to the Jefferson State Office Building, Director of Civil Rights Compliance and MOA Coordinator (Title VI/Title VII/Title IX/504/ADA/ADAAA/Age Act/GINA/USDA Title VI), 5th Floor, 205 Jefferson Street, P.O. Box 480, Jefferson City, MO 65102-0480; telephone number 573-526-4757 or TTY 800-735-2966; email civilrights@dese.mo.gov.
+                  - generic [ref=e220]: MO 500-3317 (Rev 0 8 -2 3 ) PAGE 1
+                  - generic:
+                    - link [ref=e222] [cursor=pointer]:
+                      - /url: https://dese.mo.gov/veterans-services
+                    - link [ref=e224] [cursor=pointer]:
+                      - /url: https://dese.mo.gov/veterans-services
+                    - link [ref=e226] [cursor=pointer]:
+                      - /url: https://dese.mo.gov/veterans-services
+                    - link [ref=e228] [cursor=pointer]:
+                      - /url: https://dese.mo.gov/veterans-services
+                    - link [ref=e230] [cursor=pointer]:
+                      - /url: https://dese.mo.gov/veterans-services
+                    - link [ref=e232] [cursor=pointer]:
+                      - /url: https://dese.mo.gov/veterans-services
+                    - link [ref=e234] [cursor=pointer]:
+                      - /url: https://dese.mo.gov/veterans-services
+                    - link [ref=e236] [cursor=pointer]:
+                      - /url: http://www.dese.mo.gov/veterans-services
+                    - link [ref=e238] [cursor=pointer]:
+                      - /url: http://www.dese.mo.gov/veterans-services
+                    - link [ref=e240] [cursor=pointer]:
+                      - /url: http://www.dese.mo.gov/veterans-services
+                    - link [ref=e242] [cursor=pointer]:
+                      - /url: http://www.dese.mo.gov/veterans-services
+                    - link [ref=e244] [cursor=pointer]:
+                      - /url: http://www.dese.mo.gov/veterans-services
+                    - link [ref=e246] [cursor=pointer]:
+                      - /url: http://www.dese.mo.gov/veterans-services
+                    - link [ref=e248] [cursor=pointer]:
+                      - /url: http://www.dese.mo.gov/veterans-services
+                    - link [ref=e250] [cursor=pointer]:
+                      - /url: http://www.dese.mo.gov/veterans-services
+                    - generic "FACILITY/PROVIDER NAME" [ref=e251]:
+                      - textbox [ref=e252]: Super Cool Center Inc
+                    - generic "ADMISSION DATE" [ref=e253]:
+                      - textbox [ref=e254]
+                    - generic "DISCHARGE DATE" [ref=e255]:
+                      - textbox [ref=e256]
+                    - generic "CHILD’S NAME" [ref=e257]:
+                      - textbox [ref=e258]
+                    - generic "GENDER" [ref=e259]:
+                      - textbox [ref=e260]
+                    - generic "BIRTHDATE" [ref=e261]:
+                      - textbox [ref=e262]
+                    - generic "CHILD’S ADDRESS (STREET, CITY, STATE, ZIP CODE)" [ref=e263]:
+                      - textbox [ref=e264]
+                    - generic "MOTHER’S/GUARDIAN’S NAME" [ref=e265]:
+                      - textbox [ref=e266]
+                    - generic "TELEPHONE NUMBER" [ref=e267]:
+                      - textbox [ref=e268]
+                    - generic "ADDRESS (STREET, CITY, STATE, ZIP CODE) OR CHECK IF SAME AS CHILD’S ADDRESS" [ref=e269]:
+                      - textbox [ref=e270]
+                    - generic "undefined" [ref=e271]:
+                      - checkbox [ref=e272]
+                    - generic "EMAIL ADDRESS" [ref=e273]:
+                      - textbox [ref=e274]
+                    - generic "EMPLOYER OR SCHOOL" [ref=e275]:
+                      - textbox [ref=e276]
+                    - generic "WORK/SCHOOL SCHEDULE" [ref=e277]:
+                      - textbox [ref=e278]
+                    - generic "EMPLOYER/SCHOOL ADDRESS (STREET, CITY, STATE, ZIP CODE)" [ref=e279]:
+                      - textbox [ref=e280]
+                    - generic "WORK TELEPHONE NUMBER" [ref=e281]:
+                      - textbox [ref=e282]
+                    - generic "FATHER’S/GUARDIAN’S NAME" [ref=e283]:
+                      - textbox [ref=e284]
+                    - generic "TELEPHONE NUMBER" [ref=e285]:
+                      - textbox [ref=e286]
+                    - generic "ADDRESS (STREET, CITY, STATE, ZIP CODE) OR CHECK IF SAME AS CHILD’S ADDRESS" [ref=e287]:
+                      - textbox [ref=e288]
+                    - generic "undefined" [ref=e289]:
+                      - checkbox [ref=e290]
+                    - generic "EMAIL ADDRESS" [ref=e291]:
+                      - textbox [ref=e292]
+                    - generic "EMPLOYER OR SCHOOL" [ref=e293]:
+                      - textbox [ref=e294]
+                    - generic "WORK/SCHOOL SCHEDULE" [ref=e295]:
+                      - textbox [ref=e296]
+                    - generic "EMPLOYER/SCHOOL ADDRESS (STREET, CITY, STATE, ZIP CODE)" [ref=e297]:
+                      - textbox [ref=e298]
+                    - generic "WORK TELEPHONE NUMBER" [ref=e299]:
+                      - textbox [ref=e300]
+                    - generic "NAME" [ref=e301]:
+                      - textbox [ref=e302]
+                    - generic "RELATIONSHIP TO CHILD" [ref=e303]:
+                      - textbox [ref=e304]
+                    - generic "ADDRESS (STREET, CITY, STATE, ZIP CODE)" [ref=e305]:
+                      - textbox [ref=e306]
+                    - generic "TELEPHONE NUMBER(S)" [ref=e307]:
+                      - textbox [ref=e308]
+                    - generic "NAME" [ref=e309]:
+                      - textbox [ref=e310]
+                    - generic "RELATIONSHIP TO CHILD" [ref=e311]:
+                      - textbox [ref=e312]
+                    - generic "ADDRESS (STREET, CITY, STATE, ZIP CODE)" [ref=e313]:
+                      - textbox [ref=e314]
+                    - generic "TELEPHONE NUMBER(S)" [ref=e315]:
+                      - textbox [ref=e316]
+              - complementary [ref=e317]:
+                - generic [ref=e318]:
+                  - generic [ref=e319]:
+                    - generic [ref=e320]: Fields
+                    - button [ref=e325]
+                  - generic [ref=e326]:
+                    - generic [ref=e327]:
+                      - paragraph [ref=e329]: Add a field
+                      - generic [ref=e330]:
+                        - button "signature" [ref=e331]
+                        - button "initials" [ref=e336]
+                        - button "text" [ref=e343]
+                        - button "number" [ref=e347]
+                        - button "dropdown" [ref=e352]
+                        - button "checkbox" [ref=e356]
+                        - button "label" [ref=e361]
+                        - button "separator" [ref=e366]
+                    - generic [ref=e369]:
+                      - paragraph [ref=e371]: Tab order
+                      - paragraph [ref=e373]: Loading fields…
+    - region "Notifications alt+T"
+  - iframe [ref=e374]:
+    
