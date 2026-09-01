@@ -1,29 +1,61 @@
 ---
 title: Plans
-description: What's included on the Free and Pro plans.
+description: The four Kinderly tiers, and how changing between them works.
 sidebar:
   order: 2
 ---
 
-| Plan | Price | Users | Storage | Shares | Forms |
-|---|---|---|---|---|---|
-| **Free** | $0 | 1 | — | — | — |
-| **Pro** | $15 per seat / month | Unlimited seats | 5 GB | Unlimited | Unlimited |
+Four tiers: **Sprout**, **Bloom**, **Flourish** and **Grove**. Pricing is per centre, per month — there are no per-seat or per-child charges.
 
-Every new team starts on **Free** automatically.
+| | **Sprout** | **Bloom** | **Flourish** | **Grove** |
+|---|---|---|---|---|
+| | Free | $49.99/mo | $99.99/mo | Contact us |
+| **Children** | Up to 10 | Up to 50 | Up to 100 | Unlimited |
+| **Forms & packets** | 3 forms · 5 packets | Unlimited | Unlimited | Unlimited |
+| **Document storage** | 30 MB | 1 GB | 5 GB | Unlimited |
+| **Website pages** | 3 | Unlimited | Unlimited | Unlimited |
+| **Pipeline boards** | 1 | 3 | Unlimited | Unlimited |
+| **Virtual tours** | — | 1 | Unlimited | Unlimited |
+| **Grow analytics** | — | Yes | Yes | Yes |
+| **Funding Center** | Match count only | 5 tracked grants | Unlimited | Unlimited |
 
-## Upgrading to Pro
+Every new centre starts on **Sprout** automatically. It's a real free tier, not a trial — there's no expiry.
 
-1. Go to **Settings → Billing**.
-2. Add a payment method.
-3. Choose **Pro** and confirm the seat count.
+**Grove** is for multi-site operators with 100+ children and is priced by conversation.
 
-Plan changes are **prorated** so you are only billed for the time you were on each plan.
+:::note[Older "Free" and "Pro" plans]
+Kinderly used to have plans called Free and Pro. If you signed up under those names, Free maps to **Sprout** and Pro to **Flourish**. You don't need to do anything — the mapping is automatic.
+:::
 
-## Downgrading
+## Changing plan
 
-Switching back to **Free** cancels your active subscription at Stripe.
+**Settings → Payment & Billing**, then **Upgrade** or **Downgrade** on the tier you want. You'll need a [payment method](/billing/payment-methods/) on file to move to a paid tier.
 
-## Plan limits
+## Before you downgrade
 
-If your team exceeds the plan's limits (e.g., tries to create too many forms on Free), you will see an upgrade prompt when you try to create the next item.
+Downgrading tightens every limit at once. Check where you stand first — the usage bars on your dashboard show it.
+
+:::caution[Storage is what bites on a downgrade]
+Going Bloom → Sprout takes storage from 1 GB to 30 MB. If you're holding signed enrollment documents, you'll be far over. Download anything you need to keep before you downgrade.
+:::
+
+:::caution[Check your child count too]
+Sprout caps you at 10 children and Bloom at 50. If you're over the cap of the tier you're moving to, that's a problem you want to discover deliberately rather than mid-term.
+:::
+
+## What happens at a limit
+
+Kinderly stops you at the limit rather than billing overage:
+
+- Buttons for the capped action grey out.
+- Hovering a disabled button says which limit you've hit.
+- Nothing you've already created stops working.
+
+:::tip[Check your headroom before an intake period]
+Finding the packet limit halfway through September enrollment is a bad time to discover it. Glance at the usage bars before a busy period.
+:::
+
+## Next
+
+- [Payment methods](/billing/payment-methods/) — cards and invoices.
+- [What you get](/getting-started/what-you-get/) — choosing a tier.

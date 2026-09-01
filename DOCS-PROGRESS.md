@@ -26,10 +26,13 @@ screenshots and practical tips — replacing the 15–30 line stubs that exist t
    page template every other section follows.
 2. ~~Documents~~ ✅
 3. ~~Getting Started~~ ✅
-4. Kinderly Manage (incl. undocumented Finance + Curriculum) ← **next**
-5. Kinderly Grow (needs full rework — now a website builder, not just a pipeline)
-6. Funding Center (**no docs exist at all**)
-7. Actions, Shares admin, Billing, Integrations, Mobile, Reference
+4. ~~Kinderly Manage (incl. undocumented Finance + Curriculum)~~ ✅
+5. ~~Kinderly Grow (needed a full rework — it's a website builder now)~~ ✅
+6. ~~Funding Center~~ ✅
+7. ~~Actions, Billing, Integrations, Mobile, Reference~~ ✅
+
+**All planned sections are done.** Remaining work is listed under *Needs manual intervention*
+and *Not reviewed* below.
 
 ## Status
 
@@ -72,7 +75,91 @@ Legend: ⬜ not started · 🟡 drafted, no images · 🟢 done (prose + images)
 | `shares/admin.md` | 🟢 | List, filters, detail page, revoking |
 | `shares/for-parents.md` | 🟢 | Family-facing walkthrough + FAQ |
 
-**Enroll app + Getting Started complete** — 17 pages rewritten, 24 screenshots, site builds clean.
+### Kinderly Manage
+| Page | Status | Notes |
+|---|---|---|
+| `manage/overview.md` | 🟢 | The five nav groups + recommended setup order |
+| `manage/children.md` | 🟢 | All six record tabs, CACFP fields |
+| `manage/guardians.md` | 🟢 | Many-to-many model, per-child flags |
+| `manage/staff.md` | 🟢 | Roles, ratio counting, time reports |
+| `manage/classrooms.md` | 🟢 | Ratios, out-of-ratio alerts |
+| `manage/programs.md` | 🟢 | Programs vs classrooms, fee overrides |
+| `manage/scheduling.md` | 🟢 | Staff / Children / Transitions tabs |
+| `manage/curriculum.md` | 🟢 | **NEW** — frameworks, planner, assessment, gaps |
+| `manage/messages.md` | 🟢 | Conversations vs broadcasts vs feed |
+| `manage/feed.md` | 🟢 | **NEW** — post types, recurring events, video |
+| `manage/billing.md` | 🟢 | Accounts, agency ledger, tax statements |
+| `manage/finance.md` | 🟢 | **NEW** — expenses, categories, budgets |
+| `manage/reports.md` | 🟢 | Report categories, custom builder |
+| `manage/settings.md` | 🟢 | 7 tabs + meal schedule, auto sign-out, custom closures, import |
+
+### Kinderly Grow — restructured
+| Page | Status | Notes |
+|---|---|---|
+| `grow/overview.md` | 🟢 | Rewritten — it's a website builder, not a board |
+| `grow/sites.md` | 🟢 | **NEW** — sites, pages, draft/publish, media |
+| `grow/page-sections.md` | 🟢 | **NEW** — all 17 section types |
+| `grow/theme.md` | 🟢 | **NEW** — colours, typography, buttons |
+| `grow/tours.md` | 🟢 | **NEW** — virtual tours + embedding |
+| `grow/pipeline.md` | 🟢 | **NEW** — replaces boards/cards/shares-on-cards |
+| `grow/analytics.md` | 🟢 | **NEW** — metrics and how to read them |
+
+**Deleted:** `grow/boards.md`, `grow/cards.md`, `grow/shares-on-cards.md` — all three were
+pipeline-only stubs from when Grow *was* just a pipeline. Consolidated into `pipeline.md`.
+Checked: nothing else linked to them.
+
+### Funding Center — brand new section
+| Page | Status | Notes |
+|---|---|---|
+| `funding/overview.md` | 🟢 | **NEW** — what it does, the workflow |
+| `funding/profile.md` | 🟢 | **NEW** — the questions that drive matching |
+| `funding/opportunities.md` | 🟢 | **NEW** — filters, choosing what to pursue |
+| `funding/applications.md` | 🟢 | **NEW** — deadlines, checklists, reporting |
+| `funding/documents.md` | 🟢 | **NEW** — the upload-once vault |
+| `funding/calendar.md` | 🟢 | **NEW** — working backwards from deadlines |
+
+Added a **Funding Center** entry to the `astro.config.mjs` sidebar (top-level sections are
+explicit; the per-page order autogenerates).
+
+### Actions
+| Page | Status | Notes |
+|---|---|---|
+| `actions/overview.md` | 🟢 | All 12 actions — the old page listed 2 |
+| `actions/parameter-binding.md` | 🟢 | @ / Bind field, binding record-creating actions |
+| `actions/execution.md` | 🟢 | Run records, ordering, troubleshooting order |
+| `actions/vendor-integrations.md` | 🟢 | What's live vs. prepared |
+
+### Billing — was actively wrong
+| Page | Status | Notes |
+|---|---|---|
+| `billing/overview.md` | 🟢 | Rewritten for flat per-centre pricing |
+| `billing/plans.md` | 🟢 | Real four tiers; legacy Free/Pro mapping noted |
+| `billing/payment-methods.md` | 🟢 | Cards, invoices, usage |
+
+**Deleted:** `billing/addons.md` — described per-child add-ons (`manage` $0.85/child,
+`manage_billing` +$0.20/child) that are not how Kinderly is sold. Nothing linked to it.
+
+### Integrations, Mobile, Reference
+| Page | Status | Notes |
+|---|---|---|
+| `integrations/overview.md` | 🟢 | Live vs. prepared, plus "use the built-in route" table |
+| `integrations/kinderconnect.md` | 🟢 | Rewritten from source; added scheduled submission |
+| `mobile/overview.md` | ⬜ | Short but accurate; left as-is |
+| `mobile/teacher-app.md` | 🟢 | Added out-of-ratio alerts, Learning row, video posts |
+| `mobile/parent-app.md` | 🟢 | Already strong; added video + recurring events |
+| `reference/authentication.md` | 🟢 | Corrected the "you deliver the PIN" claim |
+| `reference/settings.md` | 🟢 | Rewritten as "which of the two Settings pages" |
+| `reference/glossary.md` | 🟢 | Rebuilt across all five products |
+
+Also updated `index.mdx` — the Grow card still described a pipeline only, and there was no
+Funding Center card.
+
+**All sections complete** — 60 pages, 44 screenshots, site builds clean, every internal link
+resolves, no orphaned images.
+
+## Not reviewed
+
+- **`mobile/overview.md`** (13 lines) — short, but accurate as far as it goes. Left as-is.
 
 ## Screenshots captured
 
@@ -85,7 +172,14 @@ All in `src/assets/screenshots/`, from staging at 1440×900.
 `share-created-pin` · `share-qr-code` · `share-pin-gate` · `share-packet-steps` ·
 `shares-list` · `share-detail` · `documents-library` · `dashboard` ·
 `enroll-overview` · `settings-plans` ·
-`documents-selected-actions` · `documents-row-menu` · `document-viewer`
+`documents-selected-actions` · `documents-row-menu` · `document-viewer` ·
+`manage-children-list` · `manage-child-record` · `manage-child-medical` ·
+`manage-curriculum` · `manage-scheduling` · `manage-reports` · `manage-billing` ·
+`manage-finance` · `manage-feed` · `grow-sites` · `grow-page-editor` ·
+`grow-add-section` · `grow-theme` · `grow-pipeline` · `grow-analytics` ·
+`funding-profile` · `funding-documents` · `funding-opportunities` · `packet-action-picker` ·
+`manage-classrooms` · `manage-messages` · `manage-guardians` · `manage-staff` ·
+`manage-settings` · `grow-tours` · `funding-calendar` · `funding-applications`
 
 ## Undocumented features found while writing
 
@@ -117,6 +211,67 @@ but they may deserve marketing/changelog attention too.
 - Row menu: Share via Link, Add to Packet, Move to…, Rename
 - Bulk select → Delete / Download / Add to Packet
 
+**Manage → Settings** — found on a second pass, all undocumented
+- **Auto Sign-Out** — signs out anyone still signed in at a set time, with *separate times for
+  children and staff*. This is the actual fix for stale sign-ins skewing ratio alerts.
+- **Meal Schedule** — configure the meals you serve and when, reorderable; underpins CACFP.
+- **Custom Closures** — one-off centre closures alongside the federal-holiday checklist.
+- **Data Tools → Import Data** — bulk import children, guardians and staff from Excel/CSV.
+  Materially changes the recommended setup order, so `getting-started/account-setup.md`
+  now points at it.
+
+**Manage** — three whole areas had no docs at all
+- **Curriculum** — framework library (Head Start ELOF as the crosswalk interlingua, plus KY,
+  MO, IL, AR and more state standards, each with domain/outcome counts), Library, Planner,
+  Assessment and Shared tabs, Framework Coverage / Outcome Gaps / Observation Volume panels,
+  "Build your own", and a **Curriculum in the apps** toggle gating the Teachers-app Learning row.
+- **Finance** — operating spend: expenses with receipts, categories, budgets, six-month trend.
+  Deliberately *not* connected to family Billing.
+- **Feed** — News / Announcements / Events / Closures, pinning, photo **and video** posts
+  (20 attachments, 200 MB per clip), recurring events with series collapse, all-day events.
+- **Children** — CACFP/USDA food program fields (program type, race/ethnicity, IE form dates)
+  on every child record. Six record tabs, not the flat record the old docs implied.
+- **Billing** — **agency ledger** for third-party/subsidy payers, and Tax ID (EIN/TIN) +
+  Provider Number (DVN) that print on family tax statements.
+- **Reports** — far larger than documented: 12 attendance reports alone, plus a custom report
+  builder and saved reports. Categories: Attendance / Health / Curriculum / CACFP / Finance /
+  Other / Manage.
+- **Staff** — out-of-ratio alerts count who is *signed in*, not who is assigned.
+
+**Grow** — the docs described a pipeline board; it's a full website builder
+- **Sites** with **draft/publish versioning** (`v0 live • v1 draft`) on free
+  `*.kinderlysites.com` subdomains
+- **Page editor** — stack sections, drag to reorder, autosave, draft preview, hide-panels
+- **17 section types**: Hero, CTA Banner, Image+Text, Features, Stats, About,
+  Image+Text carousel, Virtual tour, **Compliance** (licence no., capacity, ratios, food
+  program, accreditations), Gallery, Video, Video carousel, Testimonial, FAQ, Testimonial
+  carousel, **Kinderly form/document embed**, **Center Feed**, Contact
+- **Theme** — primary + primary-soft colours with matched templates, curated font pairings
+  (Fraunces + Inter default) or custom Google Font URL, button shape and hover animation
+- **Virtual tours** — photo walkthroughs with a closing CTA, embeddable three ways
+  (entry card / full-bleed cover / immersive takeover)
+- **Analytics** — page views, button clicks, CTR, top pages, devices, referrers,
+  "Review with Ellie"
+
+**Funding Center** — had zero documentation
+- Profile-driven **matching** (8 questions; state/ZIP/enrolment pulled from centre settings)
+- **Applications** bundling deadline + document checklist + reporting requirements
+- **Document vault** — upload W-9 / licence / COI once, auto-attached to any application
+  asking for them, with expiry tracking
+- **Calendar** unifying deadlines, reporting dates and document expiries
+- A **matching-funds** toggle that hides grants requiring you to put money up
+
+**Actions** — the docs listed 2; there are 12
+The **+** beside Actions in the packet palette opens an "Add Actions" dialog with vendor tabs.
+**KINDERLY ACTIONS (11)** plus Send Email:
+Add Card to Kinderly Grow · Add Child to Kinderly Manage · Add Guardian to Kinderly Manage ·
+Assign Child to Classroom · Assign Child to Program · Add Address to Child / Guardian / Staff ·
+Link Share to Child / Guardian / Staff.
+Together these mean **a completed packet can create the entire child record**, both guardians,
+their addresses, classroom and program assignment, attach the signed paperwork to the child's
+file, and email the family — with no manual data entry. This is arguably the most valuable
+capability in the product and it was almost entirely undocumented.
+
 **Plans / billing** — the biggest single discrepancy found
 - Real tiers are **Sprout (free) · Bloom $49.99 · Flourish $99.99 · Grove (contact us)**.
   `functionality.md` describes `free` / `pro` with "30 MB, 3 forms, 5 packets" vs
@@ -142,24 +297,65 @@ but they may deserve marketing/changelog attention too.
 
 These need **new** pages and sidebar entries in `astro.config.mjs`:
 
-- **Funding Center** (`/funding`) — opportunities, applications, calendar,
-  document vault, provider profile. Zero coverage.
-- **Curriculum** (`/manage/curriculum`) — learning frameworks, activities.
-- **Finance** (`/manage/finance`) — expenses, budgets, categories.
-- **Grow website builder** (`/grow/sites`, `pages`, `theme`, `media`, `tours`,
-  `domains`, `analytics`) — docs currently describe Grow as only a pipeline board.
+- ~~**Funding Center** (`/funding`)~~ ✅ written
+- ~~**Curriculum** (`/manage/curriculum`)~~ ✅ written
+- ~~**Finance** (`/manage/finance`)~~ ✅ written
+- ~~**Feed** (`/manage/feed`)~~ ✅ written
+- ~~**Grow website builder**~~ ✅ written (domains excluded — still "Coming soon" in-product)
 
-## Needs manual intervention
+## ACTION REQUIRED — your checklist
 
-Things I can't do unattended — please action or confirm.
+Open items only. Everything here needs a human; nothing is blocking the docs.
 
-| # | Item | Status |
-|---|---|---|
-| 1 | **Auth0 login on staging.** Screenshot capture needs a live session in the Playwright Chrome profile (`~/.claude/playwright-kinderly-profile`). Session expires — expect to re-log periodically. | ✅ done 2026-08-31 |
-| 2 | **Demo content created on staging.** Staging's Enroll section was empty, so to have anything to photograph I created: an **"Enrollment Form"** (from the built-in template), a **"New Family Enrollment"** packet (form → document → condition → email action), and one **share** to `parent@example.com`. Delete these whenever you like — the screenshots are already captured. | ✅ done, yours to remove |
-| 3 | **`docs/CLAUDE.md` points at a stale source of truth.** It tells future sessions `../enroll/functionality.md` is authoritative. It isn't (see Gotchas). Worth either refreshing that file or amending CLAUDE.md to say "verify against the running app". | ⏳ needs your call |
-| 4 | **Confirm PRO gating is accurate.** The palette showed Section, Upload image, Upload doc and Payment as PRO on this staging team's plan. Docs state this as fact — worth confirming it matches production plan rules. | ⏳ needs review |
-| 5 | **Old stub images deleted.** `forms/image.png` and `forms/image-1.png` were unreferenced after the rewrite and have been removed. | ✅ done |
+### Product bugs to fix
+
+- [ ] **`/grow/domains` leaks an internal note to users.** The "Coming soon" page tells
+      providers *"Track progress in docs/grow-design.md."* — an internal repo path rendered
+      in production UI. Should be removed.
+- [ ] **Grow's "Center Feed" section says "Requires the Manage add-on."** Add-ons are no
+      longer how Kinderly is sold — Settings states Manage is included on every tier. Either
+      that string is stale, or add-on gating still exists somewhere and Settings is wrong.
+      Worth resolving; I documented the Settings version, since that's what customers see.
+
+### Docs decisions for you
+
+- [ ] **`docs/CLAUDE.md` points at a stale source of truth.** It tells future sessions
+      `../enroll/functionality.md` is authoritative. It isn't — it was wrong or silent on
+      nearly every section (see Gotchas). Either refresh that file or amend CLAUDE.md to say
+      "verify against the running app". Left alone, the next session repeats my mistakes.
+- [ ] **Sanity-check `integrations/kinderconnect.md` against a real submission.** I have now
+      verified it against the source (match rules, cadences, cron, submission window), so the
+      described *behaviour* is accurate. What I still can't confirm is how it behaves against
+      a live KinderSystems endpoint — worth one read from someone who has actually filed.
+- [ ] **Confirm PRO gating.** The form palette showed Section, Upload image, Upload doc and
+      Payment as PRO on this staging team's plan, and the docs state that as fact. Confirm it
+      matches production plan rules.
+
+### Optional — would improve the docs
+
+- [ ] **Seed funding opportunities on staging** (`npm run db:seed:funding`). The Opportunities
+      list is empty, so I could only capture its empty state. With data I can reshoot and
+      document what an opportunity card actually shows.
+- [ ] **Build a realistic Grow site on staging.** Current content is a placeholder ("uhhuh",
+      one Welcome page), so the Sites/Pages screenshots are honest but unglamorous.
+- [ ] **Tidy up my staging demo data** whenever you like — an "Enrollment Form", a
+      "New Family Enrollment" packet, and one share to `parent@example.com`. All screenshots
+      are already captured, so deleting them breaks nothing.
+
+### Before publishing
+
+- [ ] **`npm run deploy`** — I have not deployed. `npm run check` passes (build + tsc +
+      wrangler dry-run).
+- [ ] **Re-read any screenshot showing personal data.** I caught and replaced one Settings
+      capture containing a real name and email. Screens covering Staff, Guardians, Children
+      and Messages need the same check if recaptured.
+
+### Done
+
+- [x] Auth0 login on staging (2026-08-31) — session lives in the Playwright Chrome profile
+      at `~/.claude/playwright-kinderly-profile` and will expire eventually.
+- [x] Removed unreferenced stubs `forms/image.png`, `forms/image-1.png`,
+      `billing/addons.md`, `grow/boards.md`, `grow/cards.md`, `grow/shares-on-cards.md`.
 
 ## Gotchas
 
@@ -203,6 +399,24 @@ duplicate nodes (click one and press Delete to remove).
 name and email. I captured it, spotted it, and replaced that shot with one cropped to the
 plan cards (`settings-plans.png`). These docs are public — check every capture of Settings,
 Staff, Guardians, Children and Messages before committing it.
+
+**How to redact a screenshot properly.** For Guardians and Staff I rewrote the DOM text nodes
+before capturing, so the published image carries placeholder data instead of real addresses:
+
+```js
+const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+const nodes = []; while (walker.nextNode()) nodes.push(walker.currentNode);
+for (const n of nodes) n.nodeValue = n.nodeValue
+  .replace(/[\w.+-]+@[\w.-]+\.\w+/g, 'dad@example.com');
+```
+
+Two traps. **Names are often split across text nodes** — matching `/Tyler Buese/` found
+nothing while `/Tyler/` and `/Buese/` separately found three nodes, including one in an
+off-screen profile menu. **Always assert afterwards** rather than trusting the replace:
+`await page.evaluate(() => /Buese/i.test(document.body.innerText))` must come back `false`
+*before* you screenshot. My first staff capture passed visual inspection and still had the
+real name in the DOM. Avatar initials (e.g. "TB") survive this and are fine — two letters,
+no name or contact detail.
 
 **Read the pixels, not just the text.** Extracting the plans section as text listed "Virtual
 tours", "Grow analytics dashboard" and "Funding Center" under Sprout's INCLUDES, so my first

@@ -1,0 +1,184 @@
+- generic [ref=f15e2]:
+  - generic [ref=f15e3]:
+    - complementary [ref=f15e4]:
+      - link [ref=f15e5] [cursor=pointer]:
+        - /url: /
+        - img "Kinderly" [ref=f15e6]
+      - navigation [ref=f15e8]:
+        - link [ref=f15e9] [cursor=pointer]:
+          - /url: /
+        - link [ref=f15e15] [cursor=pointer]:
+          - /url: /enroll
+        - link [ref=f15e21] [cursor=pointer]:
+          - /url: /manage
+        - link [ref=f15e28] [cursor=pointer]:
+          - /url: /grow
+        - link [ref=f15e34] [cursor=pointer]:
+          - /url: /funding
+      - navigation [ref=f15e43]:
+        - link [ref=f15e44] [cursor=pointer]:
+          - /url: /settings
+        - link [ref=f15e50] [cursor=pointer]:
+          - /url: mailto:support@mykinderly.com
+      - button "Account menu" [ref=f15e58]:
+        - img "Tyler Buese" [ref=f15e60]
+    - complementary [ref=f15e61]:
+      - generic [ref=f15e62]:
+        - paragraph [ref=f15e63]: My Center's Super Cool
+        - paragraph [ref=f15e64]: Kinderly - Manage
+      - navigation [ref=f15e65]:
+        - link [ref=f15e67] [cursor=pointer]:
+          - /url: /manage
+        - generic [ref=f15e72]:
+          - paragraph [ref=f15e73]: People
+          - generic [ref=f15e74]:
+            - link [ref=f15e75] [cursor=pointer]:
+              - /url: /manage/children
+            - link [ref=f15e82] [cursor=pointer]:
+              - /url: /manage/guardians
+            - link [ref=f15e89] [cursor=pointer]:
+              - /url: /manage/staff
+        - generic [ref=f15e94]:
+          - paragraph [ref=f15e95]: Operations
+          - generic [ref=f15e96]:
+            - link [ref=f15e97] [cursor=pointer]:
+              - /url: /manage/classrooms
+            - link [ref=f15e102] [cursor=pointer]:
+              - /url: /manage/scheduling
+            - link [ref=f15e106] [cursor=pointer]:
+              - /url: /manage/programs
+            - link [ref=f15e111] [cursor=pointer]:
+              - /url: /manage/curriculum
+        - generic [ref=f15e115]:
+          - paragraph [ref=f15e116]: Communication
+          - generic [ref=f15e117]:
+            - link [ref=f15e118] [cursor=pointer]:
+              - /url: /manage/messages
+            - link [ref=f15e122] [cursor=pointer]:
+              - /url: /manage/feed
+        - generic [ref=f15e127]:
+          - paragraph [ref=f15e128]: Finance
+          - generic [ref=f15e129]:
+            - link [ref=f15e130] [cursor=pointer]:
+              - /url: /manage/billing
+            - link [ref=f15e134] [cursor=pointer]:
+              - /url: /manage/finance
+        - generic [ref=f15e139]:
+          - paragraph [ref=f15e140]: Insights
+          - link [ref=f15e142] [cursor=pointer]:
+            - /url: /manage/reports
+      - link [ref=f15e147] [cursor=pointer]:
+        - /url: /manage/settings
+    - main [ref=f15e152]:
+      - generic [ref=f15e153]:
+        - generic [ref=f15e154]:
+          - navigation "breadcrumb" [ref=f15e155]:
+            - list [ref=f15e156]:
+              - listitem [ref=f15e157]:
+                - link "Kinderly Manage" [ref=f15e158] [cursor=pointer]:
+                  - /url: /manage
+              - listitem [ref=f15e159]
+              - listitem [ref=f15e162]:
+                - link "Children" [ref=f15e163] [cursor=pointer]:
+                  - /url: /manage/children
+              - listitem [ref=f15e164]
+              - listitem [ref=f15e167]:
+                - link "Test Child" [disabled] [ref=f15e168]
+          - button "Schedule onboarding" [ref=f15e169]
+        - generic [ref=f15e170]:
+          - generic [ref=f15e171]:
+            - generic [ref=f15e172]: TC
+            - generic [ref=f15e174]:
+              - heading "Test Child" [level=1] [ref=f15e175]
+              - generic [ref=f15e176]:
+                - generic [ref=f15e177]: 3y 1mo
+                - generic [ref=f15e181]: Cool Classroom
+                - generic [ref=f15e182]: Male
+          - generic [ref=f15e187]:
+            - tablist [ref=f15e188]:
+              - tab "Info" [selected] [ref=f15e189]
+              - tab "Medical" [ref=f15e190]
+              - tab "Family" [ref=f15e191]
+              - tab "Billing" [ref=f15e192]
+              - tab "Documents" [ref=f15e193]
+              - tab "Attendance" [ref=f15e194]
+            - tabpanel "Info" [ref=f15e195]:
+              - generic [ref=f15e196]:
+                - generic [ref=f15e197]:
+                  - generic [ref=f15e199]:
+                    - generic [ref=f15e200]:
+                      - generic [ref=f15e201]: Demographics
+                      - button "Save Changes" [disabled]
+                    - generic [ref=f15e205]:
+                      - generic [ref=f15e206]:
+                        - generic [ref=f15e207]:
+                          - generic [ref=f15e208]: First name
+                          - textbox "First name" [ref=f15e209]:
+                            - /placeholder: Jane
+                            - text: Test
+                        - generic [ref=f15e210]:
+                          - generic [ref=f15e211]: Last name
+                          - textbox "Last name" [ref=f15e212]:
+                            - /placeholder: Doe
+                            - text: Child
+                      - generic [ref=f15e213]:
+                        - generic [ref=f15e214]: Date of birth
+                        - textbox "Date of birth" [ref=f15e215]: 2023-08-30
+                      - generic [ref=f15e216]:
+                        - generic [ref=f15e217]: Gender
+                        - combobox "Gender" [ref=f15e218]:
+                          - generic: Male
+                        - combobox [ref=f15e219]
+                      - generic [ref=f15e220]:
+                        - generic [ref=f15e221]: Ethnicity
+                        - combobox "Ethnicity" [ref=f15e222]:
+                          - generic: White
+                        - combobox [ref=f15e223]
+                      - generic [ref=f15e224]:
+                        - generic [ref=f15e225]: Classroom
+                        - paragraph [ref=f15e226]: Cool Classroom
+                  - generic [ref=f15e227]:
+                    - generic [ref=f15e228]:
+                      - generic [ref=f15e229]: Schedule
+                      - button "Edit" [ref=f15e234]
+                    - generic [ref=f15e235]:
+                      - paragraph [ref=f15e236]: No weekly schedule set.
+                      - button "Set schedule" [ref=f15e237]
+                  - generic [ref=f15e238]:
+                    - generic [ref=f15e239]: CACFP / USDA Food Program
+                    - generic [ref=f15e244]:
+                      - generic [ref=f15e245]:
+                        - generic [ref=f15e246]: Program Type
+                        - combobox "Program Type" [ref=f15e247]:
+                          - generic: Paid
+                        - combobox [ref=f15e248]
+                      - generic [ref=f15e249]:
+                        - generic [ref=f15e250]: Race / Ethnicity
+                        - combobox "Race / Ethnicity" [ref=f15e251]:
+                          - generic: Other
+                        - combobox [ref=f15e252]
+                      - generic [ref=f15e253]:
+                        - generic [ref=f15e254]:
+                          - generic [ref=f15e255]: IE Form Start Date
+                          - textbox "IE Form Start Date" [ref=f15e256]
+                        - generic [ref=f15e257]:
+                          - generic [ref=f15e258]: IE Form End Date
+                          - textbox "IE Form End Date" [ref=f15e259]
+                      - button "Save" [ref=f15e261]
+                - generic [ref=f15e262]:
+                  - generic [ref=f15e263]:
+                    - generic [ref=f15e264]:
+                      - generic [ref=f15e265]: Addresses
+                      - button "Add Address" [ref=f15e269]
+                    - paragraph [ref=f15e270]: No addresses yet.
+                  - generic [ref=f15e271]:
+                    - generic [ref=f15e272]:
+                      - generic [ref=f15e273]: Custom Fields
+                      - button "Add Field" [ref=f15e277]
+                    - paragraph [ref=f15e278]: No custom fields set.
+                  - generic [ref=f15e279]:
+                    - generic [ref=f15e280]:
+                      - generic [ref=f15e281]: Notes
+                      - button "Add Note" [ref=f15e285]
+                    - paragraph [ref=f15e286]: No notes yet.
+  - region "Notifications alt+T"

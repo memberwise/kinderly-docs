@@ -64,10 +64,15 @@ Deleting removes children's records, submitted documents and signed forms. If yo
 ## A sensible order to set things up
 
 1. **Profile** — your name and email.
-2. **[Manage → Settings](/manage/settings/)** — centre details, ratios, allergy and immunisation lists.
+2. **[Manage → Settings](/manage/settings/)** — centre details, hours, ratios, allergy and immunisation lists, meal schedule.
 3. **[Classrooms and programs](/manage/classrooms/)** — the shape of your centre.
 4. **Invite your team.**
-5. **[Build your first form](/forms/building-a-form/)** and send it to yourself.
+5. **Children and guardians** — if you're coming from another system or from spreadsheets, use **Manage → Settings → [Import Data](/manage/settings/#data-tools)** rather than typing them in.
+6. **[Build your first form](/forms/building-a-form/)** and send it to yourself.
+
+:::tip[Do the import at step 5, not step 1]
+The importer creates children and guardians, but classrooms and programs have to exist first for them to be assigned to. Importing before you've set those up means going back through every record afterwards.
+:::
 
 ## Next
 

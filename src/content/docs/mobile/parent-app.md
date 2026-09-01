@@ -19,7 +19,9 @@ The **Parent app** is the companion app for families.
 
 ## Posts
 
-Read center announcements — closures, events, news — posted by admins.
+Read centre announcements — closures, events, news — posted by admins. Posts can carry **photos and video**; video plays inline in the feed, with a still frame showing while it loads. Pinned posts appear first.
+
+Recurring events show as a single entry with their cadence — *"Occurs every Tue & Fri"* — rather than filling the feed with one row per date.
 
 ## Center info
 

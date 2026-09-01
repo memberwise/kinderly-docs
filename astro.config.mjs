@@ -32,6 +32,7 @@ export default defineConfig({
 				{ label: "Actions", autogenerate: { directory: "actions" } },
 				{ label: "Shares", autogenerate: { directory: "shares" } },
 				{ label: "Kinderly Grow", autogenerate: { directory: "grow" } },
+				{ label: "Funding Center", autogenerate: { directory: "funding" } },
 				{ label: "Billing & Subscriptions", autogenerate: { directory: "billing" } },
 				{ label: "Kinderly Manage", autogenerate: { directory: "manage" } },
 				{ label: "Integrations", autogenerate: { directory: "integrations" } },

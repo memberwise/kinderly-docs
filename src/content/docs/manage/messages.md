@@ -1,29 +1,49 @@
 ---
 title: Messages
-description: Real-time two-way messaging with families.
+description: One-to-one conversations with families, and centre-wide broadcasts.
 sidebar:
-  order: 10
+  order: 9
 ---
 
-**Messages** (`/manage/messages`) is a two-way chat between staff and families.
+Messages is for talking *to* families. For things everyone should see, use the [Feed](/manage/feed/).
 
-## The thread list
+![The Messages screen, with conversations above and centre messages below](../../../assets/screenshots/manage-messages.png)
 
-- The **left panel** lists every conversation, ordered by latest activity.
-- Each thread shows the guardian or child name, last message preview, relative timestamp, and an **unread badge**.
-- Filter to **open** or **resolved** threads.
-- Search across thread names.
+## Conversations
 
-## The message view
+The left-hand panel lists your conversations, with a **Resolved** filter for ones you've closed off. **+ New** starts one.
 
-- The **right panel** is the chat with the selected thread.
-- Staff messages appear on the right; guardian messages on the left.
-- Type, press **Send**, and the message goes out instantly.
+Families reply from the [Parents app](/mobile/parent-app/), so it's a proper two-way thread rather than a send-only channel.
 
-## Real-time
+:::tip[Resolve threads you've finished with]
+Resolved isn't deleted — it's "dealt with". Working through an inbox of genuinely open conversations is manageable; scrolling past three months of settled ones to find today's question isn't.
+:::
 
-Messages are delivered in real time. Whatever a guardian sends from the **Parent app** appears instantly in the web dashboard, and vice versa.
+## Center messages
 
-## Resolving threads
+**Center Messages**, below conversations, broadcasts to multiple guardians at once. Use it for something several families need but not everyone — one classroom, or the children on a particular trip.
 
-Mark a thread **Resolved** to move it out of your active inbox once the conversation is done. You can reopen it later.
+:::note[Three ways to reach families, for three different jobs]
+- **Conversation** — one family, needs a reply
+- **Center message** — some families, no reply expected
+- **[Feed](/manage/feed/)** — everyone, stays visible
+:::
+
+:::caution[A broadcast is a poor way to ask a question]
+Replies to a broadcast come back as individual threads. Send one to sixty families asking them to confirm something and you've made sixty conversations for yourself. For anything needing a response from every family, send a [form](/forms/overview/) instead — the answers arrive collated.
+:::
+
+## Choosing the right channel
+
+| You want to… | Use |
+|---|---|
+| Answer one parent's question | Conversation |
+| Tell one classroom about a trip | Center message |
+| Announce a closure | [Feed](/manage/feed/) closure post |
+| Share photos of the day | [Feed](/manage/feed/) post |
+| Collect a reply from every family | [Form](/forms/overview/) |
+
+## Next
+
+- [Feed](/manage/feed/) — the centre noticeboard.
+- [Parent app](/mobile/parent-app/) — where families read and reply.

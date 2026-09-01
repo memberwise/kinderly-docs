@@ -1,33 +1,57 @@
 ---
-title: Staff scheduling
-description: A weekly grid for managing shifts and approving time off.
+title: Scheduling
+description: Staff shifts, children's expected days, and planned room transitions.
 sidebar:
-  order: 9
+  order: 7
 ---
 
-**Scheduling** (`/manage/scheduling`) is a weekly visual schedule builder.
+**Manage → Scheduling** has three tabs: **Staff**, **Children** and **Transitions**.
 
-## Weekly grid
+![The staff scheduling grid for a week](../../../assets/screenshots/manage-scheduling.png)
 
-- **7-day grid** (Monday–Sunday) with one row per staff member.
-- Use the **chevrons** to move backward/forward one week at a time; **Today** jumps back to the current week.
-- Each cell shows the shift's start/end time, optional note, and classroom assignment.
-- A **clocked-in strip** above the grid lists every staff member clocked in right now, with their photo and clock-in time.
+## Staff scheduling
 
-## Adding and editing shifts
+A week grid, staff down the side and days across the top. Each staff member shows their role and classroom.
 
-- Click any cell or the **+** button to open the **Add/Edit Shift** dialog.
-- Set the staff member, date, start and end times, classroom (optional), and a note.
-- **Hold Shift or Ctrl/Cmd and click** multiple cells to select multiple dates for one staff member — the dialog creates a shift on each date in one step.
-- Toggle **Repeat shift** to duplicate a shift across the selected dates.
-- Edit (pencil) or delete (trash) a shift from its card.
+- Hover a cell for a quick add.
+- Click cells to select several days, then create shifts for all of them at once.
+- Each cell offers **Shift** or **Time Off**.
+- **Today** returns to the current week; the arrows move between weeks.
+- **Print** produces a copy for the staff room wall.
 
-## Time-off
+:::tip[Select the whole week, then create once]
+For someone on a fixed pattern, click all five cells and create the shift in one go rather than five times. Multi-select is the difference between scheduling a team in minutes and in half an hour.
+:::
 
-- PTO and absence blocks appear as colored overlays on affected days.
-- Each request shows a status badge — **Pending**, **Approved**, or **Denied**.
-- Admins can approve or deny pending requests directly from the grid.
+## Why shifts matter beyond the rota
 
-## Print
+Scheduled shifts are what **Schedule Adherence** compares actual clock-in and clock-out times against. Without them there's nothing to compare to, and the report has nothing to say.
 
-Click **Print Schedule** to print the current week in a paper-friendly layout.
+:::tip[Record time off properly]
+Marking time off rather than leaving a cell blank is what stops a planned absence looking like a no-show in adherence reporting.
+:::
+
+## Children's schedules
+
+The **Children** tab shows each child's expected weekly pattern — the same schedule that appears on their [record](/manage/children/).
+
+This is what powers the **Child Schedule Adherence** report, which flags absences, unscheduled days and off-schedule arrivals.
+
+:::tip[This is your part-time attendance check]
+For part-time children the schedule is how Kinderly knows a Tuesday absence matters and a Wednesday one doesn't, because they were never due in. Without it, every non-attendance looks the same.
+:::
+
+## Transitions
+
+Planned moves between [classrooms](/manage/classrooms/) — typically children ageing up.
+
+Scheduling a transition in advance means the move happens on the right date, and room counts and ratios stay correct without anyone remembering on the morning.
+
+:::tip[Plan transitions at enrollment]
+You already know roughly when a child ages out of the infant room. Setting the transition when they join means it happens on time, and your room capacity forecasts are right months ahead.
+:::
+
+## Next
+
+- [Staff](/manage/staff/) — the team you're scheduling.
+- [Reports](/manage/reports/) — adherence and attendance reporting.

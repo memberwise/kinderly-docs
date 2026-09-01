@@ -21,7 +21,7 @@ sidebar:
 | **Pipeline boards** | 1 | 3 | Unlimited | Unlimited |
 | **Virtual tours** | — | 1 | Unlimited | Unlimited |
 | **Grow analytics** | — | Yes | Yes | Yes |
-| **Funding Center** | — | 5 tracked grants | Unlimited | Unlimited |
+| **Funding Center** | Match count only | 5 tracked grants | Unlimited | Unlimited |
 
 **Grove** is for multi-site operators with 100+ children.
 
@@ -32,7 +32,7 @@ sidebar:
 **Bloom** is the common choice for a single centre. Unlimited forms and packets is the jump that matters: you stop rationing which paperwork goes through Kinderly. It's also where virtual tours, Grow analytics and the Funding Center switch on.
 
 :::tip[If you're chasing grants, Sprout won't do it]
-The Funding Center is the one thing on the free tier you can't work around. If tracking grant deadlines is part of why you're here, that alone is the reason to be on Bloom — a single grant caught in time tends to cover the year's subscription.
+On the free tier the Funding Center tells you **how many** opportunities you match but not what they are. That's genuinely useful as a sanity check — if it says 14, there's real money you're not seeing. But you can't act on it. If grants are part of why you're here, that's the reason to be on Bloom; a single one caught in time tends to cover the year's subscription.
 :::
 
 **Flourish** is for larger centres, or anyone who wants unlimited virtual tours and pipeline boards for a serious enrollment funnel.
