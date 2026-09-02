@@ -1,6 +1,6 @@
 ---
 title: Opportunities
-description: Grants matched to your centre, and how to decide which to pursue.
+description: Grants matched to your center, and how to decide which to pursue.
 sidebar:
   order: 3
 ---
@@ -14,7 +14,7 @@ sidebar:
 - **Any payment type** — filter by how the money arrives (reimbursement, up-front award, and so on).
 
 :::tip[Payment type is a cash-flow question, not a detail]
-A reimbursement grant means *you* spend first and claim it back, sometimes months later. For a centre without a cash buffer that's a very different proposition to an up-front award, however similar the headline figure looks.
+A reimbursement grant means *you* spend first and claim it back, sometimes months later. For a center without a cash buffer that's a very different proposition to an up-front award, however similar the headline figure looks.
 :::
 
 ## Nothing matching?

@@ -35,7 +35,7 @@ The primary contact is who Kinderly treats as the default point of contact for t
 
 A guardian's email address is their route into the [Parents app](/mobile/parent-app/), where they can see their child's day, receive [messages](/manage/messages/) and read the [feed](/manage/feed/).
 
-It's also what appears in the recipient picker when you [send a share](/shares/sending/) — the reason picking from your centre is safer than typing an address.
+It's also what appears in the recipient picker when you [send a share](/shares/sending/) — the reason picking from your center is safer than typing an address.
 
 :::caution[The email address is load-bearing]
 It's the app login, the share recipient, and where notifications go. A typo doesn't produce an error — it produces a parent who quietly never hears from you. Worth checking at enrollment.

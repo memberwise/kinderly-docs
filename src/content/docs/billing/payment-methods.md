@@ -15,8 +15,8 @@ sidebar:
 A card that expires means a failed renewal, and a failed renewal eventually drops you to the free tier — with a 10-child cap and 30 MB of storage — potentially mid-term. Check the expiry on your default card once a year; it's the least dramatic five minutes of admin you'll do.
 :::
 
-:::tip[Use a centre card, not a personal one]
-Subscriptions on someone's personal card become a problem when that person is on leave or leaves. A centre account or a shared finance card keeps the service attached to the organisation.
+:::tip[Use a center card, not a personal one]
+Subscriptions on someone's personal card become a problem when that person is on leave or leaves. A center account or a shared finance card keeps the service attached to the organisation.
 :::
 
 ## Invoices

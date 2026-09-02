@@ -11,7 +11,7 @@ The Funding Center is built for both problems.
 
 ## What it does
 
-- **[Opportunities](/funding/opportunities/)** — grants matched to your centre, not a general list you have to sift.
+- **[Opportunities](/funding/opportunities/)** — grants matched to your center, not a general list you have to sift.
 - **[Applications](/funding/applications/)** — track what you're going for, with each one's deadline, document checklist and reporting requirements together.
 - **[Calendar](/funding/calendar/)** — deadlines, reporting dates and document expiries in one view.
 - **[Documents](/funding/documents/)** — upload the standard paperwork once; it attaches to every application that asks.

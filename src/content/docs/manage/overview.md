@@ -1,6 +1,6 @@
 ---
 title: Manage overview
-description: The day-to-day running of your centre — people, operations, communication, finance and reporting.
+description: The day-to-day running of your center — people, operations, communication, finance and reporting.
 sidebar:
   order: 1
 ---
@@ -26,8 +26,8 @@ The left-hand menu groups it into five areas.
 
 ## Communication
 
-- **[Messages](/manage/messages/)** — one-to-one conversations with families, and centre-wide broadcasts.
-- **[Feed](/manage/feed/)** — your centre's noticeboard: news, announcements, events and closures.
+- **[Messages](/manage/messages/)** — one-to-one conversations with families, and center-wide broadcasts.
+- **[Feed](/manage/feed/)** — your center's noticeboard: news, announcements, events and closures.
 
 ## Finance
 
@@ -35,7 +35,7 @@ The left-hand menu groups it into five areas.
 - **[Finance](/manage/finance/)** — your own operating spend, receipts and budgets.
 
 :::note[Two different money screens]
-**Billing** is money coming *in* from families. **Finance** is money going *out* to run the centre. They're deliberately separate and don't feed into each other.
+**Billing** is money coming *in* from families. **Finance** is money going *out* to run the center. They're deliberately separate and don't feed into each other.
 :::
 
 ## Insights
@@ -44,10 +44,10 @@ The left-hand menu groups it into five areas.
 
 ## Setting up
 
-**Settings** at the bottom of the menu covers the centre itself — name, address, hours, ratios, allergy and immunisation lists, custom fields. Get these right before adding children; several of them shape what a child's record can hold. See [Settings](/manage/settings/).
+**Settings** at the bottom of the menu covers the center itself — name, address, hours, ratios, allergy and immunisation lists, custom fields. Get these right before adding children; several of them shape what a child's record can hold. See [Settings](/manage/settings/).
 
 :::tip[Set up in this order]
-1. **Settings** — centre info, hours, ratios, allergy and immunisation lists
+1. **Settings** — center info, hours, ratios, allergy and immunisation lists
 2. **Classrooms** — the rooms you actually run
 3. **Staff** — your team, assigned to rooms
 4. **Programs** — what you offer and what it costs
@@ -62,5 +62,5 @@ Adding children first means going back over every record to assign rooms and pro
 
 ## Next
 
-- [Settings](/manage/settings/) — configure your centre first.
+- [Settings](/manage/settings/) — configure your center first.
 - [Children](/manage/children/) — the heart of the system.

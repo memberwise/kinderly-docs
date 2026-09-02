@@ -41,7 +41,7 @@ That ratio is the single most useful number in Grow. Lots of tour views and few 
 :::
 
 :::caution[Small numbers aren't trends]
-A centre's site might get a few dozen visits a week. At that volume one afternoon of a parent browsing repeatedly can look like a spike. Look at the shape over a month, not day to day.
+A center's site might get a few dozen visits a week. At that volume one afternoon of a parent browsing repeatedly can look like a spike. Look at the shape over a month, not day to day.
 :::
 
 ## Plan availability

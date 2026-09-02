@@ -1,6 +1,6 @@
 ---
 title: Grow overview
-description: Fill your places — a website for your centre, virtual tours, and an enquiry pipeline.
+description: Fill your places — a website for your center, virtual tours, and an enquiry pipeline.
 sidebar:
   order: 1
 ---
@@ -11,7 +11,7 @@ Where [Enroll](/forms/overview/) handles the paperwork and [Manage](/manage/over
 
 **Content**
 
-- **[Sites and pages](/grow/sites/)** — a real public website for your centre, on its own address.
+- **[Sites and pages](/grow/sites/)** — a real public website for your center, on its own address.
 - **[Page sections](/grow/page-sections/)** — the building blocks you assemble pages from.
 - **[Theme](/grow/theme/)** — colours, fonts and button styling across the whole site.
 - **Media** — the image library your pages draw on.

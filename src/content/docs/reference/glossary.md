@@ -10,7 +10,7 @@ sidebar:
 | Term | Meaning |
 |---|---|
 | **Enroll** | Forms, documents, packets and shares — the paperwork side of Kinderly. |
-| **Manage** | Running your centre: children, guardians, staff, classrooms, scheduling, billing, reports. |
+| **Manage** | Running your center: children, guardians, staff, classrooms, scheduling, billing, reports. |
 | **Grow** | Filling your places: a public website, virtual tours, and an enquiry pipeline. |
 | **Funding** | Finding and tracking grants. |
 
@@ -45,8 +45,8 @@ All four are on every plan; tiers differ by limits. See [Plans](/billing/plans/)
 | **Agency ledger** | The portion of a child's fees paid by a third party such as a state subsidy. |
 | **CACFP** | The USDA Child and Adult Care Food Program. Tracked per child for claims. |
 | **Custom field** | An extra field you define on the child record. |
-| **Feed** | Your centre's noticeboard — news, announcements, events and closures. |
-| **Finance** | Your centre's operating spend. Separate from family Billing. |
+| **Feed** | Your center's noticeboard — news, announcements, events and closures. |
+| **Finance** | Your center's operating spend. Separate from family Billing. |
 
 ## Curriculum
 
@@ -62,7 +62,7 @@ All four are on every plan; tiers differ by limits. See [Plans](/billing/plans/)
 
 | Term | Meaning |
 |---|---|
-| **Site** | A public website for your centre, on a `kinderlysites.com` address. |
+| **Site** | A public website for your center, on a `kinderlysites.com` address. |
 | **Page** | One URL on a site. |
 | **Section** | A building block stacked to make a page — hero, gallery, FAQ, embedded form. |
 | **Draft** | Your unpublished edits. Families see the published version until you publish. |
@@ -75,7 +75,7 @@ All four are on every plan; tiers differ by limits. See [Plans](/billing/plans/)
 | Term | Meaning |
 |---|---|
 | **Opportunity** | A grant you may be eligible for. |
-| **Funding profile** | The answers about your centre that decide what you match. |
+| **Funding profile** | The answers about your center that decide what you match. |
 | **Application** | A tracked opportunity, with its deadline, document checklist and reporting requirements. |
 | **Matching funds** | Money or in-kind contribution you must provide to receive a grant. |
 
@@ -84,5 +84,5 @@ All four are on every plan; tiers differ by limits. See [Plans](/billing/plans/)
 | Term | Meaning |
 |---|---|
 | **Ellie** | Kinderly's built-in assistant. Included on every plan. |
-| **Team** | Your centre. Owns everything and contains your staff logins. |
+| **Team** | Your center. Owns everything and contains your staff logins. |
 | **KinderConnect** | The KinderSystems integration for reporting attendance for state subsidy billing. |

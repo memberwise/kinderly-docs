@@ -17,7 +17,7 @@ You don't have to build from a blank canvas. From **Enroll → Forms**, the four
 
 | Start from | What happens | Best for |
 |---|---|---|
-| **Scratch** | An empty canvas. You drag in every component. | Something genuinely unusual to your centre |
+| **Scratch** | An empty canvas. You drag in every component. | Something genuinely unusual to your center |
 | **Template** | A pre-built form, fully editable after. | Most cases — start here |
 | **Document** | Reads the fillable fields out of a PDF already in your [Documents](/documents/overview/) library and turns the ones you pick into form fields. | Replacing a fillable PDF you already use |
 | **Ellie** | Opens Ellie, the Kinderly assistant, and asks what you'd like to build. | When you know what you need but not how to lay it out |

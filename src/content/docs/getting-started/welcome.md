@@ -14,8 +14,8 @@ It's four products under one login. You don't have to use all of them.
 | | What it's for |
 |---|---|
 | **[Enroll](/forms/overview/)** | Build forms and documents, bundle them into packets, and send them to families as secure links. This is where the paperwork lives. |
-| **[Manage](/manage/overview/)** | The day-to-day running of your centre — children, guardians, classrooms, staff, programs, scheduling, attendance, messages and family billing. |
-| **[Grow](/grow/overview/)** | Filling your places: a website for your centre, virtual tours, and an enquiry pipeline to track prospective families. |
+| **[Manage](/manage/overview/)** | The day-to-day running of your center — children, guardians, classrooms, staff, programs, scheduling, attendance, messages and family billing. |
+| **[Grow](/grow/overview/)** | Filling your places: a website for your center, virtual tours, and an enquiry pipeline to track prospective families. |
 | **[Funding](/funding/overview/)** | Finding and tracking grants and funding opportunities, with deadlines and application records in one place. Paid plans only. |
 
 Switch between them from the icon rail down the left-hand side.

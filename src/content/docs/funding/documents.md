@@ -37,7 +37,7 @@ Funders check dates. A certificate of insurance that lapsed between submission a
 
 ## Separate from your Enroll documents
 
-This vault is for *your centre's* funding paperwork. The [Documents](/documents/overview/) library in Enroll is for things you send families. They're deliberately separate — nothing here is ever sent to a parent.
+This vault is for *your center's* funding paperwork. The [Documents](/documents/overview/) library in Enroll is for things you send families. They're deliberately separate — nothing here is ever sent to a parent.
 
 ## Next
 

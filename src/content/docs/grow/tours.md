@@ -47,7 +47,7 @@ A tour that hijacks your homepage gets in the way of families who came for your 
 
 Virtual tours aren't available on the free tier. Bloom includes one; Flourish and Grove are unlimited. See [What you get](/getting-started/what-you-get/).
 
-:::tip[With one tour, make it the whole centre]
+:::tip[With one tour, make it the whole center]
 On Bloom you get one — so build a single tour walking through the entire setting rather than one room. Save per-room tours for when you have unlimited.
 :::
 

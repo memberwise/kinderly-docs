@@ -1,13 +1,13 @@
 ---
 title: Messages
-description: One-to-one conversations with families, and centre-wide broadcasts.
+description: One-to-one conversations with families, and center-wide broadcasts.
 sidebar:
   order: 9
 ---
 
 Messages is for talking *to* families. For things everyone should see, use the [Feed](/manage/feed/).
 
-![The Messages screen, with conversations above and centre messages below](../../../assets/screenshots/manage-messages.png)
+![The Messages screen, with conversations above and center messages below](../../../assets/screenshots/manage-messages.png)
 
 ## Conversations
 
@@ -45,5 +45,5 @@ Replies to a broadcast come back as individual threads. Send one to sixty famili
 
 ## Next
 
-- [Feed](/manage/feed/) — the centre noticeboard.
+- [Feed](/manage/feed/) — the center noticeboard.
 - [Parent app](/mobile/parent-app/) — where families read and reply.

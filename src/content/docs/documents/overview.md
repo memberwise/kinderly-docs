@@ -1,11 +1,11 @@
 ---
 title: Documents overview
-description: Store the PDFs your centre relies on, and turn them into things families can fill in and sign.
+description: Store the PDFs your center relies on, and turn them into things families can fill in and sign.
 sidebar:
   order: 1
 ---
 
-Documents is your centre's file library — the handbook, the state enrollment form, immunisation policies, custody templates. Anything you'd otherwise keep in a filing cabinet or a shared drive.
+Documents is your center's file library — the handbook, the state enrollment form, immunisation policies, custody templates. Anything you'd otherwise keep in a filing cabinet or a shared drive.
 
 The difference is that a document in Kinderly isn't just stored. You can add fillable fields to it, send it to a family, and get a signed copy back.
 
@@ -13,7 +13,7 @@ The difference is that a document in Kinderly isn't just stored. You can add fil
 
 ## What you can do with a document
 
-- **Organise** it into folders
+- **organize** it into folders
 - **Add fillable fields** — signatures, text boxes, checkboxes — on top of the PDF
 - **Send** it to a family to complete and sign
 - **Add it to a [packet](/packets/overview/)** as one step in a longer flow
@@ -25,7 +25,7 @@ The difference is that a document in Kinderly isn't just stored. You can add fil
 Three buttons at the top of the library:
 
 - **Add Document** — upload a file from your computer.
-- **New Folder** — create a folder to organise into.
+- **New Folder** — create a folder to organize into.
 - **New Blank PDF** — start an empty PDF you can build up with fields, without needing a source file at all.
 
 You can also **drag and drop** files straight onto the library.

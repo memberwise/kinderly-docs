@@ -39,7 +39,7 @@ Every enabled framework is another set of outcomes teachers see when tagging. En
 - **Library** — activities mapped to outcomes.
 - **Planner** — plan activities across the week.
 - **Assessment** — where each child sits against the outcomes.
-- **Shared** — material shared across your centre.
+- **Shared** — material shared across your center.
 
 ## Insight panels
 

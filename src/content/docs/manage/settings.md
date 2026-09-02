@@ -1,19 +1,19 @@
 ---
 title: Manage settings
-description: Configure your centre — details, hours, ratios, allergies, immunisations and custom fields.
+description: Configure your center — details, hours, ratios, allergies, immunisations and custom fields.
 sidebar:
   order: 14
 ---
 
-**Manage → Settings** configures the centre itself. Worth doing before you add children, since several of these lists shape what a child's record can hold.
+**Manage → Settings** configures the center itself. Worth doing before you add children, since several of these lists shape what a child's record can hold.
 
 Tabs: **Center Configuration**, **Allergies**, **Immunizations**, **Custom Fields**, **Class Ratios**, **Billing**, **App Settings**.
 
-![The Manage settings screen showing the tab list and centre information](../../../assets/screenshots/manage-settings.png)
+![The Manage settings screen showing the tab list and center information](../../../assets/screenshots/manage-settings.png)
 
 ## Setup wizard
 
-**Launch Setup Wizard** walks you back through centre info, schedule, meals, billing and integrations. Useful when you've inherited a part-configured centre and want to check nothing's missing.
+**Launch Setup Wizard** walks you back through center info, schedule, meals, billing and integrations. Useful when you've inherited a part-configured center and want to check nothing's missing.
 
 ## Center Information
 
@@ -32,7 +32,7 @@ Opening and closing time, which days you're open, and **Closed Holidays**.
 
 These define your operating hours, which is when [out-of-ratio alerts](/manage/classrooms/) run and what **Late Pickup** is measured against.
 
-Federal holidays are offered as a checklist. **Custom Closures** covers the one-off days specific to your centre — a staff training day, a local holiday, the week between Christmas and New Year.
+Federal holidays are offered as a checklist. **Custom Closures** covers the one-off days specific to your center — a staff training day, a local holiday, the week between Christmas and New Year.
 
 :::caution[Closed Holidays here is separate from a Feed closure post]
 This list is what the system treats as non-operating days. A [Feed](/manage/feed/) closure post is what *tells families*. For a real closure you want both.
@@ -43,7 +43,7 @@ This list is what the system treats as non-operating days. A [Feed](/manage/feed
 Set the meals you serve and when. Turn off any you don't offer, add your own, and drag the handle to reorder them.
 
 :::tip[Get this right if you claim CACFP]
-Meal times underpin the food program records that feed your [CACFP reports](/manage/reports/). A centre serving an afternoon snack that isn't configured has a gap in its claim.
+Meal times underpin the food program records that feed your [CACFP reports](/manage/reports/). A center serving an afternoon snack that isn't configured has a gap in its claim.
 :::
 
 ## Auto Sign-Out
@@ -80,7 +80,7 @@ These are pick-lists for a reason. Left to free text, one child has "Peanut", an
 
 ## Custom Fields
 
-Extra fields on the child record for whatever your centre tracks that Kinderly doesn't have out of the box — a bus route, a locker number, a cultural or dietary note.
+Extra fields on the child record for whatever your center tracks that Kinderly doesn't have out of the box — a bus route, a locker number, a cultural or dietary note.
 
 :::tip[Custom fields, not notes, for anything you'll filter on]
 Notes are fine for prose. If it's something you'll want to search, filter or report on, it needs to be a field.
@@ -96,7 +96,7 @@ These generate real-time alerts to staff. Setting them tighter than your licence
 
 ## Billing
 
-Centre-level billing configuration. See [Billing](/manage/billing/).
+center-level billing configuration. See [Billing](/manage/billing/).
 
 ## App Settings
 

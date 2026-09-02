@@ -1,6 +1,6 @@
 ---
 title: Integrations overview
-description: Connecting Kinderly to the systems your state and your centre already use.
+description: Connecting Kinderly to the systems your state and your center already use.
 sidebar:
   order: 1
 ---
@@ -9,14 +9,7 @@ sidebar:
 
 **[KinderConnect](/integrations/kinderconnect/)** — report attendance to KinderSystems for state subsidy billing, without keying it in twice.
 
-## Prepared, not yet live
 
-Kinderly can store credentials for several student information and CRM systems, ready for when their actions ship:
-
-- **Salesforce**
-- **Infinite Campus**
-- **ProCare**
-- **Tyler SIS**
 
 Saving credentials doesn't start syncing anything today. See [Vendor integrations](/actions/vendor-integrations/).
 

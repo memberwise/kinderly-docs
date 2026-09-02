@@ -1,13 +1,13 @@
 ---
 title: Feed
-description: Your centre's noticeboard — news, announcements, events and closures.
+description: Your center's noticeboard — news, announcements, events and closures.
 sidebar:
   order: 10
 ---
 
 The **Center Feed** is what families see in the [Parents app](/mobile/parent-app/). It's for things everyone should know, as opposed to [Messages](/manage/messages/), which is for conversations with one family.
 
-![The centre feed with announcements and events](../../../assets/screenshots/manage-feed.png)
+![The center feed with announcements and events](../../../assets/screenshots/manage-feed.png)
 
 ## Post types
 

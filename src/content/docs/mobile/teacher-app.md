@@ -40,7 +40,7 @@ Record what happened today, one or many children at a time. Supported entry type
 
 ### The Learning row
 
-If your centre has [Curriculum](/manage/curriculum/) enabled, notes carry a **Learning** row. Tagging an observation to a learning outcome takes one tap.
+If your center has [Curriculum](/manage/curriculum/) enabled, notes carry a **Learning** row. Tagging an observation to a learning outcome takes one tap.
 
 That's the whole curriculum documentation workflow: teachers write the notes they'd write anyway, and the evidence against your frameworks accrues on its own.
 
@@ -56,7 +56,7 @@ The tag takes a second in the moment and is far more accurate than trying to rem
 
 ## Posts
 
-Read centre announcements (Announcements, Events, Closures, News). Pinned posts are sorted first. Admins can create, edit, and archive posts.
+Read center announcements (Announcements, Events, Closures, News). Pinned posts are sorted first. Admins can create, edit, and archive posts.
 
 Posts take **video as well as photos** — up to 20 attachments per post, 200 MB per clip. Record one straight from the app and families see it play in their feed. See [Feed](/manage/feed/).
 

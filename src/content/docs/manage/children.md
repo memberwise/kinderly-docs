@@ -5,7 +5,7 @@ sidebar:
   order: 2
 ---
 
-The child record is the centre of Manage. Everything else — attendance, billing, reports, the [Parents app](/mobile/parent-app/) — reads from it.
+The child record is the center of Manage. Everything else — attendance, billing, reports, the [Parents app](/mobile/parent-app/) — reads from it.
 
 ## The list
 
@@ -57,7 +57,7 @@ Both lists come from [Manage → Settings](/manage/settings/). Setting them up b
 
 ### Family
 
-Guardians attached to this child, each with their relationship, contact details, and **Primary** / **Can Pick Up** flags. Siblings at the centre are listed too, with the guardian they share.
+Guardians attached to this child, each with their relationship, contact details, and **Primary** / **Can Pick Up** flags. Siblings at the center are listed too, with the guardian they share.
 
 :::caution["Can Pick Up" is the one to get right]
 It's the flag that answers "is this person allowed to collect this child?". Being a guardian and being authorised for pickup aren't the same thing — custody arrangements, in particular, depend on the distinction.

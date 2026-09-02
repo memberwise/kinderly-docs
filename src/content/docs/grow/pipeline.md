@@ -49,7 +49,7 @@ That closes the loop: a family finds your site at 10pm, fills in the form, and a
 
 Plans allow different numbers of boards — one on Sprout, three on Bloom, unlimited above. See [What you get](/getting-started/what-you-get/).
 
-Separate boards make sense for genuinely separate processes — a second site, or a summer camp with its own intake. For one centre's ordinary enrollment, one board with good columns beats several.
+Separate boards make sense for genuinely separate processes — a second site, or a summer camp with its own intake. For one center's ordinary enrollment, one board with good columns beats several.
 
 ## Next
 

@@ -5,7 +5,7 @@ sidebar:
   order: 2
 ---
 
-Four tiers: **Sprout**, **Bloom**, **Flourish** and **Grove**. Pricing is per centre, per month — there are no per-seat or per-child charges.
+Four tiers: **Sprout**, **Bloom**, **Flourish** and **Grove**. Pricing is per center, per month — there are no per-seat or per-child charges.
 
 | | **Sprout** | **Bloom** | **Flourish** | **Grove** |
 |---|---|---|---|---|
@@ -19,7 +19,7 @@ Four tiers: **Sprout**, **Bloom**, **Flourish** and **Grove**. Pricing is per ce
 | **Grow analytics** | — | Yes | Yes | Yes |
 | **Funding Center** | Match count only | 5 tracked grants | Unlimited | Unlimited |
 
-Every new centre starts on **Sprout** automatically. It's a real free tier, not a trial — there's no expiry.
+Every new center starts on **Sprout** automatically. It's a real free tier, not a trial — there's no expiry.
 
 **Grove** is for multi-site operators with 100+ children and is priced by conversation.
 

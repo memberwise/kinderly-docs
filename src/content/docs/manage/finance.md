@@ -1,6 +1,6 @@
 ---
 title: Finance
-description: Track your centre's operating spend, receipts and budgets.
+description: Track your center's operating spend, receipts and budgets.
 sidebar:
   order: 12
 ---

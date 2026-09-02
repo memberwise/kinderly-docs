@@ -13,16 +13,24 @@ There are three parts: connecting your account, **matching** your children to Ki
 
 Enter your credentials under **Manage → Settings → Integrations → KinderConnect**:
 
+![alt text](image.png)
+
 - **Provider ID**, **Group Password**, **Agency ID** — your KinderSystems provider credentials
 - **Cognito** credentials (base API, client ID, client secret)
 - **Base API URL**
 
+![alt text](image-2.png)
+
 All of these come from KinderSystems, not from Kinderly. Your state agency or KinderSystems support is who to ask.
+
+Once you enter your credentials, click "Save".
+
+You can view the auto-match status by going to **Manage** → **Children** → **Manage KinderSystems Integration**
 
 Saving with the integration **enabled** immediately runs an auto-match, which doubles as a connection test.
 
 :::caution[Treat these as passwords]
-These credentials submit attendance that drives subsidy payments. Don't circulate them, and rotate them if someone with access leaves.
+These credentials submit attendance that drives subsidy payments.
 :::
 
 ## Matching children
@@ -51,7 +59,7 @@ For anything that didn't match, open the child's row actions in **Children** and
 
 ### The daily re-check
 
-A job runs **daily at 07:00 UTC** and re-runs auto-match for every centre with KinderConnect enabled, picking up children you've added since.
+A job runs **daily at 07:00 UTC** and re-runs auto-match for every center with KinderConnect enabled, picking up children you've added since.
 
 :::note[07:00 UTC, not 7am your time]
 That's roughly 2am US Central, 3am Eastern. It isn't configurable. New children added today are normally matched by the time you're in tomorrow.
@@ -73,14 +81,14 @@ Rather than remembering, you can have Kinderly submit on a cadence:
 | **Monthly** | On a chosen day of the month |
 | **Twice monthly** | Two days each month |
 
-Schedules run against **your centre's local clock**, taken from your [time zone setting](/manage/settings/). Pick "Mondays at 8pm" and you get 8pm local all year, daylight saving included.
+Schedules run against **your center's local clock**, taken from your [time zone setting](/manage/settings/). Pick "Mondays at 8pm" and you get 8pm local all year, daylight saving included.
 
 ### What actually gets sent
 
 Two rules worth knowing:
 
 - **Only whole, finished days.** The window always ends *yesterday*. Today is never submitted, because it isn't over.
-- **Nothing is sent twice.** Each run starts the day after the last successful one, so a missed run catches up rather than duplicating.
+- **Nothing is sent twice.** Each run starts the day after the last successful one.
 
 :::tip[Schedule it just after you close]
 An evening cadence means the day's attendance is complete and any sign-out corrections have been made. Scheduling mid-afternoon submits a day that's still happening — which you then can't resend.
@@ -89,10 +97,6 @@ An evening cadence means the day's attendance is complete and any sign-out corre
 :::caution[Fix attendance before it submits, not after]
 Once a day has been sent it isn't re-sent, so a correction made afterwards won't automatically reach KinderSystems. If you spot a sign-in error, fix it before that day's submission window passes.
 :::
-
-## The "Edit in KinderSystems" link
-
-Once a child has a KinderSystems ID, an **Edit in KinderSystems** option appears in their row actions in the Children list — a direct jump to that child in KinderSystems.
 
 ## When something looks wrong
 

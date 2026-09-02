@@ -29,16 +29,16 @@ sidebar:
 
 **Sprout** is a genuine free tier, not a trial. A childminder or a very small setting can run on it indefinitely. The binding constraint is usually the 30 MB storage — a handful of scanned PDFs will fill it.
 
-**Bloom** is the common choice for a single centre. Unlimited forms and packets is the jump that matters: you stop rationing which paperwork goes through Kinderly. It's also where virtual tours, Grow analytics and the Funding Center switch on.
+**Bloom** is the common choice for a single center. Unlimited forms and packets is the jump that matters: you stop rationing which paperwork goes through Kinderly. It's also where virtual tours, Grow analytics and the Funding Center switch on.
 
 :::tip[If you're chasing grants, Sprout won't do it]
 On the free tier the Funding Center tells you **how many** opportunities you match but not what they are. That's genuinely useful as a sanity check — if it says 14, there's real money you're not seeing. But you can't act on it. If grants are part of why you're here, that's the reason to be on Bloom; a single one caught in time tends to cover the year's subscription.
 :::
 
-**Flourish** is for larger centres, or anyone who wants unlimited virtual tours and pipeline boards for a serious enrollment funnel.
+**Flourish** is for larger centers, or anyone who wants unlimited virtual tours and pipeline boards for a serious enrollment funnel.
 
 :::tip[Storage is usually what pushes you up, not children]
-Centres tend to watch the children count and get caught out by storage. Every signed document a family returns is a stored PDF. A 40-child centre running full enrollment packets goes through 30 MB quickly. Check the storage bar on your dashboard before assuming you're comfortable.
+centers tend to watch the children count and get caught out by storage. Every signed document a family returns is a stored PDF. A 40-child center running full enrollment packets goes through 30 MB quickly. Check the storage bar on your dashboard before assuming you're comfortable.
 :::
 
 ## How limits behave

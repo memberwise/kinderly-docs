@@ -1,6 +1,6 @@
 ---
 title: Account setup
-description: Getting your profile, team and centre details configured.
+description: Getting your profile, team and center details configured.
 sidebar:
   order: 3
 ---
@@ -9,13 +9,13 @@ Everything here lives under **Settings**, reachable from the icon rail on the le
 
 ## Your profile
 
-**Profile** holds your name and email address. This is the person, not the centre.
+**Profile** holds your name and email address. This is the person, not the center.
 
 **Reset Password** sends you a reset link.
 
 ## Your team
 
-A **team** is your centre. It owns everything — forms, documents, children, staff records — and everyone you invite works inside it.
+A **team** is your center. It owns everything — forms, documents, children, staff records — and everyone you invite works inside it.
 
 Under **Teams** you can see your team, its members and their roles, and invite people with **Add**.
 
@@ -27,8 +27,8 @@ It's tempting to have one shared account "for the office". Don't. Individual log
 
 **Create a New Team** makes a separate team. Each is fully separate — its own children, documents and forms, with nothing shared between them.
 
-:::caution[One centre, one team]
-Multiple teams are for genuinely separate settings, like a second site. Don't use them to organise one centre — you'll end up with children in one team and the documents about them in another. Use [classrooms and programs](/manage/classrooms/) to divide up a single centre.
+:::caution[One center, one team]
+Multiple teams are for genuinely separate settings, like a second site. Don't use them to organize one center — you'll end up with children in one team and the documents about them in another. Use [classrooms and programs](/manage/classrooms/) to divide up a single center.
 :::
 
 ## Payment and billing
@@ -47,9 +47,9 @@ See [Billing & subscriptions](/billing/overview/).
 An expired card means a failed renewal, and a failed renewal eventually means dropping to the free tier — with its much smaller limits — in the middle of a term. Check the expiry date on your default card once a year.
 :::
 
-## Your centre's details
+## Your center's details
 
-Settings covers *your account*. Details about the centre itself — name, address, opening hours, ratios, allergies and immunisation lists, custom fields — live under **[Manage → Settings](/manage/settings/)**.
+Settings covers *your account*. Details about the center itself — name, address, opening hours, ratios, allergies and immunisation lists, custom fields — live under **[Manage → Settings](/manage/settings/)**.
 
 Worth doing early: those settings shape [children's records](/manage/children/), [classroom ratios](/manage/classrooms/) and what appears on your [Grow website](/grow/overview/).
 
@@ -64,8 +64,8 @@ Deleting removes children's records, submitted documents and signed forms. If yo
 ## A sensible order to set things up
 
 1. **Profile** — your name and email.
-2. **[Manage → Settings](/manage/settings/)** — centre details, hours, ratios, allergy and immunisation lists, meal schedule.
-3. **[Classrooms and programs](/manage/classrooms/)** — the shape of your centre.
+2. **[Manage → Settings](/manage/settings/)** — center details, hours, ratios, allergy and immunisation lists, meal schedule.
+3. **[Classrooms and programs](/manage/classrooms/)** — the shape of your center.
 4. **Invite your team.**
 5. **Children and guardians** — if you're coming from another system or from spreadsheets, use **Manage → Settings → [Import Data](/manage/settings/#data-tools)** rather than typing them in.
 6. **[Build your first form](/forms/building-a-form/)** and send it to yourself.
@@ -77,4 +77,4 @@ The importer creates children and guardians, but classrooms and programs have to
 ## Next
 
 - [Building a form](/forms/building-a-form/) — your first piece of real work.
-- [Manage overview](/manage/overview/) — setting up your centre.
+- [Manage overview](/manage/overview/) — setting up your center.

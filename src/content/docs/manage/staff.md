@@ -14,7 +14,7 @@ sidebar:
 A staff member's role sets what they can do. **Administrator** is full access. Give people the narrowest role that lets them do their job.
 
 :::tip[Not everyone needs to be an Administrator]
-It's the fastest way to set someone up and the easiest to regret. Administrators can change billing, delete records and alter centre settings. A room lead needs none of that.
+It's the fastest way to set someone up and the easiest to regret. Administrators can change billing, delete records and alter center settings. A room lead needs none of that.
 :::
 
 ## Staff and classrooms

@@ -18,9 +18,9 @@ Reached from the icon rail. Covers **you and your subscription**:
 
 See [Account setup](/getting-started/account-setup/) and [Billing](/billing/overview/).
 
-## Manage → Settings — your centre
+## Manage → Settings — your center
 
-Inside Kinderly Manage. Covers **the centre itself**:
+Inside Kinderly Manage. Covers **the center itself**:
 
 - **Center Configuration** — name, address, contact details, time zone, operating hours, closed holidays, Tax ID (EIN/TIN) and Provider Number (DVN)
 - **Allergies** — the allergy list child records pick from
@@ -40,12 +40,12 @@ See [Manage settings](/manage/settings/).
 | Your own name or password | Settings → Profile |
 | Your Kinderly plan or card | Settings → Payment & Billing |
 | Invite a staff member's login | Settings → Teams |
-| Your centre's address or hours | Manage → Settings → Center Configuration |
+| Your center's address or hours | Manage → Settings → Center Configuration |
 | Required ratios | Manage → Settings → Class Ratios |
 | The allergy list | Manage → Settings → Allergies |
 | Tax ID on family tax statements | Manage → Settings → Center Configuration |
 | How families are charged | Manage → Settings → Billing |
 
 :::tip[The rule of thumb]
-If it's about **you or your subscription**, it's in Settings. If it's about **the centre**, it's in Manage → Settings.
+If it's about **you or your subscription**, it's in Settings. If it's about **the center**, it's in Manage → Settings.
 :::

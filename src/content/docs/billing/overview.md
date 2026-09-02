@@ -5,7 +5,7 @@ sidebar:
   order: 1
 ---
 
-This section is about **your** subscription to Kinderly. For charging families, see [Manage → Billing](/manage/billing/); for tracking your centre's spending, see [Finance](/manage/finance/).
+This section is about **your** subscription to Kinderly. For charging families, see [Manage → Billing](/manage/billing/); for tracking your center's spending, see [Finance](/manage/finance/).
 
 Everything here lives under **Settings → Payment & Billing**.
 
@@ -20,7 +20,7 @@ Everything here lives under **Settings → Payment & Billing**.
 
 ## How pricing works
 
-Kinderly charges **a flat monthly price per centre**. Not per user, not per child.
+Kinderly charges **a flat monthly price per center**. Not per user, not per child.
 
 Every tier includes Enroll, Manage, Grow, family billing and Ellie. Upgrading raises limits rather than unlocking modules — the exceptions being virtual tours, Grow analytics and the Funding Center, which the free tier doesn't get in full.
 

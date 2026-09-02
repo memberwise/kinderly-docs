@@ -1,11 +1,11 @@
 ---
 title: Sites and pages
-description: Build your centre's public website, and publish it when it's ready.
+description: Build your center's public website, and publish it when it's ready.
 sidebar:
   order: 2
 ---
 
-A **site** is a public marketing presence for your centre. A **page** is a URL on that site.
+A **site** is a public marketing presence for your center. A **page** is a URL on that site.
 
 ![The Sites list, showing a site with its address and version state](../../../assets/screenshots/grow-sites.png)
 

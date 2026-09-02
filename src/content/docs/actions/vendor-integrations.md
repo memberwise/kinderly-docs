@@ -10,23 +10,13 @@ The **Add Actions** dialog groups actions by vendor. **Kinderly** is the one wit
 | Vendor | Status |
 |---|---|
 | **Kinderly** | 11 actions available — see [Actions overview](/actions/overview/) |
-| **Salesforce** | Credentials can be stored; actions not yet live |
-| **Infinite Campus** | Credentials can be stored; actions not yet live |
-| **ProCare** | Credentials can be stored; actions not yet live |
-| **Tyler SIS** | Credentials can be stored; actions not yet live |
+
 
 :::note[Storing credentials doesn't switch anything on]
 You can save connection details for these systems now, and they'll be ready when the actions ship. Saving them does not start syncing anything today.
 :::
 
-## What each expects
 
-| Vendor | Credentials |
-|---|---|
-| **Salesforce** | Instance URL, Client ID, Client Secret |
-| **Infinite Campus** | Base URL, API Key |
-| **ProCare** | Username, Password, Site ID |
-| **Tyler SIS** | API URL, API Key, District ID |
 
 These come from the other system, not from Kinderly. Your administrator for that system — or their support team — is who to ask.
 

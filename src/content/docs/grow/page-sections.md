@@ -66,7 +66,7 @@ This is what turns a brochure site into something that generates enquiries. See 
 
 | Section | What it's for |
 |---|---|
-| **Center Feed** | Pulls in posts from your [Manage centre feed](/manage/feed/) — pinned first, then newest |
+| **Center Feed** | Pulls in posts from your [Manage center feed](/manage/feed/) — pinned first, then newest |
 
 :::tip[The feed section keeps your site alive without extra work]
 A site that hasn't changed in a year looks abandoned. Because this section pulls from the feed you're already posting to for current families, your public site stays current as a side effect.
@@ -104,5 +104,5 @@ It's what screen readers announce, and what search engines read. It takes five s
 
 ## Next
 
-- [Theme](/grow/theme/) — making it look like your centre.
+- [Theme](/grow/theme/) — making it look like your center.
 - [Virtual tours](/grow/tours/) — building a tour to embed.

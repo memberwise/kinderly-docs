@@ -9,7 +9,7 @@ Worth knowing so you can talk a family through it on the phone. You can also poi
 
 ## 1. The email
 
-The family gets an email from Kinderly on your centre's behalf, subject *"[Your centre] shared "…" with you — PIN inside"*. It contains the link, the 6-digit PIN, and the expiry date if you set one.
+The family gets an email from Kinderly on your center's behalf, subject *"[Your center] shared "…" with you — PIN inside"*. It contains the link, the 6-digit PIN, and the expiry date if you set one.
 
 :::tip[If a family says it never arrived]
 Ask them to check spam — it comes from `noreply@mykinderly.com`, not your address. Failing that, open the share and use **Copy link** to send the link yourself. The PIN can't be recovered, so if they don't have that either, create a new share.

@@ -132,7 +132,7 @@ explicit; the per-page order autogenerates).
 ### Billing — was actively wrong
 | Page | Status | Notes |
 |---|---|---|
-| `billing/overview.md` | 🟢 | Rewritten for flat per-centre pricing |
+| `billing/overview.md` | 🟢 | Rewritten for flat per-center pricing |
 | `billing/plans.md` | 🟢 | Real four tiers; legacy Free/Pro mapping noted |
 | `billing/payment-methods.md` | 🟢 | Cards, invoices, usage |
 
@@ -215,7 +215,7 @@ but they may deserve marketing/changelog attention too.
 - **Auto Sign-Out** — signs out anyone still signed in at a set time, with *separate times for
   children and staff*. This is the actual fix for stale sign-ins skewing ratio alerts.
 - **Meal Schedule** — configure the meals you serve and when, reorderable; underpins CACFP.
-- **Custom Closures** — one-off centre closures alongside the federal-holiday checklist.
+- **Custom Closures** — one-off center closures alongside the federal-holiday checklist.
 - **Data Tools → Import Data** — bulk import children, guardians and staff from Excel/CSV.
   Materially changes the recommended setup order, so `getting-started/account-setup.md`
   now points at it.
@@ -254,7 +254,7 @@ but they may deserve marketing/changelog attention too.
   "Review with Ellie"
 
 **Funding Center** — had zero documentation
-- Profile-driven **matching** (8 questions; state/ZIP/enrolment pulled from centre settings)
+- Profile-driven **matching** (8 questions; state/ZIP/enrolment pulled from center settings)
 - **Applications** bundling deadline + document checklist + reporting requirements
 - **Document vault** — upload W-9 / licence / COI once, auto-attached to any application
   asking for them, with expiry tracking

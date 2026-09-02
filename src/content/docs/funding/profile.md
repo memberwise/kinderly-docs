@@ -5,7 +5,7 @@ sidebar:
   order: 2
 ---
 
-Your funding profile is a short questionnaire about your centre. It's the only thing driving what appears in [Opportunities](/funding/opportunities/).
+Your funding profile is a short questionnaire about your center. It's the only thing driving what appears in [Opportunities](/funding/opportunities/).
 
 ![The funding profile, showing completion and the program questions](../../../assets/screenshots/funding-profile.png)
 
@@ -15,7 +15,7 @@ The profile is used inside Kinderly to match you. It isn't submitted anywhere or
 
 A progress bar at the top shows how many questions you've answered — aim for complete.
 
-## Pulled from your centre settings
+## Pulled from your center settings
 
 **State**, **ZIP code** and **children enrolled** come from [Manage → Settings](/manage/settings/) and your child records. If any show as *Not set*, fix them there.
 
@@ -35,7 +35,7 @@ Plenty of grants are geographically restricted, sometimes to specific counties o
 | **Quality rating (stars)** | Your QRIS rating |
 
 :::caution[Licensed capacity is your licence limit, not your roll]
-It's the field most often filled in wrongly. A centre licensed for 60 with 40 enrolled should enter 60. Entering 40 can push you under the threshold for capacity-based grants you actually qualify for.
+It's the field most often filled in wrongly. A center licensed for 60 with 40 enrolled should enter 60. Entering 40 can push you under the threshold for capacity-based grants you actually qualify for.
 :::
 
 :::tip[Tax status matters more than it looks]

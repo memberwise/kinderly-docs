@@ -64,7 +64,7 @@ Chain them and a completed enrollment packet can, on its own:
 That's the whole of enrollment admin, done from data the family typed once.
 
 :::tip[This is the highest-value thing in Kinderly, and the least obvious]
-Most centres use packets to collect signatures and then key the answers into Manage by hand — which is the error-prone part, and the part that takes the afternoon. Wiring up these actions once removes that step permanently.
+Most centers use packets to collect signatures and then key the answers into Manage by hand — which is the error-prone part, and the part that takes the afternoon. Wiring up these actions once removes that step permanently.
 :::
 
 :::caution[Test on yourself before pointing it at families]
