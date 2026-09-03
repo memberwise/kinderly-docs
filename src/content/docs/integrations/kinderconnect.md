@@ -21,7 +21,11 @@ Enter your credentials under **Manage → Settings → Integrations → KinderCo
 
 ![alt text](image-2.png)
 
-All of these come from KinderSystems, not from Kinderly. Your state agency or KinderSystems support is who to ask.
+To get your **Provider Number**, **Group Password** and **Agency ID**, please contact your KinderSystems rep. Kinderly cannot provide you with this information
+
+:::caution[Treat these as passwords]
+These credentials submit attendance that drives subsidy payments.
+:::
 
 Once you enter your credentials, click "Save".
 
@@ -29,13 +33,31 @@ You can view the auto-match status by going to **Manage** → **Children** → *
 
 Saving with the integration **enabled** immediately runs an auto-match, which doubles as a connection test.
 
-:::caution[Treat these as passwords]
-These credentials submit attendance that drives subsidy payments.
+Once the connection is enabled, you can access the **KinderConnect Integration** page from **Manage → KinderConnect**. Click the "Manage KinderSystems Integration" to enter the integration page.
+
+![alt text](image-3.png)
+
+
+In the integration page, you can auto-match children, submit attendance, and link childing in Kinderly to children in KinderConnect.
+
+![alt text](image-4.png)
+
+To submit attendance manually, click the **Submit Attendance** tab, and select the children you'd like to submit.
+
+:::caution[Make sure you select the correct date range]
+Selecting a date range outside of a child's valid authorization will result in a failed batch.
 :::
+
+![alt text](image-5.png)
+
+After you submit, you'll see a summary of the submission, including any errors. If you see any **Skipped Records** or errors, work through the issues before submitting again.
+
+![alt text](image-6.png)
 
 ## Matching children
 
 Kinderly has to know which of your children corresponds to which KinderSystems record. It pulls the KinderSystems children list for the current month and compares.
+
 
 | Result | What it means |
 |---|---|
