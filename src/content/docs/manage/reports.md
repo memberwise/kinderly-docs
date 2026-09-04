@@ -41,11 +41,17 @@ Pick a report, set the date range and any filters, and **Run report**.
 
 ## Custom reports
 
-Beyond the pre-built set there's a **report builder** for questions the standard reports don't answer, and you can **save** a custom report to re-run later.
+Beyond the pre-built set there's a **report builder** for questions the standard reports don't answer. It can start from children, guardians, staff, attendance, invoices or expenses; filter on any combination of fields; and group and total the results. Saved reports re-run from this screen with one click.
+
+See [Building custom reports](/manage/custom-reports/) for a full walkthrough.
 
 :::tip[Save the ones you run monthly]
 Board reports, funder returns and licensing packs tend to be the same query every month. Building it once and saving it turns a half-hour job into one click.
 :::
+
+## Favorites
+
+The star on a report card pins it to a **Favorites** section at the top of this screen. Stars are personal — starring a report doesn't change what anyone else sees. There's also a search box that looks across both the pre-built and saved reports.
 
 ## CACFP
 
