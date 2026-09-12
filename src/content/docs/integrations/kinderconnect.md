@@ -29,6 +29,17 @@ These credentials submit attendance that drives subsidy payments.
 
 Once you enter your credentials, click "Save".
 
+### Coming back to this screen later
+
+**Group Password** and **Cognito Client Secret** are stored encrypted and are
+never shown again — when you return, those two boxes are empty and read
+"Saved". That is normal, and nothing has been lost.
+
+- To change one, type the new value and save.
+- To leave one alone, leave the box empty. Saving with it blank keeps what is
+  already stored, so you can change your cadence or your agency ID without
+  digging out your password.
+
 You can view the auto-match status by going to **Manage** → **Children** → **Manage KinderSystems Integration**
 
 Saving with the integration **enabled** immediately runs an auto-match, which doubles as a connection test.
@@ -120,6 +131,76 @@ An evening cadence means the day's attendance is complete and any sign-out corre
 Once a day has been sent it isn't re-sent, so a correction made afterwards won't automatically reach KinderSystems. If you spot a sign-in error, fix it before that day's submission window passes.
 :::
 
+## Checking it's working
+
+You don't have to wait for something to go wrong to find out where you stand.
+**Manage → Settings → Integrations** shows a status line for each connection:
+
+| Status | What it means |
+|---|---|
+| **Working** | Running, and attendance is up to date |
+| **Needs a look** | The last run went through, but left some records behind |
+| **Failing** | The last run didn't go through |
+| **Stalled** | Nothing has been submitted for far longer than your cadence allows |
+| **Incomplete** | Switched on, but the credentials aren't filled in — nothing will be sent |
+| **Off** | Not connected |
+
+Underneath it you'll find your cadence, the next run date, the last day that
+reached the state, and when the last run happened. **Recent runs** expands to
+show the last ten attempts — scheduled and manual — with what each one did.
+
+:::tip[The one number to look at]
+**Sent through** is the answer to "has last week's attendance reached the
+state?". Everything else on the panel explains it.
+:::
+
+### If a scheduled submission fails
+
+You don't have to watch for this. When a scheduled run fails, Kinderly tells
+your administrators straight away:
+
+- a notification in the staff app, which links to this page
+- an email to your administrators and the account owner
+
+The message says which days didn't reach the state and what the provider
+objected to. Fix the cause — usually a credential — and re-submit that range
+from the KinderConnect page.
+
+While the problem persists you get **one** alert, not one per attempt: a repeat
+failure updates the existing notification rather than sending another. Once a
+run succeeds the alert clears itself.
+
+:::caution[A failed run leaves those days unsent]
+The submission window doesn't move forward past days that failed, so the next
+scheduled run picks them up again. That's the behaviour you want — but if the
+underlying problem isn't fixed, it will keep failing, which is why the alert
+matters.
+:::
+
+### If submissions quietly stop
+
+Not every problem announces itself. If your credentials stop working, or the
+integration gets switched off while the schedule stays on, scheduled runs are
+skipped rather than failed — nothing errors, and the last run still shows as a
+success.
+
+Kinderly checks for this once a day. If nothing has reached the state for
+noticeably longer than your cadence allows, your administrators get the same
+kind of alert, saying how far behind you are and — where we can tell — why.
+
+The allowance follows your **cadence**, not a fixed number of days: a weekly
+schedule is expected to be about a week behind, a monthly one about a month.
+You'll only hear from us when the gap is genuinely bigger than your own
+schedule explains.
+
+This alert repeats weekly rather than daily while the problem lasts, and
+disappears on its own once submissions catch up.
+
+:::tip[This is the one worth acting on quickly]
+A failed run is loud and gets fixed. A center that has silently stopped
+submitting looks completely healthy until the subsidy payments don't arrive.
+:::
+
 ## When something looks wrong
 
 1. **Is the child matched?** Unmatched children are silently excluded from submissions.
@@ -127,6 +208,7 @@ Once a day has been sent it isn't re-sent, so a correction made afterwards won't
 3. **Anything sitting in Needs Review?** Those aren't matched until you confirm them.
 4. **Has the day already been submitted?** Sent days aren't re-sent, so later corrections don't propagate.
 5. **Are the credentials still valid?** Save the settings again with the integration enabled — that re-runs the connection test.
+6. **Did you get a failure alert?** Check the staff app's notifications and your email — a failed scheduled run reports itself, with the reason the state gave.
 
 ## Next
 

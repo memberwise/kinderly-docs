@@ -1,0 +1,35 @@
+- generic [active] [ref=f52e1]:
+  - text: Kinderly August 2026 New Five updates shipped in August
+  - heading "Grants you qualify for, paperwork that speaks up" [level=1] [ref=f52e2]
+  - paragraph [ref=f52e3]: August was about the parts of running a center that happen in the background — money you didn't know was available, paperwork quietly going out of date, and reports that submit themselves.
+  - text: ✓ Included on your plan · ✓ Nothing to install
+  - paragraph [ref=f52e5]: "Hi {{ contact.FIRSTNAME | default : \"there\" }},"
+  - paragraph [ref=f52e6]: Here's what landed in Kinderly this month. Everything below is already in your account.
+  - generic [ref=f52e7]: 🏦
+  - heading "The Funding Center" [level=2] [ref=f52e8]
+  - paragraph [ref=f52e9]: "Grants are usually missed for two unglamorous reasons: nobody heard the opportunity existed until after the deadline, and nobody could find a current W-9 the week it was due. Fill in your funding profile once and see grants you actually match — then track deadlines, document checklists and reporting dates in one calendar. Available on Bloom and above."
+  - generic [ref=f52e11]: 📅
+  - heading "Documents that tell you when they're stale" [level=2] [ref=f52e12]
+  - paragraph [ref=f52e13]: Set an expiration date on a document and Kinderly warns you a week before it lapses, by email and push. It works on your document library, files attached to a child, guardian or staff member, shares, and staff certificates. Nothing is deleted when the date passes — it's just labelled, so an expired certificate stops looking exactly like a current one.
+  - generic [ref=f52e15]: 🔄
+  - heading "KinderConnect submits itself" [level=2] [ref=f52e16]
+  - paragraph [ref=f52e17]: Attendance submissions can now run on a schedule — daily, weekly, biweekly, monthly or twice monthly — against your center's local clock, daylight saving included. Only whole, finished days are sent, and nothing is sent twice. Schedule it just after you close and the day's corrections are already in.
+  - generic [ref=f52e19]: 🔔
+  - heading "Out-of-ratio alerts, on the floor" [level=2] [ref=f52e20]
+  - paragraph [ref=f52e21]: Kinderly watches your rooms during operating hours and alerts staff in the Teachers app when one drops below its required ratio. It counts who is actually signed in, not who's on the roster. Set the repeat interval, or send alerts to administrators only. The app also has a notification center now, so a dismissed push can still be found.
+  - generic [ref=f52e23]: 🎥
+  - heading "Video — and repeating events — in the feed" [level=2] [ref=f52e24]
+  - paragraph [ref=f52e25]: Feed posts now take video as well as photos, up to 20 attachments each, playing inline for families. Events and closures can repeat on the weekdays you choose, up to a year out, and be marked all-day. Put the year's closures in once and stop fielding “are you open on the 24th?” every December.
+  - paragraph [ref=f52e26]: Just landed in September
+  - heading "Curriculum is live" [level=2] [ref=f52e27]
+  - paragraph [ref=f52e28]: Document learning against Head Start ELOF or your state's standards. Teachers tag the daily notes they already write to a learning outcome in one tap, and each child's assessment pre-fills from that evidence instead of being typed from memory.
+  - link "See how it works →" [ref=f52e29] [cursor=pointer]:
+    - /url: https://mykinderly.com/manage/curriculum
+  - link "Read what's new →" [ref=f52e30] [cursor=pointer]:
+    - /url: https://mykinderly.com/blog/whats-new-august-2026
+  - link "Open Kinderly" [ref=f52e31] [cursor=pointer]:
+    - /url: https://go.mykinderly.com
+  - paragraph [ref=f52e32]: As always, reply to this email if you have questions or feedback — we read every message.
+  - paragraph [ref=f52e33]: — The Kinderly Team
+  - paragraph [ref=f52e34]: You're receiving this because you have a Kinderly account.
+  - paragraph [ref=f52e35]: Kinderly © 2026

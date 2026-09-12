@@ -1,0 +1,608 @@
+- generic [active] [ref=f63e1]:
+  - region "Announcement" [ref=f63e2]:
+    - generic [ref=f63e4]:
+      - generic [ref=f63e5]:
+        - paragraph [ref=f63e9]: Kinderly is now free for up to 10 children — get started at no cost.
+        - link "Get started" [ref=f63e10] [cursor=pointer]:
+          - /url: /request-demo
+      - button "Dismiss announcement" [ref=f63e13]
+  - banner [ref=f63e16]:
+    - generic [ref=f63e17]:
+      - link "Kinderly logo Kinderly" [ref=f63e18] [cursor=pointer]:
+        - /url: /
+        - img "Kinderly logo" [ref=f63e19]
+        - generic [ref=f63e20]: Kinderly
+      - navigation [ref=f63e21]:
+        - generic [ref=f63e22]:
+          - button "Products" [ref=f63e23]
+          - generic:
+            - generic:
+              - generic:
+                - paragraph: One system for your whole center
+                - link "Everything is on every plan →":
+                  - /url: /pricing
+              - generic:
+                - generic:
+                  - link "Enrollment":
+                    - /url: /enroll
+                  - paragraph: Paperwork families finish on their phone
+                  - list:
+                    - listitem:
+                      - link "Digital enrollment forms":
+                        - /url: /enroll/forms
+                    - listitem:
+                      - link "Document storage & e-sign":
+                        - /url: /enroll/documents
+                    - listitem:
+                      - link "Enrollment packets":
+                        - /url: /enroll/packets
+                    - listitem:
+                      - link "Automations & actions":
+                        - /url: /enroll/actions
+                    - listitem:
+                      - link "Secure family share links":
+                        - /url: /enroll/shares
+                  - link "Done-for-you We digitize your existing packet.":
+                    - /url: /enroll/done-for-you
+                    - generic: Done-for-you
+                    - generic: We digitize your existing packet.
+                - generic:
+                  - link "Your website & family tracking":
+                    - /url: /grow
+                  - paragraph: A website that brings you tours
+                  - list:
+                    - listitem:
+                      - link "Easy-to-use website builder":
+                        - /url: /grow/website-builder
+                    - listitem:
+                      - link "Forms right on your website":
+                        - /url: /grow/embeddable-forms
+                    - listitem:
+                      - link "Family tracker board":
+                        - /url: /grow/family-tracker
+                    - listitem:
+                      - link "A board for each program or location":
+                        - /url: /grow/boards
+                    - listitem:
+                      - link "To-dos, notes & forms on every family":
+                        - /url: /grow/tasks
+                    - listitem:
+                      - link "Pages, looks & photo library":
+                        - /url: /grow/pages
+                    - listitem:
+                      - link "Virtual tours of your center":
+                        - /url: /grow/tours
+                    - listitem:
+                      - link "Hosting & your own web address":
+                        - /url: /grow/hosting
+                    - listitem:
+                      - link "Found on Google":
+                        - /url: /grow/seo
+                    - listitem:
+                      - link "Simple visitor reports":
+                        - /url: /grow/analytics
+                - generic:
+                  - link "Center management":
+                    - /url: /manage
+                  - paragraph: Your whole center, running calmly
+                  - list:
+                    - listitem:
+                      - link "Child records":
+                        - /url: /manage/children
+                    - listitem:
+                      - link "Staff records & app access":
+                        - /url: /manage/staff
+                    - listitem:
+                      - link "Guardians & families":
+                        - /url: /manage/guardians
+                    - listitem:
+                      - link "Classrooms & ratios":
+                        - /url: /manage/classrooms
+                    - listitem:
+                      - link "Programs & enrollment":
+                        - /url: /manage/programs
+                    - listitem:
+                      - link "Attendance tracking":
+                        - /url: /manage/attendance
+                    - listitem:
+                      - link "Staff scheduling":
+                        - /url: /manage/scheduling
+                    - listitem:
+                      - link "Child scheduling":
+                        - /url: /manage/child-scheduling
+                    - listitem:
+                      - link "Messaging with families":
+                        - /url: /manage/messages
+                    - listitem:
+                      - link "Curriculum":
+                        - /url: /manage/curriculum
+                    - listitem:
+                      - link "Reports & compliance":
+                        - /url: /manage/reports
+                    - listitem:
+                      - link "Teacher & parent apps":
+                        - /url: /manage/mobile
+                    - listitem:
+                      - link "KinderConnect integration":
+                        - /url: /manage/kinderconnect
+                    - listitem:
+                      - link "Expenses & budgets":
+                        - /url: /manage/finance
+                - generic:
+                  - link "Tuition & billing":
+                    - /url: /manage/billing
+                  - paragraph: Tuition you don't have to chase
+                  - list:
+                    - listitem:
+                      - link "Billing accounts":
+                        - /url: /manage/billing/accounts
+                    - listitem:
+                      - link "Invoices & billing runs":
+                        - /url: /manage/billing/invoices
+                    - listitem:
+                      - link "Online payments":
+                        - /url: /manage/billing/payments
+              - generic:
+                - link "Security & Privacy":
+                  - /url: /security
+                - link "Integrations":
+                  - /url: /integrations
+                - link "Compare":
+                  - /url: /vs
+        - link "Pricing" [ref=f63e26] [cursor=pointer]:
+          - /url: /pricing
+        - link "Blog" [ref=f63e27] [cursor=pointer]:
+          - /url: /blog
+        - link "Contact" [ref=f63e28] [cursor=pointer]:
+          - /url: /contact
+        - link "Get started free" [ref=f63e29] [cursor=pointer]:
+          - /url: https://go.mykinderly.com/signup
+        - link "Sign In" [ref=f63e30] [cursor=pointer]:
+          - /url: https://go.mykinderly.com/auth/login
+  - navigation "Breadcrumb" [ref=f63e33]:
+    - list [ref=f63e34]:
+      - listitem [ref=f63e35]:
+        - link "Home" [ref=f63e36] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=f63e37]:
+        - generic [ref=f63e40]: Enrollment
+  - main [ref=f63e41]:
+    - generic [ref=f63e43]:
+      - generic [ref=f63e44]:
+        - generic [ref=f63e45]: Enrollment
+        - heading "Stop chasing paper enrollment forms" [level=1] [ref=f63e46]
+        - paragraph [ref=f63e47]: Build a digital enrollment packet in minutes — forms, documents, signatures, automations. Send each family a private link they can finish on any phone. You get notified the moment they're done.
+        - generic [ref=f63e48]:
+          - link "Get started free" [ref=f63e49] [cursor=pointer]:
+            - /url: https://go.mykinderly.com/signup
+          - link "See how it works" [ref=f63e50] [cursor=pointer]:
+            - /url: "#features"
+        - paragraph [ref=f63e51]: No credit card · Free forever plan · Works alongside any CCMS
+      - generic [ref=f63e55]:
+        - generic [ref=f63e56]: Smith Family · Enrollment Packet
+        - generic [ref=f63e61]: Family Information
+        - generic [ref=f63e66]: Child Health Form
+        - generic [ref=f63e71]: Photo Release
+        - generic [ref=f63e76]:
+          - generic [ref=f63e77]: ·
+          - generic [ref=f63e79]: Parent Handbook
+        - generic [ref=f63e80]:
+          - generic [ref=f63e81]: ·
+          - generic [ref=f63e83]: Tuition Agreement
+        - generic [ref=f63e84]: Step 4 of 5
+    - generic [ref=f63e86]:
+      - generic [ref=f63e87]:
+        - paragraph [ref=f63e88]: Without Kinderly
+        - heading "A binder of forms and a phone full of texts" [level=3] [ref=f63e89]
+        - list [ref=f63e90]:
+          - listitem [ref=f63e91]:
+            - generic [ref=f63e92]: ✕
+            - generic [ref=f63e93]: Print the packet, hand it over, hope it comes back complete.
+          - listitem [ref=f63e94]:
+            - generic [ref=f63e95]: ✕
+            - generic [ref=f63e96]: Chase missing signatures and missing pages for weeks.
+          - listitem [ref=f63e97]:
+            - generic [ref=f63e98]: ✕
+            - generic [ref=f63e99]: Re-key data into your CCMS, billing, and waitlist tools.
+          - listitem [ref=f63e100]:
+            - generic [ref=f63e101]: ✕
+            - generic [ref=f63e102]: Lose families to faster, less painful competitors.
+      - generic [ref=f63e103]:
+        - paragraph [ref=f63e104]: With Kinderly
+        - heading "A single link a family finishes in twenty minutes" [level=3] [ref=f63e105]
+        - list [ref=f63e106]:
+          - listitem [ref=f63e107]:
+            - generic [ref=f63e108]: ✓
+            - generic [ref=f63e109]: Send a guided packet that won't let families skip a step.
+          - listitem [ref=f63e110]:
+            - generic [ref=f63e111]: ✓
+            - generic [ref=f63e112]: E-signatures, file uploads, and conditional questions handled inline.
+          - listitem [ref=f63e113]:
+            - generic [ref=f63e114]: ✓
+            - generic [ref=f63e115]: Automations push completed data into your family tracker, your child records, or your existing CCMS.
+          - listitem [ref=f63e116]:
+            - generic [ref=f63e117]: ✓
+            - generic [ref=f63e118]: Get notified the moment a family is done — no more "did you finish that?"
+    - generic [ref=f63e120]:
+      - generic [ref=f63e121]:
+        - heading "A look inside enrollment" [level=2] [ref=f63e122]
+        - paragraph [ref=f63e123]: Drag-and-drop builder, multi-step packets, and a clean family experience.
+      - generic [ref=f63e124]:
+        - generic [ref=f63e125]:
+          - button "Previous" [ref=f63e126]
+          - generic [ref=f63e129]:
+            - button "Form Builder" [ref=f63e130]
+            - button "Packets" [ref=f63e133]
+            - button "Documents" [ref=f63e136]
+          - button "Next" [ref=f63e139]
+        - generic [ref=f63e143]:
+          - article [ref=f63e144]:
+            - img "Kinderly drag-and-drop form builder" [ref=f63e147]
+            - generic [ref=f63e148]:
+              - generic [ref=f63e149]:
+                - heading "Drag-and-drop form builder" [level=3] [ref=f63e150]
+                - paragraph [ref=f63e151]: Create a form in minutes.
+              - generic [ref=f63e152]:
+                - generic [ref=f63e153]: "01"
+                - generic [ref=f63e155]: "03"
+          - article:
+            - generic:
+              - generic:
+                - img "Kinderly packet canvas"
+            - generic:
+              - generic:
+                - heading "Multi-step packets" [level=3]
+                - paragraph: Order forms, documents, and actions on a visual flow.
+              - generic:
+                - generic: "02"
+                - generic: "03"
+          - article:
+            - generic:
+              - generic:
+                - img "Kinderly PDF viewer"
+            - generic:
+              - generic:
+                - heading "PDF viewer & e-signatures" [level=3]
+                - paragraph: Sign, annotate, and store documents in the browser.
+              - generic:
+                - generic: "03"
+                - generic: "03"
+    - generic [ref=f63e157]:
+      - generic [ref=f63e158]:
+        - generic [ref=f63e159]:
+          - paragraph [ref=f63e160]: Form Builder
+          - heading "Build a form in five minutes — without ever calling IT." [level=2] [ref=f63e161]
+          - paragraph [ref=f63e162]: Drag fields onto a canvas. Edit each field's label, hint, and validation in a sidebar. Preview live. There is nothing to install and nothing to design.
+          - list [ref=f63e163]:
+            - listitem [ref=f63e164]:
+              - generic [ref=f63e165]: ✓
+              - text: Text, email, phone, date, choice, dropdown, signature, file upload, legal blocks, and more
+            - listitem [ref=f63e166]:
+              - generic [ref=f63e167]: ✓
+              - text: Required / optional toggles and per-field validation
+            - listitem [ref=f63e168]:
+              - generic [ref=f63e169]: ✓
+              - text: Reusable forms — build once, drop into any packet
+          - link "More on the form builder →" [ref=f63e170] [cursor=pointer]:
+            - /url: /enroll/forms
+        - img "Kinderly form builder screenshot" [ref=f63e172]
+      - generic [ref=f63e173]:
+        - generic [ref=f63e174]:
+          - paragraph [ref=f63e175]: Packets
+          - heading "Bundle forms and documents into a guided checklist." [level=2] [ref=f63e176]
+          - paragraph [ref=f63e177]: Connect form nodes, document nodes, and automation nodes on a flow canvas. Add a condition to branch on a family's answer. Families finish step-by-step — the order you decide.
+          - list [ref=f63e178]:
+            - listitem [ref=f63e179]:
+              - generic [ref=f63e180]: ✓
+              - text: Step-by-step navigation — nothing skipped, nothing missed
+            - listitem [ref=f63e181]:
+              - generic [ref=f63e182]: ✓
+              - text: Conditional branches based on answers (infant vs. preschool, sibling vs. new)
+            - listitem [ref=f63e183]:
+              - generic [ref=f63e184]: ✓
+              - text: Approve before action mode for high-touch packets
+          - link "More on packets →" [ref=f63e185] [cursor=pointer]:
+            - /url: /enroll/packets
+        - img "Guided enrollment packet with forms, documents, and conditional branches on a flow canvas" [ref=f63e187]
+      - generic [ref=f63e188]:
+        - generic [ref=f63e189]:
+          - paragraph [ref=f63e190]: Family Experience
+          - heading "No accounts. No passwords. Just a link and a PIN." [level=2] [ref=f63e191]
+          - paragraph [ref=f63e192]: Each family gets a unique, expiring link with a 6-digit PIN. They open it on a phone, tablet, or desktop and finish. There is nothing to download, nothing to sign up for, and the link is scoped to their session only.
+          - list [ref=f63e193]:
+            - listitem [ref=f63e194]:
+              - generic [ref=f63e195]: ✓
+              - text: PIN-protected, link locks after 5 wrong attempts
+            - listitem [ref=f63e196]:
+              - generic [ref=f63e197]: ✓
+              - text: Optional expiry and max-uses per share
+            - listitem [ref=f63e198]:
+              - generic [ref=f63e199]: ✓
+              - text: Mobile-first — touch signatures and photo uploads work everywhere
+          - link "More on secure sharing →" [ref=f63e200] [cursor=pointer]:
+            - /url: /enroll/shares
+        - img "Family receiving a PIN-protected share link to complete enrollment on mobile" [ref=f63e205]
+    - generic [ref=f63e207]:
+      - generic [ref=f63e208]:
+        - heading "Everything in enrollment" [level=2] [ref=f63e209]
+        - paragraph [ref=f63e210]: Each piece works on its own — and together they cover the whole job.
+      - generic [ref=f63e211]:
+        - link [ref=f63e212] [cursor=pointer]:
+          - /url: /enroll/forms
+          - heading "Digital enrollment forms" [level=3] [ref=f63e213]
+          - paragraph [ref=f63e214]: Drag-and-drop form builder with signatures, file uploads, and conditional questions — no design skills required.
+          - generic [ref=f63e215]: Learn more
+        - link [ref=f63e218] [cursor=pointer]:
+          - /url: /enroll/documents
+          - heading "Document storage & e-sign" [level=3] [ref=f63e219]
+          - paragraph [ref=f63e220]: Store handbooks, permission slips, and policies in one place. Families read and sign PDFs right in their browser.
+          - generic [ref=f63e221]: Learn more
+        - link [ref=f63e224] [cursor=pointer]:
+          - /url: /enroll/packets
+          - heading "Enrollment packets" [level=3] [ref=f63e225]
+          - paragraph [ref=f63e226]: Bundle forms, documents, and signatures into a guided checklist. Families complete one step at a time.
+          - generic [ref=f63e227]: Learn more
+        - link [ref=f63e230] [cursor=pointer]:
+          - /url: /enroll/actions
+          - heading "Automations & actions" [level=3] [ref=f63e231]
+          - paragraph [ref=f63e232]: Trigger emails, add the family to your tracker, and route them based on their answers — all the moment a step is complete.
+          - generic [ref=f63e233]: Learn more
+        - link [ref=f63e236] [cursor=pointer]:
+          - /url: /enroll/shares
+          - heading "Secure family share links" [level=3] [ref=f63e237]
+          - paragraph [ref=f63e238]: Securely gather family information
+          - generic [ref=f63e239]: Learn more
+    - generic [ref=f63e244]:
+      - generic [ref=f63e245]:
+        - generic [ref=f63e246]: Done-for-you digitization
+        - heading "Send us your packet. We'll turn it into Kinderly." [level=2] [ref=f63e249]
+        - paragraph [ref=f63e250]: If you have an existing enrollment packet — PDFs, Word docs, paper forms, even a messy folder — our team will rebuild every field, signature line, and document request as native Kinderly forms. You get a clean, guided digital packet without lifting a finger.
+        - list [ref=f63e251]:
+          - listitem [ref=f63e252]:
+            - paragraph [ref=f63e256]: Every form, faithfully rebuilt. Medical, emergency contact, tuition agreement, handbook sign-off — all of it.
+          - listitem [ref=f63e257]:
+            - paragraph [ref=f63e261]: Document upload slots preserved. Immunization records, birth certificates, court orders — families upload right inside the packet.
+          - listitem [ref=f63e262]:
+            - paragraph [ref=f63e266]: Conditional logic included. Infant vs. preschool, sibling vs. new family — we branch it for you.
+          - listitem [ref=f63e267]:
+            - paragraph [ref=f63e271]: You review, we revise. Nothing goes live until you've approved the finished packet.
+        - generic [ref=f63e272]:
+          - link "See how it works →" [ref=f63e273] [cursor=pointer]:
+            - /url: /enroll/done-for-you
+          - link "Request a quote" [ref=f63e274] [cursor=pointer]:
+            - /url: /request-demo
+        - paragraph [ref=f63e279]: Your first form is free — no credit card required.
+      - generic [ref=f63e281]:
+        - generic [ref=f63e282]:
+          - paragraph [ref=f63e283]: Before
+          - generic [ref=f63e289]:
+            - paragraph [ref=f63e290]: Enrollment 2024.pdf
+            - paragraph [ref=f63e291]: 14 pages · scanned
+          - generic [ref=f63e297]:
+            - paragraph [ref=f63e298]: Medical form.docx
+            - paragraph [ref=f63e299]: Word
+          - generic [ref=f63e305]:
+            - paragraph [ref=f63e306]: Handbook sign.jpg
+            - paragraph [ref=f63e307]: Photo of paper
+        - generic [ref=f63e312]:
+          - paragraph [ref=f63e313]: After
+          - generic [ref=f63e316]:
+            - paragraph [ref=f63e318]: Kinderly Packet
+            - list [ref=f63e319]:
+              - listitem [ref=f63e320]:
+                - generic [ref=f63e324]: Child information
+              - listitem [ref=f63e325]:
+                - generic [ref=f63e329]: Medical & immunizations
+              - listitem [ref=f63e330]:
+                - generic [ref=f63e334]: Emergency contacts
+              - listitem [ref=f63e335]:
+                - generic [ref=f63e337]: Tuition agreement · signature
+              - listitem [ref=f63e338]:
+                - generic [ref=f63e340]: Handbook acknowledgement
+            - generic [ref=f63e341]:
+              - generic [ref=f63e342]: 5 steps
+              - generic [ref=f63e343]: Ready to send
+    - generic [ref=f63e345]:
+      - paragraph [ref=f63e346]: Works with anything
+      - heading "It's one system, so nothing has to be re-typed." [level=2] [ref=f63e347]
+      - paragraph [ref=f63e348]: Already have a management system you love? Kinderly runs alongside it via webhooks and email automations. Want a single platform? Plug straight into the rest of Kinderly.
+      - generic [ref=f63e349]:
+        - link [ref=f63e350] [cursor=pointer]:
+          - /url: /grow
+          - paragraph [ref=f63e351]: Your website & family tracking
+          - heading "Auto-create a pipeline card" [level=3] [ref=f63e352]
+          - paragraph [ref=f63e353]: Every new packet drops a card into your enrollment pipeline.
+        - link [ref=f63e354] [cursor=pointer]:
+          - /url: /manage
+          - paragraph [ref=f63e355]: Center management
+          - heading "Push the family into your CCMS" [level=3] [ref=f63e356]
+          - paragraph [ref=f63e357]: Completed packets create child and guardian records automatically.
+        - link [ref=f63e358] [cursor=pointer]:
+          - /url: /integrations
+          - paragraph [ref=f63e359]: Other systems
+          - heading "Send to your existing CCMS" [level=3] [ref=f63e360]
+          - paragraph [ref=f63e361]: Automations send completed data via email, webhook, or integration.
+    - generic [ref=f63e363]:
+      - generic [ref=f63e364]:
+        - paragraph [ref=f63e365]: Questions
+        - heading "Questions about enrollment" [level=2] [ref=f63e366]
+      - generic [ref=f63e367]:
+        - group [ref=f63e368]:
+          - heading "Do families need to create an account?" [level=3] [ref=f63e370] [cursor=pointer]
+          - paragraph [ref=f63e374]: No. Each family gets a private link with a 6-digit PIN — no signup required. They can open it on any phone, tablet, or computer.
+        - group [ref=f63e375]:
+          - heading "Can I require signatures and file uploads?" [level=3] [ref=f63e377] [cursor=pointer]
+        - group [ref=f63e381]:
+          - heading "What happens after a packet is completed?" [level=3] [ref=f63e383] [cursor=pointer]
+    - generic [ref=f63e388]:
+      - heading "Send your first packet today." [level=2] [ref=f63e389]
+      - paragraph [ref=f63e390]: Free forever plan · No credit card · Set up in under 10 minutes
+      - generic [ref=f63e391]:
+        - link "Get started free" [ref=f63e392] [cursor=pointer]:
+          - /url: https://go.mykinderly.com/signup
+        - link "Book a walkthrough" [ref=f63e393] [cursor=pointer]:
+          - /url: /request-demo
+      - paragraph [ref=f63e394]: Free migration · Free up to 10 children · Cancel anytime
+  - contentinfo [ref=f63e395]:
+    - generic [ref=f63e396]:
+      - generic [ref=f63e397]:
+        - generic [ref=f63e398]:
+          - link "Kinderly logo Kinderly" [ref=f63e399] [cursor=pointer]:
+            - /url: /
+            - img "Kinderly logo" [ref=f63e400]
+            - generic [ref=f63e401]: Kinderly
+          - paragraph [ref=f63e402]: One system for your whole center — enrollment, your website, attendance and ratios, tuition and reporting. Free up to 10 children.
+          - link "Get started free" [ref=f63e403] [cursor=pointer]:
+            - /url: https://go.mykinderly.com/signup
+        - generic [ref=f63e404]:
+          - heading [level=3] [ref=f63e405]:
+            - link "Enrollment" [ref=f63e406] [cursor=pointer]:
+              - /url: /enroll
+          - list [ref=f63e407]:
+            - listitem [ref=f63e408]:
+              - link "Digital enrollment forms" [ref=f63e409] [cursor=pointer]:
+                - /url: /enroll/forms
+            - listitem [ref=f63e410]:
+              - link "Document storage & e-sign" [ref=f63e411] [cursor=pointer]:
+                - /url: /enroll/documents
+            - listitem [ref=f63e412]:
+              - link "Enrollment packets" [ref=f63e413] [cursor=pointer]:
+                - /url: /enroll/packets
+            - listitem [ref=f63e414]:
+              - link "Automations & actions" [ref=f63e415] [cursor=pointer]:
+                - /url: /enroll/actions
+            - listitem [ref=f63e416]:
+              - link "Secure family share links" [ref=f63e417] [cursor=pointer]:
+                - /url: /enroll/shares
+        - generic [ref=f63e418]:
+          - heading [level=3] [ref=f63e419]:
+            - link "Your website & family tracking" [ref=f63e420] [cursor=pointer]:
+              - /url: /grow
+          - list [ref=f63e421]:
+            - listitem [ref=f63e422]:
+              - link "Easy-to-use website builder" [ref=f63e423] [cursor=pointer]:
+                - /url: /grow/website-builder
+            - listitem [ref=f63e424]:
+              - link "Forms right on your website" [ref=f63e425] [cursor=pointer]:
+                - /url: /grow/embeddable-forms
+            - listitem [ref=f63e426]:
+              - link "Family tracker board" [ref=f63e427] [cursor=pointer]:
+                - /url: /grow/family-tracker
+            - listitem [ref=f63e428]:
+              - link "A board for each program or location" [ref=f63e429] [cursor=pointer]:
+                - /url: /grow/boards
+            - listitem [ref=f63e430]:
+              - link "To-dos, notes & forms on every family" [ref=f63e431] [cursor=pointer]:
+                - /url: /grow/tasks
+            - listitem [ref=f63e432]:
+              - link "Pages, looks & photo library" [ref=f63e433] [cursor=pointer]:
+                - /url: /grow/pages
+            - listitem [ref=f63e434]:
+              - link "Virtual tours of your center" [ref=f63e435] [cursor=pointer]:
+                - /url: /grow/tours
+            - listitem [ref=f63e436]:
+              - link "Hosting & your own web address" [ref=f63e437] [cursor=pointer]:
+                - /url: /grow/hosting
+        - generic [ref=f63e438]:
+          - heading [level=3] [ref=f63e439]:
+            - link "Center management" [ref=f63e440] [cursor=pointer]:
+              - /url: /manage
+          - list [ref=f63e441]:
+            - listitem [ref=f63e442]:
+              - link "Child records" [ref=f63e443] [cursor=pointer]:
+                - /url: /manage/children
+            - listitem [ref=f63e444]:
+              - link "Staff records & app access" [ref=f63e445] [cursor=pointer]:
+                - /url: /manage/staff
+            - listitem [ref=f63e446]:
+              - link "Guardians & families" [ref=f63e447] [cursor=pointer]:
+                - /url: /manage/guardians
+            - listitem [ref=f63e448]:
+              - link "Classrooms & ratios" [ref=f63e449] [cursor=pointer]:
+                - /url: /manage/classrooms
+            - listitem [ref=f63e450]:
+              - link "Programs & enrollment" [ref=f63e451] [cursor=pointer]:
+                - /url: /manage/programs
+            - listitem [ref=f63e452]:
+              - link "Attendance tracking" [ref=f63e453] [cursor=pointer]:
+                - /url: /manage/attendance
+            - listitem [ref=f63e454]:
+              - link "Staff scheduling" [ref=f63e455] [cursor=pointer]:
+                - /url: /manage/scheduling
+            - listitem [ref=f63e456]:
+              - link "Child scheduling" [ref=f63e457] [cursor=pointer]:
+                - /url: /manage/child-scheduling
+        - generic [ref=f63e458]:
+          - heading [level=3] [ref=f63e459]:
+            - link "Tuition & billing" [ref=f63e460] [cursor=pointer]:
+              - /url: /manage/billing
+          - list [ref=f63e461]:
+            - listitem [ref=f63e462]:
+              - link "Billing accounts" [ref=f63e463] [cursor=pointer]:
+                - /url: /manage/billing/accounts
+            - listitem [ref=f63e464]:
+              - link "Invoices & billing runs" [ref=f63e465] [cursor=pointer]:
+                - /url: /manage/billing/invoices
+            - listitem [ref=f63e466]:
+              - link "Online payments" [ref=f63e467] [cursor=pointer]:
+                - /url: /manage/billing/payments
+      - generic [ref=f63e468]:
+        - generic [ref=f63e469]:
+          - heading "Company" [level=3] [ref=f63e470]
+          - list [ref=f63e471]:
+            - listitem [ref=f63e472]:
+              - link "Security & Privacy" [ref=f63e473] [cursor=pointer]:
+                - /url: /security
+            - listitem [ref=f63e474]:
+              - link "Contact" [ref=f63e475] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=f63e476]:
+              - link "Book a walkthrough" [ref=f63e477] [cursor=pointer]:
+                - /url: /request-demo
+        - generic [ref=f63e478]:
+          - heading "Resources" [level=3] [ref=f63e479]
+          - list [ref=f63e480]:
+            - listitem [ref=f63e481]:
+              - link "Blog" [ref=f63e482] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=f63e483]:
+              - link "Pricing" [ref=f63e484] [cursor=pointer]:
+                - /url: /pricing
+            - listitem [ref=f63e485]:
+              - link "Compare" [ref=f63e486] [cursor=pointer]:
+                - /url: /vs
+            - listitem [ref=f63e487]:
+              - link "Integrations" [ref=f63e488] [cursor=pointer]:
+                - /url: /integrations
+            - listitem [ref=f63e489]:
+              - link "KinderConnect" [ref=f63e490] [cursor=pointer]:
+                - /url: /integrations/kinderconnect
+        - generic [ref=f63e491]:
+          - heading "Legal" [level=3] [ref=f63e492]
+          - list [ref=f63e493]:
+            - listitem [ref=f63e494]:
+              - link "Privacy Policy" [ref=f63e495] [cursor=pointer]:
+                - /url: /legal/privacy-policy
+            - listitem [ref=f63e496]:
+              - link "Terms & Conditions" [ref=f63e497] [cursor=pointer]:
+                - /url: /legal/terms
+            - listitem [ref=f63e498]:
+              - link "Acceptable Use" [ref=f63e499] [cursor=pointer]:
+                - /url: /legal/aup
+            - listitem [ref=f63e500]:
+              - link "Cookie Policy" [ref=f63e501] [cursor=pointer]:
+                - /url: /legal/cookie-policy
+            - listitem [ref=f63e502]:
+              - link "Refund Policy" [ref=f63e503] [cursor=pointer]:
+                - /url: /legal/refund-policy
+        - generic [ref=f63e504]:
+          - heading "Get started today" [level=3] [ref=f63e505]
+          - paragraph [ref=f63e506]: Free up to 10 children. No credit card, no setup fee.
+          - link "Get started free" [ref=f63e507] [cursor=pointer]:
+            - /url: https://go.mykinderly.com/signup
+      - generic [ref=f63e508]: © 2026 Kinderly — a Memberwise product. All rights reserved.
+  - generic [ref=f63e511]:
+    - button [ref=f63e512]
+    - button [ref=f63e518]
+    - button [ref=f63e522]
+    - button [ref=f63e530]

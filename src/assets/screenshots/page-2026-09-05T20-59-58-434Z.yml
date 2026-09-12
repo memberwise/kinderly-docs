@@ -1,0 +1,618 @@
+- generic [active] [ref=f54e1]:
+  - region "Announcement" [ref=f54e2]:
+    - generic [ref=f54e4]:
+      - generic [ref=f54e5]:
+        - paragraph [ref=f54e9]: Kinderly is now free for up to 10 children — get started at no cost.
+        - link "Get started" [ref=f54e10] [cursor=pointer]:
+          - /url: /request-demo
+      - button "Dismiss announcement" [ref=f54e13]
+  - banner [ref=f54e16]:
+    - generic [ref=f54e17]:
+      - link "Kinderly logo Kinderly" [ref=f54e18] [cursor=pointer]:
+        - /url: /
+        - img "Kinderly logo" [ref=f54e19]
+        - generic [ref=f54e20]: Kinderly
+      - navigation [ref=f54e21]:
+        - generic [ref=f54e22]:
+          - button "Products" [ref=f54e23]
+          - generic:
+            - generic:
+              - generic:
+                - link "Kinderly Enroll":
+                  - /url: /enroll
+                - paragraph: Digital forms & enrollment
+                - list:
+                  - listitem:
+                    - link "Digital enrollment forms":
+                      - /url: /enroll/forms
+                  - listitem:
+                    - link "Document storage & e-sign":
+                      - /url: /enroll/documents
+                  - listitem:
+                    - link "Enrollment packets":
+                      - /url: /enroll/packets
+                  - listitem:
+                    - link "Automations & actions":
+                      - /url: /enroll/actions
+                  - listitem:
+                    - link "Secure family share links":
+                      - /url: /enroll/shares
+                - link "Done-for-you We digitize your existing packet.":
+                  - /url: /enroll/done-for-you
+                  - generic: Done-for-you
+                  - paragraph: We digitize your existing packet.
+              - generic:
+                - link "Kinderly Grow":
+                  - /url: /grow
+                - paragraph: Enrollment pipeline & CRM
+                - list:
+                  - listitem:
+                    - link "Easy-to-use website builder":
+                      - /url: /grow/website-builder
+                  - listitem:
+                    - link "Forms right on your website":
+                      - /url: /grow/embeddable-forms
+                  - listitem:
+                    - link "Family tracker board":
+                      - /url: /grow/family-tracker
+                  - listitem:
+                    - link "A board for each program or location":
+                      - /url: /grow/boards
+                  - listitem:
+                    - link "To-dos, notes & forms on every family":
+                      - /url: /grow/tasks
+                  - listitem:
+                    - link "Pages, looks & photo library":
+                      - /url: /grow/pages
+                  - listitem:
+                    - link "Virtual tours of your center":
+                      - /url: /grow/tours
+                  - listitem:
+                    - link "Hosting & your own web address":
+                      - /url: /grow/hosting
+                  - listitem:
+                    - link "Found on Google":
+                      - /url: /grow/seo
+                  - listitem:
+                    - link "Simple visitor reports":
+                      - /url: /grow/analytics
+              - generic:
+                - link "Kinderly Manage":
+                  - /url: /manage
+                - paragraph: Full childcare management
+                - list:
+                  - listitem:
+                    - link "Child records":
+                      - /url: /manage/children
+                  - listitem:
+                    - link "Staff records & app access":
+                      - /url: /manage/staff
+                  - listitem:
+                    - link "Guardians & families":
+                      - /url: /manage/guardians
+                  - listitem:
+                    - link "Classrooms & ratios":
+                      - /url: /manage/classrooms
+                  - listitem:
+                    - link "Programs & enrollment":
+                      - /url: /manage/programs
+                  - listitem:
+                    - link "Attendance tracking":
+                      - /url: /manage/attendance
+                  - listitem:
+                    - link "Staff scheduling":
+                      - /url: /manage/scheduling
+                  - listitem:
+                    - link "Child scheduling":
+                      - /url: /manage/child-scheduling
+                  - listitem:
+                    - link "Messaging with families":
+                      - /url: /manage/messages
+                  - listitem:
+                    - link "Curriculum":
+                      - /url: /manage/curriculum
+                  - listitem:
+                    - link "Reports & compliance":
+                      - /url: /manage/reports
+                  - listitem:
+                    - link "Teacher & parent apps":
+                      - /url: /manage/mobile
+                  - listitem:
+                    - link "KinderConnect integration":
+                      - /url: /manage/kinderconnect
+                  - listitem:
+                    - link "Expenses & budgets":
+                      - /url: /manage/finance
+              - generic:
+                - link "Manage — Billing":
+                  - /url: /manage/billing
+                - paragraph: Family billing & payments
+                - list:
+                  - listitem:
+                    - link "Billing accounts":
+                      - /url: /manage/billing/accounts
+                  - listitem:
+                    - link "Invoices & billing runs":
+                      - /url: /manage/billing/invoices
+                  - listitem:
+                    - link "Online payments":
+                      - /url: /manage/billing/payments
+                - generic:
+                  - link "Security & Privacy":
+                    - /url: /security
+                  - link "Integrations":
+                    - /url: /integrations
+        - link "Pricing" [ref=f54e26] [cursor=pointer]:
+          - /url: /pricing
+        - link "Blog" [ref=f54e27] [cursor=pointer]:
+          - /url: /blog
+        - link "Contact" [ref=f54e28] [cursor=pointer]:
+          - /url: /contact
+        - link "Get Started Free" [ref=f54e29] [cursor=pointer]:
+          - /url: https://go.mykinderly.com/signup
+        - link "Sign In" [ref=f54e30] [cursor=pointer]:
+          - /url: https://go.mykinderly.com/auth/login
+  - navigation "Breadcrumb" [ref=f54e33]:
+    - list [ref=f54e34]:
+      - listitem [ref=f54e35]:
+        - link "Home" [ref=f54e36] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=f54e37]:
+        - link "Kinderly Manage" [ref=f54e40] [cursor=pointer]:
+          - /url: /manage
+      - listitem [ref=f54e41]:
+        - generic [ref=f54e44]: Curriculum
+  - main [ref=f54e45]:
+    - generic [ref=f54e47]:
+      - generic [ref=f54e48]:
+        - generic [ref=f54e49]: Kinderly Manage · Curriculum
+        - heading "The observation is the product. The assessment writes itself." [level=1] [ref=f54e50]
+        - paragraph [ref=f54e51]: Curriculum in Kinderly turns the notes your teachers already write into documented evidence against recognized learning standards — without asking them to do a second, separate job. Tag a daily note to a learning outcome in one tap, and by the time a reporting period closes, the portfolio has assembled itself.
+        - generic [ref=f54e52]:
+          - link "Request a Demo" [ref=f54e53] [cursor=pointer]:
+            - /url: /request-demo
+          - link "Get Started Free" [ref=f54e54] [cursor=pointer]:
+            - /url: https://go.mykinderly.com/signup
+        - paragraph [ref=f54e55]: Part of Kinderly Manage — no separate curriculum subscription, no licensed content vendor.
+      - img "The Curriculum screen in Kinderly Manage, showing Head Start ELOF enabled as the primary framework alongside a library of state early learning standards" [ref=f54e57]
+    - generic [ref=f54e59]:
+      - generic [ref=f54e60]:
+        - paragraph [ref=f54e61]: Curriculum as paperwork
+        - heading "How assessment usually goes" [level=3] [ref=f54e62]
+        - list [ref=f54e63]:
+          - listitem [ref=f54e64]:
+            - generic [ref=f54e65]: ✕
+            - generic [ref=f54e66]: At term end, a teacher sits down and rates thirty children from memory.
+          - listitem [ref=f54e67]:
+            - generic [ref=f54e68]: ✕
+            - generic [ref=f54e69]: Evidence means digging through a phone camera roll for photos.
+          - listitem [ref=f54e70]:
+            - generic [ref=f54e71]: ✕
+            - generic [ref=f54e72]: The lesson-plan library is licensed, fixed, and nobody edits it.
+          - listitem [ref=f54e73]:
+            - generic [ref=f54e74]: ✕
+            - generic [ref=f54e75]: You find out which outcomes are undocumented during the review.
+      - generic [ref=f54e76]:
+        - paragraph [ref=f54e77]: Curriculum in Kinderly
+        - heading "Documentation as a by-product" [level=3] [ref=f54e78]
+        - list [ref=f54e79]:
+          - listitem [ref=f54e80]:
+            - generic [ref=f54e81]: ✓
+            - generic [ref=f54e82]: Ratings pre-fill from observations teachers tagged in the moment.
+          - listitem [ref=f54e83]:
+            - generic [ref=f54e84]: ✓
+            - generic [ref=f54e85]: Evidence is the daily note and photo that was already posted to the family.
+          - listitem [ref=f54e86]:
+            - generic [ref=f54e87]: ✓
+            - generic [ref=f54e88]: Activities come from a starter library, your own staff, or other centers.
+          - listitem [ref=f54e89]:
+            - generic [ref=f54e90]: ✓
+            - generic [ref=f54e91]: Outcome Gaps tells you what's thin weeks before the visit.
+    - generic [ref=f54e93]:
+      - generic [ref=f54e94]:
+        - heading "Four steps, and only one of them is daily." [level=2] [ref=f54e95]
+        - paragraph [ref=f54e96]: Set the standards once. The rest happens inside work your team is already doing.
+      - generic [ref=f54e97]:
+        - generic [ref=f54e98]:
+          - generic [ref=f54e99]: "1"
+          - heading "Pick your standards" [level=3] [ref=f54e100]
+          - paragraph [ref=f54e101]: Enable Head Start ELOF, your state's framework, or both. Everything after this is measured against what you chose.
+        - generic [ref=f54e102]:
+          - generic [ref=f54e103]: "2"
+          - heading "Teachers tag as they go" [level=3] [ref=f54e104]
+          - paragraph [ref=f54e105]: A Learning row sits on the daily note teachers already write. Tagging an observation to an outcome is one tap.
+        - generic [ref=f54e106]:
+          - generic [ref=f54e107]: "3"
+          - heading "Plan the week with your eyes open" [level=3] [ref=f54e108]
+          - paragraph [ref=f54e109]: Build the week from outcome-mapped activities. The coverage meter shows which domains the week is neglecting.
+        - generic [ref=f54e110]:
+          - generic [ref=f54e111]: "4"
+          - heading "The assessment is already written" [level=3] [ref=f54e112]
+          - paragraph [ref=f54e113]: Open a reporting period and every child's ratings pre-fill from the evidence. Teachers confirm or override.
+    - generic [ref=f54e115]:
+      - generic [ref=f54e116]:
+        - generic [ref=f54e117]:
+          - paragraph [ref=f54e118]: Frameworks
+          - heading "Document against the standard your reviewer actually uses." [level=2] [ref=f54e119]
+          - paragraph [ref=f54e120]: A framework is a published set of learning standards. Kinderly ships Head Start's ELOF — 12 domains, 98 birth-to-five outcomes, public domain — with a library of state frameworks alongside it, each linked to the published standard so an assessor can check your work.
+          - list [ref=f54e121]:
+            - listitem [ref=f54e122]:
+              - generic [ref=f54e123]: ✓
+              - text: Run several frameworks at once; one is marked primary
+            - listitem [ref=f54e124]:
+              - generic [ref=f54e125]: ✓
+              - text: ELOF acts as the interlingua other frameworks crosswalk to
+            - listitem [ref=f54e126]:
+              - generic [ref=f54e127]: ✓
+              - text: Build your own domains, outcomes, and rubric levels
+        - img "Framework list showing Head Start ELOF enabled and marked primary, with Missouri, Kentucky, and Illinois standards available to enable" [ref=f54e129]
+      - generic [ref=f54e130]:
+        - generic [ref=f54e131]:
+          - paragraph [ref=f54e132]: Activity Library
+          - heading "Activities that already know what they're for." [level=2] [ref=f54e133]
+          - paragraph [ref=f54e134]: Every activity carries its age band, group size, materials list, and the outcomes it's meant to advance. Start from the built-in library, write your own, or copy what another center published — the outcome mappings travel with it.
+          - list [ref=f54e135]:
+            - listitem [ref=f54e136]:
+              - generic [ref=f54e137]: ✓
+              - text: Outcome-mapped starter library, editable from day one
+            - listitem [ref=f54e138]:
+              - generic [ref=f54e139]: ✓
+              - text: A shared library contributed by other centers, not a content vendor
+            - listitem [ref=f54e140]:
+              - generic [ref=f54e141]: ✓
+              - text: Draft new activities against your own framework when a gap appears
+        - img "The curriculum activity library in Kinderly Manage, each card showing duration, group size, materials, and the learning outcomes it maps to" [ref=f54e143]
+      - generic [ref=f54e144]:
+        - generic [ref=f54e145]:
+          - paragraph [ref=f54e146]: Weekly Planner
+          - heading "Plan the week. See what the week misses." [level=2] [ref=f54e147]
+          - paragraph [ref=f54e148]: Drag activities onto Monday through Friday, give the week a theme, and publish it to the room. Teachers tick activities off in the Kinderly Teachers app as they actually run them — which is a different fact from having planned them, and the one your reports rest on.
+          - list [ref=f54e149]:
+            - listitem [ref=f54e150]:
+              - generic [ref=f54e151]: ✓
+              - text: One plan per classroom per week, published or kept as a draft
+            - listitem [ref=f54e152]:
+              - generic [ref=f54e153]: ✓
+              - text: Completion is marked by the teacher who ran it, from the floor
+            - listitem [ref=f54e154]:
+              - generic [ref=f54e155]: ✓
+              - text: A coverage meter counts the domains this week touches
+        - img "The weekly curriculum planner showing published activities Monday to Friday, with completed ones struck through and a coverage indicator in the toolbar" [ref=f54e157]
+      - generic [ref=f54e158]:
+        - generic [ref=f54e159]:
+          - paragraph [ref=f54e160]: Coverage
+          - heading "Find the neglected domain while you can still fix it." [level=2] [ref=f54e161]
+          - paragraph [ref=f54e162]: The coverage meter breaks the week down by domain — what this week's activities are mapped to, and how many domains it doesn't touch at all. Across the term, Framework Coverage and Outcome Gaps do the same job for the whole center.
+          - list [ref=f54e163]:
+            - listitem [ref=f54e164]:
+              - generic [ref=f54e165]: ✓
+              - text: Per-domain progress while the week is still being written
+            - listitem [ref=f54e166]:
+              - generic [ref=f54e167]: ✓
+              - text: Framework Coverage by classroom, over any date range
+            - listitem [ref=f54e168]:
+              - generic [ref=f54e169]: ✓
+              - text: "Outcome Gaps: exactly which outcomes have little or no evidence"
+        - img "The framework coverage panel open over the planner, listing each learning domain with how many of its outcomes this week's activities reach" [ref=f54e171]
+      - generic [ref=f54e172]:
+        - generic [ref=f54e173]:
+          - paragraph [ref=f54e174]: Assessment Periods
+          - heading "A reporting window, not a data-entry project." [level=2] [ref=f54e175]
+          - paragraph [ref=f54e176]: Create a period for the term you're reporting on. Everything teachers tagged inside its dates becomes the evidence behind it. The roster shows who's confirmed, who's still in draft, and — importantly — which children nobody has generated for yet.
+          - list [ref=f54e177]:
+            - listitem [ref=f54e178]:
+              - generic [ref=f54e179]: ✓
+              - text: Pre-fill the whole center from observations in one action
+            - listitem [ref=f54e180]:
+              - generic [ref=f54e181]: ✓
+              - text: Filter the roster by classroom to see which room is behind
+            - listitem [ref=f54e182]:
+              - generic [ref=f54e183]: ✓
+              - text: Close a period to lock it; reopen it if something was missed
+        - img "The assessment roster for a reporting period, listing each child with their room, how many outcomes are confirmed, and their status" [ref=f54e185]
+      - generic [ref=f54e186]:
+        - generic [ref=f54e187]:
+          - paragraph [ref=f54e188]: Per-Child Review
+          - heading "The evidence and the judgement, side by side." [level=2] [ref=f54e189]
+          - paragraph [ref=f54e190]: Each outcome shows what the observations suggested and how many back it up — then the teacher sets the level. The suggestion is never applied on its own, because where the recorded evidence and a teacher's judgement disagree is the most useful thing on the page.
+          - list [ref=f54e191]:
+            - listitem [ref=f54e192]:
+              - generic [ref=f54e193]: ✓
+              - text: Outcomes grouped by domain, with the observation count on each
+            - listitem [ref=f54e194]:
+              - generic [ref=f54e195]: ✓
+              - text: "\"Confirm the rest\" finishes a child without making it automatic"
+            - listitem [ref=f54e196]:
+              - generic [ref=f54e197]: ✓
+              - text: Print it for a review, or share it with the family
+        - img "One child's assessment review, showing outcomes grouped by learning domain with a rating scale from Not Yet to Demonstrating and the observation count behind each" [ref=f54e199]
+    - generic [ref=f54e201]:
+      - generic [ref=f54e202]:
+        - heading "Standards in the box" [level=2] [ref=f54e203]
+        - paragraph [ref=f54e204]: Enable what you report against — and keep ELOF primary so the crosswalk keeps working.
+      - generic [ref=f54e205]:
+        - generic [ref=f54e206]:
+          - heading "Head Start ELOF" [level=3] [ref=f54e207]
+          - paragraph [ref=f54e208]: 12 domains · 98 outcomes · birth to five
+          - paragraph [ref=f54e209]: Included, and the interlingua other frameworks crosswalk to.
+        - generic [ref=f54e210]:
+          - heading "Missouri Early Learning Standards" [level=3] [ref=f54e211]
+          - paragraph [ref=f54e212]: 7 domains · 114 outcomes · 2021 revision
+          - paragraph [ref=f54e213]: What a Missouri quality review asks you to document against.
+        - generic [ref=f54e214]:
+          - heading "Kentucky Early Childhood Standards" [level=3] [ref=f54e215]
+          - paragraph [ref=f54e216]: 5 domains · 40 outcomes · 2013 revision
+          - paragraph [ref=f54e217]: Used for KY All STARS documentation.
+        - generic [ref=f54e218]:
+          - heading "Illinois Early Learning & Development" [level=3] [ref=f54e219]
+          - paragraph [ref=f54e220]: 8 domains · 186 outcomes · IELDS benchmarks
+          - paragraph [ref=f54e221]: What ExcelerateIllinois documentation is written against.
+        - generic [ref=f54e222]:
+          - heading "Arkansas Child Development Standards" [level=3] [ref=f54e223]
+          - paragraph [ref=f54e224]: Birth through five
+          - paragraph [ref=f54e225]: Alongside a growing library of other state frameworks.
+        - generic [ref=f54e226]:
+          - heading "Build your own" [level=3] [ref=f54e227]
+          - paragraph [ref=f54e228]: Your domains, outcomes, and rubric levels
+          - paragraph [ref=f54e229]: For accreditation bodies and center-specific philosophies.
+      - paragraph [ref=f54e230]: Don't see your state? Tell us on your demo call — state frameworks are added on request, and you can build your own in the meantime.
+    - generic [ref=f54e233]:
+      - generic [ref=f54e234]:
+        - paragraph [ref=f54e235]: In the Teachers app
+        - heading "One tap, on a note they were writing anyway." [level=2] [ref=f54e236]
+        - paragraph [ref=f54e237]:
+          - text: Teachers already post daily notes, photos, and milestones from the Kinderly Teachers app. Curriculum adds a
+          - strong [ref=f54e238]: Learning
+          - text: row to that note — tap an outcome, and the observation is documented, timestamped, and attributed. That's the whole workflow. There is no second app to open and nothing to catch up on at the end of the term.
+        - link "See the teacher and parent apps →" [ref=f54e239] [cursor=pointer]:
+          - /url: /manage/mobile
+      - generic [ref=f54e241]:
+        - generic [ref=f54e242]:
+          - paragraph [ref=f54e243]: Daily note · Preschool
+          - paragraph [ref=f54e244]: Juniper explained the turn-taking rule to a younger child at the water table, then waited for him to go first.
+        - generic [ref=f54e245]:
+          - paragraph [ref=f54e246]: Learning
+          - generic [ref=f54e247]:
+            - generic [ref=f54e248]: P-SE 2 · Prosocial behavior
+            - generic [ref=f54e249]: P-ATL 12
+            - generic [ref=f54e250]: P-LC 6
+        - paragraph [ref=f54e251]: Tagged by Camille F. · sent to the family as usual
+    - generic [ref=f54e253]:
+      - generic [ref=f54e254]:
+        - heading "Why this is different" [level=2] [ref=f54e255]
+        - paragraph [ref=f54e256]: Most systems sell curriculum as content plus a checkbox. The difference is where the evidence comes from.
+      - table [ref=f54e258]:
+        - rowgroup [ref=f54e259]:
+          - row [ref=f54e260]:
+            - columnheader [ref=f54e261]
+            - columnheader "The usual approach" [ref=f54e262]
+            - columnheader "Kinderly Curriculum" [ref=f54e263]
+        - rowgroup [ref=f54e264]:
+          - row [ref=f54e265]:
+            - rowheader "Lesson plan library" [ref=f54e266]
+            - cell "Licensed from one vendor, fixed" [ref=f54e267]
+            - cell "Starter library, your own activities, and a shared library from other centers — all editable" [ref=f54e268]
+          - row [ref=f54e269]:
+            - rowheader "Observations" [ref=f54e270]
+            - cell "A separate module teachers have to remember" [ref=f54e271]
+            - cell "One tap on the daily note they were already writing" [ref=f54e272]
+          - row [ref=f54e273]:
+            - rowheader "Evidence" [ref=f54e274]
+            - cell "Uploaded by hand at assessment time" [ref=f54e275]
+            - cell "Accrues on its own from the notes and photos teachers post" [ref=f54e276]
+          - row [ref=f54e277]:
+            - rowheader "Assessment" [ref=f54e278]
+            - cell "Rate thirty children from memory at term end" [ref=f54e279]
+            - cell "Pre-filled from tagged observations; the teacher confirms" [ref=f54e280]
+          - row [ref=f54e281]:
+            - rowheader "Frameworks" [ref=f54e282]
+            - cell "One built-in domain list" [ref=f54e283]
+            - cell "ELOF, state frameworks, or your own — several at once" [ref=f54e284]
+          - row [ref=f54e285]:
+            - rowheader "Coverage gaps" [ref=f54e286]
+            - cell "—" [ref=f54e287]
+            - cell "Per-room and per-child gaps, surfaced before the visit" [ref=f54e288]
+    - generic [ref=f54e291]:
+      - paragraph [ref=f54e292]: Part of Kinderly Manage
+      - heading "Curriculum reads from the center you already run" [level=3] [ref=f54e293]
+      - paragraph [ref=f54e294]: Children, classrooms, and staff come from Manage, so outcomes are filtered to each child's age band and every observation is attributed to the teacher who recorded it. Manage is included on every Kinderly plan — there is no separate curriculum module to buy.
+      - generic [ref=f54e295]:
+        - link "Kinderly Manage →" [ref=f54e296] [cursor=pointer]:
+          - /url: /manage
+        - link "Reports & compliance →" [ref=f54e297] [cursor=pointer]:
+          - /url: /manage/reports
+        - link "Teacher & parent apps →" [ref=f54e298] [cursor=pointer]:
+          - /url: /manage/mobile
+    - generic [ref=f54e300]:
+      - heading "Common questions about curriculum" [level=2] [ref=f54e302]
+      - generic [ref=f54e303]:
+        - group [ref=f54e304]:
+          - heading "Which learning frameworks do you support?" [level=3] [ref=f54e306] [cursor=pointer]
+          - paragraph [ref=f54e310]: Head Start's Early Learning Outcomes Framework (ELOF) ships with every account — 12 domains and 98 birth-to-five outcomes, public domain. A library of state frameworks sits alongside it (Kentucky, Missouri, Illinois, Arkansas and more), each linked to the published standard, and you can build your own. You can run several at once, with one marked primary.
+        - group [ref=f54e311]:
+          - heading "How much extra work is this for my teachers?" [level=3] [ref=f54e313] [cursor=pointer]
+        - group [ref=f54e317]:
+          - heading "Where do the assessments come from?" [level=3] [ref=f54e319] [cursor=pointer]
+        - group [ref=f54e323]:
+          - heading "Will this hold up in a QRIS or licensing review?" [level=3] [ref=f54e325] [cursor=pointer]
+        - group [ref=f54e329]:
+          - heading "Do we have to buy a lesson-plan library?" [level=3] [ref=f54e331] [cursor=pointer]
+        - group [ref=f54e335]:
+          - heading "Do parents see any of it?" [level=3] [ref=f54e337] [cursor=pointer]
+    - generic [ref=f54e342]:
+      - heading "Walk into your next review with the evidence already gathered." [level=2] [ref=f54e343]
+      - paragraph [ref=f54e344]: A short demo is the fastest way to see how the tagging workflow lands with your teachers.
+      - generic [ref=f54e345]:
+        - link "Request a Demo" [ref=f54e346] [cursor=pointer]:
+          - /url: /request-demo
+        - link "Get Started Free" [ref=f54e347] [cursor=pointer]:
+          - /url: https://go.mykinderly.com/signup
+  - contentinfo [ref=f54e348]:
+    - generic [ref=f54e349]:
+      - generic [ref=f54e350]:
+        - generic [ref=f54e351]:
+          - link "Kinderly logo Kinderly" [ref=f54e352] [cursor=pointer]:
+            - /url: /
+            - img "Kinderly logo" [ref=f54e353]
+            - generic [ref=f54e354]: Kinderly
+          - paragraph [ref=f54e355]: Childcare management, simplified. Enroll families, grow your center, and run the day-to-day from one calm system.
+          - link "Start for Free" [ref=f54e356] [cursor=pointer]:
+            - /url: https://go.mykinderly.com/signup
+        - generic [ref=f54e357]:
+          - heading [level=3] [ref=f54e358]:
+            - link "Enroll" [ref=f54e359] [cursor=pointer]:
+              - /url: /enroll
+          - list [ref=f54e360]:
+            - listitem [ref=f54e361]:
+              - link "Digital enrollment forms" [ref=f54e362] [cursor=pointer]:
+                - /url: /enroll/forms
+            - listitem [ref=f54e363]:
+              - link "Document storage & e-sign" [ref=f54e364] [cursor=pointer]:
+                - /url: /enroll/documents
+            - listitem [ref=f54e365]:
+              - link "Enrollment packets" [ref=f54e366] [cursor=pointer]:
+                - /url: /enroll/packets
+            - listitem [ref=f54e367]:
+              - link "Automations & actions" [ref=f54e368] [cursor=pointer]:
+                - /url: /enroll/actions
+            - listitem [ref=f54e369]:
+              - link "Secure family share links" [ref=f54e370] [cursor=pointer]:
+                - /url: /enroll/shares
+        - generic [ref=f54e371]:
+          - heading [level=3] [ref=f54e372]:
+            - link "Grow" [ref=f54e373] [cursor=pointer]:
+              - /url: /grow
+          - list [ref=f54e374]:
+            - listitem [ref=f54e375]:
+              - link "Easy-to-use website builder" [ref=f54e376] [cursor=pointer]:
+                - /url: /grow/website-builder
+            - listitem [ref=f54e377]:
+              - link "Forms right on your website" [ref=f54e378] [cursor=pointer]:
+                - /url: /grow/embeddable-forms
+            - listitem [ref=f54e379]:
+              - link "Family tracker board" [ref=f54e380] [cursor=pointer]:
+                - /url: /grow/family-tracker
+            - listitem [ref=f54e381]:
+              - link "A board for each program or location" [ref=f54e382] [cursor=pointer]:
+                - /url: /grow/boards
+            - listitem [ref=f54e383]:
+              - link "To-dos, notes & forms on every family" [ref=f54e384] [cursor=pointer]:
+                - /url: /grow/tasks
+            - listitem [ref=f54e385]:
+              - link "Pages, looks & photo library" [ref=f54e386] [cursor=pointer]:
+                - /url: /grow/pages
+            - listitem [ref=f54e387]:
+              - link "Virtual tours of your center" [ref=f54e388] [cursor=pointer]:
+                - /url: /grow/tours
+            - listitem [ref=f54e389]:
+              - link "Hosting & your own web address" [ref=f54e390] [cursor=pointer]:
+                - /url: /grow/hosting
+            - listitem [ref=f54e391]:
+              - link "Found on Google" [ref=f54e392] [cursor=pointer]:
+                - /url: /grow/seo
+            - listitem [ref=f54e393]:
+              - link "Simple visitor reports" [ref=f54e394] [cursor=pointer]:
+                - /url: /grow/analytics
+        - generic [ref=f54e395]:
+          - heading [level=3] [ref=f54e396]:
+            - link "Manage" [ref=f54e397] [cursor=pointer]:
+              - /url: /manage
+          - list [ref=f54e398]:
+            - listitem [ref=f54e399]:
+              - link "Child records" [ref=f54e400] [cursor=pointer]:
+                - /url: /manage/children
+            - listitem [ref=f54e401]:
+              - link "Staff records & app access" [ref=f54e402] [cursor=pointer]:
+                - /url: /manage/staff
+            - listitem [ref=f54e403]:
+              - link "Guardians & families" [ref=f54e404] [cursor=pointer]:
+                - /url: /manage/guardians
+            - listitem [ref=f54e405]:
+              - link "Classrooms & ratios" [ref=f54e406] [cursor=pointer]:
+                - /url: /manage/classrooms
+            - listitem [ref=f54e407]:
+              - link "Programs & enrollment" [ref=f54e408] [cursor=pointer]:
+                - /url: /manage/programs
+            - listitem [ref=f54e409]:
+              - link "Attendance tracking" [ref=f54e410] [cursor=pointer]:
+                - /url: /manage/attendance
+            - listitem [ref=f54e411]:
+              - link "Staff scheduling" [ref=f54e412] [cursor=pointer]:
+                - /url: /manage/scheduling
+            - listitem [ref=f54e413]:
+              - link "Child scheduling" [ref=f54e414] [cursor=pointer]:
+                - /url: /manage/child-scheduling
+        - generic [ref=f54e415]:
+          - heading [level=3] [ref=f54e416]:
+            - link "Billing" [ref=f54e417] [cursor=pointer]:
+              - /url: /manage/billing
+          - list [ref=f54e418]:
+            - listitem [ref=f54e419]:
+              - link "Billing accounts" [ref=f54e420] [cursor=pointer]:
+                - /url: /manage/billing/accounts
+            - listitem [ref=f54e421]:
+              - link "Invoices & billing runs" [ref=f54e422] [cursor=pointer]:
+                - /url: /manage/billing/invoices
+            - listitem [ref=f54e423]:
+              - link "Online payments" [ref=f54e424] [cursor=pointer]:
+                - /url: /manage/billing/payments
+      - generic [ref=f54e425]:
+        - generic [ref=f54e426]:
+          - heading "Company" [level=3] [ref=f54e427]
+          - list [ref=f54e428]:
+            - listitem [ref=f54e429]:
+              - link "Security & Privacy" [ref=f54e430] [cursor=pointer]:
+                - /url: /security
+            - listitem [ref=f54e431]:
+              - link "Contact" [ref=f54e432] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=f54e433]:
+              - link "Request a Demo" [ref=f54e434] [cursor=pointer]:
+                - /url: /request-demo
+        - generic [ref=f54e435]:
+          - heading "Resources" [level=3] [ref=f54e436]
+          - list [ref=f54e437]:
+            - listitem [ref=f54e438]:
+              - link "Blog" [ref=f54e439] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=f54e440]:
+              - link "Pricing" [ref=f54e441] [cursor=pointer]:
+                - /url: /pricing
+            - listitem [ref=f54e442]:
+              - link "Compare" [ref=f54e443] [cursor=pointer]:
+                - /url: /vs
+            - listitem [ref=f54e444]:
+              - link "Integrations" [ref=f54e445] [cursor=pointer]:
+                - /url: /integrations
+            - listitem [ref=f54e446]:
+              - link "KinderConnect" [ref=f54e447] [cursor=pointer]:
+                - /url: /integrations/kinderconnect
+        - generic [ref=f54e448]:
+          - heading "Legal" [level=3] [ref=f54e449]
+          - list [ref=f54e450]:
+            - listitem [ref=f54e451]:
+              - link "Privacy Policy" [ref=f54e452] [cursor=pointer]:
+                - /url: /legal/privacy-policy
+            - listitem [ref=f54e453]:
+              - link "Terms & Conditions" [ref=f54e454] [cursor=pointer]:
+                - /url: /legal/terms
+            - listitem [ref=f54e455]:
+              - link "Acceptable Use" [ref=f54e456] [cursor=pointer]:
+                - /url: /legal/aup
+            - listitem [ref=f54e457]:
+              - link "Cookie Policy" [ref=f54e458] [cursor=pointer]:
+                - /url: /legal/cookie-policy
+            - listitem [ref=f54e459]:
+              - link "Refund Policy" [ref=f54e460] [cursor=pointer]:
+                - /url: /legal/refund-policy
+        - generic [ref=f54e461]:
+          - heading "Get started today" [level=3] [ref=f54e462]
+          - paragraph [ref=f54e463]: Free forever. No credit card required.
+          - link "Start for Free" [ref=f54e464] [cursor=pointer]:
+            - /url: https://go.mykinderly.com/signup
+      - generic [ref=f54e465]: © 2026 Kinderly — a Memberwise product. All rights reserved.
+  - generic [ref=f54e468]:
+    - button [ref=f54e469]
+    - button [ref=f54e475]
+    - button [ref=f54e479]
+    - button [ref=f54e484]

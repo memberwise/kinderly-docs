@@ -2,7 +2,7 @@
 title: Reports
 description: Pre-built and custom reports across attendance, health, curriculum, CACFP and finance.
 sidebar:
-  order: 13
+  order: 14
 ---
 
 Reports is where the data you've been entering turns into something you can hand to a licensing inspector, a food program auditor, or your accountant.
@@ -22,13 +22,38 @@ The largest group. Among them:
 | **Child Attendance** | Sign-in/sign-out records over a date range |
 | **Name-to-Face Report** | Name-to-face checks by classroom and date — who was accounted for, who was missing |
 | **Staff Attendance** | Staff time records over a date range |
-| **Employee Time Card** | Clock-ins paired by day, grouped by week, with regular and overtime totals |
+| **Employee Time Card** | One person's shifts, grouped by week, with regular and overtime totals — the card you print |
+| **Payroll Hours** | One line per person for a pay period — regular, overtime and PTO hours, with anything that needs checking flagged |
 | **Schedule Adherence** | Actual staff clock times against scheduled shifts, discrepancies flagged |
 | **Child Schedule Adherence** | Each child's attendance against their weekly schedule — absences, unscheduled days, off-schedule arrivals |
 | **Late Pickup** | Children signed out after close |
 
 :::tip[Name-to-Face is your licensing evidence]
 Most inspections want to see that you know which children are physically present, not just enrolled. This report is that evidence, already in the format an inspector expects.
+:::
+
+:::note[Overnight shifts now count properly]
+If your center runs closing shifts that cross midnight, three reports used to
+lose them — **Employee Time Card**, **Staff Hours Summary** and **Overtime
+Report**. A 10pm–2am shift showed no hours at all. The Overtime Report was the
+worst affected: a week could look like it stayed under the limit purely because
+the hours that took it over had gone missing.
+
+That's fixed. A shift now counts in full against the day it started. If you run
+closing shifts, re-run any pay period you're unsure about and check it against
+what you actually paid.
+:::
+
+:::caution[Read Payroll Hours before you run payroll, not after]
+It's the report to sign off a pay period from. The **Needs a Look** column is
+the point of it: a teacher who forgot to sign out has an unknown number of
+hours, so Kinderly counts none and tells you, rather than quietly assuming
+eight. Fix those records first, then re-run it.
+
+It also asks which overtime rule you're under. Federal is over 40 hours in a
+week. California, Alaska, Nevada and Colorado also owe overtime past 8 hours in
+a day — four ten-hour days is exactly 40 hours and still owes 8 hours of
+overtime there.
 :::
 
 :::tip[Late Pickup is a billing report in disguise]

@@ -1,0 +1,325 @@
+- generic [ref=f45e1]:
+  - generic [ref=f45e2]:
+    - generic [ref=f45e3]:
+      - complementary [ref=f45e4]:
+        - link [ref=f45e5] [cursor=pointer]:
+          - /url: /
+          - img "Kinderly" [ref=f45e6]
+        - navigation [ref=f45e8]:
+          - link [ref=f45e9] [cursor=pointer]:
+            - /url: /
+          - link [ref=f45e15] [cursor=pointer]:
+            - /url: /enroll
+          - link [ref=f45e21] [cursor=pointer]:
+            - /url: /manage
+          - link [ref=f45e28] [cursor=pointer]:
+            - /url: /grow
+          - link [ref=f45e34] [cursor=pointer]:
+            - /url: /funding
+        - navigation [ref=f45e43]:
+          - link [ref=f45e44] [cursor=pointer]:
+            - /url: /settings
+          - link [ref=f45e50] [cursor=pointer]:
+            - /url: mailto:support@mykinderly.com
+          - link [ref=f45e56] [cursor=pointer]:
+            - /url: https://docs.mykinderly.com
+        - button "Account menu" [ref=f45e63]:
+          - img "Tyler Buese" [ref=f45e65]
+      - complementary [ref=f45e66]:
+        - generic [ref=f45e67]:
+          - paragraph [ref=f45e68]: Bright Beginnings Learning Center
+          - paragraph [ref=f45e69]: Kinderly - Manage
+        - navigation [ref=f45e70]:
+          - link [ref=f45e72] [cursor=pointer]:
+            - /url: /manage
+          - generic [ref=f45e77]:
+            - paragraph [ref=f45e78]: People
+            - generic [ref=f45e79]:
+              - link [ref=f45e80] [cursor=pointer]:
+                - /url: /manage/children
+              - link [ref=f45e86] [cursor=pointer]:
+                - /url: /manage/guardians
+              - link [ref=f45e93] [cursor=pointer]:
+                - /url: /manage/staff
+          - generic [ref=f45e98]:
+            - paragraph [ref=f45e99]: Operations
+            - generic [ref=f45e100]:
+              - link [ref=f45e101] [cursor=pointer]:
+                - /url: /manage/classrooms
+              - link [ref=f45e106] [cursor=pointer]:
+                - /url: /manage/scheduling
+              - link [ref=f45e110] [cursor=pointer]:
+                - /url: /manage/programs
+              - link [ref=f45e115] [cursor=pointer]:
+                - /url: /manage/curriculum
+          - generic [ref=f45e119]:
+            - paragraph [ref=f45e120]: Communication
+            - generic [ref=f45e121]:
+              - link [ref=f45e122] [cursor=pointer]:
+                - /url: /manage/messages
+              - link [ref=f45e126] [cursor=pointer]:
+                - /url: /manage/feed
+          - generic [ref=f45e131]:
+            - paragraph [ref=f45e132]: Finance
+            - generic [ref=f45e133]:
+              - link [ref=f45e134] [cursor=pointer]:
+                - /url: /manage/billing
+              - link [ref=f45e138] [cursor=pointer]:
+                - /url: /manage/finance
+          - generic [ref=f45e143]:
+            - paragraph [ref=f45e144]: Insights
+            - link [ref=f45e146] [cursor=pointer]:
+              - /url: /manage/reports
+        - link [ref=f45e152] [cursor=pointer]:
+          - /url: /manage/settings
+      - main [ref=f45e157]:
+        - generic [ref=f45e158]:
+          - navigation "breadcrumb" [ref=f45e160]:
+            - list [ref=f45e161]:
+              - listitem [ref=f45e162]:
+                - link "Kinderly Manage" [ref=f45e163] [cursor=pointer]:
+                  - /url: /manage
+              - listitem [aria-hidden] [ref=f45e164]
+              - listitem [ref=f45e167]:
+                - link "Reports" [ref=f45e168] [cursor=pointer]:
+                  - /url: /manage/reports
+              - listitem [aria-hidden] [ref=f45e169]
+              - listitem [ref=f45e172]:
+                - link "Framework Coverage by Classroom" [disabled] [ref=f45e173]
+          - generic [ref=f45e175]:
+            - generic [ref=f45e180]:
+              - heading "Framework Coverage by Classroom" [level=1] [ref=f45e181]
+              - paragraph [ref=f45e182]: "Per classroom and learning domain: how many outcomes were evidenced, how many children have evidence, and where the room has nothing on record."
+            - generic [ref=f45e183]:
+              - paragraph [ref=f45e184]: Parameters
+              - generic [ref=f45e185]:
+                - generic [ref=f45e186]:
+                  - generic [ref=f45e187]:
+                    - text: Date Range
+                    - generic [ref=f45e188]: "*"
+                  - button "Date Range *" [expanded] [ref=f45e189]: Pick a date range
+                - generic [ref=f45e190]:
+                  - generic [ref=f45e191]:
+                    - generic [ref=f45e192]: Classrooms (optional)
+                    - generic [ref=f45e193]: 0 selected
+                  - generic [ref=f45e194]:
+                    - generic [ref=f45e195]:
+                      - textbox "Search…" [ref=f45e196]
+                      - button "All" [ref=f45e197]
+                    - generic [ref=f45e198]:
+                      - generic [ref=f45e199]:
+                        - checkbox "Infant Room" [ref=f45e200]
+                        - generic [ref=f45e201] [cursor=pointer]: Infant Room
+                      - generic [ref=f45e202]:
+                        - checkbox "Pre-K" [ref=f45e203]
+                        - generic [ref=f45e204] [cursor=pointer]: Pre-K
+                      - generic [ref=f45e205]:
+                        - checkbox "Preschool" [ref=f45e206]
+                        - generic [ref=f45e207] [cursor=pointer]: Preschool
+                      - generic [ref=f45e208]:
+                        - checkbox "School Age" [ref=f45e209]
+                        - generic [ref=f45e210] [cursor=pointer]: School Age
+                      - generic [ref=f45e211]:
+                        - checkbox "Toddler Room" [ref=f45e212]
+                        - generic [ref=f45e213] [cursor=pointer]: Toddler Room
+                      - generic [ref=f45e214]:
+                        - checkbox "Twos" [ref=f45e215]
+                        - generic [ref=f45e216] [cursor=pointer]: Twos
+              - button "Run Report" [ref=f45e218]
+    - region "Notifications alt+T"
+  - dialog [ref=f45e220]:
+    - generic [ref=f45e222]:
+      - navigation "Navigation bar" [ref=f45e223]:
+        - button "Go to the Previous Month" [active] [ref=f45e224]
+        - button "Go to the Next Month" [ref=f45e225]
+      - generic [ref=f45e226]:
+        - status [ref=f45e228]: August 2026
+        - grid "August 2026" [ref=f45e404]:
+          - rowgroup [aria-hidden] [ref=f45e230]:
+            - row [ref=f45e231]:
+              - columnheader [ref=f45e232]: Su
+              - columnheader [ref=f45e233]: Mo
+              - columnheader [ref=f45e234]: Tu
+              - columnheader [ref=f45e235]: We
+              - columnheader [ref=f45e236]: Th
+              - columnheader [ref=f45e237]: Fr
+              - columnheader [ref=f45e238]: Sa
+          - rowgroup [ref=f45e239]:
+            - row [ref=f45e405]:
+              - gridcell [ref=f45e406]:
+                - button "Sunday, July 26th, 2026" [ref=f45e407]: "26"
+              - gridcell [ref=f45e408]:
+                - button "Monday, July 27th, 2026" [ref=f45e409]: "27"
+              - gridcell [ref=f45e410]:
+                - button "Tuesday, July 28th, 2026" [ref=f45e411]: "28"
+              - gridcell [ref=f45e412]:
+                - button "Wednesday, July 29th, 2026" [ref=f45e413]: "29"
+              - gridcell [ref=f45e414]:
+                - button "Thursday, July 30th, 2026" [ref=f45e415]: "30"
+              - gridcell [ref=f45e416]:
+                - button "Friday, July 31st, 2026" [ref=f45e417]: "31"
+              - gridcell [ref=f45e418]:
+                - button "Saturday, August 1st, 2026" [ref=f45e419]: "1"
+            - row [ref=f45e420]:
+              - gridcell [ref=f45e421]:
+                - button "Sunday, August 2nd, 2026" [ref=f45e422]: "2"
+              - gridcell [ref=f45e423]:
+                - button "Monday, August 3rd, 2026" [ref=f45e424]: "3"
+              - gridcell [ref=f45e425]:
+                - button "Tuesday, August 4th, 2026" [ref=f45e426]: "4"
+              - gridcell [ref=f45e427]:
+                - button "Wednesday, August 5th, 2026" [ref=f45e428]: "5"
+              - gridcell [ref=f45e429]:
+                - button "Thursday, August 6th, 2026" [ref=f45e430]: "6"
+              - gridcell [ref=f45e431]:
+                - button "Friday, August 7th, 2026" [ref=f45e432]: "7"
+              - gridcell [ref=f45e433]:
+                - button "Saturday, August 8th, 2026" [ref=f45e434]: "8"
+            - row [ref=f45e435]:
+              - gridcell [ref=f45e436]:
+                - button "Sunday, August 9th, 2026" [ref=f45e437]: "9"
+              - gridcell [ref=f45e438]:
+                - button "Monday, August 10th, 2026" [ref=f45e439]: "10"
+              - gridcell [ref=f45e440]:
+                - button "Tuesday, August 11th, 2026" [ref=f45e441]: "11"
+              - gridcell [ref=f45e442]:
+                - button "Wednesday, August 12th, 2026" [ref=f45e443]: "12"
+              - gridcell [ref=f45e444]:
+                - button "Thursday, August 13th, 2026" [ref=f45e445]: "13"
+              - gridcell [ref=f45e446]:
+                - button "Friday, August 14th, 2026" [ref=f45e447]: "14"
+              - gridcell [ref=f45e448]:
+                - button "Saturday, August 15th, 2026" [ref=f45e449]: "15"
+            - row [ref=f45e450]:
+              - gridcell [ref=f45e451]:
+                - button "Sunday, August 16th, 2026" [ref=f45e452]: "16"
+              - gridcell [ref=f45e453]:
+                - button "Monday, August 17th, 2026" [ref=f45e454]: "17"
+              - gridcell [ref=f45e455]:
+                - button "Tuesday, August 18th, 2026" [ref=f45e456]: "18"
+              - gridcell [ref=f45e457]:
+                - button "Wednesday, August 19th, 2026" [ref=f45e458]: "19"
+              - gridcell [ref=f45e459]:
+                - button "Thursday, August 20th, 2026" [ref=f45e460]: "20"
+              - gridcell [ref=f45e461]:
+                - button "Friday, August 21st, 2026" [ref=f45e462]: "21"
+              - gridcell [ref=f45e463]:
+                - button "Saturday, August 22nd, 2026" [ref=f45e464]: "22"
+            - row [ref=f45e465]:
+              - gridcell [ref=f45e466]:
+                - button "Sunday, August 23rd, 2026" [ref=f45e467]: "23"
+              - gridcell [ref=f45e468]:
+                - button "Monday, August 24th, 2026" [ref=f45e469]: "24"
+              - gridcell [ref=f45e470]:
+                - button "Tuesday, August 25th, 2026" [ref=f45e471]: "25"
+              - gridcell [ref=f45e472]:
+                - button "Wednesday, August 26th, 2026" [ref=f45e473]: "26"
+              - gridcell [ref=f45e474]:
+                - button "Thursday, August 27th, 2026" [ref=f45e475]: "27"
+              - gridcell [ref=f45e476]:
+                - button "Friday, August 28th, 2026" [ref=f45e477]: "28"
+              - gridcell [ref=f45e478]:
+                - button "Saturday, August 29th, 2026" [ref=f45e479]: "29"
+            - row [ref=f45e240]:
+              - gridcell [ref=f45e480]:
+                - button "Sunday, August 30th, 2026" [ref=f45e481]: "30"
+              - gridcell [ref=f45e482]:
+                - button "Monday, August 31st, 2026" [ref=f45e483]: "31"
+              - gridcell [ref=f45e484]:
+                - button "Tuesday, September 1st, 2026" [ref=f45e485]: "1"
+              - gridcell [ref=f45e486]:
+                - button "Wednesday, September 2nd, 2026" [ref=f45e487]: "2"
+              - gridcell [ref=f45e488]:
+                - button "Thursday, September 3rd, 2026" [ref=f45e489]: "3"
+              - gridcell [ref=f45e490]:
+                - button "Friday, September 4th, 2026" [ref=f45e491]: "4"
+              - gridcell [ref=f45e492]:
+                - button "Today, Saturday, September 5th, 2026" [ref=f45e493]: "5"
+      - generic [ref=f45e315]:
+        - status [ref=f45e317]: September 2026
+        - grid "September 2026" [ref=f45e494]:
+          - rowgroup [aria-hidden] [ref=f45e319]:
+            - row [ref=f45e320]:
+              - columnheader [ref=f45e321]: Su
+              - columnheader [ref=f45e322]: Mo
+              - columnheader [ref=f45e323]: Tu
+              - columnheader [ref=f45e324]: We
+              - columnheader [ref=f45e325]: Th
+              - columnheader [ref=f45e326]: Fr
+              - columnheader [ref=f45e327]: Sa
+          - rowgroup [ref=f45e328]:
+            - row [ref=f45e495]:
+              - gridcell [ref=f45e496]:
+                - button "Sunday, August 30th, 2026" [ref=f45e497]: "30"
+              - gridcell [ref=f45e498]:
+                - button "Monday, August 31st, 2026" [ref=f45e499]: "31"
+              - gridcell [ref=f45e500]:
+                - button "Tuesday, September 1st, 2026" [ref=f45e501]: "1"
+              - gridcell [ref=f45e502]:
+                - button "Wednesday, September 2nd, 2026" [ref=f45e503]: "2"
+              - gridcell [ref=f45e504]:
+                - button "Thursday, September 3rd, 2026" [ref=f45e505]: "3"
+              - gridcell [ref=f45e506]:
+                - button "Friday, September 4th, 2026" [ref=f45e507]: "4"
+              - gridcell [ref=f45e508]:
+                - button "Today, Saturday, September 5th, 2026" [ref=f45e509]: "5"
+            - row [ref=f45e510]:
+              - gridcell [ref=f45e511]:
+                - button "Sunday, September 6th, 2026" [ref=f45e512]: "6"
+              - gridcell [ref=f45e513]:
+                - button "Monday, September 7th, 2026" [ref=f45e514]: "7"
+              - gridcell [ref=f45e515]:
+                - button "Tuesday, September 8th, 2026" [ref=f45e516]: "8"
+              - gridcell [ref=f45e517]:
+                - button "Wednesday, September 9th, 2026" [ref=f45e518]: "9"
+              - gridcell [ref=f45e519]:
+                - button "Thursday, September 10th, 2026" [ref=f45e520]: "10"
+              - gridcell [ref=f45e521]:
+                - button "Friday, September 11th, 2026" [ref=f45e522]: "11"
+              - gridcell [ref=f45e523]:
+                - button "Saturday, September 12th, 2026" [ref=f45e524]: "12"
+            - row [ref=f45e525]:
+              - gridcell [ref=f45e526]:
+                - button "Sunday, September 13th, 2026" [ref=f45e527]: "13"
+              - gridcell [ref=f45e528]:
+                - button "Monday, September 14th, 2026" [ref=f45e529]: "14"
+              - gridcell [ref=f45e530]:
+                - button "Tuesday, September 15th, 2026" [ref=f45e531]: "15"
+              - gridcell [ref=f45e532]:
+                - button "Wednesday, September 16th, 2026" [ref=f45e533]: "16"
+              - gridcell [ref=f45e534]:
+                - button "Thursday, September 17th, 2026" [ref=f45e535]: "17"
+              - gridcell [ref=f45e536]:
+                - button "Friday, September 18th, 2026" [ref=f45e537]: "18"
+              - gridcell [ref=f45e538]:
+                - button "Saturday, September 19th, 2026" [ref=f45e539]: "19"
+            - row [ref=f45e540]:
+              - gridcell [ref=f45e541]:
+                - button "Sunday, September 20th, 2026" [ref=f45e542]: "20"
+              - gridcell [ref=f45e543]:
+                - button "Monday, September 21st, 2026" [ref=f45e544]: "21"
+              - gridcell [ref=f45e545]:
+                - button "Tuesday, September 22nd, 2026" [ref=f45e546]: "22"
+              - gridcell [ref=f45e547]:
+                - button "Wednesday, September 23rd, 2026" [ref=f45e548]: "23"
+              - gridcell [ref=f45e549]:
+                - button "Thursday, September 24th, 2026" [ref=f45e550]: "24"
+              - gridcell [ref=f45e551]:
+                - button "Friday, September 25th, 2026" [ref=f45e552]: "25"
+              - gridcell [ref=f45e553]:
+                - button "Saturday, September 26th, 2026" [ref=f45e554]: "26"
+            - row [ref=f45e329]:
+              - gridcell [ref=f45e555]:
+                - button "Sunday, September 27th, 2026" [ref=f45e556]: "27"
+              - gridcell [ref=f45e557]:
+                - button "Monday, September 28th, 2026" [ref=f45e558]: "28"
+              - gridcell [ref=f45e559]:
+                - button "Tuesday, September 29th, 2026" [ref=f45e560]: "29"
+              - gridcell [ref=f45e561]:
+                - button "Wednesday, September 30th, 2026" [ref=f45e562]: "30"
+              - gridcell [ref=f45e563]:
+                - button "Thursday, October 1st, 2026" [ref=f45e564]: "1"
+              - gridcell [ref=f45e565]:
+                - button "Friday, October 2nd, 2026" [ref=f45e566]: "2"
+              - gridcell [ref=f45e567]:
+                - button "Saturday, October 3rd, 2026" [ref=f45e568]: "3"

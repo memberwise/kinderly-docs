@@ -1,0 +1,745 @@
+- generic [active] [ref=f52e1]:
+  - region "Announcement" [ref=f52e2]:
+    - generic [ref=f52e4]:
+      - generic [ref=f52e5]:
+        - paragraph [ref=f52e9]: Kinderly is now free for up to 10 children — get started at no cost.
+        - link "Get started" [ref=f52e10] [cursor=pointer]:
+          - /url: /request-demo
+      - button "Dismiss announcement" [ref=f52e13]
+  - banner [ref=f52e16]:
+    - generic [ref=f52e17]:
+      - link "Kinderly logo Kinderly" [ref=f52e18] [cursor=pointer]:
+        - /url: /
+        - img "Kinderly logo" [ref=f52e19]
+        - generic [ref=f52e20]: Kinderly
+      - navigation [ref=f52e21]:
+        - generic [ref=f52e22]:
+          - button "Products" [ref=f52e23]
+          - generic:
+            - generic:
+              - generic:
+                - paragraph: One system for your whole center
+                - link "Everything is on every plan →":
+                  - /url: /pricing
+              - generic:
+                - generic:
+                  - link "Enrollment":
+                    - /url: /enroll
+                  - paragraph: Paperwork families finish on their phone
+                  - list:
+                    - listitem:
+                      - link "Digital enrollment forms":
+                        - /url: /enroll/forms
+                    - listitem:
+                      - link "Document storage & e-sign":
+                        - /url: /enroll/documents
+                    - listitem:
+                      - link "Enrollment packets":
+                        - /url: /enroll/packets
+                    - listitem:
+                      - link "Automations & actions":
+                        - /url: /enroll/actions
+                    - listitem:
+                      - link "Secure family share links":
+                        - /url: /enroll/shares
+                  - link "Done-for-you We digitize your existing packet.":
+                    - /url: /enroll/done-for-you
+                    - generic: Done-for-you
+                    - generic: We digitize your existing packet.
+                - generic:
+                  - link "Your website & family tracking":
+                    - /url: /grow
+                  - paragraph: A website that brings you tours
+                  - list:
+                    - listitem:
+                      - link "Easy-to-use website builder":
+                        - /url: /grow/website-builder
+                    - listitem:
+                      - link "Forms right on your website":
+                        - /url: /grow/embeddable-forms
+                    - listitem:
+                      - link "Family tracker board":
+                        - /url: /grow/family-tracker
+                    - listitem:
+                      - link "A board for each program or location":
+                        - /url: /grow/boards
+                    - listitem:
+                      - link "To-dos, notes & forms on every family":
+                        - /url: /grow/tasks
+                    - listitem:
+                      - link "Pages, looks & photo library":
+                        - /url: /grow/pages
+                    - listitem:
+                      - link "Virtual tours of your center":
+                        - /url: /grow/tours
+                    - listitem:
+                      - link "Hosting & your own web address":
+                        - /url: /grow/hosting
+                    - listitem:
+                      - link "Found on Google":
+                        - /url: /grow/seo
+                    - listitem:
+                      - link "Simple visitor reports":
+                        - /url: /grow/analytics
+                - generic:
+                  - link "Center management":
+                    - /url: /manage
+                  - paragraph: Your whole center, running calmly
+                  - list:
+                    - listitem:
+                      - link "Child records":
+                        - /url: /manage/children
+                    - listitem:
+                      - link "Staff records & app access":
+                        - /url: /manage/staff
+                    - listitem:
+                      - link "Guardians & families":
+                        - /url: /manage/guardians
+                    - listitem:
+                      - link "Classrooms & ratios":
+                        - /url: /manage/classrooms
+                    - listitem:
+                      - link "Programs & enrollment":
+                        - /url: /manage/programs
+                    - listitem:
+                      - link "Attendance tracking":
+                        - /url: /manage/attendance
+                    - listitem:
+                      - link "Staff scheduling":
+                        - /url: /manage/scheduling
+                    - listitem:
+                      - link "Child scheduling":
+                        - /url: /manage/child-scheduling
+                    - listitem:
+                      - link "Messaging with families":
+                        - /url: /manage/messages
+                    - listitem:
+                      - link "Curriculum":
+                        - /url: /manage/curriculum
+                    - listitem:
+                      - link "Reports & compliance":
+                        - /url: /manage/reports
+                    - listitem:
+                      - link "Teacher & parent apps":
+                        - /url: /manage/mobile
+                    - listitem:
+                      - link "KinderConnect integration":
+                        - /url: /manage/kinderconnect
+                    - listitem:
+                      - link "Expenses & budgets":
+                        - /url: /manage/finance
+                - generic:
+                  - link "Tuition & billing":
+                    - /url: /manage/billing
+                  - paragraph: Tuition you don't have to chase
+                  - list:
+                    - listitem:
+                      - link "Billing accounts":
+                        - /url: /manage/billing/accounts
+                    - listitem:
+                      - link "Invoices & billing runs":
+                        - /url: /manage/billing/invoices
+                    - listitem:
+                      - link "Online payments":
+                        - /url: /manage/billing/payments
+              - generic:
+                - link "Security & Privacy":
+                  - /url: /security
+                - link "Integrations":
+                  - /url: /integrations
+                - link "Compare":
+                  - /url: /vs
+        - link "Pricing" [ref=f52e26] [cursor=pointer]:
+          - /url: /pricing
+        - link "Blog" [ref=f52e27] [cursor=pointer]:
+          - /url: /blog
+        - link "Contact" [ref=f52e28] [cursor=pointer]:
+          - /url: /contact
+        - link "Get started free" [ref=f52e29] [cursor=pointer]:
+          - /url: https://go.mykinderly.com/signup
+        - link "Sign In" [ref=f52e30] [cursor=pointer]:
+          - /url: https://go.mykinderly.com/auth/login
+  - navigation "Breadcrumb" [ref=f52e33]:
+    - list [ref=f52e34]:
+      - listitem [ref=f52e35]:
+        - link "Home" [ref=f52e36] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=f52e37]:
+        - generic [ref=f52e40]: Your website
+  - main [ref=f52e41]:
+    - generic [ref=f52e43]:
+      - generic [ref=f52e44]: Your website
+      - heading "A childcare website, easy enrollment forms, and one simple family tracker — all in one." [level=1] [ref=f52e45]
+      - paragraph [ref=f52e46]: Build a beautiful website without touching any code, drop your enrollment forms onto any page, and watch every new family land on a simple board where you can see exactly where they are. From first hello to first day — without juggling four different tools.
+      - generic [ref=f52e47]:
+        - link "Get started free" [ref=f52e48] [cursor=pointer]:
+          - /url: https://go.mykinderly.com/signup
+        - link "See it in action" [ref=f52e49] [cursor=pointer]:
+          - /url: "#website-builder"
+      - paragraph [ref=f52e50]: No credit card · Free forever plan · Free onboarding help
+      - generic [ref=f52e51]:
+        - generic [ref=f52e52]:
+          - generic [ref=f52e53]:
+            - generic [ref=f52e54]: "1"
+            - paragraph [ref=f52e55]: Website builder
+          - paragraph [ref=f52e56]: Point-and-click pages, beautiful themes, and virtual tours — no code, no developer.
+        - generic [ref=f52e57]:
+          - generic [ref=f52e58]:
+            - generic [ref=f52e59]: "2"
+            - paragraph [ref=f52e60]: Forms on every page
+          - paragraph [ref=f52e61]: Inquiries, tour requests, and full enrollment packets — right on your website.
+        - generic [ref=f52e62]:
+          - generic [ref=f52e63]:
+            - generic [ref=f52e64]: "3"
+            - paragraph [ref=f52e65]: Family tracker
+          - paragraph [ref=f52e66]: Every family, every step of your enrollment process, on one simple board.
+    - generic [ref=f52e69]:
+      - generic [ref=f52e70]:
+        - paragraph [ref=f52e71]: Easy-to-use website builder
+        - heading "A childcare website you can actually build yourself." [level=2] [ref=f52e72]
+        - paragraph [ref=f52e73]:
+          - text: Pick a look you love. Add a welcome banner, your programs, a photo gallery, parent reviews, and a "Schedule a Tour" button. Hit publish. That's it — your site is live, with a free Kinderly web address or your own (like
+          - code [ref=f52e74]: www.sunnydaycenter.com
+          - text: ).
+        - list [ref=f52e75]:
+          - listitem [ref=f52e76]:
+            - generic [ref=f52e77]: ✓
+            - generic [ref=f52e78]:
+              - strong [ref=f52e79]: Easy page sections
+              - text: — welcome banners, photo galleries, videos, parent reviews, contact info, and more.
+          - listitem [ref=f52e80]:
+            - generic [ref=f52e81]: ✓
+            - generic [ref=f52e82]:
+              - strong [ref=f52e83]: See your changes as you make them
+              - text: — your edits save automatically, just like a Google Doc.
+          - listitem [ref=f52e84]:
+            - generic [ref=f52e85]: ✓
+            - generic [ref=f52e86]:
+              - strong [ref=f52e87]: One look, your whole site
+              - text: — pick your colors and fonts once and they're applied everywhere.
+          - listitem [ref=f52e88]:
+            - generic [ref=f52e89]: ✓
+            - generic [ref=f52e90]:
+              - strong [ref=f52e91]: Virtual tours
+              - text: — show families around your center with photos, 360° views, or walk-through videos.
+          - listitem [ref=f52e92]:
+            - generic [ref=f52e93]: ✓
+            - generic [ref=f52e94]:
+              - strong [ref=f52e95]: Found on Google
+              - text: — your pages are set up to show up in search results and look great when shared on Facebook.
+          - listitem [ref=f52e96]:
+            - generic [ref=f52e97]: ✓
+            - generic [ref=f52e98]:
+              - strong [ref=f52e99]: Simple visitor reports
+              - text: — see how many families visit your site, which pages they read, and what they click on.
+        - link "Explore the website builder →" [ref=f52e100] [cursor=pointer]:
+          - /url: /grow/website-builder
+      - generic [ref=f52e101]:
+        - generic [ref=f52e102]: www.sunnydaycenter.com
+        - generic [ref=f52e107]:
+          - generic [ref=f52e108]:
+            - paragraph [ref=f52e109]: Sections
+            - generic [ref=f52e110]: Welcome
+            - generic [ref=f52e111]: Programs
+            - generic [ref=f52e112]: Gallery
+            - generic [ref=f52e113]: Virtual Tour
+            - generic [ref=f52e114]: Parent Reviews
+            - generic [ref=f52e115]: Inquiry Form
+            - generic [ref=f52e116]: Schedule a Tour
+          - generic [ref=f52e117]:
+            - generic [ref=f52e118]: Welcome to Sunny Day Center
+            - generic [ref=f52e123]: 📨 Inquiry form, right on your page
+            - generic [ref=f52e124]: Schedule a Tour
+    - generic [ref=f52e127]:
+      - generic [ref=f52e128]:
+        - generic [ref=f52e129]:
+          - paragraph [ref=f52e130]: Inquiry form
+          - generic [ref=f52e131]:
+            - generic [ref=f52e132]: Family name
+            - generic [ref=f52e135]: Email
+            - generic [ref=f52e138]:
+              - generic [ref=f52e139]: Child age
+              - generic [ref=f52e142]: Start date
+            - button "Request a Tour" [ref=f52e145]
+            - paragraph [ref=f52e146]: 🔒 Secured by Kinderly
+        - generic [ref=f52e150]:
+          - paragraph [ref=f52e151]: Lands on your board
+          - paragraph [ref=f52e152]: New family · The Patel family · "Leads" column
+      - generic [ref=f52e153]:
+        - paragraph [ref=f52e154]: Forms on every page
+        - heading "Any form, right on your website." [level=2] [ref=f52e155]
+        - paragraph [ref=f52e156]: Drop a tour-request form, an inquiry form, or your full enrollment paperwork onto any page of your website. Every family who fills one out is private and secure, and shows up automatically as a new family on your tracker — no copy-and-paste, no lost emails.
+        - list [ref=f52e157]:
+          - listitem [ref=f52e158]:
+            - generic [ref=f52e159]: ✓
+            - generic [ref=f52e160]:
+              - strong [ref=f52e161]: Tour requests, waitlist sign-ups, general questions
+              - text: — collect what you need with a simple form on any page.
+          - listitem [ref=f52e162]:
+            - generic [ref=f52e163]: ✓
+            - generic [ref=f52e164]:
+              - strong [ref=f52e165]: Full enrollment paperwork
+              - text: right on your "Enroll" page — no PDFs to print or email.
+          - listitem [ref=f52e166]:
+            - generic [ref=f52e167]: ✓
+            - generic [ref=f52e168]:
+              - strong [ref=f52e169]: Private and secure
+              - text: — every family gets their own private link; nobody else can see their info, and they don't have to create an account.
+          - listitem [ref=f52e170]:
+            - generic [ref=f52e171]: ✓
+            - generic [ref=f52e172]:
+              - strong [ref=f52e173]: Goes straight to your board
+              - text: — when a family submits a form, they appear as a new family card automatically.
+          - listitem [ref=f52e174]:
+            - generic [ref=f52e175]: ✓
+            - generic [ref=f52e176]:
+              - strong [ref=f52e177]: Works on phones and tablets
+              - text: — families can fill them out wherever they are.
+        - link "See how forms on your site work →" [ref=f52e178] [cursor=pointer]:
+          - /url: /grow/embeddable-forms
+    - generic [ref=f52e180]:
+      - generic [ref=f52e181]:
+        - paragraph [ref=f52e182]: The family tracker
+        - heading "Every family, every step, on one simple board." [level=2] [ref=f52e183]
+        - paragraph [ref=f52e184]: Move families between columns as they go through your enrollment process — from "Lead" to "Tour Scheduled" to "Enrolled". Click any family to see their notes, your to-do list for them, and every form they've filled out.
+      - generic [ref=f52e185]:
+        - generic [ref=f52e186]: Fall 2026 Enrollment
+        - generic [ref=f52e192]:
+          - generic [ref=f52e193]:
+            - generic [ref=f52e194]:
+              - generic [ref=f52e195]: Lead
+              - generic [ref=f52e196]: "6"
+            - generic [ref=f52e197]:
+              - paragraph [ref=f52e198]: Family A
+              - generic [ref=f52e199]:
+                - generic [ref=f52e200]: 18 mo
+                - generic [ref=f52e201]: Infant
+            - generic [ref=f52e202]:
+              - paragraph [ref=f52e203]: Family B
+              - generic [ref=f52e204]:
+                - generic [ref=f52e205]: 2 yr
+                - generic [ref=f52e206]: Toddler
+            - generic [ref=f52e207]:
+              - paragraph [ref=f52e208]: Family C
+              - generic [ref=f52e209]:
+                - generic [ref=f52e210]: 4 yr
+                - generic [ref=f52e211]: Pre-K
+          - generic [ref=f52e212]:
+            - generic [ref=f52e213]:
+              - generic [ref=f52e214]: Tour Scheduled
+              - generic [ref=f52e215]: "3"
+            - generic [ref=f52e216]:
+              - paragraph [ref=f52e217]: Family A
+              - generic [ref=f52e218]:
+                - generic [ref=f52e219]: 18 mo
+                - generic [ref=f52e220]: Infant
+            - generic [ref=f52e221]:
+              - paragraph [ref=f52e222]: Family B
+              - generic [ref=f52e223]:
+                - generic [ref=f52e224]: 2 yr
+                - generic [ref=f52e225]: Toddler
+            - generic [ref=f52e226]:
+              - paragraph [ref=f52e227]: Family C
+              - generic [ref=f52e228]:
+                - generic [ref=f52e229]: 4 yr
+                - generic [ref=f52e230]: Pre-K
+          - generic [ref=f52e231]:
+            - generic [ref=f52e232]:
+              - generic [ref=f52e233]: Packet Sent
+              - generic [ref=f52e234]: "4"
+            - generic [ref=f52e235]:
+              - paragraph [ref=f52e236]: Family A
+              - generic [ref=f52e237]:
+                - generic [ref=f52e238]: 18 mo
+                - generic [ref=f52e239]: Infant
+            - generic [ref=f52e240]:
+              - paragraph [ref=f52e241]: Family B
+              - generic [ref=f52e242]:
+                - generic [ref=f52e243]: 2 yr
+                - generic [ref=f52e244]: Toddler
+            - generic [ref=f52e245]:
+              - paragraph [ref=f52e246]: Family C
+              - generic [ref=f52e247]:
+                - generic [ref=f52e248]: 4 yr
+                - generic [ref=f52e249]: Pre-K
+          - generic [ref=f52e250]:
+            - generic [ref=f52e251]:
+              - generic [ref=f52e252]: Follow Up
+              - generic [ref=f52e253]: "2"
+            - generic [ref=f52e254]:
+              - paragraph [ref=f52e255]: Family A
+              - generic [ref=f52e256]:
+                - generic [ref=f52e257]: 18 mo
+                - generic [ref=f52e258]: Infant
+            - generic [ref=f52e259]:
+              - paragraph [ref=f52e260]: Family B
+              - generic [ref=f52e261]:
+                - generic [ref=f52e262]: 2 yr
+                - generic [ref=f52e263]: Toddler
+          - generic [ref=f52e264]:
+            - generic [ref=f52e265]:
+              - generic [ref=f52e266]: Enrolled 🎉
+              - generic [ref=f52e267]: "9"
+            - generic [ref=f52e268]:
+              - paragraph [ref=f52e269]: Family A
+              - generic [ref=f52e270]:
+                - generic [ref=f52e271]: 18 mo
+                - generic [ref=f52e272]: Infant
+            - generic [ref=f52e273]:
+              - paragraph [ref=f52e274]: Family B
+              - generic [ref=f52e275]:
+                - generic [ref=f52e276]: 2 yr
+                - generic [ref=f52e277]: Toddler
+            - generic [ref=f52e278]:
+              - paragraph [ref=f52e279]: Family C
+              - generic [ref=f52e280]:
+                - generic [ref=f52e281]: 4 yr
+                - generic [ref=f52e282]: Pre-K
+    - generic [ref=f52e284]:
+      - generic [ref=f52e285]:
+        - paragraph [ref=f52e286]: Before Kinderly
+        - heading "A website in one place, forms in another, families in a spreadsheet" [level=3] [ref=f52e287]
+        - list [ref=f52e288]:
+          - listitem [ref=f52e289]:
+            - generic [ref=f52e290]: ✕
+            - generic [ref=f52e291]: Paying someone every time you need to change your website.
+          - listitem [ref=f52e292]:
+            - generic [ref=f52e293]: ✕
+            - generic [ref=f52e294]: Inquiry forms that email you a PDF that gets lost in your inbox.
+          - listitem [ref=f52e295]:
+            - generic [ref=f52e296]: ✕
+            - generic [ref=f52e297]: Tours getting forgotten — and so do families.
+          - listitem [ref=f52e298]:
+            - generic [ref=f52e299]: ✕
+            - generic [ref=f52e300]: No way to tell at a glance how many spots you'll fill next month.
+      - generic [ref=f52e301]:
+        - paragraph [ref=f52e302]: With Kinderly
+        - heading "One simple place from \"Hello\" to \"Welcome to your first day\"" [level=3] [ref=f52e303]
+        - list [ref=f52e304]:
+          - listitem [ref=f52e305]:
+            - generic [ref=f52e306]: ✓
+            - generic [ref=f52e307]: Build and update your website yourself — no developer needed.
+          - listitem [ref=f52e308]:
+            - generic [ref=f52e309]: ✓
+            - generic [ref=f52e310]: Put inquiry and enrollment forms right on your website.
+          - listitem [ref=f52e311]:
+            - generic [ref=f52e312]: ✓
+            - generic [ref=f52e313]: Every form a family fills out shows up on your tracker.
+          - listitem [ref=f52e314]:
+            - generic [ref=f52e315]: ✓
+            - generic [ref=f52e316]: See your enrollment at a glance — and know how many spots you have to fill.
+    - generic [ref=f52e318]:
+      - generic [ref=f52e319]:
+        - heading "A look inside your website" [level=2] [ref=f52e320]
+        - paragraph [ref=f52e321]: An easy website builder, forms you can put on any page, and a simple board for tracking every family.
+      - generic [ref=f52e322]:
+        - generic [ref=f52e323]:
+          - button "Previous" [ref=f52e324]
+          - generic [ref=f52e327]:
+            - button "Website Builder" [ref=f52e328]
+            - button "A color for every center" [ref=f52e331]
+            - button "Forms On Your Website" [ref=f52e334]
+            - button "Family Tracker" [ref=f52e337]
+            - button "Family Profiles" [ref=f52e340]
+          - button "Next" [ref=f52e343]
+        - generic [ref=f52e347]:
+          - article [ref=f52e348]:
+            - img "Kinderly website builder" [ref=f52e351]
+            - generic [ref=f52e352]:
+              - generic [ref=f52e353]:
+                - heading "Build your own childcare website" [level=3] [ref=f52e354]
+                - paragraph [ref=f52e355]: Point, click, and publish — no code, no developer, no design skills required.
+              - generic [ref=f52e356]:
+                - generic [ref=f52e357]: "01"
+                - generic [ref=f52e359]: "05"
+          - article:
+            - generic:
+              - generic:
+                - img "Kinderly branding customization"
+            - generic:
+              - generic:
+                - heading "Easily build your website" [level=3]
+                - paragraph: Use any of our templates, or bring your own styles
+              - generic:
+                - generic: "02"
+                - generic: "05"
+          - article:
+            - generic:
+              - generic:
+                - img "Kinderly inquiry form on a website page"
+            - generic:
+              - generic:
+                - heading "Inquiry and enrollment forms, right on your site" [level=3]
+                - paragraph: Put a tour-request form or your full enrollment paperwork on any page of your website.
+              - generic:
+                - generic: "03"
+                - generic: "05"
+          - article:
+            - generic:
+              - generic:
+                - img "Kinderly family tracker board"
+            - generic:
+              - generic:
+                - heading "Every family on one simple board" [level=3]
+                - paragraph: Move families from "Lead" to "Enrolled" with a click — and see your whole enrollment at a glance.
+              - generic:
+                - generic: "04"
+                - generic: "05"
+          - article:
+            - generic:
+              - generic:
+                - img "Kinderly family detail card"
+            - generic:
+              - generic:
+                - heading "Every family's full history in one place" [level=3]
+                - paragraph: Notes, your to-do list, labels, and every form they've filled out — all together on one card.
+              - generic:
+                - generic: "05"
+                - generic: "05"
+    - generic [ref=f52e361]:
+      - generic [ref=f52e362]:
+        - heading "Everything in your website" [level=2] [ref=f52e363]
+        - paragraph [ref=f52e364]: All the pieces you need to find new families and welcome them in — from your website to your waitlist.
+      - generic [ref=f52e365]:
+        - link [ref=f52e366] [cursor=pointer]:
+          - /url: /grow/website-builder
+          - heading "Easy-to-use website builder" [level=3] [ref=f52e367]
+          - paragraph [ref=f52e368]: Build a beautiful childcare website without any code or a developer. Just point, click, and publish — most centers go live in an afternoon.
+          - generic [ref=f52e369]: Learn more
+        - link [ref=f52e372] [cursor=pointer]:
+          - /url: /grow/embeddable-forms
+          - heading "Forms right on your website" [level=3] [ref=f52e373]
+          - paragraph [ref=f52e374]: Put a tour-request form, an inquiry form, or your full enrollment paperwork onto any page of your website. Private, secure, and goes straight to your family tracker.
+          - generic [ref=f52e375]: Learn more
+        - link [ref=f52e378] [cursor=pointer]:
+          - /url: /grow/family-tracker
+          - heading "Family tracker board" [level=3] [ref=f52e379]
+          - paragraph [ref=f52e380]: One simple board that shows every family you're talking to and exactly where they are — from "Lead" to "Enrolled". Move families with a click.
+          - generic [ref=f52e381]: Learn more
+        - link [ref=f52e384] [cursor=pointer]:
+          - /url: /grow/boards
+          - heading "A board for each program or location" [level=3] [ref=f52e385]
+          - paragraph [ref=f52e386]: Run separate boards for Infants, Toddlers, Pre-K, or different locations. Start from a ready-made template or build your own — and switch between boards in one click.
+          - generic [ref=f52e387]: Learn more
+        - link [ref=f52e390] [cursor=pointer]:
+          - /url: /grow/tasks
+          - heading "To-dos, notes & forms on every family" [level=3] [ref=f52e391]
+          - paragraph [ref=f52e392]: Keep your to-do list, colour-coded labels, and every form a family has filled out — all together on one card so nothing falls through the cracks.
+          - generic [ref=f52e393]: Learn more
+        - link [ref=f52e396] [cursor=pointer]:
+          - /url: /grow/pages
+          - heading "Pages, looks & photo library" [level=3] [ref=f52e397]
+          - paragraph [ref=f52e398]: Build any page from welcome banners, photo galleries, videos, parent reviews, and contact info. Pick your colors and fonts once and they're applied everywhere.
+          - generic [ref=f52e399]: Learn more
+        - link [ref=f52e402] [cursor=pointer]:
+          - /url: /grow/tours
+          - heading "Virtual tours of your center" [level=3] [ref=f52e403]
+          - paragraph [ref=f52e404]: Show families around your center before they ever visit — with photo tours, 360° views, or walk-through videos right on your website.
+          - generic [ref=f52e405]: Learn more
+        - link [ref=f52e408] [cursor=pointer]:
+          - /url: /grow/hosting
+          - heading "Hosting & your own web address" [level=3] [ref=f52e409]
+          - paragraph [ref=f52e410]: Get a free Kinderly web address, or use your own (like www.sunnydaycenter.com). Fast and reliable — we take care of everything behind the scenes.
+          - generic [ref=f52e411]: Learn more
+        - link [ref=f52e414] [cursor=pointer]:
+          - /url: /grow/seo
+          - heading "Found on Google" [level=3] [ref=f52e415]
+          - paragraph [ref=f52e416]: Every page is set up to show in search results and look great when shared on Facebook — out of the box, with no extra work from you.
+          - generic [ref=f52e417]: Learn more
+        - link [ref=f52e420] [cursor=pointer]:
+          - /url: /grow/analytics
+          - heading "Simple visitor reports" [level=3] [ref=f52e421]
+          - paragraph [ref=f52e422]: See how many families visit your website, which pages they read, and which buttons they click — all on one easy-to-read screen.
+          - generic [ref=f52e423]: Learn more
+    - generic [ref=f52e427]:
+      - generic [ref=f52e428]:
+        - paragraph [ref=f52e429]: Questions
+        - heading "Questions about your website" [level=2] [ref=f52e430]
+      - generic [ref=f52e431]:
+        - group [ref=f52e432]:
+          - heading "Do I need a developer to build my website?" [level=3] [ref=f52e434] [cursor=pointer]
+          - paragraph [ref=f52e438]: Not at all. You just point, click, and type — the same way you'd use a Google Doc. Pick a look you love, add your welcome banner, programs, photos, parent reviews, and a "Schedule a Tour" button, and hit publish. Most centers have their website up in an afternoon.
+        - group [ref=f52e439]:
+          - heading "Can I use my own web address?" [level=3] [ref=f52e441] [cursor=pointer]
+        - group [ref=f52e445]:
+          - heading "Can I put inquiry forms right on my website?" [level=3] [ref=f52e447] [cursor=pointer]
+        - group [ref=f52e451]:
+          - heading "Can I run separate boards for different programs?" [level=3] [ref=f52e453] [cursor=pointer]
+        - group [ref=f52e457]:
+          - heading "Can I attach enrollment paperwork to a family?" [level=3] [ref=f52e459] [cursor=pointer]
+        - group [ref=f52e463]:
+          - heading "Will my website show up on Google?" [level=3] [ref=f52e465] [cursor=pointer]
+        - group [ref=f52e469]:
+          - heading "Can families take a virtual tour of my center?" [level=3] [ref=f52e471] [cursor=pointer]
+    - generic [ref=f52e476]:
+      - heading "Your website, your forms, and your families — all under one roof." [level=2] [ref=f52e477]
+      - paragraph [ref=f52e478]: Build your site, add your forms, and start tracking families today.
+      - generic [ref=f52e479]:
+        - link "Get started free" [ref=f52e480] [cursor=pointer]:
+          - /url: https://go.mykinderly.com/signup
+        - link "Book a walkthrough" [ref=f52e481] [cursor=pointer]:
+          - /url: /request-demo
+      - paragraph [ref=f52e482]: Free migration · Free up to 10 children · Cancel anytime
+  - contentinfo [ref=f52e483]:
+    - generic [ref=f52e484]:
+      - generic [ref=f52e485]:
+        - generic [ref=f52e486]:
+          - link "Kinderly logo Kinderly" [ref=f52e487] [cursor=pointer]:
+            - /url: /
+            - img "Kinderly logo" [ref=f52e488]
+            - generic [ref=f52e489]: Kinderly
+          - paragraph [ref=f52e490]: One system for your whole center — enrollment, your website, attendance and ratios, tuition and reporting. Free up to 10 children.
+          - link "Get started free" [ref=f52e491] [cursor=pointer]:
+            - /url: https://go.mykinderly.com/signup
+        - generic [ref=f52e492]:
+          - heading [level=3] [ref=f52e493]:
+            - link "Enrollment" [ref=f52e494] [cursor=pointer]:
+              - /url: /enroll
+          - list [ref=f52e495]:
+            - listitem [ref=f52e496]:
+              - link "Digital enrollment forms" [ref=f52e497] [cursor=pointer]:
+                - /url: /enroll/forms
+            - listitem [ref=f52e498]:
+              - link "Document storage & e-sign" [ref=f52e499] [cursor=pointer]:
+                - /url: /enroll/documents
+            - listitem [ref=f52e500]:
+              - link "Enrollment packets" [ref=f52e501] [cursor=pointer]:
+                - /url: /enroll/packets
+            - listitem [ref=f52e502]:
+              - link "Automations & actions" [ref=f52e503] [cursor=pointer]:
+                - /url: /enroll/actions
+            - listitem [ref=f52e504]:
+              - link "Secure family share links" [ref=f52e505] [cursor=pointer]:
+                - /url: /enroll/shares
+        - generic [ref=f52e506]:
+          - heading [level=3] [ref=f52e507]:
+            - link "Your website & family tracking" [ref=f52e508] [cursor=pointer]:
+              - /url: /grow
+          - list [ref=f52e509]:
+            - listitem [ref=f52e510]:
+              - link "Easy-to-use website builder" [ref=f52e511] [cursor=pointer]:
+                - /url: /grow/website-builder
+            - listitem [ref=f52e512]:
+              - link "Forms right on your website" [ref=f52e513] [cursor=pointer]:
+                - /url: /grow/embeddable-forms
+            - listitem [ref=f52e514]:
+              - link "Family tracker board" [ref=f52e515] [cursor=pointer]:
+                - /url: /grow/family-tracker
+            - listitem [ref=f52e516]:
+              - link "A board for each program or location" [ref=f52e517] [cursor=pointer]:
+                - /url: /grow/boards
+            - listitem [ref=f52e518]:
+              - link "To-dos, notes & forms on every family" [ref=f52e519] [cursor=pointer]:
+                - /url: /grow/tasks
+            - listitem [ref=f52e520]:
+              - link "Pages, looks & photo library" [ref=f52e521] [cursor=pointer]:
+                - /url: /grow/pages
+            - listitem [ref=f52e522]:
+              - link "Virtual tours of your center" [ref=f52e523] [cursor=pointer]:
+                - /url: /grow/tours
+            - listitem [ref=f52e524]:
+              - link "Hosting & your own web address" [ref=f52e525] [cursor=pointer]:
+                - /url: /grow/hosting
+        - generic [ref=f52e526]:
+          - heading [level=3] [ref=f52e527]:
+            - link "Center management" [ref=f52e528] [cursor=pointer]:
+              - /url: /manage
+          - list [ref=f52e529]:
+            - listitem [ref=f52e530]:
+              - link "Child records" [ref=f52e531] [cursor=pointer]:
+                - /url: /manage/children
+            - listitem [ref=f52e532]:
+              - link "Staff records & app access" [ref=f52e533] [cursor=pointer]:
+                - /url: /manage/staff
+            - listitem [ref=f52e534]:
+              - link "Guardians & families" [ref=f52e535] [cursor=pointer]:
+                - /url: /manage/guardians
+            - listitem [ref=f52e536]:
+              - link "Classrooms & ratios" [ref=f52e537] [cursor=pointer]:
+                - /url: /manage/classrooms
+            - listitem [ref=f52e538]:
+              - link "Programs & enrollment" [ref=f52e539] [cursor=pointer]:
+                - /url: /manage/programs
+            - listitem [ref=f52e540]:
+              - link "Attendance tracking" [ref=f52e541] [cursor=pointer]:
+                - /url: /manage/attendance
+            - listitem [ref=f52e542]:
+              - link "Staff scheduling" [ref=f52e543] [cursor=pointer]:
+                - /url: /manage/scheduling
+            - listitem [ref=f52e544]:
+              - link "Child scheduling" [ref=f52e545] [cursor=pointer]:
+                - /url: /manage/child-scheduling
+        - generic [ref=f52e546]:
+          - heading [level=3] [ref=f52e547]:
+            - link "Tuition & billing" [ref=f52e548] [cursor=pointer]:
+              - /url: /manage/billing
+          - list [ref=f52e549]:
+            - listitem [ref=f52e550]:
+              - link "Billing accounts" [ref=f52e551] [cursor=pointer]:
+                - /url: /manage/billing/accounts
+            - listitem [ref=f52e552]:
+              - link "Invoices & billing runs" [ref=f52e553] [cursor=pointer]:
+                - /url: /manage/billing/invoices
+            - listitem [ref=f52e554]:
+              - link "Online payments" [ref=f52e555] [cursor=pointer]:
+                - /url: /manage/billing/payments
+      - generic [ref=f52e556]:
+        - generic [ref=f52e557]:
+          - heading "Company" [level=3] [ref=f52e558]
+          - list [ref=f52e559]:
+            - listitem [ref=f52e560]:
+              - link "Security & Privacy" [ref=f52e561] [cursor=pointer]:
+                - /url: /security
+            - listitem [ref=f52e562]:
+              - link "Contact" [ref=f52e563] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=f52e564]:
+              - link "Request a Demo" [ref=f52e565] [cursor=pointer]:
+                - /url: /request-demo
+        - generic [ref=f52e566]:
+          - heading "Resources" [level=3] [ref=f52e567]
+          - list [ref=f52e568]:
+            - listitem [ref=f52e569]:
+              - link "Blog" [ref=f52e570] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=f52e571]:
+              - link "Pricing" [ref=f52e572] [cursor=pointer]:
+                - /url: /pricing
+            - listitem [ref=f52e573]:
+              - link "Compare" [ref=f52e574] [cursor=pointer]:
+                - /url: /vs
+            - listitem [ref=f52e575]:
+              - link "Integrations" [ref=f52e576] [cursor=pointer]:
+                - /url: /integrations
+            - listitem [ref=f52e577]:
+              - link "KinderConnect" [ref=f52e578] [cursor=pointer]:
+                - /url: /integrations/kinderconnect
+        - generic [ref=f52e579]:
+          - heading "Legal" [level=3] [ref=f52e580]
+          - list [ref=f52e581]:
+            - listitem [ref=f52e582]:
+              - link "Privacy Policy" [ref=f52e583] [cursor=pointer]:
+                - /url: /legal/privacy-policy
+            - listitem [ref=f52e584]:
+              - link "Terms & Conditions" [ref=f52e585] [cursor=pointer]:
+                - /url: /legal/terms
+            - listitem [ref=f52e586]:
+              - link "Acceptable Use" [ref=f52e587] [cursor=pointer]:
+                - /url: /legal/aup
+            - listitem [ref=f52e588]:
+              - link "Cookie Policy" [ref=f52e589] [cursor=pointer]:
+                - /url: /legal/cookie-policy
+            - listitem [ref=f52e590]:
+              - link "Refund Policy" [ref=f52e591] [cursor=pointer]:
+                - /url: /legal/refund-policy
+        - generic [ref=f52e592]:
+          - heading "Get started today" [level=3] [ref=f52e593]
+          - paragraph [ref=f52e594]: Free up to 10 children. No credit card, no setup fee.
+          - link "Get started free" [ref=f52e595] [cursor=pointer]:
+            - /url: https://go.mykinderly.com/signup
+      - generic [ref=f52e596]: © 2026 Kinderly — a Memberwise product. All rights reserved.
+  - generic [ref=f52e599]:
+    - button [ref=f52e600]
+    - button [ref=f52e606]
+    - button [ref=f52e610]
+    - button [ref=f52e618]

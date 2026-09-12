@@ -1,0 +1,224 @@
+- generic [active]:
+  - generic:
+    - generic:
+      - complementary [aria-hidden]:
+        - link:
+          - /url: /
+        - navigation:
+          - link:
+            - /url: /
+          - link:
+            - /url: /enroll
+          - link:
+            - /url: /manage
+          - link:
+            - /url: /grow
+          - link:
+            - /url: /funding
+        - navigation:
+          - link:
+            - /url: /settings
+          - link:
+            - /url: mailto:support@mykinderly.com
+          - link:
+            - /url: https://docs.mykinderly.com
+        - generic:
+          - button
+      - complementary [aria-hidden]:
+        - generic:
+          - paragraph: Kinderly Learning Center
+          - paragraph: Kinderly - Enroll
+        - navigation:
+          - generic:
+            - link:
+              - /url: /enroll
+              - text: Overview
+          - generic:
+            - paragraph: Library
+            - generic:
+              - link:
+                - /url: /enroll/documents
+                - text: Documents
+              - link:
+                - /url: /enroll/forms
+                - text: Forms
+              - link:
+                - /url: /enroll/packets
+                - text: Packets
+          - generic:
+            - paragraph: Distribution
+            - generic:
+              - link:
+                - /url: /enroll/shares
+                - text: Shares
+      - main:
+        - generic [aria-hidden]:
+          - generic:
+            - navigation:
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /enroll
+                    - text: Kinderly Enroll
+                - listitem [aria-hidden]
+                - listitem:
+                  - link:
+                    - /url: /enroll/forms
+                    - text: Forms
+                - listitem [aria-hidden]
+                - listitem:
+                  - link [disabled]: New Form
+        - generic:
+          - generic:
+            - button [aria-hidden]: Back to forms
+            - generic:
+              - generic [aria-hidden]:
+                - generic:
+                  - generic:
+                    - button:
+                      - heading [level=1]: New Form
+                    - paragraph: Drag components to get started
+                  - generic:
+                    - generic:
+                      - button [disabled]:
+                        - generic: Saved
+                      - button:
+                        - generic: Packet
+                      - button:
+                        - generic: Share
+                    - button
+              - generic:
+                - generic:
+                  - generic:
+                    - generic [aria-hidden]:
+                      - tablist:
+                        - tab [selected]: Design
+                        - tab: Preview
+                    - tabpanel "Design":
+                      - generic [aria-hidden]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Components
+                              - generic:
+                                - paragraph: Drag a tile onto the canvas to add it to your form.
+                                - generic:
+                                  - paragraph: Structure
+                                  - generic:
+                                    - button:
+                                      - generic: Label
+                                    - button:
+                                      - generic: Description
+                                    - button:
+                                      - generic: Separator
+                                    - button:
+                                      - generic: Section
+                                      - generic: Pro
+                                - generic:
+                                  - paragraph: Inputs
+                                  - generic:
+                                    - button:
+                                      - generic: Text
+                                    - button:
+                                      - generic: Long answer
+                                    - button:
+                                      - generic: Email
+                                    - button:
+                                      - generic: Phone
+                                    - button:
+                                      - generic: URL
+                                - generic:
+                                  - paragraph: Choices
+                                  - generic:
+                                    - button:
+                                      - generic: Checkbox
+                                    - button:
+                                      - generic: Choice
+                                    - button:
+                                      - generic: Dropdown
+                                - generic:
+                                  - paragraph: Date & Time
+                                  - generic:
+                                    - button:
+                                      - generic: Date
+                                    - button:
+                                      - generic: Time
+                                    - button:
+                                      - generic: Date & Time
+                                - generic:
+                                  - paragraph: Specialty
+                                  - generic:
+                                    - button:
+                                      - generic: Signature
+                                    - button:
+                                      - generic: Image
+                                    - button:
+                                      - generic: Upload image
+                                      - generic: Pro
+                                    - button:
+                                      - generic: Upload doc
+                                      - generic: Pro
+                                    - button:
+                                      - generic: Legal
+                                    - button:
+                                      - generic: Payment
+                                      - generic: Pro
+                        - separator
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - paragraph: Start building your form
+                                - paragraph: Drag any component from the left panel onto this canvas.
+                        - separator
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Properties
+                              - generic:
+                                - paragraph: Nothing selected
+                                - paragraph: Click any component on the canvas to edit its label, validation, and visibility.
+                      - status
+    - region "Notifications alt+T"
+  - dialog [ref=f22e18]:
+    - generic [ref=f22e19]:
+      - heading "Share Form" [level=2] [ref=f22e20]
+      - paragraph [ref=f22e21]:
+        - text: Send
+        - generic [ref=f22e22]: "\"New Form\""
+        - text: to a recipient. They'll receive a unique link with a 6-digit PIN to verify their identity.
+    - generic [ref=f22e23]:
+      - generic [ref=f22e24]:
+        - generic [ref=f22e25]:
+          - generic [ref=f22e26]: Recipient email *
+          - button "Upload Mailing List" [ref=f22e28]
+        - combobox [ref=f22e30]:
+          - generic [ref=f22e31]: Choose from your center…
+        - generic [ref=f22e32]: or type an address
+        - textbox "Recipient email *" [ref=f22e36]:
+          - /placeholder: recipient@example.com
+          - text: loading-test@example.com
+      - generic [ref=f22e37]:
+        - generic [ref=f22e38]:
+          - generic [ref=f22e39]: Expires (optional)
+          - textbox "Expires (optional)" [ref=f22e40]
+        - generic [ref=f22e41]:
+          - generic [ref=f22e42]: Max uses (optional)
+          - spinbutton "Max uses (optional)" [ref=f22e43]
+      - generic [ref=f22e44]:
+        - generic [ref=f22e45]:
+          - generic [ref=f22e46]: Public access
+          - paragraph [ref=f22e47]: Anyone with the link can view — no PIN required
+        - switch "Public access" [ref=f22e48]
+        - checkbox [aria-hidden]
+      - generic [ref=f22e49]:
+        - generic [ref=f22e50]:
+          - generic [ref=f22e51]: Allow editing after submission
+          - paragraph [ref=f22e52]: Recipient can return and modify their response after submitting
+        - switch "Allow editing after submission" [ref=f22e53]
+        - checkbox [aria-hidden]
+      - generic [ref=f22e54]:
+        - button "Cancel" [disabled]
+        - generic [ref=f22e56]:
+          - button "Create Share Link" [disabled]
+    - button "Close" [ref=f22e57]

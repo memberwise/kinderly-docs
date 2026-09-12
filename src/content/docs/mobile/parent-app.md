@@ -7,6 +7,8 @@ sidebar:
 
 The **Parent app** is the companion app for families.
 
+![The parent app home screen, showing each child's sign-in status and the Quick Access tiles](../../../assets/screenshots/mobile-parent-home.png)
+
 ## Your children
 
 - See every child linked to you with their current **signed-in / signed-out** status and classroom.
@@ -14,10 +16,14 @@ The **Parent app** is the companion app for families.
 
 ## Daily feed
 
+![The Daily Notes screen, filtered by child and entry type](../../../assets/screenshots/mobile-parent-daily-notes.png)
+
 - Scroll a feed of everything that happened today — diaper changes, naps, food, photos, milestones, notes.
 - React to entries with 👍 ❤️ 😊.
 
 ## Posts
+
+![The Feed screen with News, Announcement and Event filters](../../../assets/screenshots/mobile-parent-feed.png)
 
 Read center announcements — closures, events, news — posted by admins. Posts can carry **photos and video**; video plays inline in the feed, with a still frame showing while it loads. Pinned posts appear first.
 
@@ -37,6 +43,8 @@ Everything your center has sent you through [Shares](/shares/overview/):
 Tap any item to open the PIN-protected share and complete it.
 
 ## Billing
+
+![The Billing screen showing balance due, payment methods, tax documents and invoices](../../../assets/screenshots/mobile-parent-billing.png)
 
 - See every outstanding bill, including line items and balance due.
 - Tap **Pay** to pay by card (full or partial down to $0.50 — subject to your center having Stripe Connect enabled).
@@ -74,6 +82,8 @@ the center has filled those in — that's what a tax preparer needs for IRS Form
 Two-way chat with your center's staff. You'll get a **push notification** on new replies.
 
 ## Files
+
+![The Documents screen listing files and generated payment statements](../../../assets/screenshots/mobile-parent-documents.png)
 
 - See files linked to you or your children.
 - Upload a file directly from your phone.

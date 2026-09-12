@@ -1,0 +1,135 @@
+- generic [ref=f31e2]:
+  - generic [ref=f31e3]:
+    - complementary [ref=f31e4]:
+      - link [ref=f31e5] [cursor=pointer]:
+        - /url: /
+        - img "Kinderly" [ref=f31e6]
+      - navigation [ref=f31e8]:
+        - link [ref=f31e9] [cursor=pointer]:
+          - /url: /
+        - link [ref=f31e15] [cursor=pointer]:
+          - /url: /enroll
+        - link [ref=f31e21] [cursor=pointer]:
+          - /url: /manage
+        - link [ref=f31e28] [cursor=pointer]:
+          - /url: /grow
+        - link [ref=f31e34] [cursor=pointer]:
+          - /url: /funding
+      - navigation [ref=f31e43]:
+        - link [ref=f31e44] [cursor=pointer]:
+          - /url: /settings
+        - link [ref=f31e50] [cursor=pointer]:
+          - /url: mailto:support@mykinderly.com
+        - link [ref=f31e56] [cursor=pointer]:
+          - /url: https://docs.mykinderly.com
+      - button "Account menu" [ref=f31e63]:
+        - img "Tyler Buese" [ref=f31e65]
+    - complementary [ref=f31e66]:
+      - generic [ref=f31e67]:
+        - paragraph [ref=f31e68]: Bright Beginnings Learning Center
+        - paragraph [ref=f31e69]: Kinderly - Manage
+      - navigation [ref=f31e70]:
+        - link [ref=f31e72] [cursor=pointer]:
+          - /url: /manage
+        - generic [ref=f31e77]:
+          - paragraph [ref=f31e78]: People
+          - generic [ref=f31e79]:
+            - link [ref=f31e80] [cursor=pointer]:
+              - /url: /manage/children
+            - link [ref=f31e86] [cursor=pointer]:
+              - /url: /manage/guardians
+            - link [ref=f31e93] [cursor=pointer]:
+              - /url: /manage/staff
+        - generic [ref=f31e98]:
+          - paragraph [ref=f31e99]: Operations
+          - generic [ref=f31e100]:
+            - link [ref=f31e101] [cursor=pointer]:
+              - /url: /manage/classrooms
+            - link [ref=f31e106] [cursor=pointer]:
+              - /url: /manage/scheduling
+            - link [ref=f31e110] [cursor=pointer]:
+              - /url: /manage/programs
+            - link [ref=f31e115] [cursor=pointer]:
+              - /url: /manage/curriculum
+        - generic [ref=f31e120]:
+          - paragraph [ref=f31e121]: Communication
+          - generic [ref=f31e122]:
+            - link [ref=f31e123] [cursor=pointer]:
+              - /url: /manage/messages
+            - link [ref=f31e127] [cursor=pointer]:
+              - /url: /manage/feed
+        - generic [ref=f31e132]:
+          - paragraph [ref=f31e133]: Finance
+          - generic [ref=f31e134]:
+            - link [ref=f31e135] [cursor=pointer]:
+              - /url: /manage/billing
+            - link [ref=f31e139] [cursor=pointer]:
+              - /url: /manage/finance
+        - generic [ref=f31e144]:
+          - paragraph [ref=f31e145]: Insights
+          - link [ref=f31e147] [cursor=pointer]:
+            - /url: /manage/reports
+      - link [ref=f31e152] [cursor=pointer]:
+        - /url: /manage/settings
+    - main [ref=f31e157]:
+      - generic [ref=f31e158]:
+        - navigation "breadcrumb" [ref=f31e160]:
+          - list [ref=f31e161]:
+            - listitem [ref=f31e162]:
+              - link "Kinderly Manage" [ref=f31e163] [cursor=pointer]:
+                - /url: /manage
+            - listitem [aria-hidden] [ref=f31e164]
+            - listitem [ref=f31e167]:
+              - link "Curriculum" [disabled] [ref=f31e168]
+        - generic [ref=f31e170]:
+          - generic [ref=f31e171]:
+            - generic [ref=f31e172]:
+              - heading "Curriculum" [level=1] [ref=f31e173]
+              - paragraph [ref=f31e176]: Choose the learning standards this center documents against. Teachers then tag the daily notes they already write to an outcome in one tap, and the evidence accrues on its own.
+            - generic [ref=f31e177]:
+              - generic [ref=f31e178]:
+                - paragraph [ref=f31e179]: Curriculum in the apps
+                - paragraph [ref=f31e180]: On — teachers see the Learning row
+              - link "Change" [ref=f31e181] [cursor=pointer]:
+                - /url: /manage/settings/app-settings
+          - generic [ref=f31e182]:
+            - tablist [ref=f31e183]:
+              - tab "Frameworks" [ref=f31e184]
+              - tab "Library" [ref=f31e185]
+              - tab "Planner" [ref=f31e186]
+              - tab "Assessment" [active] [selected] [ref=f31e187]
+              - tab "Shared" [ref=f31e188]
+            - tabpanel "Assessment" [ref=f31e594]:
+              - generic [ref=f31e595]:
+                - generic [ref=f31e596]:
+                  - generic [ref=f31e597]:
+                    - heading "Assessment periods" [level=2] [ref=f31e598]
+                    - paragraph [ref=f31e599]: A period is a reporting window. Assessments inside it are generated from the observations teachers already recorded, then confirmed.
+                  - button "New period" [ref=f31e600]
+                - list [ref=f31e601]:
+                  - listitem [ref=f31e602]:
+                    - generic [ref=f31e603]:
+                      - generic [ref=f31e604]:
+                        - generic [ref=f31e605]:
+                          - button "Fall 2026" [ref=f31e606]
+                          - generic [ref=f31e607]: ELOF
+                        - paragraph [ref=f31e608]: 2026-07-01 – 2026-11-04
+                        - generic [ref=f31e609]: 32 of 48 confirmed · 16 still in draft
+                      - generic [ref=f31e613]:
+                        - button "Open" [ref=f31e614]
+                        - button "Close" [ref=f31e615]
+                        - button [ref=f31e616]
+                  - listitem [ref=f31e617]:
+                    - generic [ref=f31e618]:
+                      - generic [ref=f31e619]:
+                        - generic [ref=f31e620]:
+                          - button "Spring 2026" [ref=f31e621]
+                          - generic [ref=f31e622]: Closed
+                          - generic [ref=f31e623]: ELOF
+                        - paragraph [ref=f31e624]: 2026-01-06 – 2026-05-29
+                        - paragraph [ref=f31e625]: Nothing generated yet — open it to pre-fill from observations.
+                      - generic [ref=f31e626]:
+                        - button "Open" [ref=f31e627]
+                        - button "Reopen" [ref=f31e628]
+                        - button [ref=f31e629]
+  - region "Notifications alt+T"

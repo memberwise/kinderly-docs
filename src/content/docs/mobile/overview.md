@@ -10,4 +10,8 @@ Kinderly has two mobile apps that work alongside the web dashboard:
 - **[Teacher app](/mobile/teacher-app/)** — for staff to clock in, check children in and out, run the daily log, and message families.
 - **[Parent app](/mobile/parent-app/)** — for families to see their child's day, get messages, review paperwork, and pay tuition.
 
+![The teacher app home screen](../../../assets/screenshots/mobile-teacher-home.png)
+
+![The parent app home screen](../../../assets/screenshots/mobile-parent-home.png)
+
 Both apps sign in with your Kinderly account.

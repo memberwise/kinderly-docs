@@ -1,0 +1,731 @@
+- generic [active] [ref=f271e1]:
+  - region "Announcement" [ref=f271e2]:
+    - generic [ref=f271e4]:
+      - generic [ref=f271e5]:
+        - paragraph [ref=f271e9]: Kinderly is now free for up to 10 children — get started at no cost.
+        - link "Get started" [ref=f271e10] [cursor=pointer]:
+          - /url: /request-demo
+      - button "Dismiss announcement" [ref=f271e13]
+  - banner [ref=f271e16]:
+    - generic [ref=f271e17]:
+      - link "Kinderly logo Kinderly" [ref=f271e18] [cursor=pointer]:
+        - /url: /
+        - img "Kinderly logo" [ref=f271e19]
+        - generic [ref=f271e20]: Kinderly
+      - navigation [ref=f271e21]:
+        - generic [ref=f271e22]:
+          - button "Products" [ref=f271e23]
+          - generic:
+            - generic:
+              - generic:
+                - link "Kinderly Enroll":
+                  - /url: /enroll
+                - paragraph: Digital forms & enrollment
+                - list:
+                  - listitem:
+                    - link "Digital enrollment forms":
+                      - /url: /enroll/forms
+                  - listitem:
+                    - link "Document storage & e-sign":
+                      - /url: /enroll/documents
+                  - listitem:
+                    - link "Enrollment packets":
+                      - /url: /enroll/packets
+                  - listitem:
+                    - link "Automations & actions":
+                      - /url: /enroll/actions
+                  - listitem:
+                    - link "Secure family share links":
+                      - /url: /enroll/shares
+                - link "Done-for-you We digitize your existing packet.":
+                  - /url: /enroll/done-for-you
+                  - generic: Done-for-you
+                  - paragraph: We digitize your existing packet.
+              - generic:
+                - link "Kinderly Grow":
+                  - /url: /grow
+                - paragraph: Enrollment pipeline & CRM
+                - list:
+                  - listitem:
+                    - link "Easy-to-use website builder":
+                      - /url: /grow/website-builder
+                  - listitem:
+                    - link "Forms right on your website":
+                      - /url: /grow/embeddable-forms
+                  - listitem:
+                    - link "Family tracker board":
+                      - /url: /grow/family-tracker
+                  - listitem:
+                    - link "A board for each program or location":
+                      - /url: /grow/boards
+                  - listitem:
+                    - link "To-dos, notes & forms on every family":
+                      - /url: /grow/tasks
+                  - listitem:
+                    - link "Pages, looks & photo library":
+                      - /url: /grow/pages
+                  - listitem:
+                    - link "Virtual tours of your center":
+                      - /url: /grow/tours
+                  - listitem:
+                    - link "Hosting & your own web address":
+                      - /url: /grow/hosting
+                  - listitem:
+                    - link "Found on Google":
+                      - /url: /grow/seo
+                  - listitem:
+                    - link "Simple visitor reports":
+                      - /url: /grow/analytics
+              - generic:
+                - link "Kinderly Manage":
+                  - /url: /manage
+                - paragraph: Full childcare management
+                - list:
+                  - listitem:
+                    - link "Child records":
+                      - /url: /manage/children
+                  - listitem:
+                    - link "Staff records & app access":
+                      - /url: /manage/staff
+                  - listitem:
+                    - link "Guardians & families":
+                      - /url: /manage/guardians
+                  - listitem:
+                    - link "Classrooms & ratios":
+                      - /url: /manage/classrooms
+                  - listitem:
+                    - link "Programs & enrollment":
+                      - /url: /manage/programs
+                  - listitem:
+                    - link "Attendance tracking":
+                      - /url: /manage/attendance
+                  - listitem:
+                    - link "Staff scheduling":
+                      - /url: /manage/scheduling
+                  - listitem:
+                    - link "Child scheduling":
+                      - /url: /manage/child-scheduling
+                  - listitem:
+                    - link "Messaging with families":
+                      - /url: /manage/messages
+                  - listitem:
+                    - link "Reports & compliance":
+                      - /url: /manage/reports
+                  - listitem:
+                    - link "Teacher & parent apps":
+                      - /url: /manage/mobile
+                  - listitem:
+                    - link "KinderConnect integration":
+                      - /url: /manage/kinderconnect
+                  - listitem:
+                    - link "Expenses & budgets":
+                      - /url: /manage/finance
+              - generic:
+                - link "Manage — Billing":
+                  - /url: /manage/billing
+                - paragraph: Family billing & payments
+                - list:
+                  - listitem:
+                    - link "Billing accounts":
+                      - /url: /manage/billing/accounts
+                  - listitem:
+                    - link "Invoices & billing runs":
+                      - /url: /manage/billing/invoices
+                  - listitem:
+                    - link "Online payments":
+                      - /url: /manage/billing/payments
+                - generic:
+                  - link "Security & Privacy":
+                    - /url: /security
+                  - link "Integrations":
+                    - /url: /integrations
+        - link "Pricing" [ref=f271e26] [cursor=pointer]:
+          - /url: /pricing
+        - link "Blog" [ref=f271e27] [cursor=pointer]:
+          - /url: /blog
+        - link "Contact" [ref=f271e28] [cursor=pointer]:
+          - /url: /contact
+        - link "Get Started Free" [ref=f271e29] [cursor=pointer]:
+          - /url: https://go.mykinderly.com/signup
+        - link "Sign In" [ref=f271e30] [cursor=pointer]:
+          - /url: https://go.mykinderly.com/auth/login
+  - main [ref=f271e33]:
+    - generic [ref=f271e34]:
+      - generic [ref=f271e35]:
+        - generic [ref=f271e36]:
+          - generic [ref=f271e37]:
+            - generic [ref=f271e38]: New
+            - generic [ref=f271e39]: Curriculum now available! Track & audit student learning today!
+          - heading "Your whole center runs on one system" [level=1] [ref=f271e40]
+          - paragraph [ref=f271e41]: Kinderly is all-in-one childcare software — enrollment, tours, attendance, ratios, tuition and your website in a single login. It replaces the four subscriptions you're paying for now, and connects to the ones you're keeping.
+          - generic [ref=f271e42]:
+            - link "Request a demo" [ref=f271e43] [cursor=pointer]:
+              - /url: /request-demo
+            - link "Get started free" [ref=f271e46] [cursor=pointer]:
+              - /url: https://go.mykinderly.com/signup
+          - list [ref=f271e47]:
+            - listitem [ref=f271e48]: Free up to 10 children
+            - listitem [ref=f271e51]: No credit card
+            - listitem [ref=f271e54]: Free migration
+        - group "Kinderly product screens" [ref=f271e57]:
+          - generic [ref=f271e58]:
+            - generic [ref=f271e59]:
+              - generic [ref=f271e63]:
+                - generic [ref=f271e64]: Kinderly — Family tracker
+                - generic: Kinderly — Classrooms & ratios
+                - generic: Kinderly — Children & attendance
+                - generic: Kinderly — Tuition & billing
+              - generic [ref=f271e65]:
+                - button "Show Kinderly — Family tracker" [ref=f271e66] [cursor=pointer]
+                - button "Show Kinderly — Classrooms & ratios" [ref=f271e67] [cursor=pointer]
+                - button "Show Kinderly — Children & attendance" [ref=f271e68] [cursor=pointer]
+                - button "Show Kinderly — Tuition & billing" [ref=f271e69] [cursor=pointer]
+            - generic [ref=f271e70]:
+              - img "Kinderly enrollment pipeline board with families moving from inquiry to enrolled" [ref=f271e71]
+              - img "Kinderly classroom page warning that the Infant Room is out of ratio"
+              - img "Kinderly children roster showing classroom, age and sign-in status per child"
+              - img "Kinderly billing dashboard showing payments collected and every family balance"
+          - generic [aria-hidden] [ref=f271e72]:
+            - generic [ref=f271e73]:
+              - generic [ref=f271e74]: Ramirez family — tour at 3:30
+              - paragraph [ref=f271e79]: Asked about the toddler room on Tuesday. Their packet is already sent.
+              - generic [ref=f271e80]: Inquiry to tour in one click →
+            - generic:
+              - generic: Toddler A — ratio risk
+              - paragraph: Needs 1 more staff at 10:15 AM. Kaylee is free in Pre-K.
+              - generic: Flagged 40 minutes early →
+            - generic:
+              - generic: Owen Alvarez — not signed in
+              - paragraph: Expected at 8:00 AM. His guardian has been asked in the app.
+              - generic: Yesterday already reconciled →
+            - generic:
+              - generic: Hall family — 64 days past due
+              - paragraph: The one account worth a phone call this Friday. Reminders already sent.
+              - generic: Everyone else paid in-app →
+          - generic [aria-hidden] [ref=f271e81]:
+            - generic [ref=f271e86]:
+              - generic [ref=f271e87]: Patel family — packet done
+              - generic [ref=f271e88]: 14 pages · 6 signatures · 9 min
+            - generic:
+              - generic:
+                - generic: Infant Room back in ratio
+                - generic: 2 staff · 8 children · 1:4
+            - generic:
+              - generic:
+                - generic: 68 of 70 signed in
+                - generic: Name-to-face done · 8:31 AM
+            - generic:
+              - generic:
+                - generic: $112,640 collected
+                - generic: Last 30 days · card & bank
+      - generic [ref=f271e90]:
+        - paragraph [ref=f271e91]: Trusted by centers & home providers
+        - generic [ref=f271e92]:
+          - img "Center One logo" [ref=f271e93]
+          - img "Center Two logo" [ref=f271e94]
+          - img "Master of Milestones logo" [ref=f271e95]
+          - generic [ref=f271e96]:
+            - generic [ref=f271e97]: 75+
+            - generic [ref=f271e98]: home daycares
+    - generic [ref=f271e101]:
+      - generic [ref=f271e102]:
+        - generic [ref=f271e108]:
+          - generic [ref=f271e109]: Home daycare · small program
+          - generic [ref=f271e110]: “It's me, and I do all of it.”
+        - paragraph [ref=f271e111]: You need paperwork families can finish on a phone, a simple website that brings you inquiries, and tuition you don't chase. Set it up yourself this afternoon.
+        - list [ref=f271e112]:
+          - listitem [ref=f271e113]: Free forever up to 10 active children
+          - listitem [ref=f271e116]: Website, enrollment packets and payments included
+          - listitem [ref=f271e119]: Grows with you — $49.99/mo when you outgrow free
+        - generic [ref=f271e122]:
+          - link "Get started free" [ref=f271e123] [cursor=pointer]:
+            - /url: https://go.mykinderly.com/signup
+          - generic [ref=f271e124]: Takes about 10 minutes
+      - generic [ref=f271e125]:
+        - generic [ref=f271e126]: Most centers start here
+        - generic [ref=f271e132]:
+          - generic [ref=f271e133]: Center · multi-classroom · multi-site
+          - generic [ref=f271e134]: “I have staff, ratios and a waitlist.”
+        - paragraph [ref=f271e135]: You're juggling classrooms, teachers, state paperwork and a stack of tools that don't talk to each other. Let's look at your actual setup before you move anything.
+        - list [ref=f271e136]:
+          - listitem [ref=f271e137]: 30 minutes, your workflows — not a generic deck
+          - listitem [ref=f271e140]: We map every tool you're replacing and every one you're keeping
+          - listitem [ref=f271e143]: Free migration — we move your data and forms for you
+        - generic [ref=f271e146]:
+          - link "Request a demo" [ref=f271e147] [cursor=pointer]:
+            - /url: /request-demo
+          - generic [ref=f271e148]: Usually booked within a day
+    - generic [ref=f271e150]:
+      - generic [ref=f271e151]:
+        - paragraph [ref=f271e152]: One platform
+        - heading "One system in. Four subscriptions out." [level=2] [ref=f271e153]: One system in.Four subscriptions out.
+        - paragraph [ref=f271e154]: Kinderly isn't another app to add to the pile — it's the one that empties it. And for the systems you can't leave behind, we connect instead of compete.
+      - generic [ref=f271e155]:
+        - generic [ref=f271e156]:
+          - generic [ref=f271e157]:
+            - generic [ref=f271e158]: What it replaces
+            - heading "The stack you're paying for now" [level=3] [ref=f271e159]
+          - list [ref=f271e160]:
+            - listitem [ref=f271e161]:
+              - generic [ref=f271e164]: A separate enrollment / e-sign tool
+            - listitem [ref=f271e165]:
+              - generic [ref=f271e168]: A CRM or spreadsheet for tours and waitlists
+            - listitem [ref=f271e169]:
+              - generic [ref=f271e172]: Your current CCMS for attendance and ratios
+            - listitem [ref=f271e173]:
+              - generic [ref=f271e176]: A billing or payments add-on
+            - listitem [ref=f271e177]:
+              - generic [ref=f271e180]: A website builder and a separate form tool
+          - generic [ref=f271e181]:
+            - generic [ref=f271e182]: All of it becomes
+            - generic [ref=f271e183]: one login, one small bill.
+        - figure "Paula S. Director · Capitol Kids Development center" [ref=f271e185]:
+          - blockquote [ref=f271e186]: “Kinderly transformed our center. We went from five tools to one, and our team actually uses it.”
+          - paragraph [ref=f271e187]: Kinderly takes over your enrollment forms, your tour and waitlist tracking, your CCMS for attendance and ratios, your billing and payments, and your website — all in one login.
+          - generic [ref=f271e190]:
+            - generic [ref=f271e191]: Paula S.
+            - generic [ref=f271e192]: Director · Capitol Kids Development center
+        - generic [ref=f271e193]:
+          - generic [ref=f271e194]:
+            - generic [ref=f271e195]: 2 minutes
+            - paragraph [ref=f271e196]: Average time for a family to finish a packet
+          - generic [ref=f271e197]:
+            - generic [ref=f271e198]: 99%
+            - paragraph [ref=f271e199]: On-time payment rate with online billing
+          - generic [ref=f271e200]:
+            - generic [ref=f271e201]: One platform
+            - paragraph [ref=f271e202]: Replaces enrollment, CRM, CCMS, and billing
+        - generic [ref=f271e203]:
+          - generic [ref=f271e204]:
+            - generic [ref=f271e205]:
+              - generic [ref=f271e206]: What it connects to
+              - heading "Keep the systems you can't leave behind" [level=3] [ref=f271e207]
+            - paragraph [ref=f271e208]: Kinderly integrates with the systems you already use, so your team can focus on care instead of data entry.
+          - generic [ref=f271e209]:
+            - generic [ref=f271e210]:
+              - generic [ref=f271e211]:
+                - generic [ref=f271e212]:
+                  - generic [aria-hidden] [ref=f271e213]: K
+                  - generic [ref=f271e214]: KinderConnect
+                - generic [ref=f271e215]: Live
+              - paragraph [ref=f271e216]: Attendance submitted to KinderSystems for state subsidy.
+            - generic [ref=f271e217]:
+              - generic [ref=f271e218]:
+                - generic [ref=f271e219]:
+                  - generic [aria-hidden] [ref=f271e220]: Q
+                  - generic [ref=f271e221]: Quick Books
+                - generic [ref=f271e222]: Soon
+              - paragraph [ref=f271e223]: Sync with QuickBooks for accounting and payments.
+            - generic [ref=f271e224]:
+              - generic [ref=f271e225]:
+                - generic [ref=f271e226]:
+                  - generic [aria-hidden] [ref=f271e227]: G
+                  - generic [ref=f271e228]: Gusto
+                - generic [ref=f271e229]: Soon
+              - paragraph [ref=f271e230]: Sync with Gusto for payroll and HR management.
+            - generic [ref=f271e231]:
+              - generic [ref=f271e232]:
+                - generic [ref=f271e233]:
+                  - generic [aria-hidden] [ref=f271e234]: M
+                  - generic [ref=f271e235]: More coming soon...
+                - generic [ref=f271e236]: Soon
+              - paragraph [ref=f271e237]: More integrations coming soon.
+    - generic [ref=f271e239]:
+      - generic [ref=f271e240]:
+        - generic [ref=f271e241]: Enrollment & marketing
+        - heading "Fill your rooms without filling your evenings" [level=2] [ref=f271e246]
+        - paragraph [ref=f271e247]: Families find you, ask about a tour and finish their paperwork inside one system — from the first Google search to the first day.
+      - generic [ref=f271e248]:
+        - article [ref=f271e249]:
+          - heading "Enrollment packets families finish on a phone" [level=3] [ref=f271e250]
+          - paragraph [ref=f271e251]: Forms, document uploads, e-signatures and legal acknowledgements in one guided flow. Conditional questions appear only when they apply, and state forms auto-fill from what the family already typed.
+          - generic [ref=f271e252]:
+            - img "Kinderly packet builder with forms, documents and automated actions"
+        - article [ref=f271e253]:
+          - heading "Secure family share links" [level=3] [ref=f271e254]
+          - paragraph [ref=f271e255]: A private link with a 6-digit PIN. No account for families to create, nothing guessable, and it expires when you say.
+        - generic [ref=f271e257]:
+          - blockquote [ref=f271e260]: “Our parents jumped for joy when they started using the apps!”
+          - generic [ref=f271e261]:
+            - generic [ref=f271e262]: Stepping Stones Preschool
+            - generic [ref=f271e263]: Director · Stepping Stones Preschool
+        - article [ref=f271e264]:
+          - heading "A website built to bring you enrollments" [level=3] [ref=f271e265]
+          - paragraph [ref=f271e266]: Point, click and type — programs, photos, virtual tours and reviews. Your own web address, on Google from day one.
+          - generic [ref=f271e267]:
+            - img "Kinderly website builder editing a center homepage"
+        - article [ref=f271e268]:
+          - heading "Build any form, drop it on any page" [level=3] [ref=f271e269]
+          - paragraph [ref=f271e270]: Tour requests, inquiry forms or your full enrollment paperwork. Every submission lands on your family board automatically.
+          - generic [ref=f271e271]:
+            - img "Kinderly form builder with enrollment fields and a component palette"
+        - article [ref=f271e272]:
+          - heading "One board per program, location or school year" [level=3] [ref=f271e273]
+          - paragraph [ref=f271e274]: Move families Lead → Tour → Enrolled, with to-dos, notes and their packet attached to the card.
+          - generic [ref=f271e275]:
+            - img "Kinderly pipeline columns from Inquiry through Enrolled"
+    - generic [ref=f271e277]:
+      - generic [ref=f271e278]:
+        - generic [ref=f271e279]: Daily operations
+        - heading "Run the building from one screen" [level=2] [ref=f271e284]
+        - paragraph [ref=f271e285]: Children, staff, classrooms, attendance and messages in one place — with a single app for the teachers who never sit at a desk.
+      - generic [ref=f271e286]:
+        - article [ref=f271e287]:
+          - heading "Ratios checked before they break" [level=3] [ref=f271e288]
+          - paragraph [ref=f271e289]: Set ratio bands per age group and Kinderly checks them against who is actually clocked in — flagging the room ahead of time, not after a licensing visit.
+          - generic [ref=f271e290]:
+            - img "Kinderly classroom page warning that the Infant Room is out of ratio"
+        - article [ref=f271e291]:
+          - heading "Attendance that reconciles itself" [level=3] [ref=f271e292]
+          - paragraph [ref=f271e293]: Sign-in and sign-out from the teacher app or a front-desk tablet. Yesterday is already in the system when you unlock the door.
+        - article [ref=f271e294]:
+          - heading "Teacher & parent apps, iOS and Android" [level=3] [ref=f271e295]
+          - paragraph [ref=f271e296]: Daily notes, photos, classroom management and in-app bill payment. Built by us, so they match the portal exactly.
+        - article [ref=f271e297]:
+          - heading "Staff and child scheduling" [level=3] [ref=f271e298]
+          - paragraph [ref=f271e299]: Shifts, coverage and classroom transitions — with payroll hours and expenses ready to export at the end of the week.
+        - article [ref=f271e300]:
+          - heading "Messaging families without a second app" [level=3] [ref=f271e301]
+          - paragraph [ref=f271e302]: Center-wide announcements or one quiet message to one guardian, from the same place their child's record lives.
+        - generic [ref=f271e304]:
+          - blockquote [ref=f271e307]: “Our parents love the daily updates, seamless communication and easy billing.”
+          - generic [ref=f271e308]:
+            - generic [ref=f271e309]: K. Adams
+            - generic [ref=f271e310]: Director · Little Treasures
+        - article [ref=f271e311]:
+          - heading "Reports your licensor will actually accept" [level=3] [ref=f271e312]
+          - paragraph [ref=f271e313]: Dozens of pre-built reports — attendance, name-to-face, health, CACFP, staff hours, schedule adherence — ready to run from the records your team already keeps, plus a builder for anything else.
+          - generic [ref=f271e314]:
+            - img "Kinderly pre-built report catalog grouped by attendance, health, curriculum and CACFP"
+        - article [ref=f271e315]:
+          - heading "One record per child, guardian and staff member" [level=3] [ref=f271e316]
+          - paragraph [ref=f271e317]: Programs, classrooms, allergies, authorized pickups, app access and documents live on the record — with today's sign-in status on the same row.
+          - generic [ref=f271e318]:
+            - img "Kinderly children roster showing classroom, age and sign-in status per child"
+    - generic [ref=f271e320]:
+      - generic [ref=f271e321]:
+        - generic [ref=f271e322]: Tuition & finances
+        - heading "Your center's whole financial picture" [level=2] [ref=f271e325]
+        - paragraph [ref=f271e326]: Invoices generate themselves from your program fees, families pay in the app they already have, and you stop reconciling a spreadsheet on Fridays.
+      - generic [ref=f271e327]:
+        - article [ref=f271e328]:
+          - heading "Invoices and billing runs on a schedule" [level=3] [ref=f271e329]
+          - paragraph [ref=f271e330]: Recurring tuition, one-off fees and sibling rates, generated from the programs a child is actually enrolled in.
+        - article [ref=f271e331]:
+          - heading "Every family's balance, at a glance" [level=3] [ref=f271e332]
+          - paragraph [ref=f271e333]: Billing accounts per family, what's been collected, what's aging, and the two accounts actually worth a phone call — instead of a spreadsheet you rebuild every month.
+          - generic [ref=f271e334]:
+            - img "Kinderly billing dashboard showing payments collected and every family balance"
+        - generic [ref=f271e336]:
+          - blockquote [ref=f271e339]: “With Kinderly, my parents never miss a payment.”
+          - generic [ref=f271e340]:
+            - generic [ref=f271e341]: K. Adams
+            - generic [ref=f271e342]: Director · Little Treasures
+        - article [ref=f271e343]:
+          - heading "Card and bank payments in the parent app" [level=3] [ref=f271e344]
+          - paragraph [ref=f271e345]: Families pay from the same app they use for daily notes. No portal to remember, no check at pickup.
+        - article [ref=f271e346]:
+          - heading "Subsidy attendance, submitted for you" [level=3] [ref=f271e347]
+          - paragraph [ref=f271e348]: The KinderConnect integration matches your children to KinderSystems and sends attendance for state reimbursement automatically.
+        - article [ref=f271e349]:
+          - heading "Expenses and budgets in the same place" [level=3] [ref=f271e350]
+          - paragraph [ref=f271e351]: Track center spend against a budget alongside the money coming in, so the full picture lives in one system.
+    - generic [ref=f271e353]:
+      - generic [ref=f271e354]:
+        - paragraph [ref=f271e355]: Built for
+        - heading "However your program is shaped" [level=2] [ref=f271e356]
+      - generic [ref=f271e357]:
+        - generic [ref=f271e358]:
+          - heading "Home daycares" [level=3] [ref=f271e363]
+          - paragraph [ref=f271e364]: One room, one person, all of it on you. Free up to 10 children, with the website and paperwork included.
+        - generic [ref=f271e365]:
+          - heading "Centers" [level=3] [ref=f271e370]
+          - paragraph [ref=f271e371]: Multiple classrooms, staff schedules, ratio bands and licensing reports — with a teacher app your team will actually open.
+        - generic [ref=f271e372]:
+          - heading "Multi-site & multi-program" [level=3] [ref=f271e377]
+          - paragraph [ref=f271e378]: A separate board and its own programs per location or school year, without a separate subscription for each one.
+    - generic [ref=f271e380]:
+      - generic [ref=f271e381]:
+        - paragraph [ref=f271e382]: New software shouldn't take a year
+        - heading "What switching actually looks like" [level=2] [ref=f271e383]
+        - paragraph [ref=f271e384]: It starts with one call. From there our team sets up your documents, your website and your integrations, trains your staff, and stands beside you on go-live day. Here is every step, and what we're doing on each one.
+      - list [ref=f271e385]:
+        - listitem [ref=f271e386]:
+          - generic [aria-hidden] [ref=f271e388]: "1"
+          - paragraph [ref=f271e389]: Today
+          - article [ref=f271e390]:
+            - generic [ref=f271e391]:
+              - heading "You book a time with us" [level=3] [ref=f271e392]
+              - paragraph [ref=f271e393]: One call, at an hour that actually suits your day. Bring whatever you already have — there's nothing to prepare first.
+            - generic [ref=f271e394]:
+              - generic [ref=f271e395]:
+                - paragraph [ref=f271e396]: Your part
+                - list [ref=f271e400]:
+                  - listitem [ref=f271e401]: Pick a time that works around your rooms
+                  - listitem [ref=f271e403]: Bring your roster and your paper packet, any format
+                  - listitem [ref=f271e405]: Tell us which tools you're keeping
+              - generic [ref=f271e407]:
+                - paragraph [ref=f271e408]: Our part
+                - list [ref=f271e413]:
+                  - listitem [ref=f271e414]: Walk through your center with you on the call
+                  - listitem [ref=f271e417]: Map out exactly what we'll set up, and when
+            - paragraph [ref=f271e420]: Nothing is signed and nothing is charged at this step.
+        - listitem [ref=f271e421]:
+          - generic [aria-hidden] [ref=f271e423]: "2"
+          - paragraph [ref=f271e424]: Day 2–4
+          - article [ref=f271e425]:
+            - generic [ref=f271e426]:
+              - heading "We get everything set up" [level=3] [ref=f271e427]
+              - paragraph [ref=f271e428]: The build is ours. Your documents, your website and your integrations, done for you.
+            - generic [ref=f271e429]:
+              - generic [ref=f271e430]:
+                - paragraph [ref=f271e431]: Your part
+                - list [ref=f271e435]:
+                  - listitem [ref=f271e436]: Answer the odd question when we ask it
+              - generic [ref=f271e438]:
+                - paragraph [ref=f271e439]: Our part
+                - list [ref=f271e444]:
+                  - listitem [ref=f271e445]: Your enrollment packet and documents rebuilt, field by field
+                  - listitem [ref=f271e448]: Your website live at your own address
+                  - listitem [ref=f271e451]: KinderConnect and your other integrations enabled
+                  - listitem [ref=f271e454]: Programs, tuition rates and ratio bands configured
+            - paragraph [ref=f271e457]: You see all of it before your families do — and we change whatever you want changed.
+        - listitem [ref=f271e458]:
+          - generic [aria-hidden] [ref=f271e460]: "3"
+          - paragraph [ref=f271e461]: Day 5
+          - article [ref=f271e462]:
+            - generic [ref=f271e463]:
+              - heading "We train your team on it" [level=3] [ref=f271e464]
+              - paragraph [ref=f271e465]: Your admins and your teachers get walked through their own screens. Nobody has to teach themselves a new system.
+            - generic [ref=f271e466]:
+              - generic [ref=f271e467]:
+                - paragraph [ref=f271e468]: Your part
+                - list [ref=f271e472]:
+                  - listitem [ref=f271e473]: Pick an hour that suits your staff
+              - generic [ref=f271e475]:
+                - paragraph [ref=f271e476]: Our part
+                - list [ref=f271e481]:
+                  - listitem [ref=f271e482]: Live session for admins, and one for teachers
+                  - listitem [ref=f271e485]: Questions answered straight to your team, not through you
+            - paragraph [ref=f271e488]: The same people who built your center are the ones on the call.
+        - listitem [ref=f271e489]:
+          - generic [aria-hidden] [ref=f271e491]: "4"
+          - paragraph [ref=f271e492]: Go-live
+          - article [ref=f271e493]:
+            - generic [ref=f271e494]:
+              - heading "Show time" [level=3] [ref=f271e495]
+              - paragraph [ref=f271e496]: Families get their link, teachers open the app, and your center runs on one system.
+            - generic [ref=f271e497]:
+              - generic [ref=f271e498]:
+                - paragraph [ref=f271e499]: Your part
+                - list [ref=f271e503]:
+                  - listitem [ref=f271e504]: Open the doors
+              - generic [ref=f271e506]:
+                - paragraph [ref=f271e507]: Our part
+                - list [ref=f271e512]:
+                  - listitem [ref=f271e513]: On hand through your first sign-in morning
+                  - listitem [ref=f271e516]: Watching for anything that needs fixing, so you don't have to
+            - paragraph [ref=f271e519]: And we don't go quiet after go-live — same team, same number.
+      - paragraph [ref=f271e528]: We're always here to help. Free migration, free training and no setup fee — with a real person from our team on every step above, and every day after go-live.
+    - generic [ref=f271e530]:
+      - generic [ref=f271e531]:
+        - paragraph [ref=f271e532]: Support
+        - heading "A real person, usually within the hour" [level=2] [ref=f271e533]
+        - paragraph [ref=f271e534]: We'll help you build your enrollment packets, set your tuition rates and get your website live. No tickets queued for next Tuesday, and no charge for any of it.
+        - generic [ref=f271e535]:
+          - link "Talk to our team" [ref=f271e536] [cursor=pointer]:
+            - /url: /contact
+          - link "See pricing — from $0 →" [ref=f271e537] [cursor=pointer]:
+            - /url: /pricing
+      - list [ref=f271e538]:
+        - listitem [ref=f271e539]: Free data migration
+        - listitem [ref=f271e542]: Free onboarding & staff training
+        - listitem [ref=f271e545]: We digitize your existing packet
+        - listitem [ref=f271e548]: No setup or per-feature fees
+        - listitem [ref=f271e551]: COPPA & FERPA aligned, AES-256
+        - listitem [ref=f271e554]: No ads — families are never the product
+    - generic [ref=f271e558]:
+      - heading "Book a demo and see why providers are consolidating" [level=2] [ref=f271e559]
+      - paragraph [ref=f271e560]: First, tell us about yourself. What kind of program do you run?
+      - generic [ref=f271e561]:
+        - link "Home-based" [ref=f271e562] [cursor=pointer]:
+          - /url: /request-demo?program=home-based
+        - link "Center" [ref=f271e563] [cursor=pointer]:
+          - /url: /request-demo?program=center
+        - link "Multi-location" [ref=f271e564] [cursor=pointer]:
+          - /url: /request-demo?program=multi-location
+      - generic [ref=f271e565]:
+        - link "Request a demo" [ref=f271e566] [cursor=pointer]:
+          - /url: /request-demo
+        - link "Get started free" [ref=f271e567] [cursor=pointer]:
+          - /url: https://go.mykinderly.com/signup
+      - paragraph [ref=f271e568]: Free migration · Free up to 10 children · Cancel anytime
+  - contentinfo [ref=f271e569]:
+    - generic [ref=f271e570]:
+      - generic [ref=f271e571]:
+        - generic [ref=f271e572]:
+          - link "Kinderly logo Kinderly" [ref=f271e573] [cursor=pointer]:
+            - /url: /
+            - img "Kinderly logo" [ref=f271e574]
+            - generic [ref=f271e575]: Kinderly
+          - paragraph [ref=f271e576]: Childcare management, simplified. Enroll families, grow your center, and run the day-to-day from one calm system.
+          - link "Start for Free" [ref=f271e577] [cursor=pointer]:
+            - /url: https://go.mykinderly.com/signup
+        - generic [ref=f271e578]:
+          - heading [level=3] [ref=f271e579]:
+            - link "Enroll" [ref=f271e580] [cursor=pointer]:
+              - /url: /enroll
+          - list [ref=f271e581]:
+            - listitem [ref=f271e582]:
+              - link "Digital enrollment forms" [ref=f271e583] [cursor=pointer]:
+                - /url: /enroll/forms
+            - listitem [ref=f271e584]:
+              - link "Document storage & e-sign" [ref=f271e585] [cursor=pointer]:
+                - /url: /enroll/documents
+            - listitem [ref=f271e586]:
+              - link "Enrollment packets" [ref=f271e587] [cursor=pointer]:
+                - /url: /enroll/packets
+            - listitem [ref=f271e588]:
+              - link "Automations & actions" [ref=f271e589] [cursor=pointer]:
+                - /url: /enroll/actions
+            - listitem [ref=f271e590]:
+              - link "Secure family share links" [ref=f271e591] [cursor=pointer]:
+                - /url: /enroll/shares
+        - generic [ref=f271e592]:
+          - heading [level=3] [ref=f271e593]:
+            - link "Grow" [ref=f271e594] [cursor=pointer]:
+              - /url: /grow
+          - list [ref=f271e595]:
+            - listitem [ref=f271e596]:
+              - link "Easy-to-use website builder" [ref=f271e597] [cursor=pointer]:
+                - /url: /grow/website-builder
+            - listitem [ref=f271e598]:
+              - link "Forms right on your website" [ref=f271e599] [cursor=pointer]:
+                - /url: /grow/embeddable-forms
+            - listitem [ref=f271e600]:
+              - link "Family tracker board" [ref=f271e601] [cursor=pointer]:
+                - /url: /grow/family-tracker
+            - listitem [ref=f271e602]:
+              - link "A board for each program or location" [ref=f271e603] [cursor=pointer]:
+                - /url: /grow/boards
+            - listitem [ref=f271e604]:
+              - link "To-dos, notes & forms on every family" [ref=f271e605] [cursor=pointer]:
+                - /url: /grow/tasks
+            - listitem [ref=f271e606]:
+              - link "Pages, looks & photo library" [ref=f271e607] [cursor=pointer]:
+                - /url: /grow/pages
+            - listitem [ref=f271e608]:
+              - link "Virtual tours of your center" [ref=f271e609] [cursor=pointer]:
+                - /url: /grow/tours
+            - listitem [ref=f271e610]:
+              - link "Hosting & your own web address" [ref=f271e611] [cursor=pointer]:
+                - /url: /grow/hosting
+            - listitem [ref=f271e612]:
+              - link "Found on Google" [ref=f271e613] [cursor=pointer]:
+                - /url: /grow/seo
+            - listitem [ref=f271e614]:
+              - link "Simple visitor reports" [ref=f271e615] [cursor=pointer]:
+                - /url: /grow/analytics
+        - generic [ref=f271e616]:
+          - heading [level=3] [ref=f271e617]:
+            - link "Manage" [ref=f271e618] [cursor=pointer]:
+              - /url: /manage
+          - list [ref=f271e619]:
+            - listitem [ref=f271e620]:
+              - link "Child records" [ref=f271e621] [cursor=pointer]:
+                - /url: /manage/children
+            - listitem [ref=f271e622]:
+              - link "Staff records & app access" [ref=f271e623] [cursor=pointer]:
+                - /url: /manage/staff
+            - listitem [ref=f271e624]:
+              - link "Guardians & families" [ref=f271e625] [cursor=pointer]:
+                - /url: /manage/guardians
+            - listitem [ref=f271e626]:
+              - link "Classrooms & ratios" [ref=f271e627] [cursor=pointer]:
+                - /url: /manage/classrooms
+            - listitem [ref=f271e628]:
+              - link "Programs & enrollment" [ref=f271e629] [cursor=pointer]:
+                - /url: /manage/programs
+            - listitem [ref=f271e630]:
+              - link "Attendance tracking" [ref=f271e631] [cursor=pointer]:
+                - /url: /manage/attendance
+            - listitem [ref=f271e632]:
+              - link "Staff scheduling" [ref=f271e633] [cursor=pointer]:
+                - /url: /manage/scheduling
+            - listitem [ref=f271e634]:
+              - link "Child scheduling" [ref=f271e635] [cursor=pointer]:
+                - /url: /manage/child-scheduling
+        - generic [ref=f271e636]:
+          - heading [level=3] [ref=f271e637]:
+            - link "Billing" [ref=f271e638] [cursor=pointer]:
+              - /url: /manage/billing
+          - list [ref=f271e639]:
+            - listitem [ref=f271e640]:
+              - link "Billing accounts" [ref=f271e641] [cursor=pointer]:
+                - /url: /manage/billing/accounts
+            - listitem [ref=f271e642]:
+              - link "Invoices & billing runs" [ref=f271e643] [cursor=pointer]:
+                - /url: /manage/billing/invoices
+            - listitem [ref=f271e644]:
+              - link "Online payments" [ref=f271e645] [cursor=pointer]:
+                - /url: /manage/billing/payments
+      - generic [ref=f271e646]:
+        - generic [ref=f271e647]:
+          - heading "Company" [level=3] [ref=f271e648]
+          - list [ref=f271e649]:
+            - listitem [ref=f271e650]:
+              - link "Security & Privacy" [ref=f271e651] [cursor=pointer]:
+                - /url: /security
+            - listitem [ref=f271e652]:
+              - link "Contact" [ref=f271e653] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=f271e654]:
+              - link "Request a Demo" [ref=f271e655] [cursor=pointer]:
+                - /url: /request-demo
+        - generic [ref=f271e656]:
+          - heading "Resources" [level=3] [ref=f271e657]
+          - list [ref=f271e658]:
+            - listitem [ref=f271e659]:
+              - link "Blog" [ref=f271e660] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=f271e661]:
+              - link "Pricing" [ref=f271e662] [cursor=pointer]:
+                - /url: /pricing
+            - listitem [ref=f271e663]:
+              - link "Compare" [ref=f271e664] [cursor=pointer]:
+                - /url: /vs
+            - listitem [ref=f271e665]:
+              - link "Integrations" [ref=f271e666] [cursor=pointer]:
+                - /url: /integrations
+            - listitem [ref=f271e667]:
+              - link "KinderConnect" [ref=f271e668] [cursor=pointer]:
+                - /url: /integrations/kinderconnect
+        - generic [ref=f271e669]:
+          - heading "Legal" [level=3] [ref=f271e670]
+          - list [ref=f271e671]:
+            - listitem [ref=f271e672]:
+              - link "Privacy Policy" [ref=f271e673] [cursor=pointer]:
+                - /url: /legal/privacy-policy
+            - listitem [ref=f271e674]:
+              - link "Terms & Conditions" [ref=f271e675] [cursor=pointer]:
+                - /url: /legal/terms
+            - listitem [ref=f271e676]:
+              - link "Acceptable Use" [ref=f271e677] [cursor=pointer]:
+                - /url: /legal/aup
+            - listitem [ref=f271e678]:
+              - link "Cookie Policy" [ref=f271e679] [cursor=pointer]:
+                - /url: /legal/cookie-policy
+            - listitem [ref=f271e680]:
+              - link "Refund Policy" [ref=f271e681] [cursor=pointer]:
+                - /url: /legal/refund-policy
+        - generic [ref=f271e682]:
+          - heading "Get started today" [level=3] [ref=f271e683]
+          - paragraph [ref=f271e684]: Free forever. No credit card required.
+          - link "Start for Free" [ref=f271e685] [cursor=pointer]:
+            - /url: https://go.mykinderly.com/signup
+      - generic [ref=f271e686]: © 2026 Kinderly — a Memberwise product. All rights reserved.
+  - generic [ref=f271e689]:
+    - button [ref=f271e690]
+    - button [ref=f271e696]
+    - button [ref=f271e700]
+    - button [ref=f271e705]

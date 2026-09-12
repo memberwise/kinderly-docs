@@ -1,0 +1,118 @@
+- generic [ref=f4e2]:
+  - generic [ref=f4e3]:
+    - complementary [ref=f4e4]:
+      - link [ref=f4e5] [cursor=pointer]:
+        - /url: /
+        - img "Kinderly" [ref=f4e6]
+      - navigation [ref=f4e8]:
+        - link [ref=f4e9] [cursor=pointer]:
+          - /url: /
+        - link [ref=f4e15] [cursor=pointer]:
+          - /url: /enroll
+        - link [ref=f4e21] [cursor=pointer]:
+          - /url: /manage
+        - link [ref=f4e28] [cursor=pointer]:
+          - /url: /grow
+        - link [ref=f4e34] [cursor=pointer]:
+          - /url: /funding
+      - navigation [ref=f4e43]:
+        - link [ref=f4e44] [cursor=pointer]:
+          - /url: /settings
+        - link [ref=f4e50] [cursor=pointer]:
+          - /url: mailto:support@mykinderly.com
+        - link [ref=f4e56] [cursor=pointer]:
+          - /url: https://docs.mykinderly.com
+      - button "Account menu" [ref=f4e63]:
+        - img "Tyler Buese" [ref=f4e65]
+    - complementary [ref=f4e66]:
+      - generic [ref=f4e67]:
+        - paragraph [ref=f4e68]: Bright Beginnings Learning Center
+        - paragraph [ref=f4e69]: Kinderly - Manage
+      - navigation [ref=f4e70]:
+        - link [ref=f4e72] [cursor=pointer]:
+          - /url: /manage
+        - generic [ref=f4e77]:
+          - paragraph [ref=f4e78]: People
+          - generic [ref=f4e79]:
+            - link [ref=f4e80] [cursor=pointer]:
+              - /url: /manage/children
+            - link [ref=f4e86] [cursor=pointer]:
+              - /url: /manage/guardians
+            - link [ref=f4e93] [cursor=pointer]:
+              - /url: /manage/staff
+        - generic [ref=f4e98]:
+          - paragraph [ref=f4e99]: Operations
+          - generic [ref=f4e100]:
+            - link [ref=f4e101] [cursor=pointer]:
+              - /url: /manage/classrooms
+            - link [ref=f4e106] [cursor=pointer]:
+              - /url: /manage/scheduling
+            - link [ref=f4e110] [cursor=pointer]:
+              - /url: /manage/programs
+            - link [ref=f4e115] [cursor=pointer]:
+              - /url: /manage/curriculum
+        - generic [ref=f4e120]:
+          - paragraph [ref=f4e121]: Communication
+          - generic [ref=f4e122]:
+            - link [ref=f4e123] [cursor=pointer]:
+              - /url: /manage/messages
+            - link [ref=f4e127] [cursor=pointer]:
+              - /url: /manage/feed
+        - generic [ref=f4e132]:
+          - paragraph [ref=f4e133]: Finance
+          - generic [ref=f4e134]:
+            - link [ref=f4e135] [cursor=pointer]:
+              - /url: /manage/billing
+            - link [ref=f4e139] [cursor=pointer]:
+              - /url: /manage/finance
+        - generic [ref=f4e144]:
+          - paragraph [ref=f4e145]: Insights
+          - link [ref=f4e147] [cursor=pointer]:
+            - /url: /manage/reports
+      - link [ref=f4e152] [cursor=pointer]:
+        - /url: /manage/settings
+    - main [ref=f4e157]:
+      - generic [ref=f4e158]:
+        - navigation "breadcrumb" [ref=f4e160]:
+          - list [ref=f4e161]:
+            - listitem [ref=f4e162]:
+              - link "Kinderly Manage" [ref=f4e163] [cursor=pointer]:
+                - /url: /manage
+            - listitem [aria-hidden] [ref=f4e164]
+            - listitem [ref=f4e167]:
+              - link "Curriculum" [disabled] [ref=f4e168]
+        - generic [ref=f4e170]:
+          - generic [ref=f4e171]:
+            - generic [ref=f4e172]:
+              - heading "Curriculum" [level=1] [ref=f4e173]
+              - paragraph [ref=f4e176]: Choose the learning standards this center documents against. Teachers then tag the daily notes they already write to an outcome in one tap, and the evidence accrues on its own.
+            - generic [ref=f4e177]:
+              - generic [ref=f4e178]:
+                - paragraph [ref=f4e179]: Curriculum in the apps
+                - paragraph [ref=f4e180]: On — teachers see the Learning row
+              - link "Change" [ref=f4e181] [cursor=pointer]:
+                - /url: /manage/settings/app-settings
+          - generic [ref=f4e182]:
+            - tablist [ref=f4e183]:
+              - tab "Frameworks" [ref=f4e184]
+              - tab "Library" [ref=f4e185]
+              - tab "Planner" [ref=f4e186]
+              - tab "Assessment" [ref=f4e187]
+              - tab "Shared" [active] [selected] [ref=f4e188]
+            - tabpanel "Shared" [ref=f4e1061]:
+              - generic [ref=f4e1062]:
+                - generic [ref=f4e1063]:
+                  - generic [ref=f4e1064]:
+                    - button "Browse" [ref=f4e1065]
+                    - button "Shared by us" [ref=f4e1066]
+                    - button "Updates" [ref=f4e1067]
+                  - generic [ref=f4e1068]:
+                    - generic [ref=f4e1069]:
+                      - checkbox "Only what my frameworks credit" [ref=f4e1070]
+                      - text: Only what my frameworks credit
+                    - textbox "Search shared activities…" [ref=f4e1071]
+                    - button "Refresh" [ref=f4e1072]
+                - generic [ref=f4e1073]:
+                  - paragraph [ref=f4e1074]: Nothing shared yet.
+                  - paragraph [ref=f4e1075]: The shared library fills up from centers publishing activities they wrote for their own rooms. Anything you share arrives at another center carrying its outcome mappings, so it feeds their planner and their tagging suggestions on day one.
+  - region "Notifications alt+T"

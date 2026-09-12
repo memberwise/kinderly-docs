@@ -36,3 +36,13 @@
 	font-weight: 700;
 	letter-spacing: -0.01em;
 }
+
+/* Phone screenshots — tall portrait captures from the Teacher and Parent apps.
+   Constrain the width so they don't dominate the page like the 1440x900 web shots do. */
+.sl-markdown-content img[src*="mobile-"] {
+	max-width: 280px;
+	display: block;
+	margin-inline: auto;
+	border: 1px solid var(--sl-color-gray-5);
+	border-radius: 16px;
+}

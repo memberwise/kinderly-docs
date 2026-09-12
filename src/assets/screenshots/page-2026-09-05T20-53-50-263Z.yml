@@ -1,0 +1,313 @@
+- generic [ref=f31e2]:
+  - generic [ref=f31e3]:
+    - complementary [ref=f31e4]:
+      - link [ref=f31e5] [cursor=pointer]:
+        - /url: /
+        - img "Kinderly" [ref=f31e6]
+      - navigation [ref=f31e8]:
+        - link [ref=f31e9] [cursor=pointer]:
+          - /url: /
+        - link [ref=f31e15] [cursor=pointer]:
+          - /url: /enroll
+        - link [ref=f31e21] [cursor=pointer]:
+          - /url: /manage
+        - link [ref=f31e28] [cursor=pointer]:
+          - /url: /grow
+        - link [ref=f31e34] [cursor=pointer]:
+          - /url: /funding
+      - navigation [ref=f31e43]:
+        - link [ref=f31e44] [cursor=pointer]:
+          - /url: /settings
+        - link [ref=f31e50] [cursor=pointer]:
+          - /url: mailto:support@mykinderly.com
+        - link [ref=f31e56] [cursor=pointer]:
+          - /url: https://docs.mykinderly.com
+      - button "Account menu" [ref=f31e63]:
+        - img "Tyler Buese" [ref=f31e65]
+    - complementary [ref=f31e66]:
+      - generic [ref=f31e67]:
+        - paragraph [ref=f31e68]: Bright Beginnings Learning Center
+        - paragraph [ref=f31e69]: Kinderly - Manage
+      - navigation [ref=f31e70]:
+        - link [ref=f31e72] [cursor=pointer]:
+          - /url: /manage
+        - generic [ref=f31e77]:
+          - paragraph [ref=f31e78]: People
+          - generic [ref=f31e79]:
+            - link [ref=f31e80] [cursor=pointer]:
+              - /url: /manage/children
+            - link [ref=f31e86] [cursor=pointer]:
+              - /url: /manage/guardians
+            - link [ref=f31e93] [cursor=pointer]:
+              - /url: /manage/staff
+        - generic [ref=f31e98]:
+          - paragraph [ref=f31e99]: Operations
+          - generic [ref=f31e100]:
+            - link [ref=f31e101] [cursor=pointer]:
+              - /url: /manage/classrooms
+            - link [ref=f31e106] [cursor=pointer]:
+              - /url: /manage/scheduling
+            - link [ref=f31e110] [cursor=pointer]:
+              - /url: /manage/programs
+            - link [ref=f31e115] [cursor=pointer]:
+              - /url: /manage/curriculum
+        - generic [ref=f31e120]:
+          - paragraph [ref=f31e121]: Communication
+          - generic [ref=f31e122]:
+            - link [ref=f31e123] [cursor=pointer]:
+              - /url: /manage/messages
+            - link [ref=f31e127] [cursor=pointer]:
+              - /url: /manage/feed
+        - generic [ref=f31e132]:
+          - paragraph [ref=f31e133]: Finance
+          - generic [ref=f31e134]:
+            - link [ref=f31e135] [cursor=pointer]:
+              - /url: /manage/billing
+            - link [ref=f31e139] [cursor=pointer]:
+              - /url: /manage/finance
+        - generic [ref=f31e144]:
+          - paragraph [ref=f31e145]: Insights
+          - link [ref=f31e147] [cursor=pointer]:
+            - /url: /manage/reports
+      - link [ref=f31e152] [cursor=pointer]:
+        - /url: /manage/settings
+    - main [ref=f31e157]:
+      - generic [ref=f31e158]:
+        - navigation "breadcrumb" [ref=f31e160]:
+          - list [ref=f31e161]:
+            - listitem [ref=f31e162]:
+              - link "Kinderly Manage" [ref=f31e163] [cursor=pointer]:
+                - /url: /manage
+            - listitem [aria-hidden] [ref=f31e164]
+            - listitem [ref=f31e167]:
+              - link "Curriculum" [disabled] [ref=f31e168]
+        - generic [ref=f31e170]:
+          - generic [ref=f31e171]:
+            - generic [ref=f31e172]:
+              - heading "Curriculum" [level=1] [ref=f31e173]
+              - paragraph [ref=f31e176]: Choose the learning standards this center documents against. Teachers then tag the daily notes they already write to an outcome in one tap, and the evidence accrues on its own.
+            - generic [ref=f31e177]:
+              - generic [ref=f31e178]:
+                - paragraph [ref=f31e179]: Curriculum in the apps
+                - paragraph [ref=f31e180]: On — teachers see the Learning row
+              - link "Change" [ref=f31e181] [cursor=pointer]:
+                - /url: /manage/settings/app-settings
+          - generic [ref=f31e182]:
+            - tablist [ref=f31e183]:
+              - tab "Frameworks" [ref=f31e184]
+              - tab "Library" [ref=f31e185]
+              - tab "Planner" [ref=f31e186]
+              - tab "Assessment" [selected] [ref=f31e187]
+              - tab "Shared" [ref=f31e188]
+            - tabpanel "Assessment" [ref=f31e594]:
+              - generic [ref=f31e1445]:
+                - generic [ref=f31e1446]:
+                  - button "Roster" [ref=f31e1447]
+                  - generic [ref=f31e1448]:
+                    - heading "Juniper Achterberg" [level=2] [ref=f31e1449]
+                    - paragraph [ref=f31e1450]: Fall 2026 · 2026-07-01 – 2026-11-04 · 44 months at period end
+                  - generic [ref=f31e1451]:
+                    - button "Print" [ref=f31e1452]
+                    - button "Confirm the rest" [ref=f31e1453]
+                    - button "Share with family" [ref=f31e1454]
+                    - button "Reopen" [ref=f31e1455]
+                - generic [ref=f31e1456]:
+                  - generic [ref=f31e1457]:
+                    - strong [ref=f31e1458]: "16"
+                    - generic [ref=f31e1459]: of 16 outcomes confirmed
+                  - generic [ref=f31e1460]: 16 backed by an observation this period
+                - generic [ref=f31e1461]:
+                  - generic [ref=f31e1462]:
+                    - heading "Approaches to Learning (Preschool)" [level=3] [ref=f31e1464]
+                    - generic [ref=f31e1465]: 4/4 confirmed
+                  - list [ref=f31e1466]:
+                    - listitem [ref=f31e1467]:
+                      - generic [ref=f31e1468]:
+                        - generic [ref=f31e1469]:
+                          - paragraph [ref=f31e1470]: Child manages actions, words, and behavior with increasing independence.
+                          - paragraph [ref=f31e1471]: P-ATL 4 · 1 observation, none rated
+                        - generic [ref=f31e1472]:
+                          - button "Not Yet" [ref=f31e1473]
+                          - button "Emerging" [ref=f31e1474]
+                          - button "Progressing" [ref=f31e1475]
+                          - button "Demonstrating" [ref=f31e1476]
+                    - listitem [ref=f31e1477]:
+                      - generic [ref=f31e1478]:
+                        - generic [ref=f31e1479]:
+                          - paragraph [ref=f31e1480]: Child demonstrates initiative and independence.
+                          - paragraph [ref=f31e1481]: P-ATL 5 · 2 observations, none rated
+                        - generic [ref=f31e1482]:
+                          - button "Not Yet" [ref=f31e1483]
+                          - button "Emerging" [ref=f31e1484]
+                          - button "Progressing" [ref=f31e1485]
+                          - button "Demonstrating" [ref=f31e1486]
+                    - listitem [ref=f31e1487]:
+                      - generic [ref=f31e1488]:
+                        - generic [ref=f31e1489]:
+                          - paragraph [ref=f31e1490]: Child maintains focus and sustains attention with minimal adult support.
+                          - paragraph [ref=f31e1491]: P-ATL 9 · 1 observation
+                        - generic [ref=f31e1492]:
+                          - button "Not Yet" [ref=f31e1493]
+                          - button "Emerging" [ref=f31e1494]
+                          - button "Progressing" [ref=f31e1495]
+                          - button "Demonstrating" [ref=f31e1496]
+                    - listitem [ref=f31e1497]:
+                      - generic [ref=f31e1498]:
+                        - generic [ref=f31e1499]:
+                          - paragraph [ref=f31e1500]: Child demonstrates flexibility in thinking and behavior.
+                          - paragraph [ref=f31e1501]: P-ATL 12 · 1 observation
+                        - generic [ref=f31e1502]:
+                          - button "Not Yet" [ref=f31e1503]
+                          - button "Emerging" [ref=f31e1504]
+                          - button "Progressing" [ref=f31e1505]
+                          - button "Demonstrating" [ref=f31e1506]
+                - generic [ref=f31e1507]:
+                  - generic [ref=f31e1508]:
+                    - heading "Social and Emotional Development (Preschool)" [level=3] [ref=f31e1510]
+                    - generic [ref=f31e1511]: 3/3 confirmed
+                  - list [ref=f31e1512]:
+                    - listitem [ref=f31e1513]:
+                      - generic [ref=f31e1514]:
+                        - generic [ref=f31e1515]:
+                          - paragraph [ref=f31e1516]: Child engages in prosocial and cooperative behavior with adults.
+                          - paragraph [ref=f31e1517]: P-SE 2 · 1 observation, none rated
+                        - generic [ref=f31e1518]:
+                          - button "Not Yet" [ref=f31e1519]
+                          - button "Emerging" [ref=f31e1520]
+                          - button "Progressing" [ref=f31e1521]
+                          - button "Demonstrating" [ref=f31e1522]
+                    - listitem [ref=f31e1523]:
+                      - generic [ref=f31e1524]:
+                        - generic [ref=f31e1525]:
+                          - paragraph [ref=f31e1526]: Child manages emotions with increasing independence.
+                          - paragraph [ref=f31e1527]: P-SE 8 · 1 observation, none rated
+                        - generic [ref=f31e1528]:
+                          - button "Not Yet" [ref=f31e1529]
+                          - button "Emerging" [ref=f31e1530]
+                          - button "Progressing" [ref=f31e1531]
+                          - button "Demonstrating" [ref=f31e1532]
+                    - listitem [ref=f31e1533]:
+                      - generic [ref=f31e1534]:
+                        - generic [ref=f31e1535]:
+                          - paragraph [ref=f31e1536]: Child recognizes self as a unique individual having own abilities, characteristics, emotions, and interests.
+                          - paragraph [ref=f31e1537]: P-SE 9 · 1 observation
+                        - generic [ref=f31e1538]:
+                          - button "Not Yet" [ref=f31e1539]
+                          - button "Emerging" [ref=f31e1540]
+                          - button "Progressing" [ref=f31e1541]
+                          - button "Demonstrating" [ref=f31e1542]
+                - generic [ref=f31e1543]:
+                  - generic [ref=f31e1544]:
+                    - heading "Language and Communication (Preschool)" [level=3] [ref=f31e1546]
+                    - generic [ref=f31e1547]: 4/4 confirmed
+                  - list [ref=f31e1548]:
+                    - listitem [ref=f31e1549]:
+                      - generic [ref=f31e1550]:
+                        - generic [ref=f31e1551]:
+                          - paragraph [ref=f31e1552]: Child varies the amount of information provided to meet the demands of the situation.
+                          - paragraph [ref=f31e1553]: P-LC 3 · 1 observation, none rated
+                        - generic [ref=f31e1554]:
+                          - button "Not Yet" [ref=f31e1555]
+                          - button "Emerging" [ref=f31e1556]
+                          - button "Progressing" [ref=f31e1557]
+                          - button "Demonstrating" [ref=f31e1558]
+                    - listitem [ref=f31e1559]:
+                      - generic [ref=f31e1560]:
+                        - generic [ref=f31e1561]:
+                          - paragraph [ref=f31e1562]: Child expresses self in increasingly long, detailed, and sophisticated ways.
+                          - paragraph [ref=f31e1563]: P-LC 5 · 1 observation
+                        - generic [ref=f31e1564]:
+                          - button "Not Yet" [ref=f31e1565]
+                          - button "Emerging" [ref=f31e1566]
+                          - button "Progressing" [ref=f31e1567]
+                          - button "Demonstrating" [ref=f31e1568]
+                    - listitem [ref=f31e1569]:
+                      - generic [ref=f31e1570]:
+                        - generic [ref=f31e1571]:
+                          - paragraph [ref=f31e1572]: Child understands and uses a wide variety of words for a variety of purposes.
+                          - paragraph [ref=f31e1573]: P-LC 6 · 1 observation, none rated
+                        - generic [ref=f31e1574]:
+                          - button "Not Yet" [ref=f31e1575]
+                          - button "Emerging" [ref=f31e1576]
+                          - button "Progressing" [ref=f31e1577]
+                          - button "Demonstrating" [ref=f31e1578]
+                    - listitem [ref=f31e1579]:
+                      - generic [ref=f31e1580]:
+                        - generic [ref=f31e1581]:
+                          - paragraph [ref=f31e1582]: Child shows understanding of word categories and relationships among words.
+                          - paragraph [ref=f31e1583]: P-LC 7 · 1 observation
+                        - generic [ref=f31e1584]:
+                          - button "Not Yet" [ref=f31e1585]
+                          - button "Emerging" [ref=f31e1586]
+                          - button "Progressing" [ref=f31e1587]
+                          - button "Demonstrating" [ref=f31e1588]
+                - generic [ref=f31e1589]:
+                  - generic [ref=f31e1590]:
+                    - heading "Literacy (Preschool)" [level=3] [ref=f31e1592]
+                    - generic [ref=f31e1593]: 2/2 confirmed
+                  - list [ref=f31e1594]:
+                    - listitem [ref=f31e1595]:
+                      - generic [ref=f31e1596]:
+                        - generic [ref=f31e1597]:
+                          - paragraph [ref=f31e1598]: Child demonstrates an understanding of narrative structure through storytelling and retelling.
+                          - paragraph [ref=f31e1599]: P-LIT 4 · 1 observation, none rated
+                        - generic [ref=f31e1600]:
+                          - button "Not Yet" [ref=f31e1601]
+                          - button "Emerging" [ref=f31e1602]
+                          - button "Progressing" [ref=f31e1603]
+                          - button "Demonstrating" [ref=f31e1604]
+                    - listitem [ref=f31e1605]:
+                      - generic [ref=f31e1606]:
+                        - generic [ref=f31e1607]:
+                          - paragraph [ref=f31e1608]: Child writes for a variety of purposes using increasingly sophisticated marks.
+                          - paragraph [ref=f31e1609]: P-LIT 7 · 1 observation, none rated
+                        - generic [ref=f31e1610]:
+                          - button "Not Yet" [ref=f31e1611]
+                          - button "Emerging" [ref=f31e1612]
+                          - button "Progressing" [ref=f31e1613]
+                          - button "Demonstrating" [ref=f31e1614]
+                - generic [ref=f31e1615]:
+                  - generic [ref=f31e1616]:
+                    - heading "Mathematics Development (Preschool)" [level=3] [ref=f31e1618]
+                    - generic [ref=f31e1619]: 2/2 confirmed
+                  - list [ref=f31e1620]:
+                    - listitem [ref=f31e1621]:
+                      - generic [ref=f31e1622]:
+                        - generic [ref=f31e1623]:
+                          - paragraph [ref=f31e1624]: Child knows number names and the count sequence.
+                          - paragraph [ref=f31e1625]: P-MATH 1 · 1 observation, none rated
+                        - generic [ref=f31e1626]:
+                          - button "Not Yet" [ref=f31e1627]
+                          - button "Emerging" [ref=f31e1628]
+                          - button "Progressing" [ref=f31e1629]
+                          - button "Demonstrating" [ref=f31e1630]
+                    - listitem [ref=f31e1631]:
+                      - generic [ref=f31e1632]:
+                        - generic [ref=f31e1633]:
+                          - paragraph [ref=f31e1634]: Child compares numbers.
+                          - paragraph [ref=f31e1635]: P-MATH 4 · 1 observation
+                        - generic [ref=f31e1636]:
+                          - button "Not Yet" [ref=f31e1637]
+                          - button "Emerging" [ref=f31e1638]
+                          - button "Progressing" [ref=f31e1639]
+                          - button "Demonstrating" [ref=f31e1640]
+                - generic [ref=f31e1641]:
+                  - generic [ref=f31e1642]:
+                    - heading "Perceptual, Motor, and Physical Development (Preschool)" [level=3] [ref=f31e1644]
+                    - generic [ref=f31e1645]: 1/1 confirmed
+                  - list [ref=f31e1646]:
+                    - listitem [ref=f31e1647]:
+                      - generic [ref=f31e1648]:
+                        - generic [ref=f31e1649]:
+                          - paragraph [ref=f31e1650]: Child demonstrates knowledge of personal safety practices and routines.
+                          - paragraph [ref=f31e1651]: P-PMP 6 · 1 observation
+                        - generic [ref=f31e1652]:
+                          - button "Not Yet" [ref=f31e1653]
+                          - button "Emerging" [ref=f31e1654]
+                          - button "Progressing" [ref=f31e1655]
+                          - button "Demonstrating" [ref=f31e1656]
+                - generic [ref=f31e1657]:
+                  - text: Summary for the family
+                  - textbox "What this term looked like for this child, in your words." [ref=f31e1658]: Juniper has had a strong term. The evidence below is drawn from 16 outcomes teachers tagged during daily routines, and the pattern across them is a child growing in confidence with peers.
+                  - button "Save summary" [disabled]
+  - region "Notifications alt+T"

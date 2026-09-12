@@ -2,7 +2,7 @@
 title: Building custom reports
 description: Use the report builder to answer questions the pre-built reports don't — choosing what to report on, filtering precisely, and grouping and totalling the results.
 sidebar:
-  order: 14
+  order: 15
 ---
 
 The [pre-built reports](/manage/reports/) cover the questions most centers are asked most often. The **report builder** is for the rest: the funder who wants spend by category for one quarter, the board member who wants headcount by room, the licensing visit that wants every late pickup since March.

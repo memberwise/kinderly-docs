@@ -1,0 +1,80 @@
+- generic [ref=f15e64]:
+  - generic [ref=f15e65]:
+    - complementary [ref=f15e66]:
+      - link [ref=f15e67] [cursor=pointer]:
+        - /url: /
+        - img "Kinderly" [ref=f15e68]
+      - navigation [ref=f15e70]:
+        - link [ref=f15e71] [cursor=pointer]:
+          - /url: /
+        - link [ref=f15e77] [cursor=pointer]:
+          - /url: /enroll
+        - link [ref=f15e84] [cursor=pointer]:
+          - /url: /manage
+        - link [ref=f15e90] [cursor=pointer]:
+          - /url: /grow
+        - link [ref=f15e96] [cursor=pointer]:
+          - /url: /funding
+      - navigation [ref=f15e105]:
+        - link [ref=f15e106] [cursor=pointer]:
+          - /url: /settings
+        - link [ref=f15e112] [cursor=pointer]:
+          - /url: mailto:support@mykinderly.com
+        - link [ref=f15e118] [cursor=pointer]:
+          - /url: https://docs.mykinderly.com
+      - button "Account menu" [ref=f15e125]:
+        - img "Tyler Buese" [ref=f15e127]
+    - complementary [ref=f15e128]:
+      - generic [ref=f15e129]:
+        - paragraph [ref=f15e130]: Kinderly Learning Center
+        - paragraph [ref=f15e131]: Kinderly - Enroll
+      - navigation [ref=f15e132]:
+        - link [ref=f15e134] [cursor=pointer]:
+          - /url: /enroll
+        - generic [ref=f15e139]:
+          - paragraph [ref=f15e140]: Library
+          - generic [ref=f15e141]:
+            - link [ref=f15e142] [cursor=pointer]:
+              - /url: /enroll/documents
+            - link [ref=f15e147] [cursor=pointer]:
+              - /url: /enroll/forms
+            - link [ref=f15e152] [cursor=pointer]:
+              - /url: /enroll/packets
+        - generic [ref=f15e157]:
+          - paragraph [ref=f15e158]: Distribution
+          - link [ref=f15e160] [cursor=pointer]:
+            - /url: /enroll/shares
+    - main [ref=f15e1]:
+      - navigation "breadcrumb" [ref=f15e4]:
+        - list [ref=f15e5]:
+          - listitem [ref=f15e6]:
+            - link "Kinderly Enroll" [ref=f15e7] [cursor=pointer]:
+              - /url: /enroll
+          - listitem [aria-hidden] [ref=f15e8]
+          - listitem [ref=f15e11]:
+            - link "My Documents" [ref=f15e12] [cursor=pointer]:
+              - /url: /enroll/documents
+      - generic [ref=f15e13]:
+        - generic [ref=f15e14]:
+          - generic [ref=f15e15]: Documents
+          - generic [ref=f15e16]: Upload documents and manage your files all in one place.
+        - generic [ref=f15e18]:
+          - button "New Folder" [ref=f15e19]
+          - button "Add Document" [ref=f15e22]
+          - button "New Blank PDF" [ref=f15e25]
+          - textbox "Search documents…" [ref=f15e31]
+        - generic [ref=f15e32]:
+          - generic [ref=f15e33]: Select an item to see options, or drag and drop files to upload.
+          - generic [ref=f15e35]:
+            - generic [ref=f15e36]:
+              - generic [ref=f15e37]: Name
+              - generic [ref=f15e38]: Expires
+              - generic [ref=f15e39]: Modified
+            - generic [ref=f15e165]:
+              - paragraph [ref=f15e170]: Loading State Test
+              - button [ref=f15e171]
+            - generic [ref=f15e40] [cursor=pointer]:
+              - paragraph [ref=f15e46]: CCMS Test Scenarios - SproutCare (1) - Copy.pdf
+              - generic [ref=f15e47]: Sep 9, 2026
+              - button [ref=f15e48]
+  - region "Notifications alt+T"

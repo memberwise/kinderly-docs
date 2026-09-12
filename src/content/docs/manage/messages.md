@@ -2,7 +2,7 @@
 title: Messages
 description: One-to-one conversations with families, and center-wide broadcasts.
 sidebar:
-  order: 9
+  order: 10
 ---
 
 Messages is for talking *to* families. For things everyone should see, use the [Feed](/manage/feed/).

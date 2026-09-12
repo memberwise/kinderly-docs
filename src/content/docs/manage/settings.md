@@ -2,7 +2,7 @@
 title: Manage settings
 description: Configure your center — details, hours, ratios, allergies, immunisations and custom fields.
 sidebar:
-  order: 14
+  order: 16
 ---
 
 **Manage → Settings** configures the center itself. Worth doing before you add children, since several of these lists shape what a child's record can hold.

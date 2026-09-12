@@ -7,6 +7,8 @@ sidebar:
 
 The **Teacher app** is the on-the-floor companion for staff.
 
+![The teacher app home screen, with the clock-in bar, classroom cards and today's roster](../../../assets/screenshots/mobile-teacher-home.png)
+
 ## Signing in and out
 
 - **Clock in** and **clock out** with one tap.
@@ -50,6 +52,8 @@ The tag takes a second in the moment and is far more accurate than trying to rem
 
 ## Schedule and time off
 
+![The Schedule screen showing the current week and the Request Time Off button](../../../assets/screenshots/mobile-teacher-schedule.png)
+
 - See your shifts for the current week.
 - Submit a PTO request (admins approve or deny).
 - Cancel a pending PTO request.
@@ -62,6 +66,22 @@ Posts take **video as well as photos** — up to 20 attachments per post, 200 MB
 
 :::tip[A short video beats five photos]
 Thirty seconds of a room doing something ordinary tells a parent more about their child's day than a carefully framed photo does — and takes less effort to capture.
+:::
+
+## Finding everything else
+
+The **⋮** menu in the top right is the app's hub — everything that isn't the roster lives here.
+
+![The teacher app menu](../../../assets/screenshots/mobile-teacher-menu.png)
+
+### Name-to-Face check
+
+A guided headcount. Kinderly walks you through the children signed into your room one at a time — showing each child's photo and name — and you tap **Here** or **Not here**. A progress bar tracks how far through the room you are.
+
+![The Name-to-Face check, showing one child at a time with Here and Not here buttons](../../../assets/screenshots/mobile-teacher-name-to-face.png)
+
+:::tip[This is the check that catches a miscount]
+Signing children in and out tells you who *should* be in the room. A name-to-face check tells you who actually is. Running one at each transition — after outdoor time, before a walk, at shift change — is what turns your sign-in list from a record into a safety check.
 :::
 
 ## Messaging

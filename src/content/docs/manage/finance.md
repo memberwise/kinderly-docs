@@ -2,7 +2,7 @@
 title: Finance
 description: Track your center's operating spend, receipts and budgets.
 sidebar:
-  order: 12
+  order: 13
 ---
 
 Finance is money going **out** — rent, food, supplies, wages, insurance. It's separate from [Billing](/manage/billing/), which is money coming in from families.

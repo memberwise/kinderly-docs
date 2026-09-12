@@ -32,5 +32,9 @@ Content model:
 - Brand theming lives in `src/styles/kinderly.css` (Poppins font, Kinderly purple accent in both light and dark mode). Pulled in via Starlight's `customCss`.
 - Logo at `src/assets/kinderly.png` is used with `replacesTitle: true`.
 - `site` in `astro.config.mjs` is `https://docs.mykinderly.com` — update if the docs are deployed elsewhere.
+- **Ellie searches these pages.** The `enroll` worker bundles this content so the in-app assistant can answer
+  product questions and cite a URL. After adding, renaming, or substantially rewriting a page, run
+  `npm run docs:index` in `../enroll` and commit the regenerated
+  `enroll/src/worker/lib/ellie/docs-index.generated.ts` — otherwise Ellie keeps answering from the old copy.
 
 TypeScript extends `astro/tsconfigs/strict` with `strictNullChecks` on.

@@ -92,6 +92,10 @@ Legend: ⬜ not started · 🟡 drafted, no images · 🟢 done (prose + images)
 | `manage/finance.md` | 🟢 | **NEW** — expenses, categories, budgets |
 | `manage/reports.md` | 🟢 | Report categories, custom builder |
 | `manage/settings.md` | 🟢 | 7 tabs + meal schedule, auto sign-out, custom closures, import |
+| `manage/food-program.md` | 🟢 | **NEW** — CACFP setup, menu planner, food list, counts, eligibility, claim |
+| `manage/payroll.md` | 🟢 | Pay periods, overtime by week, approval lock, Gusto send |
+| `manage/custom-reports.md` | 🟢 | Report builder |
+| `manage/calendar-links.md` | 🟢 | Subscribed calendar feeds |
 
 ### Kinderly Grow — restructured
 | Page | Status | Notes |

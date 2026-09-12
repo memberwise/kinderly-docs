@@ -9,6 +9,16 @@ sidebar:
 
 **[KinderConnect](/integrations/kinderconnect/)** — report attendance to KinderSystems for state subsidy billing, without keying it in twice.
 
+**[QuickBooks Online](/integrations/quickbooks/)** — send invoices, payments and refunds to your accounting software. One-way: Kinderly writes to QuickBooks, never the reverse.
+
+**[Xero](/integrations/xero/)** — the same, for Xero. One-way, and with the same account mapping.
+
+**[Gusto](/integrations/gusto/)** — send approved timesheet hours to payroll. Hours and paid leave only; never pay rates or personal details.
+
+**[Webhooks](/integrations/webhooks/)** — have Kinderly POST to your own systems the moment something happens: a new enquiry, a check-in, an invoice, a failed payment. Signed, retried, and logged.
+
+**[API](/integrations/api/)** — read your children, staff, enrollments, invoices, payments and attendance from your own systems, with a key you control.
+
 
 
 Saving credentials doesn't start syncing anything today. See [Vendor integrations](/actions/vendor-integrations/).
@@ -30,9 +40,17 @@ The most common thing people go hunting for an integration to solve — getting 
 
 ## Getting data out
 
-Where no integration exists, [Reports](/manage/reports/) is the export route: run the report, export it, upload it wherever it needs to go.
+Three routes. [Webhooks](/integrations/webhooks/) push events to your systems as
+they happen — the right choice when something needs to react. The
+[API](/integrations/api/) lets your systems pull, which suits anything on a
+schedule. And [Reports](/manage/reports/) is the manual route: run the report,
+export it, upload it wherever it needs to go.
 
 ## Next
 
 - [KinderConnect](/integrations/kinderconnect/) — attendance for subsidy billing.
+- [Xero](/integrations/xero/) — accounting, if you're not on QuickBooks.
+- [Gusto](/integrations/gusto/) — payroll hours.
+- [Webhooks](/integrations/webhooks/) — events pushed to your own systems.
+- [API](/integrations/api/) — reading your data from elsewhere.
 - [Actions](/actions/overview/) — the built-in automation.
