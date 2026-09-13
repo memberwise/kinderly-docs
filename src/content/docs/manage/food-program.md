@@ -61,6 +61,28 @@ whether every required component is present, whether the grain is whole
 grain-rich, whether you've gone over the one-juice-a-day limit. **Apply a cycle**
 fills a run of days from a menu you reuse.
 
+There are two ways to get food onto a day, and they suit different moments:
+
+- **Click a red slot.** When a meal is missing something, it shows up as a
+  dashed **Fruit — required** slot in that meal. Click it and the food picker
+  opens already filtered to what fills it.
+- **Drag from the food list beside the meals.** Search or filter by component,
+  then drag a food onto a meal — or straight onto a red slot, which fills it and
+  sets what it counts as in one move.
+
+Once food is on a day you can drag it around: move an item from lunch to snack,
+or reorder items within a meal. To reuse a day, drag the grip beside the date
+onto another day in the week strip — or use **Copy day to…** for the same thing
+without a mouse. Either way the copy lands as a draft on that day for you to
+review and save; it never overwrites what's already on the calendar by itself.
+
+:::note[Days you haven't saved are marked]
+An amber dot on a date means that day has edits you haven't saved yet. You can
+move between days freely — Kinderly keeps the edits — and **Save 3 days** appears
+when more than one day is waiting. A day that fails to save stays marked so you
+can try again.
+:::
+
 :::caution[A meal with no menu of record is the easiest thing to lose at review]
 The planner warns when an operating day has no menu, because meals served
 without one are commonly disallowed — there's nothing to show the meal met the
