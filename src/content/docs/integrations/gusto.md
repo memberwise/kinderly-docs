@@ -12,7 +12,7 @@ It's **one-way and hours only**. Kinderly sends hours and paid leave. It never
 sends — or reads — pay rates, salaries, Social Security numbers, bank details or
 addresses. Gusto holds those and should keep holding them.
 
-Set it up in **Manage → Settings → Center Configuration → Payroll (Gusto)**.
+Set it up in **Manage → Settings → Integrations → Payroll (Gusto)**.
 
 ## Connecting
 

@@ -29,6 +29,8 @@ Inside Kinderly Manage. Covers **the center itself**:
 - **Class Ratios** — required staff-to-child ratios
 - **Billing** — family billing configuration
 - **App Settings** — what families and staff see in the mobile apps
+- **Integrations** — KinderConnect, QuickBooks, Xero and Gusto
+- **Calendar Links**, **Webhooks**, **API Keys** — connecting calendars and other software
 - **Setup Wizard** — walk back through the basics
 
 See [Manage settings](/manage/settings/).
@@ -45,6 +47,11 @@ See [Manage settings](/manage/settings/).
 | The allergy list | Manage → Settings → Allergies |
 | Tax ID on family tax statements | Manage → Settings → Center Configuration |
 | How families are charged | Manage → Settings → Billing |
+| Connect KinderConnect, QuickBooks, Xero or Gusto | Manage → Settings → Integrations |
+
+:::tip[Can't find it?]
+Manage → Settings has a search box. Type what you're looking for in plain words and it takes you straight there.
+:::
 
 :::tip[The rule of thumb]
 If it's about **you or your subscription**, it's in Settings. If it's about **the center**, it's in Manage → Settings.

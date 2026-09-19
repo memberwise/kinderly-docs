@@ -11,7 +11,7 @@ straight into Xero, so you're not keying the same numbers twice.
 It's **one-way**. Kinderly writes to Xero and never reads back, so nothing that
 happens here can change your books except by adding what Kinderly already knows.
 
-Set it up in **Manage → Settings → Center Configuration → Accounting (Xero)**.
+Set it up in **Manage → Settings → Integrations → Accounting (Xero)**.
 
 ## Connecting
 

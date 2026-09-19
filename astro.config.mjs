@@ -15,7 +15,15 @@ export default defineConfig({
 				src: "./src/assets/kinderly.png",
 				replacesTitle: true,
 			},
-			favicon: "/kinderly-favicon.png",
+			favicon: "/favicon.ico",
+			head: [
+				{ tag: "link", attrs: { rel: "icon", type: "image/png", href: "/favicon-48x48.png", sizes: "48x48" } },
+				{ tag: "link", attrs: { rel: "icon", type: "image/png", href: "/favicon-96x96.png", sizes: "96x96" } },
+				{ tag: "link", attrs: { rel: "icon", type: "image/png", href: "/favicon-192x192.png", sizes: "192x192" } },
+				{ tag: "link", attrs: { rel: "apple-touch-icon", href: "/apple-touch-icon.png", sizes: "180x180" } },
+				{ tag: "link", attrs: { rel: "manifest", href: "/site.webmanifest" } },
+				{ tag: "meta", attrs: { name: "theme-color", content: "#7c3aed" } },
+			],
 			customCss: ["./src/styles/kinderly.css"],
 			social: [
 				{

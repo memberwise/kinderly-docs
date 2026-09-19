@@ -7,7 +7,11 @@ sidebar:
 
 **Manage → Settings** configures the center itself. Worth doing before you add children, since several of these lists shape what a child's record can hold.
 
-Tabs: **Center Configuration**, **Allergies**, **Immunizations**, **Custom Fields**, **Class Ratios**, **Billing**, **App Settings**.
+Settings opens on an **Overview** that shows what's set up, what's switched on and anything that needs attention. The sections are grouped down the side: **Center Configuration** and **App Settings**; **Allergies**, **Immunizations**, **Custom Fields** and **Class Ratios**; **Billing**; and **Integrations**, **Calendar Links**, **Webhooks** and **API Keys**.
+
+:::tip[Not sure where a setting lives? Search for it]
+Type what you're after in the search box at the top — "hours", "kiosk", "tax ID", "snow day" — and pick the result to jump straight to it. Press <kbd>/</kbd> to start typing from anywhere on the page.
+:::
 
 ![The Manage settings screen showing the tab list and center information](../../../assets/screenshots/manage-settings.png)
 
@@ -58,10 +62,6 @@ Forgotten sign-outs are the main reason [out-of-ratio alerts](/manage/classrooms
 Sign-out time is when Kinderly gives up waiting, not when you shut. Setting it at your closing time will sign out a child whose parent is running ten minutes late — and that's exactly the pickup you'd want an accurate record of. Leave a margin.
 :::
 
-## Integrations
-
-**KinderConnect** is enabled here — it syncs attendance to state subsidy agencies. See [KinderConnect](/integrations/kinderconnect/).
-
 ## Data Tools
 
 **Import Data** bulk-imports children, guardians and staff from an Excel spreadsheet or CSV.
@@ -101,6 +101,14 @@ center-level billing configuration. See [Billing](/manage/billing/).
 ## App Settings
 
 Controls for what families and staff see in the [Parents](/mobile/parent-app/) and [Teachers](/mobile/teacher-app/) apps.
+
+## Integrations
+
+Connections to other systems, each with a status showing whether it's working:
+
+- **KinderConnect** and **KinderConnect 4.0** — send attendance to state subsidy agencies, on a schedule you choose. See [KinderConnect](/integrations/kinderconnect/).
+- **QuickBooks** and **Xero** — accounting. See [Xero](/integrations/xero/).
+- **Gusto** — payroll. See [Gusto](/integrations/gusto/).
 
 ## Next
 
