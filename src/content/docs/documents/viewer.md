@@ -7,6 +7,8 @@ sidebar:
 
 Opening a document gives you more than a preview — it's where you turn a flat PDF into something a family can fill in.
 
+The editor described on this page is for PDFs. Spreadsheets, text files and presentations open in a read-only view instead, with a **Download** button — they can't carry fields. If you need one of them signed, save it as a PDF from the app you made it in and upload that. Photos and Word documents are [converted to PDF when you upload them](/documents/managing-files/#what-you-can-upload), so they open here like any other PDF.
+
 ![The document viewer with the fields panel open](../../../assets/screenshots/document-viewer.png)
 
 ## Reading the header
@@ -49,6 +51,16 @@ Drag to reorder.
 
 :::tip[Fix the tab order on any multi-column form]
 PDF field order often follows how the file was built, not how it reads. On a two-column form that can mean tabbing from a name box straight to something halfway down the other side. Families filling this in on a phone feel it immediately. A minute spent dragging the order straight saves a lot of confused half-finished forms.
+:::
+
+## Removing built-in fields
+
+Some PDFs come with fields you don't want — a box in the wrong place, or one meant for the agency rather than the family. Hover over a built-in field in the **Tab Order** list (they're marked **PDF**) and click the bin icon. Kinderly asks you to confirm before anything changes.
+
+Removing a built-in field deletes it from the file itself, so it's gone wherever the document goes: shares, packets and printouts. If a packet was set to fill that field in from a form answer, that link is removed too, and Kinderly tells you how many.
+
+:::caution[Removing a built-in field can't be undone]
+The only way to get it back is to upload the original PDF again. If you haven't saved your signatures or filled-in values yet, save first — removing a field reloads the document and clears anything unsaved.
 :::
 
 ## Signing

@@ -28,7 +28,12 @@ Content model:
 - `src/content.config.ts` wires up Starlight's `docsLoader` + `docsSchema` — do not replace the collection with a custom glob.
 - Sidebar structure is driven by `astro.config.mjs` using `autogenerate: { directory: ... }` per section — creating a new page inside a section's folder adds it to the sidebar automatically. Top-level sidebar section order is defined explicitly in the config.
 - **Audience is daycare providers, not developers.** When adding content, avoid exposing internal API endpoints, DB table names, R2 key layouts, or framework jargon. Describe workflows from the operator's perspective.
-- `functionality.md` in the sibling `../enroll/` project is the source of truth for what Kinderly does — consult it when scaffolding new sections, but translate into provider-friendly language.
+- **The running app and its source are the source of truth — not the markdown specs.**
+  `../enroll/functionality.md` is useful for orientation but is demonstrably stale: it was
+  wrong or silent on most of Forms, Grow, Actions, the Funding Center and the real plan
+  tiers. Use it to know what to go and look at; confirm every detail against staging
+  (`go-staging.mykinderly.com`) or the source before writing it down. Where the two
+  disagree, the app wins. See `DOCS-PROGRESS.md` → Gotchas.
 - Brand theming lives in `src/styles/kinderly.css` (Poppins font, Kinderly purple accent in both light and dark mode). Pulled in via Starlight's `customCss`.
 - Logo at `src/assets/kinderly.png` is used with `replacesTitle: true`.
 - `site` in `astro.config.mjs` is `https://docs.mykinderly.com` — update if the docs are deployed elsewhere.
@@ -36,5 +41,21 @@ Content model:
   product questions and cite a URL. After adding, renaming, or substantially rewriting a page, run
   `npm run docs:index` in `../enroll` and commit the regenerated
   `enroll/src/worker/lib/ellie/docs-index.generated.ts` — otherwise Ellie keeps answering from the old copy.
+- **The in-app guided tour links here, and a parity check enforces it.** Every lesson in
+  `enroll/src/react-app/contexts/TutorialContext.tsx` carries a `docsHref` into
+  docs.mykinderly.com. After any page change, run **`npm run docs:parity`** in `../enroll`:
+
+  - A **new page** fails the check until it is registered in `enroll/scripts/feature-map.json`
+    — with the tour steps that teach it, the page whose step covers it, or a written reason it
+    needs none. That is the point: a new feature cannot be documented and then silently left
+    out of the tour.
+  - **Renaming a page or a heading** fails the check if a tour step still links to the old one,
+    rather than sending a provider from inside the product to a 404.
+  - **Sentinels** assert that sets defined in the app — CACFP report labels, Food Program tab
+    names, notification types — are each mentioned on the page that owns them. If the app grows
+    a report and this page doesn't mention it, the check fails.
+
+  A screenshot used by a tour step has to exist in `enroll/public/tutorial/` as well as here;
+  the failure message gives you the `cp` command.
 
 TypeScript extends `astro/tsconfigs/strict` with `strictNullChecks` on.

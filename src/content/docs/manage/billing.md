@@ -15,6 +15,25 @@ Until you complete setup, a banner offers **Start Billing**. Completing it lets 
 
 You can run billing without it — issuing invoices and recording what families pay by cash or transfer — but families can't pay in-app.
 
+## Fees and discounts
+
+Each online payment carries the payment processor's fee — 2.9% + 30¢ for a card, 0.8% (at most $5) for a bank payment — and Kinderly's platform fee of 0.3% + $0.25. Both come out of your payout.
+
+If you want families to share the cost, set either or both under **Settings → Billing → Fees**:
+
+- **Service fee on card and bank payments** — a flat amount, a percentage, or both. You can't know in advance how a family will pay, so the fee is added at the moment they pay by card or bank and appears on the invoice as its own line. Payments by cash, check or account credit never carry it, and neither does an agency.
+- **Discount for paying by bank** — a percentage off payments made from a bank account. Bank payments cost you far less than cards, so this pays for itself.
+
+Both apply wherever a card or bank payment happens: in the parent app, when you charge a saved card or bank account, on autopay, and when you record a card or bank payment you took outside Kinderly. When you record one, enter the amount going toward the balance; the payment screen shows the service fee and the total to collect from the family. In the parent app, families choose how to pay first (a saved card or bank account, or a new one) and see the fee, any bank discount, and the total before they pay. They can also change which saved method is their default, which is the one autopay charges.
+
+If you cancel a payment, its service fee and discount come off the invoice with it.
+
+To see every fee for a period (processor, platform, service fees and discounts), run the **Payment Fees** report under **Reports → Finance**.
+
+Card networks and some states limit fees for paying by card, and some require fees to be disclosed before payment. Check the rules that apply to you before turning the service fee on.
+
+Bank payments take a few business days to clear. Until then the payment shows as pending and the invoice stays open. Once the money arrives the invoice is marked paid and the service fee and any bank discount appear on it.
+
 ## Billing accounts
 
 A **billing account** is who gets the invoice. It can have several **holders** (both parents, say) and cover several children, so a family gets one invoice rather than one per child.
@@ -50,6 +69,40 @@ If an agency covers part of a place and you bill the whole amount to the family,
 ## Invoices
 
 **All Invoices** lists every invoice raised. Charges come from the [program](/manage/programs/) a child is enrolled in, with any **Program Fee Overrides** on the child's record applied automatically.
+
+### Changing a due date
+
+Open an account, expand the invoice and click **Change Due Date**. Use it when
+you've given a family more time, or when an invoice was raised with the wrong
+date on it. Only the date moves — the line items and the amount owed stay as
+they are, and the invoice stops counting as overdue from the new date.
+
+It's offered on invoices that still have a balance. A paid or voided invoice is
+history and can't be moved.
+
+### Voiding and deleting
+
+**Void** cancels an invoice a family has already seen. It stays on the account,
+marked **Void**, so the record of what was cancelled survives. An invoice that
+has received a payment can't be voided — cancel the payment first.
+
+**Delete Permanently** appears on voided invoices only. It removes the invoice
+and its line items from the account entirely, for invoices that shouldn't be on
+the books at all — a duplicate, or one raised against the wrong account.
+
+:::caution[Delete is for mistakes, not for cancellations]
+A deleted invoice leaves no trace: it disappears from the account's history and
+from reports. If a family was ever sent the invoice, void it instead so the
+cancellation is still on the record.
+:::
+
+If the invoice charged a one-time deposit or registration fee, deleting it frees
+that fee to be billed again — voiding alone does not.
+
+To clear several at once, tick the invoices in the list and click **Delete N
+Voided** in the bar above the table. Only the voided ones in your selection are
+deleted — anything still open or paid is left alone, so a selection you made to
+email or download PDFs can't take live invoices with it.
 
 ## Refunds
 

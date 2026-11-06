@@ -36,7 +36,7 @@ Opening and closing time, which days you're open, and **Closed Holidays**.
 
 These define your operating hours, which is when [out-of-ratio alerts](/manage/classrooms/) run and what **Late Pickup** is measured against.
 
-Federal holidays are offered as a checklist. **Custom Closures** covers the one-off days specific to your center — a staff training day, a local holiday, the week between Christmas and New Year.
+Federal holidays are offered as a checklist. **Custom Closures** covers the one-off days specific to your center — a staff training day, a local holiday, the week between Christmas and New Year. Tick **Every year** on a closure to pick just a month and day (say, "The day before Thanksgiving" on Nov 25); it repeats annually until you remove it.
 
 :::caution[Closed Holidays here is separate from a Feed closure post]
 This list is what the system treats as non-operating days. A [Feed](/manage/feed/) closure post is what *tells families*. For a real closure you want both.
@@ -107,8 +107,7 @@ Controls for what families and staff see in the [Parents](/mobile/parent-app/) a
 Connections to other systems, each with a status showing whether it's working:
 
 - **KinderConnect** and **KinderConnect 4.0** — send attendance to state subsidy agencies, on a schedule you choose. See [KinderConnect](/integrations/kinderconnect/).
-- **QuickBooks** and **Xero** — accounting. See [Xero](/integrations/xero/).
-- **Gusto** — payroll. See [Gusto](/integrations/gusto/).
+- **QuickBooks** — accounting. See [QuickBooks](/integrations/quickbooks/).
 
 ## Next
 

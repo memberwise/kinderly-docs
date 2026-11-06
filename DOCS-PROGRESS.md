@@ -161,6 +161,53 @@ Funding Center card.
 **All sections complete** — 60 pages, 44 screenshots, site builds clean, every internal link
 resolves, no orphaned images.
 
+## 2026-09-21 — Food program catch-up, and a parity check to stop this recurring
+
+`manage/food-program.md` was written when the feature had six tabs and a claim screen.
+It had since grown an audit packet, a claim-amendment flow, four notifications, sixteen
+reports and a print dialog — none of it documented, and **every build in between was
+green**, because nothing connects the app to the docs to the tour.
+
+Added to `manage/food-program.md`: the **audit packet** (eight bound sections), **File
+anyway…** acknowledgement with a stored reason, **submit freezes the month → drift →
+amend**, **Print calendar**, **Menu cycles**, infant milk source, the six eligibility
+types and their determination bases, the four notifications, and the **food cost**
+report. Rewrote the two-line CACFP stub in `manage/reports.md` as the **sixteen** real
+reports, in three groups, with the estimate-only one called out.
+
+Added two tour steps (`manage-food-program`, `manage-food-program-claim`) — the food
+program is the largest feature in Manage and the tour said nothing about it at all.
+
+**New: `npm run docs:parity` in `../enroll`.** See `enroll/CLAUDE.md`. It reads
+`enroll/scripts/feature-map.json` and fails if a docs page isn't registered against a
+tour step (or opted out with a written reason), if a step's `docsHref` or anchor is
+dead, if a step's screenshot is missing from `public/tutorial/`, or if a **sentinel**
+breaks — sets pulled from the app (CACFP report labels, Food Program tab names,
+notification types) that must each be mentioned on the page that owns them. It is
+deliberately *not* in `npm run check`, so an in-progress branch isn't blocked.
+
+Corrections the live app forced, all found by reading pixels rather than source:
+
+- The claim breaks out **six** eligibility types, not four — `Base` and `Non-Needy`
+  exist for family child care homes. I described their purpose only as far as the code
+  actually supports; their precise CACFP mechanics are **not** verified — see below.
+- The acknowledgement control is labelled **File anyway…**, not "Acknowledge".
+- The cycles control is **Menu cycles**, not "Apply a cycle" as the old page said.
+
+### Two features exist in the backend with no way to reach them
+
+Found while checking before documenting. Both are shipped code, neither is reachable,
+so neither is in the docs:
+
+- **Eligibility CSV import.** `POST /api/manage/food-program/import/eligibility` and
+  `shared/cacfp/import-eligibility.ts` (a careful column-mapper with a preview step)
+  are complete. **Nothing in `react-app/` calls the endpoint** — `EligibilityTab.tsx`
+  has no import control. This is the single biggest switching cost off KidKare/Minute
+  Menu, built and unreachable.
+- **State overlays.** `shared/cacfp/state-overlays.ts` implements tighten-only merging,
+  but `STATE_OVERLAYS` is deliberately empty pending a citation per state. Correctly
+  undocumented — there is no behaviour to describe yet.
+
 ## Not reviewed
 
 - **`mobile/overview.md`** (13 lines) — short, but accurate as far as it goes. Left as-is.
@@ -183,7 +230,12 @@ All in `src/assets/screenshots/`, from staging at 1440×900.
 `grow-add-section` · `grow-theme` · `grow-pipeline` · `grow-analytics` ·
 `funding-profile` · `funding-documents` · `funding-opportunities` · `packet-action-picker` ·
 `manage-classrooms` · `manage-messages` · `manage-guardians` · `manage-staff` ·
-`manage-settings` · `grow-tours` · `funding-calendar` · `funding-applications`
+`manage-settings` · `grow-tours` · `funding-calendar` · `funding-applications` ·
+`manage-food-program-menu` · `manage-food-program-claim` · `manage-food-program-print`
+
+Screenshots used by a **tour step** must also be copied to `enroll/public/tutorial/`
+— the tour serves its own copy, and `npm run docs:parity` fails if one is missing
+(the failure message gives you the `cp` command).
 
 ## Undocumented features found while writing
 
@@ -323,10 +375,17 @@ Open items only. Everything here needs a human; nothing is blocking the docs.
 
 ### Docs decisions for you
 
-- [ ] **`docs/CLAUDE.md` points at a stale source of truth.** It tells future sessions
-      `../enroll/functionality.md` is authoritative. It isn't — it was wrong or silent on
-      nearly every section (see Gotchas). Either refresh that file or amend CLAUDE.md to say
-      "verify against the running app". Left alone, the next session repeats my mistakes.
+- [ ] **Wire up the eligibility CSV import, or delete it.** The endpoint and parser are
+      written and tested-looking; `EligibilityTab.tsx` never calls them. Either add the
+      control (and I'll document it), or drop the dead code. Right now it is neither.
+- [ ] **Confirm what `Base` and `Non-Needy` mean in your claiming.** They are in
+      `ELIGIBILITY_TYPES` and render as claim columns, but nothing in the source explains
+      how a child gets either, and I would not guess in a doc providers file money on.
+      I described them only as "for family child care homes". One sentence from you and
+      I'll make that section precise.
+- [x] ~~**`docs/CLAUDE.md` points at a stale source of truth.**~~ Fixed 2026-09-21 —
+      it now says the running app and its source are authoritative, and points at the
+      Gotchas below.
 - [ ] **Sanity-check `integrations/kinderconnect.md` against a real submission.** I have now
       verified it against the source (match rules, cadences, cron, submission window), so the
       described *behaviour* is accurate. What I still can't confirm is how it behaves against

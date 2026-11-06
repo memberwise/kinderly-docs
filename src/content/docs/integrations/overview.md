@@ -11,10 +11,6 @@ sidebar:
 
 **[QuickBooks Online](/integrations/quickbooks/)** — send invoices, payments and refunds to your accounting software. One-way: Kinderly writes to QuickBooks, never the reverse.
 
-**[Xero](/integrations/xero/)** — the same, for Xero. One-way, and with the same account mapping.
-
-**[Gusto](/integrations/gusto/)** — send approved timesheet hours to payroll. Hours and paid leave only; never pay rates or personal details.
-
 **[Webhooks](/integrations/webhooks/)** — have Kinderly POST to your own systems the moment something happens: a new enquiry, a check-in, an invoice, a failed payment. Signed, retried, and logged.
 
 **[API](/integrations/api/)** — read your children, staff, enrollments, invoices, payments and attendance from your own systems, with a key you control.
@@ -49,8 +45,6 @@ export it, upload it wherever it needs to go.
 ## Next
 
 - [KinderConnect](/integrations/kinderconnect/) — attendance for subsidy billing.
-- [Xero](/integrations/xero/) — accounting, if you're not on QuickBooks.
-- [Gusto](/integrations/gusto/) — payroll hours.
 - [Webhooks](/integrations/webhooks/) — events pushed to your own systems.
 - [API](/integrations/api/) — reading your data from elsewhere.
 - [Actions](/actions/overview/) — the built-in automation.

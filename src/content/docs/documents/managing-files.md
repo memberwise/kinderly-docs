@@ -7,13 +7,43 @@ sidebar:
 
 ## Uploading
 
-**Add Document**, or drag files straight onto the library. To upload into a folder, open the folder first — files land wherever you currently are.
+**Add Document**, or drag files straight onto the library. To upload into a folder, open the folder first — files land wherever you currently are. You can select several files at once.
+
+### What you can upload
+
+| Type | What happens |
+|---|---|
+| **PDF** | Opens in the full [viewer](/documents/viewer/) — add signature and text fields, include it in packets, share it for signing |
+| **Photos** (JPEG, PNG, WebP, GIF, HEIC) | Turned into a PDF automatically, so a phone photo of an immunisation record can be signed and shared like any other document |
+| **Word** (.docx) | Converted to a PDF — you get to check the result before it saves |
+| **Spreadsheets** (Excel, CSV, OpenDocument) | Stored and readable in the library, sheet by sheet |
+| **Text** (.txt, .md) | Stored and readable in the library |
+| **PowerPoint and OpenDocument presentations** | Stored and downloadable |
+
+Only PDFs can carry signature fields, go into packets, or be shared for signing — everything else is stored, readable and downloadable. If you need a spreadsheet or a presentation signed, save it as a PDF from the app you made it in and upload that.
+
+### Word documents
+
+When you upload a `.docx`, Kinderly converts it to a PDF in your browser and shows you the result before saving anything. Text, headings, lists and tables come across. Page layout, headers and footers, images and anything inside a text box may not.
+
+If the preview doesn't look right, choose **Keep the Word file instead** to store the original untouched, or **Cancel** — then open it in Word, use **File → Save As → PDF**, and upload that instead. That's also the route for older `.doc` files, which can't be converted here.
+
+:::tip[iPhone photos]
+Photos from an iPhone are usually HEIC files, which most browsers can't read. If a photo won't upload, open **Settings → Camera → Formats** on the phone and choose **Most Compatible**, or email the photo to yourself first — that converts it to JPEG.
+:::
 
 ## Folders
 
-**New Folder** creates one. Click a folder to open it; the breadcrumb at the top shows where you are and gets you back.
+**New Folder** creates one. Double-click a folder to open it; the breadcrumb at the top shows where you are and gets you back.
 
 ## Working with a file
+
+The library works the way the file browser on your computer does:
+
+- **Click** to select. Click again to deselect. Ctrl-click (⌘-click on a Mac) picks out several.
+- **Double-click** to open — a file in the [viewer](/documents/viewer/), a folder into its contents.
+- **Right-click** a file or folder for its options, right where your pointer is — the same list as the **⋮** button at the end of the row.
+- **Right-click empty space** for **New Folder**, **Add Document** and **New Blank PDF**, without going back up to the toolbar. Whatever you make lands in the folder you're looking at.
 
 Click a file to select it. A bar appears with actions that work on everything you've selected:
 

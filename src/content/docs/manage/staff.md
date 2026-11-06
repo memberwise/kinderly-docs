@@ -5,9 +5,45 @@ sidebar:
   order: 4
 ---
 
-**Manage → Staff** lists your team with role, email, sign-in state and status. **Add Staff** adds someone; **View Schedule** jumps to [Scheduling](/manage/scheduling/).
+**Manage → Staff** lists your team with role, email, sign-in state and status. **View Schedule** jumps to [Scheduling](/manage/scheduling/).
+
+- **Add Staff ▾** offers **Add Staff** to type their details in, or **Scan Document** to [scan their application or new-hire paperwork](/manage/scan-documents/) and let Ellie fill it in. Either way, they're emailed a sign-in for the [Kinderly Staff app](/mobile/teacher-app/).
+- The **search box** filters by name or email as you type, and **Filters** narrows the list further (below).
+- Tick several people to clock them in or out, upload documents, assign a classroom, or [print a sheet for each](/manage/print-sheets/).
 
 ![The staff list showing role, email and status](../../../assets/screenshots/manage-staff.png)
+
+### Filters
+
+| Filter | Shows staff who… |
+|---|---|
+| **Role** | are a Teacher, Lead Teacher, Administrator or Other |
+| **Classroom** | are assigned to any of the picked classrooms, or to none |
+| **Employment** | are full-time, part-time, contractors or substitutes |
+| **Hired** | started in the last 30 days, 90 days or year |
+| **Certifications** | have an expired certification, one expiring within 30, 60 or 90 days, or none on file |
+| **Staff app** | have, or haven't, set up the staff app |
+| **Missing information** | have no phone, address, birth date or classroom |
+| **Status** | are active (the default) or archived |
+
+:::tip[Stay ahead of expiring certifications]
+*Certifications → One expires within 30 days* is a ready-made renewal list. Tick everyone and use **Print Sheets** with a layout that shows certifications to hand them out.
+:::
+
+## A staff member's page
+
+Alongside **Clock In** and **Change Classroom**, a staff member's page has **Print Sheet**, a [one-page sheet](/manage/print-sheets/) about them, and **Scan Document**. Scan Document reads a form about this person and shows what it says next to what's on file, so you can tick which details to update.
+
+## Dashboard access
+
+Staff sign in to the [Kinderly Staff app](/mobile/teacher-app/) by default. To let someone sign in to Kinderly on the web as well, give them dashboard access:
+
+- **When adding them** — turn on **Give Dashboard Access** in the Add Staff form. It's off unless you turn it on.
+- **Later** — use **Give Dashboard Access** on their page, next to **Scan Document**. Once they have it, the same button reads **Revoke Dashboard Access**, in red.
+
+Dashboard access comes with administrative privileges, so the staff member becomes an **Administrator**. They join your team and are emailed a link to set their password; they sign in with the same email they use for the staff app. Revoking it removes them from your team on the web and leaves their staff app access alone.
+
+Only the team owner can give or revoke dashboard access, and the owner's own access can't be revoked.
 
 ## Roles
 
@@ -49,3 +85,4 @@ Set a departing staff member to inactive rather than deleting them. Deleting tak
 
 - [Classrooms](/manage/classrooms/) — assigning staff to rooms.
 - [Scheduling](/manage/scheduling/) — shifts and time off.
+- [Scan a document](/manage/scan-documents/) — add staff from their paperwork.

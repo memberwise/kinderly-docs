@@ -19,6 +19,7 @@ The difference is that a document in Kinderly isn't just stored. You can add fil
 - **Add it to a [packet](/packets/overview/)** as one step in a longer flow
 - **Build a form from it** — Kinderly can read a fillable PDF's existing fields and turn them into a Kinderly [form](/forms/overview/)
 - **Set an expiry** so out-of-date paperwork doesn't linger
+- **[Auto-apply](/documents/auto-apply/)** it, so every family, child or staff member gets it automatically — including people you add later
 
 ## Getting files in
 
@@ -51,3 +52,4 @@ The point isn't the exact names — it's separating *send to families* from *kee
 
 - [Managing files](/documents/managing-files/) — uploading, organising, expiry.
 - [The document viewer](/documents/viewer/) — adding fields and signing.
+- [Auto-apply documents](/documents/auto-apply/) — hand a document to everyone automatically.

@@ -17,6 +17,7 @@ Four tiers: **Sprout**, **Bloom**, **Flourish** and **Grove**. Pricing is per ce
 | **Pipeline boards** | 1 | 3 | Unlimited | Unlimited |
 | **Virtual tours** | — | 1 | Unlimited | Unlimited |
 | **Grow analytics** | — | Yes | Yes | Yes |
+| **[Auto-apply documents](/documents/auto-apply/)** | — | Yes | Yes | Yes |
 | **Funding Center** | Match count only | 5 tracked grants | Unlimited | Unlimited |
 
 Every new center starts on **Sprout** automatically. It's a real free tier, not a trial — there's no expiry.

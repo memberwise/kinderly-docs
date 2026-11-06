@@ -86,5 +86,6 @@ Two-way chat with your center's staff. You'll get a **push notification** on new
 ![The Documents screen listing files and generated payment statements](../../../assets/screenshots/mobile-parent-documents.png)
 
 - See files linked to you or your children.
+- See documents your center gives every family automatically, such as the handbook or a feeding plan. These are marked **From your center** and can be opened but not removed — see [Auto-apply documents](/documents/auto-apply/).
 - Upload a file directly from your phone.
 - Remove a file you uploaded.

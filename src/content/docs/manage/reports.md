@@ -60,6 +60,10 @@ overtime there.
 If you charge late fees, run it monthly and you have the backing for every charge — rather than relying on someone's memory of who was twenty minutes late in the second week.
 :::
 
+:::tip[Payment Fees shows where the money went]
+**Payment Fees** (under Finance) lists every card and bank payment with what the family paid, the payment processor's fee, Kinderly's platform fee and what reached your payout, along with the service fees you collected and the bank discounts you gave. The processor fee is estimated at standard rates; your payout statement has the exact figure. Card and bank payments you recorded yourself appear too, when they carried a service fee.
+:::
+
 ## Running a report
 
 Pick a report, set the date range and any filters, and **Run report**.
@@ -80,9 +84,46 @@ The star on a report card pins it to a **Favorites** section at the top of this 
 
 ## CACFP
 
-If you claim under the USDA food program, the CACFP reports draw on the food program fields on each [child's record](/manage/children/#info). They're only as good as those fields — a child without a program type set won't appear correctly.
+If you claim under the USDA food program, this is the largest group after Attendance — sixteen reports. They draw on the [Food Program](/manage/food-program/) screens and the food program fields on each [child's record](/manage/children/#info), so they're only as good as those: a child without a program type set won't appear correctly.
+
+### The ones a review asks for
+
+| Report | What it gives you |
+|---|---|
+| **CACFP Meal Counts** | Point-of-service counts by meal type and food program type. This is the claim |
+| **CACFP Menu Production Record** | The menu of record for each day and meal, with substitutions and planned servings. Required at review |
+| **CACFP Edit Checks** | Every meal-pattern and claim finding for a date range, most severe first. Run it before filing |
+| **CACFP Eligibility Roster** | Each child's type, determination basis and income form expiry, soonest first |
+| **CACFP Substitutions** | Every substitution served, with its reason — an undocumented substitution is a disallowance |
+| **CACFP Attendance Reconciliation** | Counts against attendance in both directions: over-claims, *and* meals served but never counted |
+| **CACFP Infant Feeding Record** | Infant meals by child and date with milk source — reviewed and disallowed separately |
+| **CACFP Milk Audit** | Milk the counts required against milk bought in Finance. A standard review procedure, and cheap arithmetic to lose a month to |
+
+Most of these are also bound into the one-click [audit packet](/manage/food-program/#the-audit-packet) on the Claim tab, which is usually the faster way to produce them together.
+
+### Filing and money
+
+| Report | What it gives you |
+|---|---|
+| **CACFP Claim Summary** | The month's workbook: meals by type and eligibility, rates applied, amount claimed — what gets keyed into the state portal |
+| **CACFP Sponsor Submission** | The monthly package a family child care home sends its sponsor: tier, daily counts, enrolment, eligibility and own-children evidence |
+| **CACFP Food Cost per Meal** | Food spend from [Finance](/manage/finance/) against meals served and reimbursement earned. Answers whether the food program pays for itself |
+
+### Day-to-day and paper
+
+| Report | What it gives you |
+|---|---|
+| **CACFP Daily Meal Count Sheet** | Printable per-child count grid for a month — the paper backup when a tablet fails |
+| **CACFP Meal Point of Service** | Per-child meal attendance pivoted by day and meal, grouped by classroom, one classroom per printed page |
+| **CACFP Meal Point of Service (Monthly)** | The same pivoted across a month, one row per meal |
+| **CACFP Food Program Overview** | Each child's USDA type and income form dates by classroom, with totals by type |
+
+:::caution[One report is an estimate, and says so]
+**CACFP Meal Totals (Estimated from Attendance)** infers meals from attendance overlapping each meal window. It's useful for a sanity check or a gap you're reconstructing — it is **not** a substitute for point-of-service counts, and shouldn't be used to build a claim. Use **CACFP Meal Counts** for that.
+:::
 
 ## Next
 
 - [Children](/manage/children/) — where most report data originates.
+- [Food Program](/manage/food-program/) — where the CACFP data comes from.
 - [Finance](/manage/finance/) — spend reporting.

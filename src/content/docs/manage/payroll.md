@@ -1,12 +1,12 @@
 ---
 title: Payroll
-description: Review a pay period, sign it off, and send the hours to Gusto.
+description: Review a pay period, sign it off, and take the hours to payroll.
 sidebar:
   order: 18
 ---
 
 **Manage → Payroll** turns the sign-ins and sign-outs your team already records
-into a pay period you can check, approve, and send.
+into a pay period you can check, approve, and hand to whoever runs payroll.
 
 ![The Payroll page, with the period controls and recent pay periods](../../../assets/screenshots/manage-payroll-overview.png)
 
@@ -67,41 +67,16 @@ If you want the new figures, **Reopen**, rebuild, and approve again.
 Reopening clears the approval — what you signed off was a set of numbers, and
 once those can move again the signature doesn't mean anything.
 
-## Sending to Gusto
+## Getting the hours to payroll
 
-Once a period is approved and [Gusto is connected](/integrations/gusto/),
-**Send to Gusto** submits the hours.
+Once a period is approved, **Print** gives you a sheet of everyone's hours, and the
+**Payroll Hours** report in [Reports](/manage/reports/) gives you the same figures to
+export or key into your payroll system.
 
-Kinderly refuses to send if:
-
-- The period isn't approved, or has already been sent.
-- Gusto has already run payroll for those dates. Make that correction in Gusto.
-- Anyone hourly isn't matched to a Gusto employee — it names who, and why. It
-  won't send everyone else and quietly lose their hours.
-
-Salaried staff appear on the review screen so you can see what they worked, and
-are never sent — they aren't paid by the hour.
-
-## What gets sent
-
-Regular hours, overtime hours, and paid leave against a policy you've mapped.
-That's all.
-
-Never sent: pay rates, salaries, Social Security numbers, bank details or
-addresses. Gusto already holds those and is the right place for them.
-
-Unpaid leave is never sent either — it's absence, not hours worked, and a
-payroll system would pay for it.
-
-## Just want the numbers?
-
-If you don't use Gusto, the **Payroll Hours** report in
-[Reports](/manage/reports/) gives you the same figures to export or key in
-yourself. The approval flow here is still worth using — it's the record of who
-checked what.
+The approval is still worth doing first: it freezes the numbers and records who
+checked what, so what reaches payroll is exactly what was signed off.
 
 ## Next
 
-- [Gusto](/integrations/gusto/) — connecting it and matching your staff.
 - [Scheduling](/manage/scheduling/) — where shifts are set.
 - [Reports](/manage/reports/) — the Payroll Hours and Employee Time Card reports.

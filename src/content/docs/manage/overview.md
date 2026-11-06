@@ -14,8 +14,10 @@ The left-hand menu groups it into five areas.
 ## People
 
 - **[Children](/manage/children/)** — the child record: demographics, medical, family, billing, documents and attendance.
-- **[Guardians](/manage/guardians/)** — parents, carers and anyone else attached to a child.
+- **[Guardians & Contacts](/manage/guardians/)** — parents, carers, emergency contacts and anyone else attached to a child.
 - **[Staff](/manage/staff/)** — your team, their roles and their hours.
+
+All three lists can [scan a paper form](/manage/scan-documents/) to add someone, and [print sheets](/manage/print-sheets/) for anyone you select.
 
 ## Operations
 
