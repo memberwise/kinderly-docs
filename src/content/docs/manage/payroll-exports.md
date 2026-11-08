@@ -20,22 +20,28 @@ them. Kinderly makes the file. You upload it in your payroll provider.
 
 ## Exporting
 
-1. Open the pay period in **Manage → Payroll** and approve it.
-2. Click **Export for payroll** and pick your provider.
+![The Export for payroll dialog with Gusto picked, showing the upload steps above Download file](../../../assets/screenshots/manage-payroll-export.png)
+
+1. Open the pay period in **Manage → Payroll** and approve it. The track above
+   the figures moves on to **Export**.
+2. Click **Export for payroll** at the top of the period and pick your
+   **Payroll provider**. Kinderly remembers your choice for next time.
 3. For ADP or Paychex, enter your company or client code and each person's id the
    first time. Kinderly remembers them.
-4. Click **Download file**. The dialog shows the steps for your provider under the
-   button, and the same steps are below.
+4. Click **Download file** (**Download entry sheet** for Square). Above the button,
+   the dialog shows your provider's steps, with links to the provider's help and
+   to this page. The same steps are below.
 
 :::note[Only approved periods export]
-Export appears once a period is approved. The file holds the hours as you approved
-them, even if attendance has changed since. If the "Attendance has changed" banner
-is showing, reopen the period, rebuild it and approve it again before exporting.
+Export appears once a period is approved, and stays available afterwards. The file
+holds the hours as you approved them, even if attendance has changed since. If the
+"Attendance has changed" banner is showing, reopen the period, rebuild it and
+approve it again before exporting.
 :::
 
-**Salaried staff are left out of every file.** Their pay isn't based on hours. Only
-regular, overtime and PTO hours are exported. Pay rates, bonuses, tips and
-deductions stay with your payroll provider.
+**Salaried staff are left out of every file.** Their pay isn't based on hours, and
+the dialog says how many were left out. Only regular, overtime and PTO hours are
+exported. Pay rates, bonuses, tips and deductions stay with your payroll provider.
 
 ## Gusto
 

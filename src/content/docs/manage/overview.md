@@ -60,7 +60,7 @@ Adding children first means going back over every record to assign rooms and pro
 
 ## Onboarding help
 
-**Schedule onboarding**, top-right on every Manage screen, books a session with the Kinderly team. **Settings → Launch Setup Wizard** walks you back through the basics on your own.
+**Schedule an onboarding call**, top-right on every Manage screen, books a session with the Kinderly team. **Settings → Center Configuration → Launch Setup Wizard** walks you back through the basics on your own. See [Setup wizard](/manage/settings/#setup-wizard).
 
 ## Next
 

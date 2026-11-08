@@ -52,6 +52,17 @@ Before a real family gets anything, send a share to your own email. You'll see t
 
 Ellie is Kinderly's built-in assistant. It shows up throughout the app — drafting a form from a description, searching your shares in plain English, and answering questions about your data. Ellie is included on every plan.
 
+## Help while you work
+
+The **Help** button at the bottom of the screen opens the guide for the page
+you're on, in a panel beside it, so you can read and follow along without losing
+your place. Links inside a guide, such as **How payroll works** next to a page's
+title, open in the same panel.
+
+The panel follows you: move to another page and it switches to that page's
+guide. Use **Search the help docs** at the top of the panel to look up anything
+else. On a smaller screen the panel covers the page instead of sitting beside it.
+
 ## Next
 
 - [What you get](/getting-started/what-you-get/) — plans and limits.
