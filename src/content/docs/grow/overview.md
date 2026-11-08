@@ -44,7 +44,7 @@ A site that only lists a phone number leaks enquiries — people browse at 10pm 
 
 **Sites have drafts.** Edits save to a draft. Nothing families see changes until you publish. See [Sites and pages](/grow/sites/).
 
-**Custom domains aren't live yet.** Every site gets a free `kinderlysites.com` address. Connecting your own domain is still in development.
+**Your address.** Every site gets a free `kinderlysites.com` address, and on Bloom and above you can connect your own domain. See [Grow settings](/grow/settings/).
 
 **Plan limits apply.** Website pages, virtual tours and pipeline boards are all capped by tier, and the free tier has no virtual tours or analytics. See [What you get](/getting-started/what-you-get/).
 

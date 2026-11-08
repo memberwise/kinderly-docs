@@ -17,7 +17,14 @@ Type what you're after in the search box at the top — "hours", "kiosk", "tax I
 
 ## Setup wizard
 
-**Launch Setup Wizard** walks you back through center info, schedule, meals, billing and integrations. Useful when you've inherited a part-configured center and want to check nothing's missing.
+**Launch Setup Wizard** walks you through all of Kinderly in four parts, in the order you'll use it:
+
+1. **Manage** — center info, schedule, meals, auto sign-out, billing, integrations and importing your roster.
+2. **Enroll** — uploading the documents you hand families (handbook, agreements, health and state forms) and starting an enrollment packet.
+3. **Grow** — picking your web address, creating and publishing your website, and a tour of the enquiry pipeline.
+4. **Funding Center** — answering the funding profile questions that decide which grants you match.
+
+Every step is optional. Links to the full editors open in a new tab, so the wizard keeps your place. It's useful when you're new, and when you've inherited a part-configured center and want to check nothing's missing.
 
 ## Center Information
 

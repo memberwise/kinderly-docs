@@ -13,8 +13,8 @@ A **site** is a public marketing presence for your center. A **page** is a URL o
 
 **Grow → Sites → Create site**. Each site gets a free address at `yourname.kinderlysites.com`.
 
-:::note[Custom domains are coming, not here]
-The Domains area is still under development. For now every site lives on its `kinderlysites.com` address. If you already have a domain, you can point visitors at the Kinderly address from your existing site in the meantime.
+:::tip[Use your own domain]
+On Bloom and above you can connect a domain you own, like `www.yourcenter.com`, under **Grow → Settings**. See [Grow settings](/grow/settings/#custom-domain).
 :::
 
 ## Drafts and publishing

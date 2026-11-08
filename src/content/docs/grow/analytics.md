@@ -44,9 +44,13 @@ That ratio is the single most useful number in Grow. Lots of tour views and few 
 A center's site might get a few dozen visits a week. At that volume one afternoon of a parent browsing repeatedly can look like a spike. Look at the shape over a month, not day to day.
 :::
 
+## Daily digest email
+
+To get yesterday's numbers without opening Kinderly, turn on the **Daily digest email** under [Grow → Settings](/grow/settings/#daily-digest-email). Each morning everyone on your team gets an email with the site's visits, top pages, button clicks and where visitors came from. It's off until you turn it on, and you can switch it off the same way.
+
 ## Plan availability
 
-The analytics dashboard isn't included on the free tier. See [What you get](/getting-started/what-you-get/).
+The analytics dashboard and the daily digest aren't included on the free tier. See [What you get](/getting-started/what-you-get/).
 
 ## Next
 

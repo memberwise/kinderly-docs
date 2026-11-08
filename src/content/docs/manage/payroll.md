@@ -12,8 +12,15 @@ into a pay period you can check, approve, and hand to whoever runs payroll.
 
 ## Opening a pay period
 
-Choose the dates, the overtime rule, and which day your workweek starts on, then
-click **Open pay period**. Kinderly works out everyone's hours from attendance.
+Click **New pay period**, pick the dates (or a shortcut like **Last 2 weeks**), the
+overtime rule, and which day your workweek starts on, then click **Open pay period**.
+Kinderly works out everyone's hours from attendance, and remembers the overtime rule
+and week start for next time.
+
+Your pay periods are listed down the left, newest first, each tagged with its
+status — **Draft**, **Approved** or **Sent**. Click one to open it; the
+most recent opens on its own when you arrive. Above each period's figures, a
+**Review → Approve → Export** track says what's left to do.
 
 ![A draft pay period, with regular, overtime and PTO hours per person](../../../assets/screenshots/manage-payroll-review.png)
 
@@ -69,14 +76,19 @@ once those can move again the signature doesn't mean anything.
 
 ## Getting the hours to payroll
 
-Once a period is approved, **Print** gives you a sheet of everyone's hours, and the
-**Payroll Hours** report in [Reports](/manage/reports/) gives you the same figures to
-export or key into your payroll system.
+Once a period is approved, **Export for payroll** downloads the hours as a file for
+Gusto, QuickBooks Online Payroll, ADP RUN or Paychex Flex, or as an entry sheet for
+Square Payroll. The dialog shows where to upload it in your provider. See
+[Payroll exports](/manage/payroll-exports/) for each provider's steps.
+
+**Print** gives you a sheet of everyone's hours, and the **Payroll Hours** report in
+[Reports](/manage/reports/) gives you the same figures to key in by hand.
 
 The approval is still worth doing first: it freezes the numbers and records who
 checked what, so what reaches payroll is exactly what was signed off.
 
 ## Next
 
+- [Payroll exports](/manage/payroll-exports/): the file for your payroll provider, and where it goes.
 - [Scheduling](/manage/scheduling/) — where shifts are set.
 - [Reports](/manage/reports/) — the Payroll Hours and Employee Time Card reports.

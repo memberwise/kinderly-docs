@@ -31,7 +31,7 @@ Inside Kinderly Manage. Covers **the center itself**:
 - **App Settings** — what families and staff see in the mobile apps
 - **Integrations** — KinderConnect and QuickBooks
 - **Calendar Links**, **Webhooks**, **API Keys** — connecting calendars and other software
-- **Setup Wizard** — walk back through the basics
+- **Setup Wizard** — a guided run through Manage, Enroll, Grow and the Funding Center
 
 See [Manage settings](/manage/settings/).
 

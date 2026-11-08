@@ -15,6 +15,12 @@ Until you complete setup, a banner offers **Start Billing**. Completing it lets 
 
 You can run billing without it — issuing invoices and recording what families pay by cash or transfer — but families can't pay in-app.
 
+### Payout day
+
+The money families pay online is sent to your bank once a week. You pick the weekday, Monday to Friday, during setup (in the onboarding wizard's billing step or under **Settings → Billing**). If you don't pick one, it's Friday. You can change it any time under **Settings → Billing**.
+
+A payout includes the payments that have cleared by that day. A card payment usually clears in about two business days, and a bank payment takes a few business days longer, so a payment made the day before your payout day goes out the following week.
+
 ## Fees and discounts
 
 Each online payment carries the payment processor's fee — 2.9% + 30¢ for a card, 0.8% (at most $5) for a bank payment — and Kinderly's platform fee of 0.3% + $0.25. Both come out of your payout.
@@ -66,9 +72,28 @@ Where a third party — a state subsidy or agency — pays part of a child's fee
 If an agency covers part of a place and you bill the whole amount to the family, you'll chase parents for money they don't owe. The agency ledger exists so the family's balance is genuinely what the family owes.
 :::
 
+You add, rename and remove agency ledgers under **Settings → Billing → Agency Ledgers**. If you don't have any yet, you can also create your first one while adding an **Agency / Ledger** holder to a billing account. Before you remove one, Kinderly tells you how many open billing accounts use it. Removing a ledger doesn't change those accounts: they keep billing the agency's share. It only stops the ledger being added to more accounts. To stop billing an agency for a family, remove it from that family's billing account.
+
 ## Invoices
 
 **All Invoices** lists every invoice raised. Charges come from the [program](/manage/programs/) a child is enrolled in, with any **Program Fee Overrides** on the child's record applied automatically.
+
+### Invoice templates
+
+If you raise the same charges by hand again and again, save them as a template
+instead of retyping them. Templates hold line items: a name, description, amount
+and quantity for each.
+
+To make one, go to **Settings → Billing → Invoice Templates** and click **New
+Template**. You can also click **Save as template** in **Create Invoice**, which
+starts a template from the lines on that invoice.
+
+To use one, open **Create Invoice** on an account and pick it from **Add from a
+template**. Its items are added to whatever is already on the invoice, so you can
+combine templates, and you can change or remove any line before you create the
+invoice. Due date, period and note are still set per invoice.
+
+Editing or deleting a template doesn't affect invoices you've already created.
 
 ### Changing a due date
 
