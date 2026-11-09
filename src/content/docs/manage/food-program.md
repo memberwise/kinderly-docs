@@ -220,6 +220,9 @@ on the day and expensive to fix at review. None of them need setting up.
 | **Income forms need attention** | Weekly, for forms expiring within 30 days or already lapsed | The provider, by email |
 | **A claim hasn't been filed** | The 5th and 10th of the following month | Administrators |
 
+All four also appear in the [notification bell](/getting-started/notifications/) for
+everyone on your team who uses Kinderly on the web, under **Food program (CACFP)**.
+
 A few details worth knowing:
 
 - The count nudge fires **mid-window**, not at the start — a notification that
