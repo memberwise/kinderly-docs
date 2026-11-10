@@ -69,7 +69,7 @@ The tag takes a second in the moment and is far more accurate than trying to rem
 
 ![The Schedule screen showing the current week and the Request Time Off button](../../../assets/screenshots/mobile-teacher-schedule.png)
 
-- See your shifts for the current week.
+- See your shifts for the current week. A shift whose out time shows as **Ratio** has no set finish: you may be sent home once you're not needed for ratio, and no later than the time shown underneath.
 - Submit a PTO request (admins approve or deny).
 - Cancel a pending PTO request.
 

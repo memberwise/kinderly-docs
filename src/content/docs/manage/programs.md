@@ -7,7 +7,28 @@ sidebar:
 
 A program is something a family enrols in — Full Day Preschool, Before & After School Care, Summer Camp, a two-day toddler place. It ties what you offer to what you charge.
 
-**Manage → Programs** lists each program with its billing setup, how many children are enrolled, and status. **Add Program** creates one.
+**Manage → Programs** shows every program as a card: what it collects each billing cycle, when it next bills, and who's enrolled. **New program** creates one.
+
+## The Programs page
+
+Across the top:
+
+- **Programs**: how many you run, and how many invoice automatically.
+- **Children enrolled**: children in at least one program, and how many active children aren't in any.
+- **Expected per month**: every program's flat fees for the children it will actually invoice, after each child's overrides, converted to a month (a weekly program counts 52 cycles a year, a twice-monthly one 24). Daily and hourly fees depend on attendance, so they're left out and the tile says which programs have them.
+- **Won't be invoiced**: enrolled children the billing run will skip because they aren't on an open [billing account](/manage/billing/) with an account holder, and what a cycle of their fees comes to. Click it to see only the programs that need attention.
+
+Each card shows the amount per cycle ("$4,250.00 / month"), the next bill date, a bar of how many enrolled children will be invoiced, who joined or left in the last 30 days, and the children themselves. Search finds a program or a child in one. **Needs attention** shows programs with children who won't be invoiced, enrolled children but no fees, or invoices that aren't automatic. **Archived** shows retired programs, which you can restore from the card's menu.
+
+## Who was in a program, and when
+
+Kinderly keeps a history of every enrollment change: a child enrolled or unenrolled, moved from one program to another (on the child's page or by a [transition](/manage/scheduling/#transitions)), their start or end date edited, or everyone unenrolled when a program was archived. Changes made in the teacher app and by a packet's "enroll in program" action are recorded too.
+
+- **Program activity**, at the bottom of the Programs page, lists every change, newest first. Filter it by child, kind of change or program.
+- On a program's **Children** tab, the **Program calendar** shows a month at a time: how many children were enrolled each day, who joined and who left, and the days the program bills. Click a day to see exactly who was in the program that day, and for a bill day, the period it covers. The timeline below it includes children who have since left, and **Enrollment history** lists the changes for that program.
+- The **Program** box on a [child's record](/manage/children/) lists their program history.
+
+History starts with what Kinderly already knew when the feature arrived: every current enrollment and every past one it still had. If a child left a program and later came back before then, only their latest stint was on record.
 
 ## Programs and billing
 
@@ -52,7 +73,9 @@ They answer different questions. A **[classroom](/manage/classrooms/)** is where
 
 ## Retiring a program
 
-Set a program you no longer offer to inactive rather than deleting it. Deleting affects the billing history of children who were enrolled in it.
+Archive a program you no longer offer, from its card's menu or the **Archive program** button on the program. Archiving unenrolls every child in it, so none of them are billed for it again, and each one shows in the program's history. Their past invoices are untouched.
+
+Restoring an archived program brings it back empty. Re-enroll children yourself, so nobody starts being billed again by accident.
 
 ## Next
 
