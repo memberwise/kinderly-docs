@@ -21,6 +21,9 @@ sidebar:
 | **Pipeline boards** | 1 | 3 | Unlimited | Unlimited |
 | **Virtual tours** | — | 1 | Unlimited | Unlimited |
 | **Grow analytics** | — | Yes | Yes | Yes |
+| **[Scan to create](/manage/scan-documents/)** | — | Yes | Yes | Yes |
+| **[Auto-apply documents](/documents/auto-apply/)** | — | Yes | Yes | Yes |
+| **[Packet automations](/actions/overview/)** | Send Email and Notify Staff | Yes | Yes | Yes |
 | **Funding Center** | Match count only | 5 tracked grants | Unlimited | Unlimited |
 
 **Grove** is for multi-site operators with 100+ children.
@@ -29,7 +32,7 @@ sidebar:
 
 **Sprout** is a genuine free tier, not a trial. A childminder or a very small setting can run on it indefinitely. The binding constraint is usually the 30 MB storage — a handful of scanned PDFs will fill it.
 
-**Bloom** is the common choice for a single center. Unlimited forms and packets is the jump that matters: you stop rationing which paperwork goes through Kinderly. It's also where virtual tours, Grow analytics and the Funding Center switch on.
+**Bloom** is the common choice for a single center. Unlimited forms and packets is the jump that matters: you stop rationing which paperwork goes through Kinderly. It's also where packet automations, virtual tours, Grow analytics and the Funding Center switch on.
 
 :::tip[If you're chasing grants, Sprout won't do it]
 On the free tier the Funding Center tells you **how many** opportunities you match but not what they are. That's genuinely useful as a sanity check — if it says 14, there's real money you're not seeing. But you can't act on it. If grants are part of why you're here, that's the reason to be on Bloom; a single one caught in time tends to cover the year's subscription.

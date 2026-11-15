@@ -1,5 +1,5 @@
 ---
-title: Shares overview
+title: Sent Forms overview
 description: How Kinderly delivers forms, documents and packets to families — securely.
 sidebar:
   order: 1
@@ -42,12 +42,12 @@ Once you click **Done**, the PIN is gone. If you're going to pass it on by phone
 
 Getting the PIN wrong five times locks the link for 30 minutes. That's what stops someone guessing their way in.
 
-## Public links
+## Unique links
 
-If you'd rather skip the PIN entirely, turn on **Public access** when creating the share. Anyone with the link can then open it, no code needed.
+If you'd rather skip the PIN entirely, choose **Unique link** when creating the share. Anyone with the link can then open it, no code needed, and each person fills out their own copy.
 
-:::caution[Public means public]
-A public link is only as private as wherever it's posted. Fine for a general enquiry form on your website. Not fine for anything asking for a child's medical details, an address, or a signature.
+:::caution[Anyone with the link can open it]
+A unique link is only as private as wherever it's posted. Fine for a general inquiry form on your website. Not fine for anything asking for a child's medical details, an address, or a signature.
 :::
 
 ## Next

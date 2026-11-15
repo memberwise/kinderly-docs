@@ -11,7 +11,7 @@ sidebar:
 |---|---|
 | **Enroll** | Forms, documents, packets and shares — the paperwork side of Kinderly. |
 | **Manage** | Running your center: children, guardians, staff, classrooms, scheduling, billing, reports. |
-| **Grow** | Filling your places: a public website, virtual tours, and an enquiry pipeline. |
+| **Grow** | Filling your places: a public website, virtual tours, and an inquiry pipeline. |
 | **Funding** | Finding and tracking grants. |
 
 All four are on every plan; tiers differ by limits. See [Plans](/billing/plans/).
@@ -27,7 +27,7 @@ All four are on every plan; tiers differ by limits. See [Plans](/billing/plans/)
 | **Action** | An automated task that runs when a step completes — send an email, create a child record, add a pipeline card. |
 | **Share** | A private link delivering a form, document or packet to one family. |
 | **PIN** | The 6-digit code protecting a share. Emailed to the recipient with the link, and shown to you once at creation. |
-| **Public access** | A share setting that removes the PIN, so anyone with the link can open it. |
+| **Unique link** | A share with no PIN that anyone with the link can open. Each person gets their own copy, with their own answers. |
 | **Approval mode** | A packet setting holding all its actions until someone reviews and approves. |
 
 ## Manage
@@ -68,7 +68,7 @@ All four are on every plan; tiers differ by limits. See [Plans](/billing/plans/)
 | **Draft** | Your unpublished edits. Families see the published version until you publish. |
 | **Theme** | Colours, fonts and button styling across the whole site. |
 | **Virtual tour** | A photo walkthrough of your space, ending in a call-to-action. |
-| **Pipeline** | A board tracking prospective families from enquiry to enrolled. |
+| **Pipeline** | A board tracking prospective families from inquiry to enrolled. |
 
 ## Funding
 

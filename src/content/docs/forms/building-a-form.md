@@ -67,7 +67,7 @@ The properties pane is grouped into sections. Exactly which appear depends on th
 - **Belongs to section** — which section the field sits under, if you're using sections.
 
 **Visibility**
-- **Show only if…** — covered below.
+- **Only show this sometimes**: covered below.
 
 :::tip[Use help text instead of longer labels]
 A label of "Child's full legal name as it appears on their birth certificate" is a wall of text. Make the label "Child's full name" and move the rest into help text. The form reads faster and families still get the guidance.
@@ -75,15 +75,15 @@ A label of "Child's full legal name as it appears on their birth certificate" is
 
 ## Show a field only when it matters
 
-Any field can be hidden until an earlier answer makes it relevant. Turn on **Show only if…** in the Visibility section and you get a three-part rule:
+Any field can be hidden until an earlier answer makes it relevant. Turn on **Only show this sometimes** in the Visibility section and you get a three-part rule:
 
 ![The conditional visibility rule builder, with when-field, operator and value](../../../assets/screenshots/form-field-visibility-rule.png)
 
-- **When field** — any other field in the same form.
-- **Operator** — *equals*, *does not equal*, *contains*, *does not contain*, *is greater than*, or *is less than*.
-- **Value** — what to compare against.
+- **Show it when the answer to**: any earlier question in the same form.
+- **The test**: *has been answered*, *was left blank*, *is*, *is not*, *includes*, *doesn't include*, *is more than* or *is less than*. A checkbox only offers *is*, with **Checked** or **Unchecked**.
+- **This**: the answer to look for. A dropdown or multiple choice question lists its own answers to pick from.
 
-So to only ask about allergies when there are some: set **Known Allergies** to show only if **"Any allergies?" equals Yes**.
+So to only ask about allergies when there are some: set **Known Allergies** to show when the answer to **"Any allergies?" is Yes**.
 
 :::tip[This is the single best thing you can do to a long form]
 Families abandon long forms. Hiding the follow-up questions behind their triggers can turn a visibly 40-field form into one that feels like 15. Nothing is lost — the hidden fields simply never applied.

@@ -60,7 +60,7 @@ The questions worth answering are the ones you already answer by email every wee
 |---|---|
 | **Kinderly form / document** | Embed a Kinderly [form](/forms/overview/), document or [packet](/packets/overview/) inline on the page |
 
-This is what turns a brochure site into something that generates enquiries. See [Grow overview](/grow/overview/#how-it-fits-together).
+This is what turns a brochure site into something that generates inquiries. See [Grow overview](/grow/overview/#how-it-fits-together).
 
 ## Manage
 
@@ -77,6 +77,9 @@ A site that hasn't changed in a year looks abandoned. Because this section pulls
 | Section | What it's for |
 |---|---|
 | **Contact** | Address, phone and email |
+| **Map** | An embedded Google Map with a "Get directions" link. Included on **Bloom** and above |
+
+The Map uses the address from your [center settings](/manage/settings/) — fill in **Address override** only if the map should point somewhere else, like a separate entrance or a second building. If your plan doesn't include it, the section still shows in the editor preview with an upgrade note, but it's left off your published site.
 
 ## Section layout
 
@@ -98,9 +101,9 @@ It's what screen readers announce, and what search engines read. It takes five s
 2. **Features** — three things that make you different
 3. **Virtual tour** — let them look around
 4. **Testimonial** — a parent saying it instead of you
-5. **Kinderly form** — the enquiry form, on the page
+5. **Kinderly form** — the inquiry form, on the page
 6. **Compliance** — licence, capacity, ratios
-7. **Contact**
+7. **Contact** — followed by a **Map**, if your plan includes it
 
 ## Next
 

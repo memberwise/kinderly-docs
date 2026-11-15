@@ -2,7 +2,7 @@
 title: Vendor integrations
 description: Connecting Kinderly actions to outside systems.
 sidebar:
-  order: 4
+  order: 5
 ---
 
 The **Add Actions** dialog groups actions by vendor. **Kinderly** is the one with actions available today; the rest are prepared but not yet live.

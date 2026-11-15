@@ -70,7 +70,7 @@ Pick the narrowest component that fits. Asking for a time alongside a birth date
 | **Payment** *(PRO)* | Collect a payment inline. | Registration fee, deposit |
 
 :::caution[Image and Upload image are opposites]
-**Image** displays a picture you've chosen. **Upload image** asks the family for one. The names are similar and picking the wrong one is a common mistake — if you're expecting immunisation records back and getting nothing, check which one you used.
+**Image** displays a picture you've chosen. **Upload image** asks the family for one. The names are similar and picking the wrong one is a common mistake — if you're expecting immunization records back and getting nothing, check which one you used.
 :::
 
 ## Choosing between Legal and Checkbox
@@ -81,6 +81,18 @@ Both capture agreement, and they pair well:
 - **Checkbox** captures the acknowledgement — "I have read and agree".
 
 For anything with real weight, use **Legal** for the text, a **Checkbox** to confirm, and a **Signature** to sign. That gives you a much stronger record than a lone tick.
+
+## Where Payment field money goes
+
+If you've [set up billing](/manage/billing/), a Payment field needs nothing else: payments go to the same Stripe account families pay their invoices into, and show up in your regular payouts. Stripe's processing fee and Kinderly's platform fee come out of the payout, the same as invoice payments.
+
+Your [service fee and bank payment discount](/manage/billing/) apply too, the same as on an invoice. The field's settings show what a family pays by card and by bank. The family sees the fee, any discount and the total before they pay, and the total updates as they switch between card and bank. Their receipt lists each part.
+
+On a field that lets the family enter their own amount, like a donation, the fee and discount are off unless you turn on **Add to custom amounts** in the field's settings.
+
+A bank payment takes up to 4 business days to clear. The family can submit the form while it does; the response shows **Bank payment submitted**, and **Print Receipt** shows where the payment stands.
+
+If you haven't set up billing, or you want a form to pay into a different Stripe account, paste that account's publishable and secret keys into the field's settings. A field with keys always uses them, even after you set up billing, and your service fee and bank discount don't apply to it. Choose **Use my billing account instead** to clear them.
 
 ## Next
 

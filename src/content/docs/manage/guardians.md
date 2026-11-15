@@ -35,6 +35,8 @@ sidebar:
 
 Alongside their details, a guardian's page has **Print Sheet**, a [one-page sheet](/manage/print-sheets/) about them, and **Scan Document**. Scan Document reads a form about this person and shows what it says next to what's on file, so you can tick which details to update.
 
+Under **Documents → Shared Documents**, **Send** shares a form, packet or document with this guardian. It goes to their email and their [parent app](/mobile/parent-app/#paperwork). To send to many parents at once, use [Group of parents](/shares/sending/#sending-to-a-group-of-parents) in the share dialog.
+
 ## Guardians and children are many-to-many
 
 One guardian can be attached to several children, and one child can have several guardians. That's how siblings and blended families work: a grandparent attached to two children appears once, listed against both.

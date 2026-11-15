@@ -38,7 +38,7 @@ export default defineConfig({
 				{ label: "Documents", autogenerate: { directory: "documents" } },
 				{ label: "Packets", autogenerate: { directory: "packets" } },
 				{ label: "Actions", autogenerate: { directory: "actions" } },
-				{ label: "Shares", autogenerate: { directory: "shares" } },
+				{ label: "Sent Forms", autogenerate: { directory: "shares" } },
 				{ label: "Kinderly Grow", autogenerate: { directory: "grow" } },
 				{ label: "Funding Center", autogenerate: { directory: "funding" } },
 				{ label: "Billing & Subscriptions", autogenerate: { directory: "billing" } },

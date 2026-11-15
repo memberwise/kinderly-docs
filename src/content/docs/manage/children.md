@@ -112,7 +112,7 @@ For a staff discount or a sibling rate, override the fee on the child rather tha
 
 ### Documents
 
-Files uploaded against this child, plus **Shared Documents** — [shares](/shares/overview/) linked to this child, so a signed enrollment packet is attached to the right record instead of sitting only in the Shares list.
+Files uploaded against this child, plus **Shared Documents** — [shares](/shares/overview/) linked to this child, so a signed enrollment packet is attached to the right record instead of sitting only in the Shares list. **Send** shares a form, packet or document with the child's primary guardian straight from here. **Link Share** attaches one you've already sent.
 
 ### Attendance
 

@@ -13,10 +13,16 @@ Used well, this is what turns a signed enrollment packet into a fully created ch
 
 ## Adding actions to your palette
 
-**Send Email** is available by default. The rest are opt-in: click the **+** beside **Actions** in the packet palette, pick a vendor, choose the actions you want, and **Add Actions** makes them available to drag onto the canvas.
+**Send Email** and **Notify Staff** are available by default, on every plan. The rest are opt-in: click the **+** beside **Actions** in the packet palette, pick a vendor, choose the actions you want, and **Add Actions** makes them available to drag onto the canvas.
+
+![On the free plan, the Add Actions dialog shows the automations greyed out with an upgrade note](../../../assets/screenshots/packet-actions-locked.png)
+
+:::note[Automations are on Bloom and above]
+Everything beyond Send Email and Notify Staff (creating families, updating medical records, adding emergency contacts, Grow cards and the rest) needs the **Bloom** plan or above. See [Plans](/billing/plans/). If a center moves to Sprout, packets keep their automations but they don't run. Each one shows *"Packet automations are on the Bloom plan and above"* in the run log instead, and starts working again after an upgrade.
+:::
 
 :::tip[Add only what this packet needs]
-The palette is per-packet. Adding all eleven to a packet that only sends a confirmation email just makes the list harder to read.
+The palette is per-packet. Adding all twenty-odd to a packet that only sends a confirmation email just makes the list harder to read.
 :::
 
 ## The Kinderly actions
@@ -25,41 +31,68 @@ The palette is per-packet. Adding all eleven to a packet that only sends a confi
 
 | Action | What it does |
 |---|---|
-| **Send Email** | Sends an email to a parent, a staff member, or anyone else |
+| **Send Email** | Sends an email to a parent, a staff member, or anyone else. Leave **To** empty to email the person the packet was sent to |
+| **Notify Staff** | Sends a push and bell notification to all your administrators, or to one staff member you pick |
 
-**Creating records in [Manage](/manage/overview/)**
+**People in [Manage](/manage/overview/)**
+
+These find the person first, by email, phone or the packet's recipient, and only create a new record if no one matches. See [Finding people](/actions/finding-people/).
 
 | Action | What it does |
 |---|---|
-| **Add Child to Kinderly Manage** | Creates the child record from the form answers |
-| **Add Guardian to Kinderly Manage** | Creates the guardian record |
+| **Create Family** | Finds or creates a guardian and a child together, already linked. The quickest way to set up an enrollment packet |
+| **Add or Update Guardian** | Finds a guardian by email or phone, creates them if they're new, and fills in their profile: phones, birth date, employer |
+| **Add or Update Child** | Finds a child in a guardian's family, creates them if they're new, and fills in name, birth date and gender |
+| **Add or Update Staff** | For staff onboarding packets: finds or creates the staff member and fills in phone, hire date, title, education and employment type. A new staff member is emailed a staff app login |
+| **Link Guardian to Child** | Connects a guardian and a child, with relationship, pickup rights and primary guardian |
+| **Add Pickup or Emergency Contact** | Adds an authorized pickup or emergency contact to a child, or to [every child in the family](/actions/finding-people/#every-child-in-the-family), creating the contact if they're not in Manage yet |
+
+**Child records**
+
+| Action | What it does |
+|---|---|
 | **Assign Child to Classroom** | Puts the child in a [classroom](/manage/classrooms/) |
-| **Assign Child to Program** | Enrols the child in a [program](/manage/programs/), which starts billing |
-| **Add Address to Child / Guardian / Staff** | Attaches an address to the right record |
+| **Enroll Child in Program** | Enrolls the child in a [program](/manage/programs/), which starts billing |
+| **Update Medical Record** | Fills in physician, preferred hospital, insurance, last physical and emergency treatment consent |
+| **Add Allergies** | Adds allergies from a form answer. A comma-separated list or a multi-select both work, and "None" or "N/A" are ignored |
+
+**Any profile**
+
+| Action | What it does |
+|---|---|
+| **Set Custom Field** | Writes an answer into one of your custom fields on a child, guardian or staff member |
+| **Save Documents to Profile** | Files the packet's completed documents on the person's Files tab, not just as a link to the share |
+| **Add Address to Child** | Adds an address to the child, or fills in the blanks of the one they have |
+| **Add Address to Guardian** | The same, for a guardian |
+| **Add Address to Staff** | The same, for a staff member |
 
 **Linking the paperwork**
 
 | Action | What it does |
 |---|---|
-| **Link Share to Child / Guardian / Staff** | Attaches the completed [share](/shares/overview/) to the record, so the signed paperwork lives on the child's file |
+| **Link Share to Guardian** | Attaches the completed [share](/shares/overview/) to the guardian's profile |
+| **Link Share to Child** | Attaches it to the child's file |
+| **Link Share to Staff** | Attaches it to a staff member's profile |
 
-**[Grow](/grow/overview/)**
+**[Grow](/grow/overview/)** (listed under **Kinderly Grow** in the Add Actions dialog; the people and records actions are under **Kinderly Manage**)
 
 | Action | What it does |
 |---|---|
 | **Add Card to Kinderly Grow** | Creates a [pipeline](/grow/pipeline/) card, with optional tasks and a default assignee |
+| **Move Grow Card** | Moves the family's card to another column, for example to **Enrolled** when the packet comes back |
 
 ## What this makes possible
 
 Chain them and a completed enrollment packet can, on its own:
 
-1. Create the child record
-2. Create both guardians
-3. Add the family's address to each
-4. Assign the child to a classroom
-5. Enrol them in a program, starting billing
-6. Attach the signed packet to the child's file
-7. Email the family a welcome note
+1. Create the family: guardian and child, linked
+2. Add the second guardian and an emergency contact
+3. Add the family's address
+4. Fill in the medical record and allergies
+5. Assign the child to a classroom
+6. Enroll them in a program, starting billing
+7. File the signed documents on the child's profile
+8. Move their Grow card to **Enrolled** and email the family a welcome note
 
 That's the whole of enrollment admin, done from data the family typed once.
 

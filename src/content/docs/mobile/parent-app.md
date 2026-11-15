@@ -35,12 +35,17 @@ Your center's name, address, contact details, operating hours, days open, closed
 
 ## Paperwork
 
-Everything your center has sent you through [Shares](/shares/overview/):
+Forms, documents and packets your center sends through [Shares](/shares/overview/) appear at the top of **Documents**, under **To fill out**. That covers anything filed on you, and anything filed on a child you're a parent or family member of. The **Documents** tile on the home screen shows how many are waiting, and you get a push notification when a new one arrives.
 
-- **For you** — paperwork addressed to you personally.
-- **For your children** — paperwork tied to a specific child.
+Tap **Start** to fill it out and sign it inside the app. You're already signed in, so there's no PIN to type. You can stop partway and pick up where you left off later.
 
-Tap any item to open the PIN-protected share and complete it.
+Once you submit, it moves to **Submitted**. Tap it to review what you sent: your answers, and a copy of each document as you signed it. If your center lets you change answers after submitting, the row says **Can still be changed**.
+
+A form whose link has expired is marked as expired. Ask your center to send it again.
+
+:::note[Case workers and emergency contacts]
+Paperwork filed on a child is shown to the child's family, not to case workers or emergency contacts linked to the child.
+:::
 
 ## Billing
 
@@ -76,6 +81,10 @@ account both of their payments appear, and the statement names each payer. The s
 phone number, plus its **Tax ID (EIN/TIN)** and **Provider Number (DVN)** when
 the center has filled those in — that's what a tax preparer needs for IRS Form
 2441. If they're missing, ask your center to add them under Center Settings.
+
+## Light or dark
+
+The palette button at the top of the home screen opens **Appearance**: **Match phone** (the default) follows the phone's own light or dark setting, or choose **Light** or **Dark** to keep it that way. It changes straight away and stays set after you sign out.
 
 ## Messaging
 

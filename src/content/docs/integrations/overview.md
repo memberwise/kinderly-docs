@@ -11,7 +11,7 @@ sidebar:
 
 **[QuickBooks Online](/integrations/quickbooks/)** — send invoices, payments and refunds to your accounting software. One-way: Kinderly writes to QuickBooks, never the reverse.
 
-**[Webhooks](/integrations/webhooks/)** — have Kinderly POST to your own systems the moment something happens: a new enquiry, a check-in, an invoice, a failed payment. Signed, retried, and logged.
+**[Webhooks](/integrations/webhooks/)** — have Kinderly POST to your own systems the moment something happens: a new inquiry, a check-in, an invoice, a failed payment. Signed, retried, and logged.
 
 **[API](/integrations/api/)** — read your children, staff, enrollments, invoices, payments and attendance from your own systems, with a key you control.
 
@@ -26,7 +26,7 @@ Much of what you'd otherwise need an integration for is already internal to Kind
 | Instead of integrating… | Kinderly does it directly |
 |---|---|
 | A form tool feeding your child database | [Actions](/actions/overview/) create children, guardians, classroom and program assignments straight from a completed packet |
-| A separate website with an enquiry form | [Grow](/grow/page-sections/#forms) embeds a Kinderly form inline and drops the enquiry into your [pipeline](/grow/pipeline/) |
+| A separate website with an inquiry form | [Grow](/grow/page-sections/#forms) embeds a Kinderly form inline and drops the inquiry into your [pipeline](/grow/pipeline/) |
 | A separate parent-messaging app | [Messages](/manage/messages/) and the [Feed](/manage/feed/) reach families in the [Parent app](/mobile/parent-app/) |
 | A curriculum documentation system | [Curriculum](/manage/curriculum/) tags observations teachers already write |
 

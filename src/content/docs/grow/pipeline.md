@@ -1,6 +1,6 @@
 ---
 title: Pipeline
-description: Track prospective families from first enquiry through to enrolled.
+description: Track prospective families from first inquiry through to enrolled.
 sidebar:
   order: 6
 ---
@@ -41,7 +41,7 @@ When a family is ready, send the enrollment [packet](/packets/overview/) and att
 
 ## Filling the board automatically
 
-An enquiry [form](/forms/overview/) embedded on your [site](/grow/page-sections/#forms) can create a pipeline card when it's submitted, via the **Add card to Kinderly Grow** [action](/actions/overview/) on a [packet](/packets/building-a-packet/).
+An inquiry [form](/forms/overview/) embedded on your [site](/grow/page-sections/#forms) can create a pipeline card when it's submitted, via the **Add card to Kinderly Grow** [action](/actions/overview/) on a [packet](/packets/building-a-packet/).
 
 That closes the loop: a family finds your site at 10pm, fills in the form, and a card is waiting for you in Lead the next morning.
 
@@ -53,5 +53,5 @@ Separate boards make sense for genuinely separate processes — a second site, o
 
 ## Next
 
-- [Analytics](/grow/analytics/) — what's driving enquiries.
+- [Analytics](/grow/analytics/) — what's driving inquiries.
 - [Packets](/packets/overview/) — the paperwork once they enrol.

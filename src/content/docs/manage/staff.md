@@ -19,11 +19,13 @@ sidebar:
 |---|---|
 | **Role** | are a Teacher, Lead Teacher, Administrator or Other |
 | **Classroom** | are assigned to any of the picked classrooms, or to none |
-| **Employment** | are full-time, part-time, contractors or substitutes |
+| **Employment** | are full-time, part-time, floaters, substitutes, on-call, seasonal, interns, volunteers or contractors |
+| **Employment status** | are active, on probation, on leave or terminated |
 | **Hired** | started in the last 30 days, 90 days or year |
 | **Certifications** | have an expired certification, one expiring within 30, 60 or 90 days, or none on file |
+| **Compliance checks** | have an expired background check, TB test, physical or work authorization, one expiring within 30, 60 or 90 days, or no background check, TB test or I-9 on file |
 | **Staff app** | have, or haven't, set up the staff app |
-| **Missing information** | have no phone, address, birth date or classroom |
+| **Missing information** | have no phone, address, birth date, classroom or emergency contact |
 | **Status** | are active (the default) or archived |
 
 :::tip[Stay ahead of expiring certifications]
@@ -33,6 +35,24 @@ sidebar:
 ## A staff member's page
 
 Alongside **Clock In** and **Change Classroom**, a staff member's page has **Print Sheet**, a [one-page sheet](/manage/print-sheets/) about them, and **Scan Document**. Scan Document reads a form about this person and shows what it says next to what's on file, so you can tick which details to update.
+
+Under **Documents → Shared Documents**, **Send** emails this staff member a form, packet or document, such as a policy acknowledgment, and files it on their page.
+
+## Employment details
+
+A staff member's **Employment** tab holds four sections. Save them all with **Save Employment Details**.
+
+- **Employment**: employment type and status, hire, probation and termination dates, and the termination reason and whether they're eligible for rehire. It also has department, who they report to, FLSA classification, standard and maximum weekly hours, and whether they're benefits eligible.
+- **Compensation**: pay type and pay schedule, hourly rate and overtime multiplier or annual salary, shift differential, a stipend, and a staff childcare discount.
+- **Compliance**: background check type, date cleared and expiration, TB test, physical, I-9, E-Verify, work authorization expiration and credential level. An expiration that has passed or is within 30 days is flagged here, and an expired check also shows as a red badge at the top of their page.
+- **Tax Withholding (W-4)**: filing status, work state and W-4 steps 2–4, or exempt from withholding. Contractors fill out a W-9 instead, so this section has nothing to record for them.
+
+Their emergency contact is on the **Info** tab.
+
+:::note[Two settings that change other numbers]
+- **Counts toward ratio**: turn this off for volunteers, interns or anyone else who can't be counted in your state's ratios. They stay in their classroom, but the classroom's ratio, the dashboard's out-of-ratio panel and the staff app's ratio alerts leave them out.
+- **FLSA classification**: staff marked **Exempt** get no overtime in [Payroll](/manage/payroll/). All their hours count as regular. Leave it unset or **Non-exempt** for anyone owed overtime.
+:::
 
 ## Dashboard access
 

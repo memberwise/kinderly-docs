@@ -78,6 +78,24 @@ See [Building custom reports](/manage/custom-reports/) for a full walkthrough.
 Board reports, funder returns and licensing packs tend to be the same query every month. Building it once and saving it turns a half-hour job into one click.
 :::
 
+## Scheduled reports
+
+Any report — pre-built or one you've saved — can run on its own and arrive by email. Open the report and press **Schedule**, then choose:
+
+- **How often.** Every day, weekdays, weekly on the days you pick, or monthly on a day of the month (or the last day). If you pick the 29th, 30th or 31st, a month too short for it gets its copy on its last day instead.
+- **At what time.** In your center's own time zone, in half-hour steps.
+- **What each copy covers.** For reports with dates, pick a period such as *Yesterday*, *Last week (Sunday to Saturday)* or *Last month*. It's worked out fresh every time the report runs, so Monday's copy always covers the week that just ended. A new schedule starts on the period that has just finished, which is usually what you want.
+- **Who gets it.** Anyone on your team. Reports can't be sent to addresses outside your team.
+- **Attach as.** A PDF, a spreadsheet (CSV), or both — the same files **Export** gives you.
+
+Any filters you've set on the report, such as classrooms, are kept for every run.
+
+Your schedules are listed under **Scheduled Reports** on the Reports screen, with when each runs next. From there you can **Run and send now** to check one, edit it, pause it or delete it. **Past reports** lists every copy a schedule has sent, so you can open last month's again without asking anyone to forward it. Kinderly keeps the most recent 120 copies of each schedule.
+
+:::tip[If a scheduled report doesn't arrive]
+The person who set up the schedule gets an email whenever a run fails, saying why — for example, if the saved report it runs was deleted. The failed run also shows in **Past reports**. If whoever set up a schedule leaves your team, it pauses; resume it to take it over.
+:::
+
 ## Favorites
 
 The star on a report card pins it to a **Favorites** section at the top of this screen. Stars are personal — starring a report doesn't change what anyone else sees. There's also a search box that looks across both the pre-built and saved reports.

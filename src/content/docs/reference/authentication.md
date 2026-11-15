@@ -35,7 +35,7 @@ The PIN can't be recovered afterwards — Kinderly stores it scrambled. If a fam
 
 ### Links without a PIN
 
-A share can be set to **Public access**, which removes the PIN entirely. Fine for a general enquiry form on your website; not appropriate for anything asking for a child's medical details or a signature. See [Sending a share](/shares/sending/).
+A share can be a **Unique link**, which removes the PIN entirely and gives everyone who opens it their own copy. Fine for a general inquiry form on your website; not appropriate for anything asking for a child's medical details or a signature. See [Sending a share](/shares/sending/).
 
 ## Keeping access tidy
 

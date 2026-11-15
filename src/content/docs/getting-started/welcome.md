@@ -15,10 +15,12 @@ It's four products under one login. You don't have to use all of them.
 |---|---|
 | **[Enroll](/forms/overview/)** | Build forms and documents, bundle them into packets, and send them to families as secure links. This is where the paperwork lives. |
 | **[Manage](/manage/overview/)** | The day-to-day running of your center — children, guardians, classrooms, staff, programs, scheduling, attendance, messages and family billing. |
-| **[Grow](/grow/overview/)** | Filling your places: a website for your center, virtual tours, and an enquiry pipeline to track prospective families. |
+| **[Grow](/grow/overview/)** | Filling your places: a website for your center, virtual tours, and an inquiry pipeline to track prospective families. |
 | **[Funding](/funding/overview/)** | Finding and tracking grants and funding opportunities, with deadlines and application records in one place. Paid plans only. |
 
-Switch between them from the icon rail down the left-hand side.
+Switch between them from the icon rail down the left-hand side. Each part has its own menu beside the rail. To give the page more room, click the button at the top of that menu to shrink it to icons; hover over an icon to see its name. Kinderly remembers your choice in every part.
+
+![The Manage menu shown in full and collapsed to icons](../../../assets/screenshots/section-menu-collapse.png)
 
 Enroll, Manage and Grow are on every plan including the free one. See [What you get](/getting-started/what-you-get/).
 
@@ -54,7 +56,7 @@ Ellie is Kinderly's built-in assistant. It shows up throughout the app — draft
 
 ## Help while you work
 
-The **Help** button at the bottom of the screen opens the guide for the page
+The **Help** button in the top-right corner of the screen opens the guide for the page
 you're on, in a panel beside it, so you can read and follow along without losing
 your place. Links inside a guide, such as **How payroll works** next to a page's
 title, open in the same panel.

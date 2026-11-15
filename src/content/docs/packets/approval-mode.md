@@ -15,7 +15,7 @@ Best for anything you'd never want to hold up:
 
 - Confirmation and welcome emails
 - Notifying your own team that something arrived
-- Adding a card to a [Grow](/grow/overview/) pipeline so the enquiry shows up straight away
+- Adding a card to a [Grow](/grow/overview/) pipeline so the inquiry shows up straight away
 
 ## Require Approval
 
@@ -39,6 +39,8 @@ This is the whole decision. If a family fat-fingers their email address or uploa
 4. You click **Approve**. Every action fires.
 
 The badge only appears once *everything* is submitted, so it's a reliable "this one is ready for you" signal rather than a nag.
+
+Administrators with the Kinderly Staff app also get a **Packet ready to approve** push, and can review and approve from their phone. See [Approving a returned packet](/mobile/teacher-app/#approving-a-returned-packet).
 
 :::caution[Approval mode means someone has to actually approve]
 Nothing happens until a person clicks the button. If your welcome emails have stopped going out, check whether the packet is on Require Approval and shares are sitting unapproved. Make sure someone owns that queue.

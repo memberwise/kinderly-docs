@@ -29,10 +29,10 @@ Binding **To** to the parent's email field means one packet serves every family.
 
 ## Binding record-creating actions
 
-Actions like **Add Child to Kinderly Manage** are almost entirely bound: first name, last name, birth date and gender each come from a form field.
+Actions like **Add or Update Child** are almost entirely bound: first name, last name, birth date and gender each come from a form field.
 
 :::caution[Bind to the right field, and check the format]
-Two traps. First, a form with both the child's name and the parent's name has two "First Name" fields — bind the wrong one and you create a child record named after the parent. Second, a date of birth collected as free text rather than a [Date field](/forms/field-types/) may not import cleanly. Use the proper field type when the answer feeds an action.
+Two traps. First, a form with both the child's name and the parent's name has two "First Name" fields — bind the wrong one and you create a child record named after the parent. Second, a date of birth collected as free text rather than a [Date field](/forms/field-types/) may not import cleanly. Actions read common formats like *3/4/2021*, but an answer they can't read is skipped and shown as *couldn't read* in the run summary. Use the proper field type when the answer feeds an action.
 :::
 
 :::tip[Design the form around the actions]

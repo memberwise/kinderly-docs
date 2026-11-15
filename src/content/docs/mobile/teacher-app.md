@@ -7,7 +7,7 @@ sidebar:
 
 The **Teacher app** is the on-the-floor companion for staff.
 
-![The teacher app home screen, with the clock-in bar, classroom cards and today's roster](../../../assets/screenshots/mobile-teacher-home.png)
+![The teacher app home screen: clocked in, the Center today card with 4 of 10 children here, the classroom card and today's roster with four children signed in](../../../assets/screenshots/mobile-teacher-home.png)
 
 ## Signing in and out
 
@@ -19,6 +19,12 @@ Clock-in is per day. If you forgot to clock out yesterday, the app shows you as 
 ### Requiring the kiosk
 
 A center can switch off clocking in from personal phones under **Manage → Settings → App Settings → Teacher App → Staff clock in / out from the app**. With it off, the app still shows whether you're clocked in, but the button is replaced by "Clock in at the kiosk", and staff clock in and out on the center's shared **Kiosk Mode** device instead.
+
+### Recent ins and outs at the kiosk
+
+After a parent or staff member enters their phone number in **Kiosk Mode**, the kiosk lists their most recent entries: under each child, the last sign-ins and sign-outs; on the staff clock screen, the last clock-ins and clock-outs. It goes back across days, so a parent arriving in the morning can see last night's pick-up was recorded.
+
+The kiosk shows the last **3** by default. Change it under **Manage → Settings → App Settings → Recent ins and outs at the kiosk** — anywhere from 1 to 7, or **Don't show** to hide the list. The change applies to the next phone number entered; no one needs to restart the kiosk.
 
 ### Picking up setting changes
 
@@ -89,6 +95,12 @@ The **⋮** menu in the top right is the app's hub — everything that isn't the
 
 ![The teacher app menu](../../../assets/screenshots/mobile-teacher-menu.png)
 
+### Light or dark
+
+**Appearance**, at the bottom of the menu, sets how the app looks on this phone: **Match phone** (the default) follows the phone's own light or dark setting, or choose **Light** or **Dark** to keep it that way. It changes straight away and stays set after you sign out.
+
+![The Appearance sheet with Match phone, Light and Dark](../../../assets/screenshots/mobile-teacher-appearance.png)
+
 ### Name-to-Face check
 
 A guided headcount. Kinderly walks you through the children signed into your room one at a time — showing each child's photo and name — and you tap **Here** or **Not here**. A progress bar tracks how far through the room you are.
@@ -124,6 +136,78 @@ Relationships read from the form, such as *Grandparent*, *Aunt* or *Emergency Co
 :::note[Keep the app open while it reads]
 Reading happens while the app is open. If you close it, the scan picks up again the next time you open it.
 :::
+
+## Running the center from your phone
+
+These are for **administrators**. Everything here uses the same records as the web, so whatever you do on your phone shows up on the laptop and the other way round.
+
+### Center today
+
+Above your classroom on the home screen, **Center today** shows the whole center at a glance: children here out of children enrolled, staff clocked in, rooms out of ratio and today's tours. Each room is a chip, green when it's covered and red when it isn't. Tap the card for the full view:
+
+![The full Center today view: each room with its children and staff against what it needs, and who's clocked in](../../../assets/screenshots/mobile-teacher-today.png)
+
+- **Rooms**: who's here in each room, how many staff it has and how many it needs. Tap a room to open its roster.
+- **Children**: who is **late** (their schedule says they should be here by now, with 15 minutes' grace, and they haven't been signed in), who is marked **absent**, and how many are still expected later.
+- **Staff**: who's clocked in and since when, who's late for a scheduled shift, and who's off today.
+- **Tours & follow-ups**: pipeline cards due today, tours first.
+
+Late arrivals are only worked out for children with a schedule under Manage → Scheduling.
+
+### Approving a returned packet
+
+When a family finishes a packet, you get a push: **Packet ready to approve** if the packet waits for your approval, otherwise **Packet returned**. Tap it to see their answers and signed documents. **Approve** lists what approving will do (add the child, add the guardians, put the child in a room...) and does it, exactly as approving on the web would. A packet can only be approved once, from either place.
+
+### Forms from a photo of your paper form
+
+**Enroll → Forms → New form** offers three starting points:
+
+- **From a photo of your paper form**: photograph the enrollment form you already hand out (up to six pages). Ellie reads its printed questions, choices and section headings, ignoring anything handwritten, and turns them into a form. This is part of **Bloom and above** and uses Ellie tokens, like scanning.
+- **From a template**: the same templates as the web.
+- **Blank form**.
+
+Each one opens the form editor. Tap a question to rename it, change its type, mark it required, edit its choices or move it into the section above; drag the handle to reorder; **Add question** for more. The phone offers the common types: short and long answers, email, phone, date, checkbox, multiple choice, dropdown, signature, section, heading and paragraph. **Save**, then send it from **Send to a family**.
+
+Payments and questions that only show after certain answers are built on the web. A form that uses them opens read-only on the phone, so nothing is lost by opening it there.
+
+### Who's overdue
+
+**Who's overdue** (in the menu, or the clock on the Billing screen) lists every family with a past-due balance, longest overdue first, with how much, how late and when they were last reminded.
+
+![Who's overdue: the total past due, and a family 26 days late with Remind, Record payment and a call button](../../../assets/screenshots/mobile-teacher-overdue.png)
+
+- **Remind** emails the family a friendly reminder and sends it to their parent app. Each family can be reminded once a day.
+- **Record payment** is for the check or cash a parent hands you at drop-off. It pays their oldest invoices first, keeps anything extra as account credit, and emails them a receipt. Add the check number if you like.
+- The phone icon calls them.
+
+On a family's billing account, **Refund** on a paid invoice gives money back: to their card when they paid by card, or recorded as handed back in cash or by check.
+
+### Staff certifications
+
+**Certifications** lists everyone's CPR, first aid, background checks and other credentials, with anything **expired** or **expiring in the next 60 days** first. **Add** lets you pick the staff member, choose the certificate (common ones are one tap), set its dates and photograph the card. Tap a certificate to view the card, add a photo, or record a **renewal**, which saves the new one and archives the old. A week before a certificate expires, the staff member and the directors get a push and the bell shows it.
+
+![Certifications: a Pediatric CPR card expiring soon, flagged in orange, and a Pediatric First Aid card that's good for two more years](../../../assets/screenshots/mobile-teacher-certifications.png)
+
+### Lesson ideas
+
+**Lesson ideas** (under Learning) asks Ellie to draft two or three activities from a sentence, optionally for one room's ages. Each draft shows its materials, steps and the learning outcomes it covers. **Save to library** adds it to your activities, ready to plan; **Discard** throws it away. It uses the same daily allowance as drafting activities on the web.
+
+### Settings lists
+
+Under **Settings → Lists** you can keep the lists you set up once, without the laptop:
+
+- **Ratios**: children per staff member for each age group, and an optional group-size cap. Classrooms, ratio alerts and Center today all check against these.
+- **Allergies** and **Immunizations**: what you can pick on a child's profile. For each vaccine, add its doses and the age window (in months) when each is due.
+- **Custom fields**: extra details you keep on each child, as text, a number, a date, yes/no or a choice from a list.
+- **Calendar links**: create a link for your center's events and closures, or for one person's shifts, then copy or email it. **Revoke** stops a link working.
+
+Removing an allergy, immunization, ratio or field takes it off the list for new records; children who already have it keep it. Webhooks and API keys are still on the web.
+
+### Walk-in inquiries
+
+**Walk-in inquiry** is for the front-desk tablet, and any staff member can use it. Take the parent's name and a phone number or email, the child's name and date of birth, when they'd like to start, and book a tour if they want one. Saving puts the family on your pipeline (in **Tour Scheduled** when a tour was booked) and tells the directors. The form clears itself for the next family.
+
+![The Walk-in inquiry form: the parent's name, phone and email, the child's name, date of birth, start date and an optional tour](../../../assets/screenshots/mobile-teacher-walk-in.png)
 
 ## Messaging
 

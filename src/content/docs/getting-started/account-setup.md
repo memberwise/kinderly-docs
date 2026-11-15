@@ -63,6 +63,8 @@ Deleting removes children's records, submitted documents and signed forms. If yo
 
 ## A sensible order to set things up
 
+When you sign up, Kinderly opens the [setup wizard](/manage/settings/#setup-wizard), which covers most of this list in order. Anything you skip stays on the **Setup checklist** on your dashboard.
+
 1. **Profile** — your name and email.
 2. **[Manage → Settings](/manage/settings/)** — center details, hours, ratios, allergy and immunisation lists, meal schedule.
 3. **[Classrooms and programs](/manage/classrooms/)** — the shape of your center.

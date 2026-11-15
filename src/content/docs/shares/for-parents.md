@@ -27,7 +27,11 @@ It confirms the title and which email the PIN went to. They enter the 6 digits a
 There's no way to unlock it early. If a family gets stuck, the fix is a new share — so it's worth checking they're reading the right email before they burn attempts.
 :::
 
-Families sent a **public** link skip this screen entirely.
+Families sent a **unique** link skip this screen entirely.
+
+### In the Kinderly app
+
+If the share is filed on a guardian, or on a child, and the family uses the [parent app](/mobile/parent-app/#paperwork), it also shows up under **Documents → To fill out**, with a push notification. Opening it there skips the PIN, because they're already signed in to the app. The email and PIN still work as well.
 
 ## 3. Working through the steps
 
@@ -51,7 +55,7 @@ Documents are signed by drawing with a finger or a mouse. If they make a mess of
 
 ## 5. Finishing
 
-When the last step is submitted they get a confirmation screen. Everything appears on your side in [Shares](/shares/admin/).
+When the last step is submitted they get a confirmation screen. Below it they can review what they sent: their answers to each form, and a copy of each document as they signed it. Everything appears on your side in [Shares](/shares/admin/).
 
 If you enabled **Allow editing after submission**, they can return via the same link and change their answers. Otherwise the link becomes read-only.
 
@@ -61,7 +65,9 @@ If you enabled **Allow editing after submission**, they can return via the same 
 
 **"Can I finish this later?"** Yes — completed steps are saved. They come back to the same link and PIN and carry on where they left off.
 
-**"Can I do it on my phone?"** Yes. Forms and signing are built for touch. Documents open at a zoom level meant for a phone screen.
+**"Can I do it on my phone?"** Yes. Forms and signing are built for touch. Documents open at a zoom level meant for a phone screen. In the parent app they don't need the PIN at all.
+
+**"Can I see what I sent?"** Yes. Opening the link again (or tapping it under **Submitted** in the app) shows their answers and signed copies.
 
 **"I made a mistake after submitting."** If editing is enabled, they can go back and fix it. If not, you'll need to send a fresh share.
 

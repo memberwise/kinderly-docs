@@ -13,7 +13,7 @@ A virtual tour is a curated set of photos with descriptions, ending in a call-to
 
 ## Why bother
 
-Booking a tour is a commitment, and commitment is where enquiries die. A virtual tour lets families self-qualify first — so the in-person tours you do give are to people already fairly sure.
+Booking a tour is a commitment, and commitment is where inquiries die. A virtual tour lets families self-qualify first — so the in-person tours you do give are to people already fairly sure.
 
 :::tip[Photograph the space, not the empty room]
 An empty classroom at 7am is tidy and says nothing. Children absorbed in something, a well-used book corner, the outdoor space in use — that's what parents are trying to picture. Get permission for any photo with children in it.
@@ -29,7 +29,7 @@ Each photo takes a description. This is where you say the thing the photo can't:
 
 ## The call-to-action
 
-Every tour ends with one. Make it the obvious next step — book a visit, or an enquiry [form](/forms/overview/) that drops straight into your [pipeline](/grow/pipeline/).
+Every tour ends with one. Make it the obvious next step — book a visit, or an inquiry [form](/forms/overview/) that drops straight into your [pipeline](/grow/pipeline/).
 
 ## Putting a tour on your site
 
@@ -54,4 +54,4 @@ On Bloom you get one — so build a single tour walking through the entire setti
 ## Next
 
 - [Page sections](/grow/page-sections/) — embedding a tour.
-- [Pipeline](/grow/pipeline/) — where the enquiries land.
+- [Pipeline](/grow/pipeline/) — where the inquiries land.

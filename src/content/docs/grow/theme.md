@@ -33,7 +33,7 @@ The presets are chosen so heading and body fonts work together at the right size
 - **Shape** — Pill, Rounded or Square.
 - **Hover animation** — e.g. Lift, a subtle shadow and rise.
 
-This applies to every call-to-action on the site, so your "Book a tour" and "Enquire now" buttons stay consistent.
+This applies to every call-to-action on the site, so your "Book a tour" and "Inquire now" buttons stay consistent.
 
 ## Live preview
 

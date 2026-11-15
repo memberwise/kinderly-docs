@@ -14,7 +14,7 @@ Set them up in **Manage → Settings → Webhooks**.
 
 | Event | Fires when |
 |---|---|
-| `lead.created` | A new enquiry reaches your pipeline |
+| `lead.created` | A new inquiry reaches your pipeline |
 | `enrollment.created` | A child is enrolled in a program |
 | `child.checked_in` | A child is signed in |
 | `invoice.created` | An invoice is raised for a family |

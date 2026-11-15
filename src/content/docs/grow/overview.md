@@ -1,6 +1,6 @@
 ---
 title: Grow overview
-description: Fill your places — a website for your center, virtual tours, and an enquiry pipeline.
+description: Fill your places — a website for your center, virtual tours, and an inquiry pipeline.
 sidebar:
   order: 1
 ---
@@ -19,7 +19,7 @@ Where [Enroll](/forms/overview/) handles the paperwork and [Manage](/manage/over
 **Engagement**
 
 - **[Virtual tours](/grow/tours/)** — walk families through your space in photos.
-- **[Pipeline](/grow/pipeline/)** — track enquiries from first contact to enrolled.
+- **[Pipeline](/grow/pipeline/)** — track inquiries from first contact to enrolled.
 
 **Insights**
 
@@ -31,13 +31,13 @@ The parts are designed to chain:
 
 1. A family finds your **site**.
 2. They take a **virtual tour** without having to book anything.
-3. They fill in an enquiry **[form](/forms/overview/)** embedded straight into a page.
+3. They fill in an inquiry **[form](/forms/overview/)** embedded straight into a page.
 4. That creates a card on your **pipeline**.
 5. You move them along until they enrol, then hand over to [Enroll](/packets/overview/) for the paperwork.
-6. **Analytics** tells you which pages actually produced enquiries.
+6. **Analytics** tells you which pages actually produced inquiries.
 
 :::tip[The embedded form is the join]
-A site that only lists a phone number leaks enquiries — people browse at 10pm and don't ring. Embedding a Kinderly form directly in the page means the enquiry arrives while they're interested, and lands in your pipeline automatically.
+A site that only lists a phone number leaks inquiries — people browse at 10pm and don't ring. Embedding a Kinderly form directly in the page means the inquiry arrives while they're interested, and lands in your pipeline automatically.
 :::
 
 ## What you need to know first
@@ -51,4 +51,4 @@ A site that only lists a phone number leaks enquiries — people browse at 10pm 
 ## Next
 
 - [Sites and pages](/grow/sites/) — building your website.
-- [Pipeline](/grow/pipeline/) — tracking enquiries.
+- [Pipeline](/grow/pipeline/) — tracking inquiries.

@@ -39,9 +39,10 @@ Notifications stay in the bell for 60 days.
 | **Food program (CACFP)** | A meal count hasn't been started, a finalized count has errors, last month's claim hasn't been filed, or eligibility forms are expiring. See [Food Program](/manage/food-program/). |
 | **Expiring documents** | A document, person file, shared link or staff certificate is close to its expiration date. |
 | **Integration problems** | A scheduled KinderConnect submission failed, or attendance hasn't reached the state for longer than your schedule allows. |
+| **Payroll ready to approve** | A pay period has ended and its hours are waiting for you, or the period after your last approved one has ended and nobody has opened it yet. Clears once you approve. See [Payroll](/manage/payroll/). |
 | **Parent messages** | A guardian replies to a conversation in the parent app. A busy conversation stays as one notification showing the latest message. |
 | **Forms submitted** | Someone completes a form you shared with them. |
-| **New leads** | A new enquiry reaches your pipeline from a form or your website. Leads you add by hand aren't announced. |
+| **New leads** | A new inquiry reaches your pipeline from a form, your website, or a walk-in taken at the front desk in the staff app. Leads you add to the pipeline by hand aren't announced. |
 
 Payments you record yourself, such as cash, a check, or account credit, don't create a notification, because you already know about them.
 
@@ -54,4 +55,20 @@ Two settings that affect the whole center live elsewhere, under **Manage → Set
 - **Out-of-ratio alerts** only run while ratio alerts are turned on for the center.
 - The **lead time** for classroom moves (how many days ahead you're told) is set there too.
 
-The bell is separate from the push notifications staff get in the Teachers app and from Kinderly's emails. Turning a category off here doesn't change either of those.
+## On your phone
+
+Administrators signed in to the **Kinderly Staff** app also get a push notification for the things you're most likely to act on straight away. Tapping one opens the right screen in the app:
+
+| Push | Opens |
+|---|---|
+| **Packet ready to approve** / **Packet returned** / **Form returned** | That link's answers and signed documents, with **Approve** when the packet waits for approval |
+| **New inquiry** | The card on your pipeline |
+| **Card assigned to you** | The card (only the person it was assigned to, and not when you assign it to yourself) |
+| **Payment failed** | The family's billing account |
+| **Payroll ready to approve** / **Time to run payroll** | Payroll |
+| **Funding document expiring** | Funding → Documents |
+| **Staff certificate expiring** | Staff → Certifications |
+
+These pushes **follow the categories you've turned off here**: turn off **New leads** and you won't get inquiry pushes either. Pushes also appear in the app's own notification list, so one you swiped away is still there. Out-of-ratio alerts are pushed separately, as set under **App settings**.
+
+Kinderly's emails are separate from both, and turning a category off here doesn't change them.

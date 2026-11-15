@@ -17,14 +17,21 @@ Type what you're after in the search box at the top — "hours", "kiosk", "tax I
 
 ## Setup wizard
 
-**Launch Setup Wizard** walks you through all of Kinderly in four parts, in the order you'll use it:
+New accounts land in the setup wizard straight after signup. You can reopen it any time with **Launch Setup Wizard**. It walks you through Kinderly in three parts, starting with the things you can show off soonest:
 
-1. **Manage** — center info, schedule, meals, auto sign-out, billing, integrations and importing your roster.
-2. **Enroll** — uploading the documents you hand families (handbook, agreements, health and state forms) and starting an enrollment packet.
-3. **Grow** — picking your web address, creating and publishing your website, and a tour of the enquiry pipeline.
-4. **Funding Center** — answering the funding profile questions that decide which grants you match.
+1. **Get live** — center information, your website (created and published in a minute), your documents, and an enrollment packet: one link to send a family today.
+2. **Run the center** — schedule, meals, auto sign-out, billing, integrations and importing your roster. For KinderConnect, pick **3.5** or **4.0**, whichever your state's agency uses; a center runs one, so switching turns the other off.
+3. **Grow** — the inquiry pipeline and your funding profile.
 
-Every step is optional. Links to the full editors open in a new tab, so the wizard keeps your place. It's useful when you're new, and when you've inherited a part-configured center and want to check nothing's missing.
+Every step is optional. Links to the full editors open in a new tab, so the wizard keeps your place. Steps you've already done, in the wizard or anywhere else in Kinderly, start ticked. It's useful when you're new, and when you've inherited a part-configured center and want to check nothing's missing.
+
+### Bloom steps
+
+Some steps are marked **Bloom**: adding a [map](/grow/page-sections/#contact) to your website, your own colors and domain, handing out documents automatically, the [Food Program](/manage/food-program/), [adding children from paper forms](/manage/scan-documents/), a virtual tour and daily digest, and your funding matches. On a paid plan they're ordinary steps. On the free plan each one shows a preview built from what you've already entered (your map uses your address), and **Upgrade to Bloom** opens checkout right there and brings you back to the same step. Skipping a Bloom step never stops you finishing setup.
+
+### Setup checklist
+
+Until the main steps are done, a **Setup checklist** sits at the top of the dashboard and the Manage overview. Each item opens the wizard at that step. **Hide** tucks it away on that browser. In your first week we also send up to three short emails pointing at what's left.
 
 ## Center Information
 

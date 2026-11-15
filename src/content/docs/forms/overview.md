@@ -38,7 +38,7 @@ If all four buttons are greyed out, you've hit the form limit on your plan. Hove
 - **Choices** — checkboxes, radio-button choices, and dropdowns
 - **Dates and times** — date, time, or both together
 - **Signatures** — drawn with a finger or mouse, captured as an image
-- **Uploads** — a photo (immunisation record, custody paperwork) or a document
+- **Uploads** — a photo (immunization record, custody paperwork) or a document
 - **Consent** — a block of legal text the family has to acknowledge
 - **Payments** — collect a deposit or registration fee inline
 

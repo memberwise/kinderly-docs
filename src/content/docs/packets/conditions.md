@@ -25,16 +25,18 @@ Click the condition node to open **Condition Config**.
 
 ![The condition config pane with condition name, field picker, operator and compare value](../../../assets/screenshots/packet-condition-config.png)
 
-- **Condition name** — for your reference on the canvas. Name it after the question it answers: "Has allergies?" beats "New Condition".
-- **If this field…** — pick any field from any form earlier in this packet.
-- **Operator** — *equals*, *not equals*, *contains*, *not contains*, *greater than*, or *less than*.
-- **Compare value** — what to test against.
+The pane reads as a sentence: **Go down the ✓ path when the answer to** *a question* *is* *this*.
 
-Click **Save condition**.
+- **The question**: pick any question from any form earlier in the packet. Each one shows its type, such as *Checkbox*, *Dropdown* or *Date*.
+- **The test**: the choices depend on that type.
+  - A **checkbox** *is* **Checked** or **Unchecked**.
+  - A **dropdown** or **multiple choice** question *is* or *is not* one of its answers, picked from a list, or *has been answered* or *was left blank*.
+  - A **date** or **time** *is*, *is not*, *is after* or *is before* a date or time you pick, or *has been answered* or *was left blank*.
+  - **Text** questions *have been answered*, *were left blank*, *are* or *are not* an answer, *include* or *don't include* some words, or *are more than* or *less than* a number.
+  - **Signatures, uploads, agreements and payments** *have been answered* or *were left blank*.
+- **Name on the canvas**: leave it as "New Condition" and saving names it after what it checks, such as *Any allergies? is Yes*. Type your own name to override that.
 
-:::tip[Name every condition]
-Left as "New Condition", a packet with three branches becomes unreadable in a month. The name is the only thing shown on the canvas.
-:::
+A summary under the test spells out which way families go. Click **Save condition**.
 
 ## A worked example
 
@@ -42,7 +44,7 @@ You want families with allergies to complete an extra medical form.
 
 1. On your enrollment form, add a **Choice** field: *"Does your child have any allergies?"* with options Yes / No.
 2. In the packet, connect **Enrollment Form → Condition**.
-3. Configure it: field *Does your child have any allergies?*, operator **equals**, value **Yes**.
+3. Configure it: the answer to *Does your child have any allergies?* **is** **Yes**.
 4. Connect the **green** handle to an **Allergy Action Plan** form.
 5. Connect the **red** handle to whatever comes next for everyone else.
 

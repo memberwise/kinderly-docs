@@ -30,14 +30,14 @@ sidebar:
 
 **Click-through rate** is the one that matters. Page views tell you people arrived; CTR tells you the page persuaded them to do something. A page with high views and low CTR is being found and then failing.
 
-**Top button clicks** tells you which call-to-action works. If "Book a tour" is clicked ten times more than "Enquire now", make the enquiry button say "Book a tour" too.
+**Top button clicks** tells you which call-to-action works. If "Book a tour" is clicked ten times more than "Inquire now", make the inquiry button say "Book a tour" too.
 
 **Devices** is usually decisive. Most families browse childcare on a phone. If your traffic is overwhelmingly mobile, that's the layout that matters — check your pages there.
 
 **Top referrers** shows where families come from. "Mostly direct" means word of mouth and people typing your name in — which is a compliment, but also means your site isn't being *found* by people who don't already know you.
 
-:::tip[Compare the tour page's views against enquiry clicks]
-That ratio is the single most useful number in Grow. Lots of tour views and few enquiries means the tour isn't ending in a clear next step — usually a weak or missing call-to-action.
+:::tip[Compare the tour page's views against inquiry clicks]
+That ratio is the single most useful number in Grow. Lots of tour views and few inquiries means the tour isn't ending in a clear next step — usually a weak or missing call-to-action.
 :::
 
 :::caution[Small numbers aren't trends]
@@ -55,4 +55,4 @@ The analytics dashboard and the daily digest aren't included on the free tier. S
 ## Next
 
 - [Page sections](/grow/page-sections/) — improving what analytics shows you.
-- [Pipeline](/grow/pipeline/) — where enquiries go.
+- [Pipeline](/grow/pipeline/) — where inquiries go.
