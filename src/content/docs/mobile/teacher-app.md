@@ -89,6 +89,16 @@ Posts take **video as well as photos** — up to 20 attachments per post, 200 MB
 Thirty seconds of a room doing something ordinary tells a parent more about their child's day than a carefully framed photo does — and takes less effort to capture.
 :::
 
+## Safety
+
+**Safety** in the menu has three tabs, for every staff member:
+
+- **Medication**: the doses due today for your classroom (or the whole center), marked **Due now** or **Late**. Tap **Record** after giving one, or **Give** for an as-needed medicine. The family is told.
+- **Incidents**: write an incident report, with where on the body, what staff did and photos, and see which families have signed. A **Serious** report alerts the directors straight away.
+- **Drills**: whether each required drill is on track, due or overdue, and **Log a drill** right after you run one.
+
+Directors also get **Waitlist** (open seats, who's next, offer and enroll) and **Late fees** (approve or waive fees waiting to be invoiced). Medicines, drill requirements and late-fee rules are set up on the web. See [Safety](/manage/safety/), [Waitlist](/manage/waitlist/) and [Billing](/manage/billing/#late-fees).
+
 ## Finding everything else
 
 The **⋮** menu in the top right is the app's hub — everything that isn't the roster lives here.

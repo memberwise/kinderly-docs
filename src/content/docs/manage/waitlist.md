@@ -1,0 +1,54 @@
+---
+title: Waitlist
+description: Rank families waiting for a seat, see when one opens, offer it by email, and enroll the family in one step.
+sidebar:
+  order: 4
+---
+
+**Manage → Waitlist** holds the families waiting for a seat, in the order you'll offer seats to them. It tells you when a seat opens, and turns an accepted offer into an enrolled child without retyping anything.
+
+## Seats
+
+Give each classroom a **Licensed capacity** on its **Classrooms** page. The waitlist then shows a card for each room with:
+
+- how many children are enrolled out of its capacity, and any seats already offered
+- **open** seats right now
+- when the **next seat** is likely to open, worked out from what Kinderly already knows: planned classroom moves, children aging into the next room, and program enrollments that end
+
+Click a room's card to see only the families waiting for it.
+
+## Adding families
+
+Choose **Add family** and enter the child, their birth date (or due date), the parent's contact details, the classroom they want and when they'd like to start.
+
+Families can also add themselves. Build an online waitlist form and add an **Add to Waitlist** step to its packet (see [Actions](/actions/overview/)). Each completed form puts the family on the list, matched to a classroom by name. Submitting the form twice doesn't add the family twice.
+
+## The order
+
+Families are ranked:
+
+1. **Priority** families first. A family gets priority automatically when the parent's email or phone matches a guardian of a child already enrolled (**Sibling**), or a member of your staff (**Staff**). You can also give any family priority yourself.
+2. Then everyone in the order they joined.
+
+The **#** column is each family's place in line for the classroom they want. Sibling and staff priority can each be switched off under **Settings**.
+
+## Offering a seat
+
+From a family's menu, choose **Offer a seat**, check the classroom and start date, and choose how many days they have to answer. With an email on file, the family gets a message with a link to **accept** or **decline**, and you get a **Waitlist** notification (and a Staff app push) when they answer.
+
+An offer nobody answers in time is marked **Offer expired**, and the seat is free to offer to the next family. **Withdraw offer** takes an offer back, and the family keeps its place.
+
+Turn on **Offer open seats automatically** under **Settings** and Kinderly does this for you each morning: when a room with a capacity has an open seat, the next family waiting for it gets the offer email. Left off, you get a notification that a seat is open and who's next, and you decide.
+
+## Enrolling
+
+When a family accepts, choose **Enroll now**. Kinderly creates the child and the guardian (or reuses a guardian already on file with that email), links them, and puts the child in the offered classroom. From there, enroll them in a [program](/manage/programs/) to start billing, and send their enrollment packet.
+
+## Waitlist fees
+
+Set a **Waitlist fee** under **Settings** and it's recorded on each new family. Mark it paid from the family's menu when they pay. To collect it online, add a payment field to your waitlist form.
+
+## Next
+
+- [Classrooms](/manage/classrooms/) — setting each room's capacity.
+- [Pipeline](/grow/pipeline/) — inquiries before they join the waitlist.

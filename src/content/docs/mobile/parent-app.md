@@ -82,6 +82,13 @@ phone number, plus its **Tax ID (EIN/TIN)** and **Provider Number (DVN)** when
 the center has filled those in — that's what a tax preparer needs for IRS Form
 2441. If they're missing, ask your center to add them under Center Settings.
 
+## Health & safety
+
+The **Health & safety** tile shows:
+
+- **Incident reports** the center has asked you to sign. Open one to read what happened and what staff did, then sign with your name and add a comment if something doesn't match what you were told. You'll also get a notification, and an email with the same link.
+- **Medication** your child was given (or refused) in the last 60 days, with the dose, the time and who gave it. You get a notification each time a dose is recorded.
+
 ## Light or dark
 
 The palette button at the top of the home screen opens **Appearance**: **Match phone** (the default) follows the phone's own light or dark setting, or choose **Light** or **Dark** to keep it that way. It changes straight away and stays set after you sign out.

@@ -176,6 +176,21 @@ center collected in Stripe for something outside Kinderly is ignored, not
 guessed at. And a refund that Stripe reports as pending stays pending here too
 until it settles.
 
+## Late fees
+
+Kinderly can charge late fees for you. Set them up under **Settings → Billing → Late fees**:
+
+- **Late payment fee**: a flat amount and/or a percentage of what's still owed, charged once on an invoice that still has a balance a set number of days after its due date.
+- **Late pickup fee**: an amount for every few minutes a child is signed out after your closing time, after a grace period, with an optional cap per pickup. It needs your closing time under **Center Configuration**. Auto sign-outs are never charged.
+
+Each night Kinderly checks for both and lists what it finds under **Billing → Charges**. A late fee is never charged twice for the same invoice or pickup, and a late fee on an invoice that's itself only late fees isn't charged at all. Switching late payment fees on doesn't reach back and charge invoices that were already long overdue.
+
+With **Review late fees before they're billed** on (the default), new fees wait under **Charges** until you **Approve** or **Waive** them. Approved fees go on the family's next automatic invoice as their own lines, so families never get a separate bill for a late fee. To send them now instead, choose **Bill now** on the family. Directors can also approve and waive from **Late fees** in the Staff app.
+
+**Add charge** on the same page adds any one-off charge, such as a field trip, to a family's next invoice.
+
+If you use QuickBooks or Xero, late fees go to the income account you map to **Late fees**, or to tuition until you map one.
+
 ## Tax statements
 
 Families download tax statements from the [Parents app](/mobile/parent-app/). These carry your **Tax ID (EIN/TIN)** and **Provider Number (DVN)** from [Settings](/manage/settings/).

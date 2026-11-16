@@ -84,6 +84,21 @@ Sign-out time is when Kinderly gives up waiting, not when you shut. Setting it a
 Typing in 40 children, their guardians and the links between them is a day's work and an invitation to typos. If you're migrating from another system or from spreadsheets, import instead — and do it before you start assigning classrooms and programs.
 :::
 
+### Moving from Brightwheel, Procare or Playground
+
+You don't need to reformat another platform's export. Upload their student, family or staff list (CSV or Excel) as it is. Anything that isn't the Kinderly template goes through a **Map** step:
+
+1. Say where the file came from and what each row is: **Children**, **Parents and contacts**, or **Staff**.
+2. Check the column matches. Kinderly guesses each one from its name ("Student First Name", "Parent 1 Email", "Room"…), shows an example value, and you can change any of them or choose **Don't import**.
+3. Carry on to the usual **Review** and **Confirm** steps.
+
+A children file with *Parent 1* and *Parent 2* columns brings in the parents too, linked to their children. A parent who appears on several rows (siblings) is added once, with all their children. A contacts file links each adult to the child or children named in their row. If the platform exports children and parents as separate files, import the children first, then the parents.
+
+When the import finishes:
+
+- **Opening balances**: if the children file had a balance column, **Import balances** creates one *Opening balance* invoice per family, setting up billing accounts where needed. Credit balances aren't imported. They're listed for you to add by hand, so last year's payments don't show up on this year's tax statements.
+- **Invite families to the Parents app**: **Send invitations** gives every imported guardian with an email the Parents app and emails them a link to set their password.
+
 ## Allergies and Immunizations
 
 Define the lists your [child records](/manage/children/) pick from.

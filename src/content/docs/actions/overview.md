@@ -55,6 +55,7 @@ These find the person first, by email, phone or the packet's recipient, and only
 | **Enroll Child in Program** | Enrolls the child in a [program](/manage/programs/), which starts billing |
 | **Update Medical Record** | Fills in physician, preferred hospital, insurance, last physical and emergency treatment consent |
 | **Add Allergies** | Adds allergies from a form answer. A comma-separated list or a multi-select both work, and "None" or "N/A" are ignored |
+| **Add to Waitlist** | Puts the family on your [waitlist](/manage/waitlist/) from an online waitlist form, with the classroom and start date they asked for |
 
 **Any profile**
 
