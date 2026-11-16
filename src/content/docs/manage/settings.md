@@ -94,10 +94,21 @@ You don't need to reformat another platform's export. Upload their student, fami
 
 A children file with *Parent 1* and *Parent 2* columns brings in the parents too, linked to their children. A parent who appears on several rows (siblings) is added once, with all their children. A contacts file links each adult to the child or children named in their row. If the platform exports children and parents as separate files, import the children first, then the parents.
 
-When the import finishes:
+**Review** shows everything that will be imported, family by family. A family is everyone linked to the same children, whatever their last names, so a mom with a different surname stays with her kids and two unrelated families who share a last name stay apart. For each family you can see and change:
 
-- **Opening balances**: if the children file had a balance column, **Import balances** creates one *Opening balance* invoice per family, setting up billing accounts where needed. Credit balances aren't imported. They're listed for you to add by hand, so last year's payments don't show up on this year's tax statements.
-- **Invite families to the Parents app**: **Send invitations** gives every imported guardian with an email the Parents app and emails them a link to set their password.
+- **Children**: every column from the file, including each child's balance from the old platform.
+- **Parents, guardians and contacts**: names, email, phone and address. Emergency contacts and case workers are shown with the family but are never billed.
+- **Relationships**: who is linked to which child, as what, who is primary, and who can pick up.
+- **Billing account**: the account that will be set up, with the responsible parent at 100% and the other parents as holders, and the opening balance. **Make responsible** changes who is billed. The responsible parent is the one who is primary for the most of the family's children.
+
+Search, and the **Needs attention** filter, help with a long roster. Adults not linked to any child, and staff, have their own lists.
+
+On **Confirm**, choose whether to:
+
+- **Set up a billing account for each family**, as shown on Review. Families that already have an account in Kinderly keep it.
+- **Import opening balances**, as one *Opening balance* invoice per family, as of the date you pick. Credit balances aren't imported. They're listed for you to add by hand, so last year's payments don't show up on this year's tax statements.
+
+When the import finishes, **Send invitations** gives every imported guardian with an email the Parents app and emails them a link to set their password.
 
 ## Allergies and Immunizations
 
