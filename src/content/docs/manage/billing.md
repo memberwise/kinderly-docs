@@ -50,6 +50,19 @@ A **billing account** is who gets the invoice. It can have several **holders** (
 Siblings on one account means one invoice, one balance and one payment. Separate accounts per child means a family reconciling three payments a month and you chasing three balances.
 :::
 
+### Auto-pay
+
+With auto-pay on, a family's invoices are charged to their default card or bank
+account as soon as each one is issued. Families usually turn it on themselves in
+the [parent app](/mobile/parent-app/#auto-pay). You can also turn it on for a
+holder from the account page, under their payment methods, once they have a
+saved card or bank account. Only do this when the family has authorized
+automatic charges, for example on a signed enrollment form.
+
+The account page shows who last turned auto-pay on or off and when. If the
+payment method auto-pay charges is removed, auto-pay turns off. It never moves
+to a different card on its own, so the family or you turn it back on.
+
 ## The dashboard
 
 - **Payments Collected** — a per-day chart over 30 days, 90 days or a year

@@ -53,8 +53,16 @@ Paperwork filed on a child is shown to the child's family, not to case workers o
 
 - See every outstanding bill, including line items and balance due.
 - Tap **Pay** to pay by card (full or partial down to $0.50 — subject to your center having Stripe Connect enabled).
-- Save a card for faster payments next time.
-- Remove a saved card.
+- Save a card for faster payments next time. The first one saved becomes the **Default**.
+- Remove a saved card. The default can't be removed until another card is made the default.
+
+### Auto-pay
+
+Once a card or bank account is saved, the **Auto-pay** switch appears under
+**Payment Methods**. When it's on, each new invoice is charged to the default
+payment method as soon as it's issued, including any service fee your center
+adds. Invoices the family already has aren't included, so they pay those as usual.
+The family confirms before it turns on, and can switch it off at any time.
 
 ### Tax documents
 

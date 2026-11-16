@@ -55,8 +55,10 @@ A staff member who forgets to sign in makes a properly staffed room look short. 
 
 Record what happened today, one or many children at a time. Supported entry types:
 
-**Note · Diaper · Potty · Food · Nap · Mood · Incident · Photo · Milestone**
+**Note · Diaper · Potty · Food · Nap · Mood · Incident · Medicine · Photo · Milestone**
 
+- A **Medicine** note records a dose. Open a child's record, add a note, and choose **Medicine**. You'll see the child's doses still to give today (marked **Due now** or **Late**) and their as-needed medicines. Pick one, say whether it was **Given**, **Refused**, **Missed** or **Held**, check the dose, and add a witness if your state requires one. Saving records the dose in the medication log, the same record as **Safety → Medication**, and tells the family. The note goes in the day's feed. Medicine is offered when you're logging for one child.
+- An **Incident** note also files an [incident report](/manage/safety/#incident-reports). Pick the kind and severity, describe what happened, and save: the note goes in the day's feed, and the report goes under **Safety**, where the family is asked to sign it. A **Serious** one alerts the directors straight away. Editing the note later changes only the note; open the report from the note to change the report.
 - A **Potty** note has a **Potty / Diaper** switch. It starts on **Diaper** when every child you're logging is under 18 months old, and on **Potty** otherwise. A diaper change is labelled "Diaper" for parents, and follows the **Diaper changes** setting for parent notifications.
 - Edit or delete an entry within **30 minutes** of creating it. Admins can edit at any time.
 - Upload photos straight from the phone's camera.
@@ -93,11 +95,11 @@ Thirty seconds of a room doing something ordinary tells a parent more about thei
 
 **Safety** in the menu has three tabs, for every staff member:
 
-- **Medication**: the doses due today for your classroom (or the whole center), marked **Due now** or **Late**. Tap **Record** after giving one, or **Give** for an as-needed medicine. The family is told.
+- **Medication**: the doses due today for your classroom (or the whole center), marked **Due now** or **Late**. Tap **Record** after giving one, or **Give** for an as-needed medicine. The family is told. Directors also see **Add medicine**, for adding one from a guardian's signed authorization.
 - **Incidents**: write an incident report, with where on the body, what staff did and photos, and see which families have signed. A **Serious** report alerts the directors straight away.
 - **Drills**: whether each required drill is on track, due or overdue, and **Log a drill** right after you run one.
 
-Directors also get **Waitlist** (open seats, who's next, offer and enroll) and **Late fees** (approve or waive fees waiting to be invoiced). Medicines, drill requirements and late-fee rules are set up on the web. See [Safety](/manage/safety/), [Waitlist](/manage/waitlist/) and [Billing](/manage/billing/#late-fees).
+Directors also get **Waitlist** (open seats, who's next, offer and enroll) and **Late fees** (approve or waive fees waiting to be invoiced). Drill requirements and late-fee rules are set up on the web. See [Safety](/manage/safety/), [Waitlist](/manage/waitlist/) and [Billing](/manage/billing/#late-fees).
 
 ## Finding everything else
 

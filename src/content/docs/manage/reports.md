@@ -64,6 +64,10 @@ If you charge late fees, run it monthly and you have the backing for every charg
 **Payment Fees** (under Finance) lists every card and bank payment with what the family paid, the payment processor's fee, Kinderly's platform fee and what reached your payout, along with the service fees you collected and the bank discounts you gave. The processor fee is estimated at standard rates; your payout statement has the exact figure. Card and bank payments you recorded yourself appear too, when they carried a service fee.
 :::
 
+## Health reports
+
+Allergies, immunizations, staff certifications and incidents. **Incident Reports** lists every incident written up on **Manage → Safety** over a date range, with a summary by kind and severity, who still has to sign, and which serious reports haven't been marked as reported to licensing. Filter by classroom, child, kind, severity or status. Click a row to open that report.
+
 ## Running a report
 
 Pick a report, set the date range and any filters, and **Run report**.
@@ -117,7 +121,7 @@ If you claim under the USDA food program, this is the largest group after Attend
 | **CACFP Infant Feeding Record** | Infant meals by child and date with milk source — reviewed and disallowed separately |
 | **CACFP Milk Audit** | Milk the counts required against milk bought in Finance. A standard review procedure, and cheap arithmetic to lose a month to |
 
-Most of these are also bound into the one-click [audit packet](/manage/food-program/#the-audit-packet) on the Claim tab, which is usually the faster way to produce them together.
+Most of these are also bound into the one-click [audit packet](/manage/food-program/#the-audit-packet) on the Food Program's Reports & claim tab, which is usually the faster way to produce them together.
 
 ### Filing and money
 

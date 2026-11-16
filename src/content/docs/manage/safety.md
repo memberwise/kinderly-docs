@@ -18,7 +18,9 @@ Once a guardian has signed your medication authorization form, choose **Add medi
 - **when**: at set times each day (add as many times as needed), or only when needed, with a note saying when to give it (*wheezing that won't stop*)
 - the dates it's authorized for, any instructions, where it's kept, who authorized it, and whether it's a prescription
 
-Keep the signed authorization form in the child's **Files**.
+Keep the signed authorization form in the child's **Files**. Directors can also add a medicine from the **Kinderly Staff** app, under **Safety → Medication → Add medicine**.
+
+A child's own medicines, doses and incident reports are also on the **Medical** tab of their page under **Children**.
 
 To stop a medicine, use the bin icon beside it under **Active medicines**. Its record of doses is kept.
 
@@ -31,7 +33,7 @@ To stop a medicine, use the bin icon beside it under **Active medicines**. Its r
 - **Late**, once it's more than 30 minutes past with nothing recorded
 - **Given** or **Refused**, with the time and who recorded it
 
-Choose **Record dose**, say whether it was **Given**, **Refused**, **Missed** or **Held** (not given on purpose), check the dose, and add a witness if your state requires a second staff member. As-needed medicines appear below the schedule with a **Give** button.
+Choose **Record dose**, say whether it was **Given**, **Refused**, **Missed** or **Held** (not given on purpose), check the dose, and add a witness if your state requires a second staff member. As-needed medicines appear below the schedule with a **Give** button. In the **Kinderly Staff** app, teachers can also record a dose from the child's record with a **Medicine** daily note. It records the same dose and also puts a line in the child's daily feed.
 
 When a dose is given or refused, the family gets a notification in the Parents app, and the dose appears under **Health & safety** there.
 
@@ -56,17 +58,23 @@ Choose **New report** and fill in:
 
 Stick to what was seen and done. The family reads the report.
 
+An **Incident** daily note in the **Kinderly Staff** app files a report too, one per child, with the note's details as **what happened**. The note stays in the day's feed and links to the report.
+
 ### Family sign-off
 
-With **Ask the family to sign** on (the default), each of the child's family guardians gets an email with a link to read and sign the report, and a notification in the Parents app. Emergency contacts and case workers aren't asked. The link works for 30 days without an account. Parents sign with their name, and can draw a signature and add a comment.
+With **Ask the family to sign** on (the default), each of the child's family guardians gets an email with a link to read and sign the report, and a notification in the Parents app. Emergency contacts and case workers aren't asked. Only the child's family can open or sign a report, and only while they're linked to the child: if a guardian is removed from the child or made an emergency contact, their link and their Parents app copy stop working, and the report no longer waits on their signature. Incident and medicine notes in the daily feed are family-only too. The link works for 30 days without an account. Parents sign with their name, and can draw a signature and add a comment.
 
-Open a report to see each guardian's status: sent, opened, or signed (with when, how, and any comment). **Send reminder** asks anyone who hasn't signed yet. Once everyone has signed, the report shows as **Signed**.
+Open a report to see each guardian's status: sent, opened, or signed (with when, how, and any comment). **Send reminder** asks anyone who hasn't signed yet. By default a report shows as **Signed** once one guardian in the family signs it, and the others aren't asked again: they see it as signed, with who signed. To have every family guardian sign, turn on **Require multiple signatures** at the top of the **Incident reports** tab. The report then shows as **Signed** once everyone has signed. Turning the setting back off marks reports that already have a family signature as signed.
 
 ### Serious incidents
 
 A **Serious** report sends a notification to every director straight away, on the web and in the Staff app, and is marked **Report to licensing**. Most states require serious incidents to be reported to licensing, often within 24 hours. Once you've done that, open the report and choose **Reported to licensing, close**.
 
 Teachers can correct their own report on the day they write it. After that, only an administrator can change it.
+
+### Printing a report
+
+Open a report and choose **Print** for a paper copy for the child's file, the family or a licensing visit. It includes the photos, each guardian's electronic signature, and blank lines for staff, parent and director signatures. To look across many incidents at once, run the **Incident Reports** report under **Manage → Reports → Health**.
 
 ## Drills
 
