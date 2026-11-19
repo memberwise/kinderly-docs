@@ -1,6 +1,6 @@
 ---
 title: Manage settings
-description: Configure your center — details, hours, ratios, allergies, immunisations and custom fields.
+description: Configure your center — details, hours, ratios, allergies, immunizations and custom fields.
 sidebar:
   order: 16
 ---
@@ -13,7 +13,7 @@ Settings opens on an **Overview** that shows what's set up, what's switched on a
 Type what you're after in the search box at the top — "hours", "kiosk", "tax ID", "snow day" — and pick the result to jump straight to it. Press <kbd>/</kbd> to start typing from anywhere on the page.
 :::
 
-![The Manage settings screen showing the tab list and center information](../../../assets/screenshots/manage-settings.png)
+![The Settings overview: what needs attention, and a summary of each area](../../../assets/screenshots/manage-settings.png)
 
 ## Setup wizard
 
@@ -79,6 +79,22 @@ Sign-out time is when Kinderly gives up waiting, not when you shut. Setting it a
 ## Data Tools
 
 **Import Data** bulk-imports children, guardians and staff from an Excel spreadsheet or CSV.
+
+### The Kinderly template
+
+**Download Excel template** gives you a workbook with a column for everything Kinderly keeps, and a **How to fill this in** sheet that explains each column and lists the values it accepts. Fill in what you know and leave the rest blank.
+
+- **Children**: name, birth date, gender, ethnicity, classroom, program and start date, weekly schedule (*Mon-Fri*, *7:30 AM*, *5:30 PM*), balance owed, doctor, hospital, insurance, last physical, emergency treatment consent, food program category and income eligibility dates, address and a note.
+- **Guardians**: contact details, phone extension and second phone, birth date, employer, address, and which child they belong to and how. Adults who share a child's last name are linked to that child automatically.
+- **Staff**: contact details, role and classroom, employment and pay, compliance dates (background check, I-9, E-Verify, TB test, physical), credential, emergency contact, who they report to, address and a note.
+- **Allergies**, **Immunizations** and **Certifications** take one row per allergy, dose or certificate, naming the child or staff member. A row can name someone already in Kinderly, so you can bring in immunization records on their own. An immunization row can record an exemption instead of a dose.
+- Your center's [custom fields](#custom-fields) each get a **Custom:** column.
+
+A program has to be set up in Kinderly before children can be enrolled in it from the file, and enrolling starts billing on the next billing run. Social Security numbers and W-4 details aren't in the template; add those on each person's record.
+
+If a value can't be read, such as a date written as *sometime in March* or a program Kinderly doesn't have, **Review** lists it and leaves just that value out. The rest of the row still imports. Allergies, doses and certifications already on someone's record aren't added twice.
+
+![The Review step of an import, listing the values it can't use and every family in the file](../../../assets/screenshots/settings-import-review.png)
 
 :::tip[Use the importer when you're moving in]
 Typing in 40 children, their guardians and the links between them is a day's work and an invitation to typos. If you're migrating from another system or from spreadsheets, import instead — and do it before you start assigning classrooms and programs.

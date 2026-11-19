@@ -38,13 +38,14 @@ Notifications stay in the bell for 60 days.
 | **Upcoming classroom moves** | A planned move, or a child aging into the next room, comes within your classroom-move lead time. Each move appears once, and resolves after its date passes or it's completed or cancelled. |
 | **Food program (CACFP)** | A meal count hasn't been started, a finalized count has errors, last month's claim hasn't been filed, or eligibility forms are expiring. See [Food Program](/manage/food-program/). |
 | **Expiring documents** | A document, person file, shared link or staff certificate is close to its expiration date. |
-| **Drills, medication & incidents** | An emergency drill is due within a week or overdue, a scheduled medication dose wasn't recorded yesterday for a child who was here, or a serious incident was reported. See [Safety](/manage/safety/). |
+| **Drills, medication & incidents** | An emergency drill is due within a week or overdue, a scheduled medication dose is due now for a child who is signed in (also pushed and emailed to administrators), a scheduled dose wasn't recorded yesterday for a child who was here, or a serious incident was reported. See [Safety](/manage/safety/). |
 | **Integration problems** | A scheduled KinderConnect submission failed, or attendance hasn't reached the state for longer than your schedule allows. |
 | **Payroll ready to approve** | A pay period has ended and its hours are waiting for you, or the period after your last approved one has ended and nobody has opened it yet. Clears once you approve. See [Payroll](/manage/payroll/). |
 | **Parent messages** | A guardian replies to a conversation in the parent app. A busy conversation stays as one notification showing the latest message. |
 | **Forms submitted** | Someone completes a form you shared with them. |
 | **New leads** | A new inquiry reaches your pipeline from a form, your website, or a walk-in taken at the front desk in the staff app. Leads you add to the pipeline by hand aren't announced. |
 | **Waitlist** | A seat is open in a room with families waiting, a family accepted or declined a seat you offered, or an offer expired. See [Waitlist](/manage/waitlist/). |
+| **Scanned documents** | Ellie finished reading a scanned document and it's ready to review, or she couldn't read it and says why. One notification per scan, updated if you try again. See [Scan a document](/manage/scan-documents/). |
 
 Payments you record yourself, such as cash, a check, or account credit, don't create a notification, because you already know about them.
 
@@ -71,8 +72,10 @@ Administrators signed in to the **Kinderly Staff** app also get a push notificat
 | **Funding document expiring** | Funding → Documents |
 | **Staff certificate expiring** | Staff → Certifications |
 | **Drill due** / **Drill overdue** | Safety → Drills |
+| **Medication due** | Safety → Medication |
 | **Serious incident** | The incident report |
 | **Offer accepted** / **Offer declined** | Waitlist |
+| **Ready to review** / **Ellie couldn't read your…** | The scan (only the person who started it) |
 
 These pushes **follow the categories you've turned off here**: turn off **New leads** and you won't get inquiry pushes either. Pushes also appear in the app's own notification list, so one you swiped away is still there. Out-of-ratio alerts are pushed separately, as set under **App settings**.
 

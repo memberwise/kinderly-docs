@@ -15,11 +15,22 @@ Give each classroom a **Licensed capacity** on its **Classrooms** page. The wait
 - **open** seats right now
 - when the **next seat** is likely to open, worked out from what Kinderly already knows: planned classroom moves, children aging into the next room, and program enrollments that end
 
+![The waitlist: open seats per classroom, and the families waiting in order](../../../assets/screenshots/manage-waitlist.png)
+
 Click a room's card to see only the families waiting for it.
 
 ## Adding families
 
-Choose **Add family** and enter the child, their birth date (or due date), the parent's contact details, the classroom they want and when they'd like to start.
+Choose **Add family**. Only the child's name and birth date (or due date, if they're expecting), the parent's first name and an email or phone that works are needed. The parent's last name is taken from the child's if you leave it blank.
+
+As you fill it in, Kinderly:
+
+- shows the child's age today and on the start date, and marks the classroom whose ages fit (from the classroom's ratio bands). If you pick a room the child is too young or too old for, it says so and offers to switch.
+- warns you if the child, or a family with the same email or phone, is already on the waitlist
+- checks that the email looks complete and that the phone number has 10 digits
+- shows where the family will land in line for the room you chose, and moves them up if you give them priority. Siblings of enrolled children and staff families still get priority automatically when you add them.
+
+Start-date shortcuts cover *As soon as possible*, *1st of next month* and *Next fall*.
 
 Families can also add themselves. Build an online waitlist form and add an **Add to Waitlist** step to its packet (see [Actions](/actions/overview/)). Each completed form puts the family on the list, matched to a classroom by name. Submitting the form twice doesn't add the family twice.
 

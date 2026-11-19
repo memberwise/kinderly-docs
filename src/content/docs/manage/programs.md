@@ -50,6 +50,8 @@ The calendar beside the form shows the actual billing dates, starting from the f
 
 **Mock billing run**, under the calendar, shows exactly what a billing run would invoice, without creating, charging or sending anything. It opens on the next billing day. Pick another date, or click any green date on the calendar to try that one.
 
+![A mock billing run: what would be invoiced, what an agency covers, and who wouldn't be billed](../../../assets/screenshots/manage-programs-mock-run.png)
+
 For each child you see the invoice total and every line on it, how much an agency covers, how much account credit pays, and what's left for the family. It also shows whether the family would be auto-charged through auto-pay or emailed an invoice. Children who wouldn't be billed are listed with the reason, for example no billing account, or an enrollment that starts after the period.
 
 It uses the schedule as it is in the form, so you can try a change before you save it. It works even with **Auto-generate invoices** off. If a date in the future includes daily or hourly fees, only attendance recorded so far is counted.

@@ -44,7 +44,13 @@ Bank payments take a few business days to clear. Until then the payment shows as
 
 A **billing account** is who gets the invoice. It can have several **holders** (both parents, say) and cover several children, so a family gets one invoice rather than one per child.
 
-**New Account** creates one. Children are attached from their own [record](/manage/children/#billing).
+**New account** creates one. Children are attached from their own [record](/manage/children/#billing).
+
+Billing has three tabs along the top: **Accounts**, **Invoices** (every invoice across all accounts) and **Charges** (late fees and one-off charges waiting to be invoiced).
+
+Opening an account shows its invoices on the left. On the right are the **balance due**, what's been billed and paid, the next due date, and a **Needs your attention** box listing overdue invoices, payments still processing and account credit that could pay an open invoice. Below that are the account's credit, the people who pay (**Who pays**), its children, and **Close account**.
+
+![A billing account: its invoices, the balance due and what needs attention](../../../assets/screenshots/manage-billing-account.png)
 
 :::tip[One account per family, not per child]
 Siblings on one account means one invoice, one balance and one payment. Separate accounts per child means a family reconciling three payments a month and you chasing three balances.
@@ -89,7 +95,7 @@ You add, rename and remove agency ledgers under **Settings → Billing → Agenc
 
 ## Invoices
 
-**All Invoices** lists every invoice raised. Charges come from the [program](/manage/programs/) a child is enrolled in, with any **Program Fee Overrides** on the child's record applied automatically.
+The **Invoices** tab lists every invoice raised. Charges come from the [program](/manage/programs/) a child is enrolled in, with any **Program Fee Overrides** on the child's record applied automatically.
 
 ### Invoice templates
 
@@ -108,9 +114,36 @@ invoice. Due date, period and note are still set per invoice.
 
 Editing or deleting a template doesn't affect invoices you've already created.
 
+### Editing an invoice
+
+Open an account, expand the invoice and click **Edit** to fix a mistake on it: the wrong rate went out, a sibling discount was left off, or the family paid the right amount but the invoice still shows the full price. You can change a line's name, amount or quantity, remove a line, or add a **Charge** or a **Discount**. As you type, the dialog shows the invoice's total before and after the change and what the family will owe.
+
+![Editing an invoice to add a sibling discount, with the total before and after](../../../assets/screenshots/manage-billing-edit-invoice.png)
+
+What you can change depends on whether the invoice has been paid:
+
+- **Not yet paid, or partly paid.** Changes adjust what the family owes. The invoice can't come to less than the family has already paid, because that would mean giving money back. To do that, use [Refund](#refunds). If your change makes the total match what they've paid, the invoice is marked paid. For example, if a family paid $450 on a $500 invoice because their sibling discount was missing, add a $50 discount and the invoice is settled.
+- **Paid, or with money refunded on it.** The charges are locked, because they've already been paid. Anything you add is a **note for your records**: it shows on the invoice in Kinderly under **For your records** and in the [Invoice Corrections report](/manage/reports/), but it's never added to any total, and families don't see it. Use it to record, say, that a paid invoice included a $50 sibling discount.
+
+Every edit needs a reason. The invoice keeps an **Edit history** of who changed it, when, why, and what it did to the total.
+
+To keep the books right, Kinderly won't let an edit:
+
+- happen while a card or bank payment, or a refund, on the invoice is still processing
+- take the invoice to $0 or less (void it instead)
+- remove a card or bank fee line that came with a payment (cancel that payment instead)
+- remove a one-time deposit the billing run has recorded as charged (set it to $0 to waive it, so it isn't billed again)
+- overwrite a change someone else made while you were editing. If the invoice changed in the meantime, for example because a payment arrived, you're asked to reopen it and start again.
+
+If a change moves the total by a lot (at least $500 and half the invoice), you're asked to confirm it, in case of a missing or extra zero.
+
+:::tip[A paid invoice that was billed wrong]
+If a family was overcharged and paid the full amount, editing can't fix that, because the money has already been paid. Issue a [refund](#refunds) for the difference, then add a note on the invoice explaining it.
+:::
+
 ### Changing a due date
 
-Open an account, expand the invoice and click **Change Due Date**. Use it when
+Open an account, expand the invoice and click **Change due date**. Use it when
 you've given a family more time, or when an invoice was raised with the wrong
 date on it. Only the date moves — the line items and the amount owed stay as
 they are, and the invoice stops counting as overdue from the new date.
@@ -124,7 +157,7 @@ history and can't be moved.
 marked **Void**, so the record of what was cancelled survives. An invoice that
 has received a payment can't be voided — cancel the payment first.
 
-**Delete Permanently** appears on voided invoices only. It removes the invoice
+**Delete permanently** appears on voided invoices only. It removes the invoice
 and its line items from the account entirely, for invoices that shouldn't be on
 the books at all — a duplicate, or one raised against the wrong account.
 
@@ -138,7 +171,7 @@ If the invoice charged a one-time deposit or registration fee, deleting it frees
 that fee to be billed again — voiding alone does not.
 
 To clear several at once, tick the invoices in the list and click **Delete N
-Voided** in the bar above the table. Only the voided ones in your selection are
+voided** in the bar that appears at the bottom of the screen. Only the voided ones in your selection are
 deleted — anything still open or paid is left alone, so a selection you made to
 email or download PDFs can't take live invoices with it.
 
@@ -170,8 +203,10 @@ money twice while the first one is in flight.
 :::caution[A refunded invoice reopens]
 Refunding part of a paid invoice makes it unpaid again, with a balance equal to
 what you gave back. That's deliberate — the family's balance should match what
-your bank says. If the refund settles the matter and you don't want to chase it,
-void the invoice.
+your bank says. If the refund settles the matter and the family shouldn't owe
+the invoice anymore, tick **Also void the invoice** in the refund dialog. The
+invoice is then canceled instead of reopened. This option is off by default, and
+it only works when you're refunding everything the invoice received.
 :::
 
 Refunds show on the invoice underneath the payments, and are subtracted from
@@ -196,7 +231,11 @@ Kinderly can charge late fees for you. Set them up under **Settings → Billing 
 - **Late payment fee**: a flat amount and/or a percentage of what's still owed, charged once on an invoice that still has a balance a set number of days after its due date.
 - **Late pickup fee**: an amount for every few minutes a child is signed out after your closing time, after a grace period, with an optional cap per pickup. It needs your closing time under **Center Configuration**. Auto sign-outs are never charged.
 
+![Late fee rules under Settings → Billing](../../../assets/screenshots/settings-late-fees.png)
+
 Each night Kinderly checks for both and lists what it finds under **Billing → Charges**. A late fee is never charged twice for the same invoice or pickup, and a late fee on an invoice that's itself only late fees isn't charged at all. Switching late payment fees on doesn't reach back and charge invoices that were already long overdue.
+
+![Late fees waiting for review under Billing → Charges](../../../assets/screenshots/manage-billing-charges.png)
 
 With **Review late fees before they're billed** on (the default), new fees wait under **Charges** until you **Approve** or **Waive** them. Approved fees go on the family's next automatic invoice as their own lines, so families never get a separate bill for a late fee. To send them now instead, choose **Bill now** on the family. Directors can also approve and waive from **Late fees** in the Staff app.
 

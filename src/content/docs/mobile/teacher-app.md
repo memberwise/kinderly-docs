@@ -135,18 +135,18 @@ Administrators on the **Bloom plan and above** can turn paper forms into Kinderl
 
 **Several documents, no waiting**
 
-Photograph up to six pages per document. **Add another document** queues more, and **Read N documents** sends them all. Ellie reads them one after another in the background (usually 20 to 60 seconds each) while you keep using the app. A small **Ellie is reading…** pill shows while she works. As each one finishes, a **Ready to review** notice appears; tap **Review** to open it. **Recent scans** lists every scan and where it's up to.
+Photograph up to six pages per document. **Add another document** queues more, and **Read N documents** sends them all. Ellie reads them in the background (usually 20 to 60 seconds each) while you keep using the app. A small **Ellie is reading…** pill shows while she works. As each one finishes, a **Ready to review** notice appears; tap **Review** to open it. **Recent scans** lists every scan and where it's up to.
 
 **Reviewing**
 
-The sections follow what you're adding: the child, adults, health, address and anything left over; adults first for parents' forms; or just the staff member. Amber fields are ones Ellie wasn't sure of, with the other likely readings one tap away. **View pages** shows the photos. Tap **Apply to Kinderly** to save.
+The sections follow what you're adding: the child, adults, health, schedule, address and anything left over; adults first for parents' forms; or just the staff member. Amber fields are ones Ellie wasn't sure of, with the other likely readings one tap away. **View pages** shows the photos. Tap **Apply to Kinderly** to save.
 
 :::tip[Grandparents and emergency contacts keep their relationship]
 Relationships read from the form, such as *Grandparent*, *Aunt* or *Emergency Contact*, are kept as written. Everyone added can pick up unless the form says otherwise, and the child always ends up with exactly one primary contact.
 :::
 
-:::note[Keep the app open while it reads]
-Reading happens while the app is open. If you close it, the scan picks up again the next time you open it.
+:::note[You can close the app]
+Ellie reads on Kinderly's servers, so locking your phone or closing the app doesn't stop her. When she's done you get a push notification (**Ready to review**, or **Ellie couldn't read…** with the reason); tapping it opens the scan.
 :::
 
 ## Running the center from your phone

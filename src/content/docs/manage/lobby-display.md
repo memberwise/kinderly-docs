@@ -48,7 +48,7 @@ Codes last 15 minutes. If one runs out, the TV shows a new one.
 
 ## Today's menu
 
-If you run the [Food Program](/manage/food-program/) and have planned meals for today, the screen shows **Today's menu** next to the latest news. Foods use the same icons and colors as your printed menu. The meal being served right now is highlighted, or the next one between meals. Meals already served shrink to one line so families can still see what their child ate.
+If you run the [Food Program](/manage/food-program/) and have planned meals for today, the screen shows **Today's menu**, next to the latest news unless you've moved it. Foods use the same icons and colors as your printed menu. The meal being served right now is highlighted, or the next one between meals. Meals already served shrink to one line so families can still see what their child ate.
 
 The screen shows what families need, the food, and nothing else. Meal-pattern checks and portion sizes stay in the Food Program. If a food was swapped on the day, the screen shows what was actually served, marked *(changed)*.
 
@@ -56,28 +56,40 @@ The menu appears on its own when the Food Program is on and disappears on days w
 
 ## Sign in & out from the TV
 
-If you've turned on **Parent QR sign-in** in App Settings, every lobby screen shows the same QR code as the printed poster, in the bottom corner. Parents open the Kinderly Parent app, tap **Sign in / out**, and scan the TV, so you don't need the paper poster. Turn QR sign-in off and the code leaves the screen within a minute.
+If you've turned on **Parent QR sign-in** in App Settings, every lobby screen shows the same QR code as the printed poster. Parents open the Kinderly Parent app, tap **Sign in / out**, and scan the TV, so you don't need the paper poster. Turn QR sign-in off and the code leaves the screen within a minute.
 
 The code is safe to show in a public lobby. Scanning it does nothing unless the person is signed in to the parent app as a guardian at your center.
 
-## Choosing what each screen shows
+## Setting up a screen
 
-On **Manage → Lobby Display**, each screen has **Settings**:
+**Manage → Lobby Display** shows a **live preview** of the screen in the middle, with its settings on either side. The preview uses your real notices, events, posts, photos and menu, and it changes as soon as you change a setting, before you save. If you have more than one screen, choose one at the top of the page.
 
-- **Screen name**, so you can tell your screens apart
-- **Which panels to show.** Turn off any of the four. The rest fill the space
-- **Seconds per photo** in the slideshow
-- **Days of calendar to show**, two weeks by default
-- **Photo folder**, the Documents folder the slideshow uses
+![The Lobby Display page: screen settings, the live preview and the photo slideshow](../../../assets/screenshots/lobby-display-editor.png)
 
-The dot next to each screen is green when it's on and connected. Otherwise it shows when the screen was last seen, which is handy for spotting a TV that has been unplugged.
+On the left:
+
+- **Screen name**, so you can tell your screens apart. The dot is green when the screen is on and connected. Otherwise it shows when the screen was last seen, which is handy for spotting a TV that has been unplugged.
+- **What it shows.** Turn **Good to know**, **Coming up**, **Photo slideshow** or **Latest news** on or off. The rest fill the space. You can also set how many **days ahead** the calendar shows (two weeks by default) and how long each photo stays up.
+- **Today's menu** and **Sign in & out** show on their own when there's something to show, as described above.
+
+When you change something, a bar appears at the bottom of the page. Choose **Save changes** and the TV picks up the change within a minute, or **Discard** to go back.
+
+### Arranging the panels
+
+A screen has three areas: a **side column**, a **main area**, and a **bottom row** under the main area. To move a panel, drag it in the preview and drop it where you want it. A line shows where it will go. You can stack panels in any area or put them side by side in the bottom row.
+
+You can also hover over a panel and use its **⋯** menu to move it to another area, or up and down within one. **Column left** and **Column right** choose which side the side column is on, and **Reset** puts every panel back where it started.
+
+Panels with a dashed outline in the preview have nothing to show right now, such as the menu on a day with nothing planned. They're there so you can still place them. The TV leaves them out until they have something to show, and the other panels fill the space.
+
+Each screen has its own arrangement, so the TV by the front door and the one in the hallway can look different.
 
 ## Adding photos
 
-Choose **Photos** on a screen to see its slideshow and **Add photos**. They're saved to the screen's folder in Documents (*Lobby Photos* unless you chose another), so you can also find them there. JPEG, PNG, WebP and GIF photos work.
+The **Photos** box on the right shows the screen's slideshow. Choose **Add** to upload more, or hover over a photo to remove it. Photos are saved to the screen's folder in Documents (*Lobby Photos* unless you type a different folder and save), so you can also find them there. JPEG, PNG, WebP and GIF photos work.
 
 :::caution[Upload slideshow photos from the Lobby Display page]
-Photos you upload through the Documents page are turned into PDFs so they can be signed and shared, and a TV can't show a PDF. Add slideshow photos with **Add photos** on the Lobby Display page, which keeps them as pictures.
+Photos you upload through the Documents page are turned into PDFs so they can be signed and shared, and a TV can't show a PDF. Add slideshow photos with **Add** in the Photos box on the Lobby Display page, which keeps them as pictures.
 :::
 
 The lobby is a public space. Only use photos of children whose families have agreed to them being displayed.
@@ -90,7 +102,7 @@ The lobby is a public space. Only use photos of children whose families have agr
 - Mark a notice **Important** to pin it at the top, highlighted in yellow. Important notices always stay in view.
 - When there are more notices than fit, the rest scroll slowly down and back up on their own, pausing at each end, so every notice gets its turn on screen.
 
-Notices appear on every screen at your center.
+Notices are in the **Good to know** box on the right of the Lobby Display page. They're saved as soon as you add them, without the **Save changes** bar, and they appear on every screen at your center.
 
 ## Disconnecting a screen
 

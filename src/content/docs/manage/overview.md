@@ -46,10 +46,10 @@ All three lists can [scan a paper form](/manage/scan-documents/) to add someone,
 
 ## Setting up
 
-**Settings** at the bottom of the menu covers the center itself — name, address, hours, ratios, allergy and immunisation lists, custom fields. Get these right before adding children; several of them shape what a child's record can hold. See [Settings](/manage/settings/).
+**Settings** at the bottom of the menu covers the center itself — name, address, hours, ratios, allergy and immunization lists, custom fields. Get these right before adding children; several of them shape what a child's record can hold. See [Settings](/manage/settings/).
 
 :::tip[Set up in this order]
-1. **Settings** — center info, hours, ratios, allergy and immunisation lists
+1. **Settings** — center info, hours, ratios, allergy and immunization lists
 2. **Classrooms** — the rooms you actually run
 3. **Staff** — your team, assigned to rooms
 4. **Programs** — what you offer and what it costs
