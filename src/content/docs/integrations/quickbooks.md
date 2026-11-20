@@ -51,7 +51,7 @@ adding one new kind of fee can fail a whole night's sync. With it, the money
 lands somewhere sensible and you can re-file it at your leisure.
 :::
 
-Then set **where payments land** — your card, cash and cheque payments probably
+Then set **where payments land** — your card, cash and check payments probably
 don't go to the same place, and your bank reconciliation depends on that being
 right.
 

@@ -192,7 +192,7 @@ you issue refunds.
 
 **Card payments go back to the card.** If you refund against a payment that was
 taken by card, Kinderly sends the refund through Stripe and the money returns to
-the family's card. Anything else — cash, a cheque, a bank transfer — is recorded
+the family's card. Anything else — cash, a check, a bank transfer — is recorded
 as a refund you handled yourself; Kinderly keeps the record straight but doesn't
 move the money.
 
