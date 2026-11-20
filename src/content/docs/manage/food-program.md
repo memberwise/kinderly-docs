@@ -51,36 +51,90 @@ flags it before you file rather than after.
   feature can never change what you claim.
 - **Share menus with families** — publishes the planned menu to the Parents app.
 
+## Home: the month at a glance
+
+Once the program is on, the page opens on **Home**. It lays the month out as
+the three steps you actually repeat, each with its status and one button:
+
+![The Food Program home page: plan menus, count meals and file the claim](../../../assets/screenshots/manage-food-program-home.png)
+
+- **Plan menus**: how many weeks of the month are planned, and a button that
+  opens the planner on the next week that isn't.
+- **Count meals**: today's meal periods, which are counted, and a button for
+  the next one due.
+- **File the claim**: the month so far, the estimated reimbursement once your
+  rates are in, and how many things need fixing before you submit.
+
+Below that is **today's menu**, with a colored badge for each food group, and
+**Needs your attention**: upcoming meals that won't be reimbursed as planned,
+income forms that have expired or are about to, and counts saved but not
+submitted. Each item links straight to the screen where you fix it.
+
+The tabs follow the same loop: **Home**, **Menus**, **Meal Counts**,
+**Reports & claim**, and **Setup**, which holds the things you configure once:
+program settings, [eligibility](#eligibility) and the [food list](#the-food-list).
+
 ## Planning a menu
 
-The **Menu** tab plans one operating day at a time, with children and infants
-kept apart because they follow different meal patterns.
+The **Menus** tab opens on the **week**, laid out like the menu on the wall:
+meals down the side, your open days across the top. Each cell lists what's being
+served, with a colored dot for each food group (milk, grain, fruit, vegetable,
+protein) in the same colors as the printed menu, and says whether the meal is
+**Ready** or what it **Needs**, such as *Needs milk*. Each day's header sums it
+up: **Ready**, **2 to fix** or **Not planned**. Closed days are hidden.
 
-Add foods to each meal period and Kinderly checks the pattern as you go —
-whether every required component is present, whether the grain is whole
-grain-rich, whether you've gone over the one-juice-a-day limit. **Menu cycles**
-fills a run of days from a menu you reuse.
+![A week of menus, each meal marked Ready or what it needs](../../../assets/screenshots/manage-food-program-week.png)
 
-There are two ways to get food onto a day, and they suit different moments:
+Beside the week, **Ready to claim** counts the meals that meet the meal pattern,
+and a short list shows everything left to finish. Each item has the button that
+fixes it: **Add milk**, **Copy Thu** for a day with nothing planned yet, or
+**Open day** for a whole-day rule like the one whole grain-rich serving a day.
+Meals that aren't ready can still be saved and served. They just can't be
+claimed until they're fixed.
 
-- **Click a red slot.** When a meal is missing something, it shows up as a
-  dashed **Fruit — required** slot in that meal. Click it and the food picker
-  opens already filtered to what fills it.
-- **Drag from the food list beside the meals.** Search or filter by component,
-  then drag a food onto a meal — or straight onto a red slot, which fills it and
-  sets what it counts as in one move.
+Children and infants follow different meal patterns, so if you serve infants, a
+**Children / Infants** switch flips the whole view between the two menus.
 
-Once food is on a day you can drag it around: move an item from lunch to snack,
-or reorder items within a meal. To reuse a day, drag the grip beside the date
-onto another day in the week strip — or use **Copy day to…** for the same thing
-without a mouse. Either way the copy lands as a draft on that day for you to
-review and save; it never overwrites what's already on the calendar by itself.
+### Planning a day
 
-:::note[Days you haven't saved are marked]
-An amber dot on a date means that day has edits you haven't saved yet. You can
-move between days freely — Kinderly keeps the edits — and **Save 3 days** appears
-when more than one day is waiting. A day that fails to save stays marked so you
-can try again.
+Click a day or a meal to open that day. Each meal is laid out as the **slots its
+meal pattern requires**. Breakfast shows Milk, Fruit or vegetable and Grain;
+lunch shows all five groups; a snack shows any two different groups. A filled
+slot shows the food in its group's color. An empty slot is a button: click
+**Add milk** and a search opens right there, already narrowed to what fills it,
+with the foods your center already uses at the top. A food that isn't in the
+food list can be added as written. It just can't be checked until you add it to
+your own food list.
+
+Kinderly checks the pattern as you go. It catches a missing component, 2% milk
+for an age group that can't have it, a grain that isn't whole grain-rich, and
+more than one juice a day. The rules that cover the whole day sit above the
+meals and say plainly when they're met.
+
+Anything beyond the required slots, like seconds, sides or condiments, goes in
+with **Add an extra**. When a snack still needs a second group, **Quick add**
+offers foods you serve often that would complete it.
+
+**Day actions** copies the day onto another date, opens your menu cycles, or
+clears the day. A copy lands as a draft on that day for you to review and save.
+It never overwrites what's already on the calendar by itself.
+
+### Starting a new week
+
+A week with nothing planned asks how you'd like to start:
+
+- **Copy last week**, day for day. This is what most centers do.
+- **Use a menu cycle** to fill the week from a rotation you've saved.
+- **Start from scratch** and plan one meal at a time.
+
+**Fill week** at the top of the week does the same for a week that's already
+partly planned. It only fills days that are still empty.
+
+:::note[Saving]
+Edits are kept as you move between days and weeks. While anything is unsaved, a
+bar at the bottom of the screen names the days, such as *Unsaved changes on Tue
+and Thu*, with one **Save** button for all of them and **Discard** to throw
+them away. A day that fails to save stays listed so you can try again.
 :::
 
 :::caution[A meal with no menu of record is the easiest thing to lose at review]
@@ -112,14 +166,14 @@ Ones and twos share the **Ages 1–2** group, but they drink different milk. If 
 
 ### Putting the menu on the wall
 
-**Print calendar** produces a one-page menu calendar for the kitchen door, the
+**Print for families** produces a one-page menu calendar for the kitchen door, the
 classroom or the parent board, over **this week**, **next week**, **this month**
 or a **custom range**. Only days you're open are included.
 
 ![Choosing the range for a printed menu calendar](../../../assets/screenshots/manage-food-program-print.png)
 
-The printed version is not a picture of the planner. Drag handles, empty slots,
-the food palette and the validation findings all come off, leaving what a cook or
+The printed version is not a picture of the planner. Empty slots, buttons and
+the validation findings all come off, leaving what a cook or
 a parent actually reads: what's being served, on which day, with the same icons
 and component colours as the screen so the milk row is findable across a room.
 
@@ -131,14 +185,17 @@ posting yet. Resolve findings in the planner, then print.
 ### Reusing a menu: cycles
 
 A **cycle** is a menu you reuse — a four-week rotation, a summer set. Build one
-once under **Menu cycles**, then apply it to fill a run of operating days. Cycles skip
+once under **Fill week → Use a menu cycle**, then apply it to fill a run of operating days. Cycles skip
 your non-operating days as they're laid down, so a five-day cycle stays
 Monday-to-Friday instead of drifting through the weekend.
 
-Applied days land as drafts for you to review and save, exactly like a copied
-day.
+To put a day into a cycle, plan it on the calendar, then use **Day actions →
+Menu cycles** and save it into a day of the cycle. Applied days land on the
+calendar for you to review, and never replace a day that's already planned.
 
 ## The food list
+
+The food list lives under **Setup → Food List**.
 
 580 foods come built in, already checked for the things that actually get meals
 disallowed: whole grain-rich, added sugars on cereal and yogurt, juice, and the
@@ -238,7 +295,7 @@ A few details worth knowing:
 
 ## Eligibility
 
-The **Eligibility** tab is the roster the claim is priced from: each child's
+**Setup → Eligibility** is the roster the claim is priced from: each child's
 type, what it's based on, and when the form expires.
 
 Six types exist, and the claim breaks meals out by all of them — **Free**,
@@ -273,19 +330,23 @@ expiry email exists to prevent.
 
 ## Filing the claim
 
-The **Claim** tab builds the month.
+The **Reports & claim** tab builds the month, and runs every CACFP report for
+it.
 
 ![The monthly claim, with edit checks](../../../assets/screenshots/manage-food-program-claim.png)
 
-At the top: meals claimed, days of service, average daily attendance, and the
-estimated reimbursement once you've entered your rates. Below that, meals broken
-out by type and eligibility, with a disallowed column.
+Pick the month at the top. The first card is the **edit checks**, the part worth
+reading before you file. It runs the checks a reviewer runs — counts above
+licensed capacity, meals claimed on days with no menu, children counted with an
+expired form, more meals than a child can be claimed for in a day — and its
+heading reads **Ready to submit**, or **Almost ready** with the number of things
+still to resolve. Each one has a button that opens the screen where it's fixed:
+**Fix menu** opens the planner on that day, **Review count** opens that meal's
+count.
 
-**Edit checks** is the part worth reading before you file. It runs the checks a
-reviewer runs — counts above licensed capacity, meals claimed on days with no
-menu, children counted with an expired form, more meals than a child can be
-claimed for in a day — and shows either **Ready to file** or the number of things
-still to resolve.
+Beside it: the estimated reimbursement once you've entered your rates, meals
+claimed, days of service, average daily attendance and meals disallowed. Below,
+meals broken out by type and eligibility, with a disallowed column.
 
 ### Filing anyway, on the record
 
@@ -343,6 +404,24 @@ The packet reflects the month as it stands when you generate it. Producing it
 alongside the claim gives you a record that matches what you filed, before any
 later edit introduces drift.
 :::
+
+### Running CACFP reports
+
+Every CACFP report from **Manage → Reports** can be run from the bottom of
+**Reports & claim**, for the month picked at the top, without entering a date
+range. They're grouped by when you need them:
+
+- **For your claim**: Claim Summary, Sponsor Submission, Meal Counts and Edit
+  Checks.
+- **For a monitor visit**: Menu Production Record, Daily Meal Count Sheet,
+  Attendance Reconciliation, Eligibility Roster, Infant Feeding Record,
+  Substitutions and Milk Audit.
+- **Planning and cost**: Food Cost per Meal and the attendance-based Meal
+  Totals estimate.
+
+**Run** opens the result right there, with CSV and PDF export. **More options**
+opens the same report in Reports, where you can pick another date range or a
+single classroom, schedule it, or pin it to the dashboard.
 
 ## Is the food program paying for itself?
 

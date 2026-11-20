@@ -10,6 +10,10 @@ sidebar:
 **Manage → Guardians & Contacts** lists them with their name, how many children they're attached to, email and phone.
 
 - **Add Guardian ▾** offers **Add Guardian** to type the details in, or **Scan Document** to [scan a paper form](/manage/scan-documents/) and let Ellie add every parent and contact on it, with the child too if the form names one.
+
+  As you type a new guardian's name, email or phone, Kinderly looks for someone who's already in it. A match shows in a yellow banner with **Use this guardian**, which skips creating anyone and goes straight to linking children to the existing guardian, and **Open** to see their record. The email field flags an address that looks unfinished, and app access only turns on once the email looks complete. Gender and ethnicity sit under **More details**. When you link a child and the new guardian has no address, Kinderly offers the child's address instead.
+
+  A guardian's **Children** tab opens with a line saying how many children they're linked to, which of them they can pick up, and which they're the primary contact for.
 - The **search box** filters by name or email as you type, and **Filters** narrows the list further (below).
 - Tick several people to upload documents to them or [print a sheet for each](/manage/print-sheets/).
 

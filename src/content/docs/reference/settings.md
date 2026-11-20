@@ -24,7 +24,7 @@ Inside Kinderly Manage. Covers **the center itself**:
 
 - **Center Configuration** — name, address, contact details, time zone, operating hours, closed holidays, Tax ID (EIN/TIN) and Provider Number (DVN)
 - **Allergies** — the allergy list child records pick from
-- **Immunizations** — the immunisation list
+- **Immunizations** — the immunization list
 - **Custom Fields** — extra fields on the child record
 - **Class Ratios** — required staff-to-child ratios
 - **Billing** — family billing configuration

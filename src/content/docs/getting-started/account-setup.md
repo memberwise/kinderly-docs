@@ -49,7 +49,7 @@ An expired card means a failed renewal, and a failed renewal eventually means dr
 
 ## Your center's details
 
-Settings covers *your account*. Details about the center itself — name, address, opening hours, ratios, allergies and immunisation lists, custom fields — live under **[Manage → Settings](/manage/settings/)**.
+Settings covers *your account*. Details about the center itself — name, address, opening hours, ratios, allergies and immunization lists, custom fields — live under **[Manage → Settings](/manage/settings/)**.
 
 Worth doing early: those settings shape [children's records](/manage/children/), [classroom ratios](/manage/classrooms/) and what appears on your [Grow website](/grow/overview/).
 
@@ -66,7 +66,7 @@ Deleting removes children's records, submitted documents and signed forms. If yo
 When you sign up, Kinderly opens the [setup wizard](/manage/settings/#setup-wizard), which covers most of this list in order. Anything you skip stays on the **Setup checklist** on your dashboard.
 
 1. **Profile** — your name and email.
-2. **[Manage → Settings](/manage/settings/)** — center details, hours, ratios, allergy and immunisation lists, meal schedule.
+2. **[Manage → Settings](/manage/settings/)** — center details, hours, ratios, allergy and immunization lists, meal schedule.
 3. **[Classrooms and programs](/manage/classrooms/)** — the shape of your center.
 4. **Invite your team.**
 5. **Children and guardians** — if you're coming from another system or from spreadsheets, use **Manage → Settings → [Import Data](/manage/settings/#data-tools)** rather than typing them in.

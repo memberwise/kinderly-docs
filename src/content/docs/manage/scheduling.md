@@ -25,6 +25,14 @@ For someone on a fixed pattern, click all five cells and create the shift in one
 
 ### Out by ratio
 
+The shift dialog has presets for **Opening, 6:30–2:30**, **Mid, 9–5** and **Closing, 10–6**. When you create shifts for several days at once, it shows the total hours. If the staff member has a **max hours / week** set on their Employment tab, it also shows where the week stands with this shift, and flags overtime.
+
+Give a shift a **Label** (Transportation, School Age, Floater, anything you like) and it shows as a heading on the shift in the grid, on the printed schedule and in staff calendar links. The dialog offers the labels your center has used before, so everyone picks the same wording. For a room, use **Classroom** instead: that's what ratios and rosters go by.
+
+A shift with a **note** shows a small note icon on the grid. Hover it to read the note without opening the shift.
+
+An end time earlier than the start is an **overnight** shift: it ends the next morning. The grid marks it **+1**, totals count it in full, staff calendar links end it the next day, and **Schedule Adherence** matches it with the next morning's clock-out. A shift over 16 hours gets a note to check AM and PM.
+
 Some shifts have a set start but no set finish: the teacher stays until enough children have gone home that they're no longer needed for ratio. Turn on **Out by Ratio** in the shift dialog for these.
 
 - The out time shows as **Ratio** on the grid, the printed schedule and the teacher app, so nobody reads the shift as a guaranteed eight hours.

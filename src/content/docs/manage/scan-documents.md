@@ -21,12 +21,12 @@ Where you start tells Ellie what you're adding:
 
 | Start from | Ellie looks for | You can apply once |
 |---|---|---|
-| **Children → Add Child ▾ → Scan Document** | The child first, then their parents and contacts, allergies, doctor, insurance and immunizations | the child has a first and last name |
+| **Children → Add Child ▾ → Scan Document** | The child first, then their parents and contacts, allergies, doctor, insurance, immunizations and schedule | the child has a first and last name |
 | **Guardians & Contacts → Add Guardian ▾ → Scan Document** | Every parent, guardian and emergency contact on the form. The child is optional | each new adult has a first and last name |
 | **Staff → Add Staff ▾ → Scan Document** | One staff member: name, email, phones, title, birth date and start date | the staff member has a name and an email address |
 | A child's page → **Scan Document** | The same as from Children, matched to that child | always |
 
-Any paper form works, with no templates or setup: state forms like Missouri's 3317, your own enrollment packet, a doctor's note, an allergy action plan, an immunization card, a staff application.
+Any paper form works, with no templates or setup: state forms like Missouri's 3317, your own enrollment packet, a doctor's note, an allergy action plan, an immunization card or printed immunization record, a schedule or contract, a staff application.
 
 ## Photographing the pages
 
@@ -36,19 +36,34 @@ To scan several documents in one go, use **Add another document** and give each 
 
 ## You don't have to wait
 
-Ellie usually takes 20 to 60 seconds per document, and you don't have to watch:
+Ellie usually takes 20 to 60 seconds per document, and you don't have to watch, or even keep Kinderly open. She reads on Kinderly's servers, so closing the tab, locking your phone or leaving the staff app doesn't stop her.
 
-- A notification in the corner, **Ellie is reading 2 documents…**, follows you anywhere in Manage.
-- As each one finishes, a **Ready to review** notification appears with the name of the child or person it's about. Click **Review** to go straight to it.
+- While you're in Manage, a notification in the corner, **Ellie is reading 2 documents…**, follows you around. A document with several pages shows which page she's on.
+- When a scan finishes, it's in the **bell** as **Ready to review**, with the name of the child or person it's about. If Ellie couldn't read it, the bell says so and why. Click it to go straight to the scan.
+- If you started the scan in the [staff app](/mobile/teacher-app/), your phone also gets a **push notification**. Tapping it opens the scan.
 - The **Recent scans** list on the scan page shows every recent scan and where it's up to: *Waiting*, *Reading*, *Ready to review*, *Couldn't read* or *Saved*.
 
-:::caution[Keep Kinderly open in your browser]
-You can move around Kinderly freely while scans are read, but closing the tab pauses them. They pick up again the next time you open Kinderly.
-:::
+### When a scan can't be read
+
+Ellie tries again on her own when she's busy or slow to answer. If a scan still can't be read, it's marked *Couldn't read* with the reason, and you're told, so it's never left spinning:
+
+- **Try again** carries on from where she stopped. Pages she already read aren't read again, and they don't count against your Ellie allowance twice.
+- A page she can't make out asks for a sharper photo. **Discard** the scan and photograph the document again.
+- A read that stops partway (rare) is marked *Couldn't read* within about ten minutes.
 
 ## Reviewing a scan
 
-The photo of the paper sits next to what Ellie filled in, one step at a time. A child scan has five steps: **Child**, **Adults**, **Health**, **Everything else** and **Confirm**. Scans from Guardians start with **Adults**, and staff scans have just **Staff member** and **Confirm**.
+The photo of the paper sits next to what Ellie filled in, one step at a time. A child scan has five steps: **Child**, **Adults**, **Health**, **Everything else** and **Confirm**, plus **Schedule** when the form gives the days and hours the child attends. Scans from Guardians start with **Adults**, and staff scans have just **Staff member** and **Confirm**.
+
+### Immunization records
+
+Ellie reads handwritten immunization cards and printed state records alike, one entry per dose with its date. She matches each vaccine to your [immunization list](/manage/settings/#allergies-and-immunizations), so "IPV" on the paper is recorded as your *Polio (IPV)* rather than a new vaccine. Combination shots count as each vaccine they cover: a *Pediarix* dose is recorded as a DTaP, a Hepatitis B and a polio dose. Doses that aren't numbered on the paper are numbered in date order.
+
+### Schedules
+
+When a form says which days and hours the child attends ("M–F 7:30–5:30"), the **Schedule** step lists each day with its drop-off and pick-up time, and the date care starts if the form gives one. A pick-up time written without *am* or *pm* that would come before drop-off is read as the afternoon. Untick a day the child won't attend, or add one Ellie missed.
+
+Applying sets the child's schedule in [Scheduling](/manage/scheduling/). If the child already has one, the step shows it ("On file now: Mon–Fri 07:30–17:30") and applying replaces it; untick **Set this as the child's schedule** to keep the one on file.
 
 ### Messy handwriting
 
@@ -77,7 +92,7 @@ Answers that don't belong anywhere, such as "Favorite song", are listed under **
 
 | Scan | Apply saves |
 |---|---|
-| Child | The child (new or updated); each adult, linked with their relationship; the address; allergies; medical details; immunizations; leftovers as one note |
+| Child | The child (new or updated); each adult, linked with their relationship; the address; allergies; medical details; immunizations; the schedule; leftovers as one note |
 | Guardians | Each adult, and the child too if the form names one |
 | Staff | A new staff member, who is emailed a sign-in for the [Kinderly Staff app](/mobile/teacher-app/) just as with **Add Staff**, or the blanks filled in on an existing one |
 

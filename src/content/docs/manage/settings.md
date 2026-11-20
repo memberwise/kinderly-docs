@@ -1,6 +1,6 @@
 ---
 title: Manage settings
-description: Configure your center — details, hours, ratios, allergies, immunisations and custom fields.
+description: Configure your center — details, hours, ratios, allergies, immunizations and custom fields.
 sidebar:
   order: 16
 ---
@@ -13,7 +13,7 @@ Settings opens on an **Overview** that shows what's set up, what's switched on a
 Type what you're after in the search box at the top — "hours", "kiosk", "tax ID", "snow day" — and pick the result to jump straight to it. Press <kbd>/</kbd> to start typing from anywhere on the page.
 :::
 
-![The Manage settings screen showing the tab list and center information](../../../assets/screenshots/manage-settings.png)
+![The Settings overview: what needs attention, and a summary of each area](../../../assets/screenshots/manage-settings.png)
 
 ## Setup wizard
 
@@ -80,9 +80,51 @@ Sign-out time is when Kinderly gives up waiting, not when you shut. Setting it a
 
 **Import Data** bulk-imports children, guardians and staff from an Excel spreadsheet or CSV.
 
+### The Kinderly template
+
+**Download Excel template** gives you a workbook with a column for everything Kinderly keeps, and a **How to fill this in** sheet that explains each column and lists the values it accepts. Fill in what you know and leave the rest blank.
+
+- **Children**: name, birth date, gender, ethnicity, classroom, program and start date, weekly schedule (*Mon-Fri*, *7:30 AM*, *5:30 PM*), balance owed, doctor, hospital, insurance, last physical, emergency treatment consent, food program category and income eligibility dates, address and a note.
+- **Guardians**: contact details, phone extension and second phone, birth date, employer, address, and which child they belong to and how. Adults who share a child's last name are linked to that child automatically.
+- **Staff**: contact details, role and classroom, employment and pay, compliance dates (background check, I-9, E-Verify, TB test, physical), credential, emergency contact, who they report to, address and a note.
+- **Allergies**, **Immunizations** and **Certifications** take one row per allergy, dose or certificate, naming the child or staff member. A row can name someone already in Kinderly, so you can bring in immunization records on their own. An immunization row can record an exemption instead of a dose.
+- Your center's [custom fields](#custom-fields) each get a **Custom:** column.
+
+A program has to be set up in Kinderly before children can be enrolled in it from the file, and enrolling starts billing on the next billing run. Social Security numbers and W-4 details aren't in the template; add those on each person's record.
+
+If a value can't be read, such as a date written as *sometime in March* or a program Kinderly doesn't have, **Review** lists it and leaves just that value out. The rest of the row still imports. Allergies, doses and certifications already on someone's record aren't added twice.
+
+![The Review step of an import, listing the values it can't use and every family in the file](../../../assets/screenshots/settings-import-review.png)
+
 :::tip[Use the importer when you're moving in]
 Typing in 40 children, their guardians and the links between them is a day's work and an invitation to typos. If you're migrating from another system or from spreadsheets, import instead — and do it before you start assigning classrooms and programs.
 :::
+
+### Moving from Brightwheel, Procare or Playground
+
+You don't need to reformat another platform's export. Upload their student, family or staff list (CSV or Excel) as it is. Anything that isn't the Kinderly template goes through a **Map** step:
+
+1. Say where the file came from and what each row is: **Children**, **Parents and contacts**, or **Staff**.
+2. Check the column matches. Kinderly guesses each one from its name ("Student First Name", "Parent 1 Email", "Room"…), shows an example value, and you can change any of them or choose **Don't import**.
+3. Carry on to the usual **Review** and **Confirm** steps.
+
+A children file with *Parent 1* and *Parent 2* columns brings in the parents too, linked to their children. A parent who appears on several rows (siblings) is added once, with all their children. A contacts file links each adult to the child or children named in their row. If the platform exports children and parents as separate files, import the children first, then the parents.
+
+**Review** shows everything that will be imported, family by family. A family is everyone linked to the same children, whatever their last names, so a mom with a different surname stays with her kids and two unrelated families who share a last name stay apart. For each family you can see and change:
+
+- **Children**: every column from the file, including each child's balance from the old platform.
+- **Parents, guardians and contacts**: names, email, phone and address. Emergency contacts and case workers are shown with the family but are never billed.
+- **Relationships**: who is linked to which child, as what, who is primary, and who can pick up.
+- **Billing account**: the account that will be set up, with the responsible parent at 100% and the other parents as holders, and the opening balance. **Make responsible** changes who is billed. The responsible parent is the one who is primary for the most of the family's children.
+
+Search, and the **Needs attention** filter, help with a long roster. Adults not linked to any child, and staff, have their own lists.
+
+On **Confirm**, choose whether to:
+
+- **Set up a billing account for each family**, as shown on Review. Families that already have an account in Kinderly keep it.
+- **Import opening balances**, as one *Opening balance* invoice per family, as of the date you pick. Credit balances aren't imported. They're listed for you to add by hand, so last year's payments don't show up on this year's tax statements.
+
+When the import finishes, **Send invitations** gives every imported guardian with an email the Parents app and emails them a link to set their password.
 
 ## Allergies and Immunizations
 

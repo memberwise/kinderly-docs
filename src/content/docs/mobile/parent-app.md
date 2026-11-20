@@ -53,8 +53,16 @@ Paperwork filed on a child is shown to the child's family, not to case workers o
 
 - See every outstanding bill, including line items and balance due.
 - Tap **Pay** to pay by card (full or partial down to $0.50 — subject to your center having Stripe Connect enabled).
-- Save a card for faster payments next time.
-- Remove a saved card.
+- Save a card for faster payments next time. The first one saved becomes the **Default**.
+- Remove a saved card. The default can't be removed until another card is made the default.
+
+### Auto-pay
+
+Once a card or bank account is saved, the **Auto-pay** switch appears under
+**Payment Methods**. When it's on, each new invoice is charged to the default
+payment method as soon as it's issued, including any service fee your center
+adds. Invoices the family already has aren't included, so they pay those as usual.
+The family confirms before it turns on, and can switch it off at any time.
 
 ### Tax documents
 
@@ -81,6 +89,13 @@ account both of their payments appear, and the statement names each payer. The s
 phone number, plus its **Tax ID (EIN/TIN)** and **Provider Number (DVN)** when
 the center has filled those in — that's what a tax preparer needs for IRS Form
 2441. If they're missing, ask your center to add them under Center Settings.
+
+## Health & safety
+
+The **Health & safety** tile shows:
+
+- **Incident reports** the center has asked you to sign. Open one to read what happened and what staff did, then sign with your name and add a comment if something doesn't match what you were told. You'll also get a notification, and an email with the same link.
+- **Medication** your child was given (or refused) in the last 60 days, with the dose, the time and who gave it. You get a notification each time a dose is recorded.
 
 ## Light or dark
 

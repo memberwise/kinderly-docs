@@ -5,7 +5,7 @@ sidebar:
   order: 1
 ---
 
-Documents is your center's file library — the handbook, the state enrollment form, immunisation policies, custody templates. Anything you'd otherwise keep in a filing cabinet or a shared drive.
+Documents is your center's file library — the handbook, the state enrollment form, immunization policies, custody templates. Anything you'd otherwise keep in a filing cabinet or a shared drive.
 
 The difference is that a document in Kinderly isn't just stored. You can add fillable fields to it, send it to a family, and get a signed copy back.
 

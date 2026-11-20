@@ -14,7 +14,7 @@ sidebar:
 | Type | What happens |
 |---|---|
 | **PDF** | Opens in the full [viewer](/documents/viewer/) — add signature and text fields, include it in packets, share it for signing |
-| **Photos** (JPEG, PNG, WebP, GIF, HEIC) | Turned into a PDF automatically, so a phone photo of an immunisation record can be signed and shared like any other document |
+| **Photos** (JPEG, PNG, WebP, GIF, HEIC) | Turned into a PDF automatically, so a phone photo of an immunization record can be signed and shared like any other document |
 | **Word** (.docx) | Converted to a PDF — you get to check the result before it saves |
 | **Spreadsheets** (Excel, CSV, OpenDocument) | Stored and readable in the library, sheet by sheet |
 | **Text** (.txt, .md) | Stored and readable in the library |
@@ -82,7 +82,7 @@ This is about *your* copy going stale — not about cutting off access to a shar
 - Insurance certificates
 - Staff background checks and clearances
 - Licensing certificates
-- Immunisation records
+- Immunization records
 
 :::tip[Expiry dates turn your library into a renewal reminder]
 Set an expiry on every certificate that has a renewal date and the Expires column becomes a to-do list. Without it, an expired insurance certificate looks exactly like a current one.

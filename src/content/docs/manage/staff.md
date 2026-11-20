@@ -40,14 +40,27 @@ Under **Documents → Shared Documents**, **Send** emails this staff member a fo
 
 ## Employment details
 
-A staff member's **Employment** tab holds four sections. Save them all with **Save Employment Details**.
+A staff member's **Employment** tab holds three sections. The save bar at the bottom names what you've changed. **Save** keeps everything on the tab and **Discard** undoes it. W-4 steps 2–4 and the exemption are folded under one line that says what's been entered. It opens on its own when anything has.
 
 - **Employment**: employment type and status, hire, probation and termination dates, and the termination reason and whether they're eligible for rehire. It also has department, who they report to, FLSA classification, standard and maximum weekly hours, and whether they're benefits eligible.
 - **Compensation**: pay type and pay schedule, hourly rate and overtime multiplier or annual salary, shift differential, a stipend, and a staff childcare discount.
-- **Compliance**: background check type, date cleared and expiration, TB test, physical, I-9, E-Verify, work authorization expiration and credential level. An expiration that has passed or is within 30 days is flagged here, and an expired check also shows as a red badge at the top of their page.
 - **Tax Withholding (W-4)**: filing status, work state and W-4 steps 2–4, or exempt from withholding. Contractors fill out a W-9 instead, so this section has nothing to record for them.
 
 Their emergency contact is on the **Info** tab.
+
+## Compliance
+
+The **Compliance** tab has one card per check: background check, TB test, physical, work authorization, I-9 and E-Verify. Each card shows its own status: **Valid**, **Expires soon** (within 30 days), **Expired**, **Not on file**, or **Check dates** when the expiry is on or before the date it was done. The summary at the top counts how many checks are in order, lists anything missing, and shows the next renewal.
+
+- Enter the date a check was done, then pick how often it renews (**1 year**, **2 years** and so on) to fill in the expiry date. You can also type the expiry date yourself.
+- Tick **Citizen or permanent resident** on the work authorization card when there's nothing to expire.
+- Pick their **Credential level** at the bottom. It's shown on staff qualification reports.
+
+The save bar names each check you've changed. Choose **Save** to keep the changes or **Discard** to undo them. An expired check also shows as a red badge at the top of their page.
+
+### Certifications
+
+Each certification on the **Certifications** tab shows the same statuses as the Compliance tab. When you add one, pick a common name (CPR, Pediatric First Aid, Food Handler and others), enter the issue date, and choose **Renews every 1, 2 or 3 years** to fill in the expiry. Certifications also count toward the Compliance tab's summary.
 
 :::note[Two settings that change other numbers]
 - **Counts toward ratio**: turn this off for volunteers, interns or anyone else who can't be counted in your state's ratios. They stay in their classroom, but the classroom's ratio, the dashboard's out-of-ratio panel and the staff app's ratio alerts leave them out.
