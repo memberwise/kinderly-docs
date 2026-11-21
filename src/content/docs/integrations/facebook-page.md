@@ -5,6 +5,11 @@ sidebar:
   order: 5
 ---
 
+<!-- coming-soon:facebook-page — delete this comment and the note below when Meta approves the app -->
+:::note[Coming soon]
+Posting to a Facebook Page is waiting on Facebook's approval. Until then, its card under **Manage → Settings → Integrations** says **Coming soon**. Everything below describes how it will work. You can already [share posts to a Facebook group](/manage/feed/#sharing-to-a-facebook-group).
+:::
+
 Most centers have a business Page on Facebook, and it's often where families look first. Connect it and you can send a [Center Feed](/manage/feed/) post to your Page while you publish it, instead of typing it twice.
 
 Nothing goes to Facebook on its own. You choose each post.

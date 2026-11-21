@@ -36,6 +36,11 @@ Your Business Profile is public, so keep posts meant only for current families o
 
 ## Posting to your Facebook Page
 
+<!-- coming-soon:facebook-page — delete this comment and the note below when Meta approves the app -->
+:::note[Coming soon]
+Posting to a Facebook Page is waiting on Facebook's approval. Sharing to a Facebook group, below, works today.
+:::
+
 With your [Facebook Page](/integrations/facebook-page/) connected, the composer has a **Post to Facebook** switch, and an older post can go there from **Share → Post to** *your Page*. Posts on your Page show **On Facebook** in the feed. Editing or deleting a post here does the same on Facebook.
 
 ## Sharing to a Facebook group

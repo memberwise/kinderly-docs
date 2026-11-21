@@ -13,6 +13,7 @@ sidebar:
 
 **[Google Business Profile](/integrations/google-business/)** (coming soon): keep your hours, phone and website on Google Search and Maps in step with Kinderly, post updates from your Center Feed, and see how families find you on Google.
 
+<!-- coming-soon:facebook-page — delete this comment and "(coming soon)" on the next line when Meta approves the app -->
 **[Facebook Page](/integrations/facebook-page/)** (coming soon): post Center Feed posts to your center’s Facebook business Page as you publish them.
 
 **[Webhooks](/integrations/webhooks/)** — have Kinderly POST to your own systems the moment something happens: a new inquiry, a check-in, an invoice, a failed payment. Signed, retried, and logged.
