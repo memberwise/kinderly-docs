@@ -17,6 +17,7 @@ A classroom isn't just a label. It's the unit Kinderly uses for:
 - **Out-of-ratio alerts** — pushed to the [Teachers app](/mobile/teacher-app/) when a room drops below requirement during operating hours
 - **Attendance and name-to-face checks** — done per room
 - **Reporting** — attendance, name-to-face and curriculum reports break down by room
+- **Seats** — set a **Licensed capacity** and, optionally, a **Monthly tuition for one seat**, and the [waitlist](/manage/waitlist/#what-an-open-seat-costs) shows open seats and what they cost you
 
 ## Ratios
 

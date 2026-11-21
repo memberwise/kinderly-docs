@@ -19,6 +19,20 @@ Give each classroom a **Licensed capacity** on its **Classrooms** page. The wait
 
 Click a room's card to see only the families waiting for it.
 
+### What an open seat costs
+
+Each room's card also shows what one seat brings in a month. Set it yourself with **Monthly tuition for one seat** on the classroom's page, or leave that blank and Kinderly estimates it from the last 90 days of invoices: the typical recurring tuition per child in that room. Registration fees, late fees and one-off charges don't count.
+
+When seats are open, a banner adds up what they're costing you each month.
+
+### Part-time openings
+
+A room can be full by headcount and still have room on some days, when some children only come part of the week. If the children in a room have [schedules](/manage/scheduling/), a full room's card shows the days that still have a spot (for example, *Part-time: Tue, Thu open*).
+
+### Open seats nobody is waiting for
+
+When a seat is open, or opens within about six weeks, and no family on the list wants that room (or any room), you get a **Waitlist** notification. That's a seat to market: add an [Openings section](/grow/page-sections/#manage) to your Grow site, or point an ad at your waitlist form. The notification clears once a family is waiting for the room.
+
 ## Adding families
 
 Choose **Add family**. Only the child's name and birth date (or due date, if they're expecting), the parent's first name and an email or phone that works are needed. The parent's last name is taken from the child's if you leave it blank.
@@ -31,6 +45,8 @@ As you fill it in, Kinderly:
 - shows where the family will land in line for the room you chose, and moves them up if you give them priority. Siblings of enrolled children and staff families still get priority automatically when you add them.
 
 Start-date shortcuts cover *As soon as possible*, *1st of next month* and *Next fall*.
+
+**How did they hear about you?** records where a family who phoned or walked in came from. It counts toward [Grow → Analytics → Where families come from](/grow/analytics/#where-families-come-from). Families who join through an online form have their source recorded automatically, and the **Joined** column shows it.
 
 Families can also add themselves. Build an online waitlist form and add an **Add to Waitlist** step to its packet (see [Actions](/actions/overview/)). Each completed form puts the family on the list, matched to a classroom by name. Submitting the form twice doesn't add the family twice.
 

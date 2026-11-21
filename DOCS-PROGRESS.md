@@ -233,6 +233,13 @@ All in `src/assets/screenshots/`, from staging at 1440×900.
 `manage-settings` · `grow-tours` · `funding-calendar` · `funding-applications` ·
 `manage-food-program-menu` · `manage-food-program-claim` · `manage-food-program-print`
 
+**2026-11-20 — dashboards and marketing release:** `dashboard` and `enroll-overview` (reshot) ·
+`manage-overview` · `grow-overview` · `funding-overview` · `manage-feed` and `manage-waitlist`
+(reshot) · `grow-lead-sources` · `grow-ad-spend` · `share-embed-card` ·
+`integrations-facebook-page` · `integrations-google-business`. Text in these was swapped in the
+DOM before capture (team name → "Little Acorns Learning Center", real emails → @example.com,
+junk feed posts retitled, the personal photo post hidden, the Facebook debug panel hidden).
+
 Screenshots used by a **tour step** must also be copied to `enroll/public/tutorial/`
 — the tour serves its own copy, and `npm run docs:parity` fails if one is missing
 (the failure message gives you the `cp` command).

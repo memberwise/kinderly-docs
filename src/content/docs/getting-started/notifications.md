@@ -44,7 +44,7 @@ Notifications stay in the bell for 60 days.
 | **Parent messages** | A guardian replies to a conversation in the parent app. A busy conversation stays as one notification showing the latest message. |
 | **Forms submitted** | Someone completes a form you shared with them. |
 | **New leads** | A new inquiry reaches your pipeline from a form, your website, or a walk-in taken at the front desk in the staff app. Leads you add to the pipeline by hand aren't announced. |
-| **Waitlist** | A seat is open in a room with families waiting, a family accepted or declined a seat you offered, or an offer expired. See [Waitlist](/manage/waitlist/). |
+| **Waitlist** | A seat is open in a room with families waiting, a seat is open or opening soon with nobody waiting for it, a family accepted or declined a seat you offered, or an offer expired. See [Waitlist](/manage/waitlist/). |
 | **Scanned documents** | Ellie finished reading a scanned document and it's ready to review, or she couldn't read it and says why. One notification per scan, updated if you try again. See [Scan a document](/manage/scan-documents/). |
 
 Payments you record yourself, such as cash, a check, or account credit, don't create a notification, because you already know about them.

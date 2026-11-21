@@ -7,6 +7,18 @@ sidebar:
 
 Where [Enroll](/forms/overview/) handles the paperwork and [Manage](/manage/overview/) runs the day, **Grow** is about filling your places: being found, making a good impression, and tracking prospective families until they enrol.
 
+## The Grow home page
+
+**Overview** opens on your website's address, with **Open site** and **Edit pages** beside it.
+
+![The Grow home page: your website, new leads and visitors this week, what's coming up, recent pages and shortcuts](../../../assets/screenshots/grow-overview.png)
+
+- **This week**: three cards. **Your website** (live or not, how many pages, when it was last edited), **New leads** (inquiries in the last 7 days and families in progress on the pipeline) and **Visitors** (page views and button clicks over the last 7 days).
+- **Coming up**: tours and follow-ups due in the next 7 days.
+- **Recent pages**: the pages you edited last.
+- **Needs your attention**: a site that isn't live yet, changes you haven't published, a custom domain that isn't connecting or is still being set up, and families past their follow-up date.
+- **Shortcuts** to pages, the pipeline, tours, media, theme, analytics, site settings and the [waitlist](/manage/waitlist/).
+
 ## What's in it
 
 **Content**

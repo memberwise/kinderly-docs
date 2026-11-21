@@ -26,15 +26,20 @@ Enroll, Manage and Grow are on every plan including the free one. See [What you 
 
 ## The dashboard
 
-Signing in lands you on the dashboard: your plan and how much of it you're using, enrollment activity, and new children over the last 30 days.
+Signing in lands you on the dashboard. It has a card for each app (Manage, Enroll, Grow and Funding) with its headline number and a button into it. Beside them is **Needs your attention**, which collects everything across your center that needs someone to act: past-due invoices, overdue drills, expiring certifications, forms stuck with families, follow-ups past their date. Each row says which app it came from and links straight to the fix. When nothing needs you, it says you're all caught up.
 
-![The Kinderly dashboard showing plan usage and activity charts](../../../assets/screenshots/dashboard.png)
+![The Kinderly dashboard with a card per app and the Needs your attention list](../../../assets/screenshots/dashboard.png)
 
-The usage bars are the quickest way to see where you stand — children against your plan's cap, document storage, forms, packets, shares and pipeline boards.
+Below that are shortcuts to the screens people open most, your plan's usage bars and any [pinned reports](/manage/reports/). The usage bars are the quickest way to see where you stand: children against your plan's cap, document storage, forms, packets, shares and pipeline boards.
 
-Each product also has its own overview. Enroll's shows what you've built, what you've sent, and your most recent shares:
+Each app also has its own home page laid out the same way, with cards at the top, the day's detail in the middle, its own **Needs your attention** list and shortcuts:
 
-![The Enroll overview showing counts, activity charts and recent shares](../../../assets/screenshots/enroll-overview.png)
+- **Manage**: children here today, staff clocked in, past-due billing and the waitlist, with every room checked against its ratio for who's signed in right now.
+- **Enroll**: forms out with families, what came back this week and your library, with recent submissions and sends.
+- **Grow**: your website's status, new leads and visitors this week, and tours and follow-ups coming up.
+- **Funding**: what you qualify for, your open applications and your profile, with grants closing soon.
+
+![The Enroll overview showing forms out, submissions this week and recent sends](../../../assets/screenshots/enroll-overview.png)
 
 ## Where to start
 

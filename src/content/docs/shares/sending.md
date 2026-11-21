@@ -52,6 +52,17 @@ A unique link needs no PIN, and it isn't tied to one recipient. Post it on your 
 
 Each person's copy is tied to the browser they opened it in, so they can leave and come back on the same device to finish. On a different phone or computer they start a fresh copy. See the warning in [Shares overview](/shares/overview/#unique-links).
 
+### Putting a form on your website
+
+A unique link's page (under **Sent Forms**) has a **Put it on your website** card with two things:
+
+- **Embed code.** Paste it into an HTML or "embed code" block on Wix, Squarespace, WordPress or any site builder. The form appears on your page and grows to fit. On a Kinderly Grow site, use the [Kinderly form section](/grow/page-sections/#forms) instead.
+- **Tracked link.** Choose where you'll post it (a Facebook post, an ad, a flyer's QR code, a newsletter, an event, a directory listing) and, if you like, a campaign name. Use that link instead of the plain one.
+
+![The Put it on your website card: embed code with a Copy code button, and a tracked link built for a Facebook post](../../../assets/screenshots/share-embed-card.png)
+
+Families who come in through either are counted in [Grow → Analytics → Where families come from](/grow/analytics/#where-families-come-from), all the way to enrollment if the form adds them to your waitlist.
+
 ### Sending to a group of parents
 
 Choose **Group of parents**, then pick how many copies go out:

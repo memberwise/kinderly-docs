@@ -67,11 +67,14 @@ This is what turns a brochure site into something that generates inquiries. See 
 | Section | What it's for |
 |---|---|
 | **Center Feed** | Pulls in posts from your [Manage center feed](/manage/feed/) — pinned first, then newest. Included on **Bloom** and above |
+| **Openings** | Shows which rooms are enrolling now, which open soon (with the month) and which have a waitlist, kept up to date from your classrooms and [waitlist](/manage/waitlist/). Seat counts only show if you turn on **Show how many spots are open**. Point its button at your waitlist form. Included on **Bloom** and above |
 | **AI assistant** | A chat bubble in the bottom-right corner that answers visitors' questions about your center. Included on **Bloom** and above |
 
 The AI assistant only answers from what you let it share: your hours, closing dates, contact details, meal times, published programs and provider number (each has its own switch), plus anything you write under **What else should it know?**. That text is never shown on the page. Questions it has no answer for get pointed back to you, and it won't talk about anything other than your center. Its answers come out of the same allowance as Ellie's.
 
-If your plan doesn't include the Center Feed or the AI assistant, they still show in the editor preview with an upgrade note, but they're left off your published site.
+Openings only lists rooms with a licensed capacity, and never shows anything about individual children.
+
+If your plan doesn't include the Center Feed, Openings or the AI assistant, they still show in the editor preview with an upgrade note, but they're left off your published site.
 
 :::tip[The feed section keeps your site alive without extra work]
 A site that hasn't changed in a year looks abandoned. Because this section pulls from the feed you're already posting to for current families, your public site stays current as a side effect.

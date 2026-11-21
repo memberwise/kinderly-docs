@@ -112,7 +112,7 @@ Your columns are saved for you automatically, so the report opens the same way n
 
 ### Saving for your team
 
-Under **⋯**, **Save as team report** saves the settings and columns you're looking at under a name of your choosing. Anyone at your center can run it, schedule it, pin it or delete it. When you change a team report's columns, it shows **Save for everyone** so you can update it for the whole team. **Pin to dashboard** puts the report on your Manage home page.
+Under **⋯**, **Save as team report** saves the settings and columns you're looking at under a name of your choosing. Anyone at your center can run it, schedule it, pin it or delete it. When you change a team report's columns, it shows **Save for everyone** so you can update it for the whole team. **Pin to dashboard** puts the report on your [dashboard](/getting-started/welcome/#the-dashboard) and your [Manage home page](/manage/overview/#the-manage-home-page).
 
 ## Custom reports
 

@@ -18,13 +18,35 @@ The **Center Feed** is what families see in the [Parents app](/mobile/parent-app
 | **Events** | Something happening at a date and time |
 | **Closures** | Days you're shut |
 
-Filter tabs at the top let you view one type at a time.
+Filter tabs above the posts let you view one type at a time.
+
+The column on the right shows what’s **coming up**: the next events and closures, with a repeating event listed once at its next date.
 
 ## Creating a post
 
-**New Post** opens the composer. Posts take **photos and video** — up to 20 attachments each, 200 MB per clip. Families see video play inline, with a still frame while it loads.
+Click **Share something with families…** at the top of the feed, or **Create post**, to open the composer. The **Photo/video**, **Event**, **Announcement** and **Closure** buttons under it open the composer with that type already picked. To edit, pin or delete a post, use the buttons along its bottom or the **⋯** menu in its corner. **Share** lists the places you can send it. Posts take **photos and video** — up to 20 attachments each, 200 MB per clip. Families see video play inline, with a still frame while it loads.
 
 Staff can also post straight from the [Teachers app](/mobile/teacher-app/).
+
+## Sharing to Google
+
+With [Google Business Profile](/integrations/google-business/) connected, the composer has a **Share to Google** switch. A post with it on is posted that night as an update on your Google listing, and events appear as event updates with their date and time. Editing the post updates it on Google. Turning the switch off or archiving the post takes it down.
+
+Your Business Profile is public, so keep posts meant only for current families off it.
+
+## Posting to your Facebook Page
+
+With your [Facebook Page](/integrations/facebook-page/) connected, the composer has a **Post to Facebook** switch, and an older post can go there from **Share → Post to** *your Page*. Posts on your Page show **On Facebook** in the feed. Editing or deleting a post here does the same on Facebook.
+
+## Sharing to a Facebook group
+
+Many centers keep a parents’ group on Facebook. Click **Add your parents’ group** in the **Facebook** card on the right of the feed, and paste the group’s link (copy it from your browser while you’re in the group). After that, **Share → Share to a Facebook group** on any post copies its text and opens your group in a new tab: paste it in, add photos if you want, and post. Kinderly also offers **Share to Facebook group** right after you publish.
+
+Facebook doesn’t let any app post into groups, so you do that last step yourself. (Business Pages are different: see above.) The group link is remembered on the computer you added it from.
+
+:::caution[Photos of children]
+Only share children’s photos to Facebook when their families have agreed, even in a private group.
+:::
 
 ## Pinning
 

@@ -11,11 +11,14 @@ The Funding Center is built for both problems.
 
 ## What it does
 
+- **Overview**: the Funding Center's home page. It shows how many opportunities you qualify for, your open applications and how complete your profile is, the grants you qualify for that close in the next 45 days, and a **Needs your attention** list: tracked deadlines in the next two weeks, reports coming due, documents that have expired or are missing from an application.
 - **[Opportunities](/funding/opportunities/)** — grants matched to your center, not a general list you have to sift.
 - **[Applications](/funding/applications/)** — track what you're going for, with each one's deadline, document checklist and reporting requirements together.
 - **[Calendar](/funding/calendar/)** — deadlines, reporting dates and document expiries in one view.
 - **[Documents](/funding/documents/)** — upload the standard paperwork once; it attaches to every application that asks.
 - **[Profile](/funding/profile/)** — the answers that decide what you match.
+
+![The Funding Center overview: opportunities you qualify for, open applications, profile completeness, grants closing soon and what needs your attention](../../../assets/screenshots/funding-overview.png)
 
 ## Start with the profile
 
