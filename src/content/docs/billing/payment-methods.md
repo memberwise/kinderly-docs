@@ -16,7 +16,7 @@ A card that expires means a failed renewal, and a failed renewal eventually drop
 :::
 
 :::tip[Use a center card, not a personal one]
-Subscriptions on someone's personal card become a problem when that person is on leave or leaves. A center account or a shared finance card keeps the service attached to the organisation.
+Subscriptions on someone's personal card become a problem when that person is on leave or leaves. A center account or a shared finance card keeps the service attached to the organization.
 :::
 
 ## Invoices

@@ -5,7 +5,7 @@ sidebar:
   order: 6
 ---
 
-A program is something a family enrols in — Full Day Preschool, Before & After School Care, Summer Camp, a two-day toddler place. It ties what you offer to what you charge.
+A program is something a family enrolls in — Full Day Preschool, Before & After School Care, Summer Camp, a two-day toddler place. It ties what you offer to what you charge.
 
 **Manage → Programs** shows every program as a card: what it collects each billing cycle, when it next bills, and who's enrolled. **New program** creates one.
 
@@ -53,6 +53,8 @@ The calendar beside the form shows the actual billing dates, starting from the f
 ![A mock billing run: what would be invoiced, what an agency covers, and who wouldn't be billed](../../../assets/screenshots/manage-programs-mock-run.png)
 
 For each child you see the invoice total and every line on it, how much an agency covers, how much account credit pays, and what's left for the family. It also shows whether the family would be auto-charged through auto-pay or emailed an invoice. Children who wouldn't be billed are listed with the reason, for example no billing account, or an enrollment that starts after the period.
+
+If the date falls in a [review period](/manage/billing/#reviewing-invoices-before-they-go-out), or you review every invoice, the mock run says those invoices would wait for you to send them.
 
 It uses the schedule as it is in the form, so you can try a change before you save it. It works even with **Auto-generate invoices** off. If a date in the future includes daily or hourly fees, only attendance recorded so far is counted.
 

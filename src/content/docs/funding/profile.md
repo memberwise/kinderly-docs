@@ -28,13 +28,13 @@ Plenty of grants are geographically restricted, sometimes to specific counties o
 | Field | Notes |
 |---|---|
 | **Provider type** | Child care center, family child care home, and so on |
-| **License status** | Licensed, licence-exempt, etc. |
+| **License status** | Licensed, license-exempt, etc. |
 | **Tax status** | LLC, non-profit, sole proprietor… |
-| **Licensed capacity** | The maximum your **licence allows** — not how many are enrolled today |
+| **Licensed capacity** | The maximum your **license allows** — not how many are enrolled today |
 | **Years in operation** | Some grants target new providers, others established ones |
 | **Quality rating (stars)** | Your QRIS rating |
 
-:::caution[Licensed capacity is your licence limit, not your roll]
+:::caution[Licensed capacity is your license limit, not your roll]
 It's the field most often filled in wrongly. A center licensed for 60 with 40 enrolled should enter 60. Entering 40 can push you under the threshold for capacity-based grants you actually qualify for.
 :::
 
@@ -54,8 +54,8 @@ A good number of foundation grants are restricted to non-profits, and some publi
 Both are common eligibility gates, particularly for grants aimed at providers serving lower-income families. They're also two of the highest-value filters in the whole profile.
 :::
 
-:::tip[The licence expiry date earns its keep]
-Kinderly can put it on your [calendar](/funding/calendar/) as a document expiry. An expired licence doesn't just risk an application — it can disqualify one mid-review.
+:::tip[The license expiry date earns its keep]
+Kinderly can put it on your [calendar](/funding/calendar/) as a document expiry. An expired license doesn't just risk an application — it can disqualify one mid-review.
 :::
 
 ## Matching funds
@@ -68,7 +68,7 @@ A **Show grants that require matching funds** toggle controls whether opportunit
 
 ## Keeping it current
 
-Revisit after anything that changes your eligibility: a new quality rating, a capacity change, a licence renewal, or becoming a non-profit.
+Revisit after anything that changes your eligibility: a new quality rating, a capacity change, a license renewal, or becoming a non-profit.
 
 ## Next
 

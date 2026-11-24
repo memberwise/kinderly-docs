@@ -33,7 +33,7 @@ If two things always go out together, they belong in a packet. Enrollment paperw
 
 Nodes are joined left to right by lines. That order is the order the family sees. Each step must be completed before the next unlocks.
 
-Node types are colour-coded on the canvas:
+Node types are color-coded on the canvas:
 
 - **Form** (blue) — a form the family completes
 - **Document** (amber) — a document to read and sign

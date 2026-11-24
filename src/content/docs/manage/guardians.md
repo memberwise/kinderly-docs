@@ -5,7 +5,7 @@ sidebar:
   order: 3
 ---
 
-**Guardians & Contacts** holds every adult connected to a child: parents, grandparents, step-parents, childminders, case workers and emergency contacts. Not all of them are guardians, which is why an emergency contact has its own relationship.
+**Guardians & Contacts** holds every adult connected to a child: parents, grandparents, step-parents, nannies, case workers and emergency contacts. Not all of them are guardians, which is why an emergency contact has its own relationship.
 
 **Manage → Guardians & Contacts** lists them with their name, how many children they're attached to, email and phone.
 
@@ -46,16 +46,16 @@ Under **Documents → Shared Documents**, **Send** shares a form, packet or docu
 One guardian can be attached to several children, and one child can have several guardians. That's how siblings and blended families work: a grandparent attached to two children appears once, listed against both.
 
 :::tip[Attach, don't duplicate]
-When a second child from the same family enrols, attach the existing guardian rather than creating a new one with the same details. Duplicates mean two copies of a phone number to keep current, two entries in the pickup list, and messages that go to only half the family.
+When a second child from the same family enrolls, attach the existing guardian rather than creating a new one with the same details. Duplicates mean two copies of a phone number to keep current, two entries in the pickup list, and messages that go to only half the family.
 :::
 
 ## Per-child settings
 
-The relationship, **Primary** flag and **Can Pick Up** flag are set on the *link* between a guardian and a child, not on the guardian. A grandmother can be authorised for pickup for one grandchild and not another.
+The relationship, **Primary** flag and **Can Pick Up** flag are set on the *link* between a guardian and a child, not on the guardian. A grandmother can be authorized for pickup for one grandchild and not another.
 
 - **Relationship**: Mother, Father, Parent, Guardian, Grandparent, Aunt, Uncle, Sibling, Case Worker, **Emergency Contact** or Other.
 - **Primary**: the main contact for that child.
-- **Can Pick Up**: authorised to collect.
+- **Can Pick Up**: authorized to collect.
 
 **Can Pick Up is on by default** for everyone you link, whether added by hand, in the staff app, by spreadsheet import or from a scan. Untick it for anyone who mustn't collect the child.
 

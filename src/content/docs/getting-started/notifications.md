@@ -34,14 +34,17 @@ Notifications stay in the bell for 60 days.
 |---|---|
 | **Payments received** | A family pays an invoice in the parent app, or a bank payment clears. Autopay is grouped into one running total per day rather than one notification per family. |
 | **Failed payments & refunds** | A card is declined, a bank debit bounces, an autopay charge fails, or a refund you issued doesn't go through. The invoice is open again, so you'll want to follow up. |
+| **Invoices to review** | Automatic invoices were held for you to check and send, or a review period ended with some still waiting. One notification for the whole queue, also pushed and emailed to administrators; it clears when nothing is waiting. See [Billing](/manage/billing/#reviewing-invoices-before-they-go-out). |
 | **Out-of-ratio classrooms** | A room has too few staff clocked in for the children who are signed in. Updates as the headcount changes and resolves itself when the room is back in ratio. |
-| **Upcoming classroom moves** | A planned move, or a child aging into the next room, comes within your classroom-move lead time. Each move appears once, and resolves after its date passes or it's completed or cancelled. |
+| **Upcoming classroom moves** | A planned move, or a child aging into the next room, comes within your classroom-move lead time. Each move appears once, and resolves after its date passes or it's completed or canceled. |
 | **Food program (CACFP)** | A meal count hasn't been started, a finalized count has errors, last month's claim hasn't been filed, or eligibility forms are expiring. See [Food Program](/manage/food-program/). |
-| **Expiring documents** | A document, person file, shared link or staff certificate is close to its expiration date. |
+| **Expiring documents & renewals** | A document, person file, shared link or staff certificate is close to its expiration date, a family is overdue on a yearly update, or an update is waiting for your review. See [Renewals](/documents/renewals/). |
 | **Drills, medication & incidents** | An emergency drill is due within a week or overdue, a scheduled medication dose is due now for a child who is signed in (also pushed and emailed to administrators), a scheduled dose wasn't recorded yesterday for a child who was here, or a serious incident was reported. See [Safety](/manage/safety/). |
 | **Integration problems** | A scheduled KinderConnect submission failed, or attendance hasn't reached the state for longer than your schedule allows. |
 | **Payroll ready to approve** | A pay period has ended and its hours are waiting for you, or the period after your last approved one has ended and nobody has opened it yet. Clears once you approve. See [Payroll](/manage/payroll/). |
-| **Parent messages** | A guardian replies to a conversation in the parent app. A busy conversation stays as one notification showing the latest message. |
+| **Time-off requests** | A staff member asks for time off in the staff app. Clears once it's answered. |
+| **Out today, running late & pickups** | A family says in the parent app that a child will be out or late, or that someone else is picking up, or cancels one of those. |
+| **Parent messages** | A guardian starts or replies to a conversation in the parent app. A busy conversation stays as one notification showing the latest message. |
 | **Forms submitted** | Someone completes a form you shared with them. |
 | **New leads** | A new inquiry reaches your pipeline from a form, your website, or a walk-in taken at the front desk in the staff app. Leads you add to the pipeline by hand aren't announced. |
 | **Waitlist** | A seat is open in a room with families waiting, a seat is open or opening soon with nobody waiting for it, a family accepted or declined a seat you offered, or an offer expired. See [Waitlist](/manage/waitlist/). |
@@ -69,12 +72,16 @@ Administrators signed in to the **Kinderly Staff** app also get a push notificat
 | **Card assigned to you** | The card (only the person it was assigned to, and not when you assign it to yourself) |
 | **Payment failed** | The family's billing account |
 | **Payroll ready to approve** / **Time to run payroll** | Payroll |
+| **Invoices to review** | Review invoices, to adjust and send them |
 | **Funding document expiring** | Funding → Documents |
 | **Staff certificate expiring** | Staff → Certifications |
 | **Drill due** / **Drill overdue** | Safety → Drills |
 | **Medication due** | Safety → Medication |
 | **Serious incident** | The incident report |
 | **Offer accepted** / **Offer declined** | Waitlist |
+| **Asked for time off** | Time-off requests, to approve or deny |
+| **Your time off was approved** / **wasn't approved** | Schedule (only the person who asked, administrator or not) |
+| A child's name, with **Out**, **Late** or **Pickup** | From families (also the teachers in the child's room) |
 | **Ready to review** / **Ellie couldn't read your…** | The scan (only the person who started it) |
 
 These pushes **follow the categories you've turned off here**: turn off **New leads** and you won't get inquiry pushes either. Pushes also appear in the app's own notification list, so one you swiped away is still there. Out-of-ratio alerts are pushed separately, as set under **App settings**.

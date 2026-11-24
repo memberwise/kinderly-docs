@@ -28,10 +28,10 @@ Every section shows its **layout variants** and **editable fields** before you a
 | **About** | Who you are and what makes you different |
 | **Image + Text carousel** | Multiple image-and-text slides |
 | **Virtual tour** | Embed a [tour](/grow/tours/) as an entry card, a full-bleed cover, or an immersive full-page viewer |
-| **Compliance** | Regulatory disclosures — licence number, capacity, ratios, food program, accreditations |
+| **Compliance** | Regulatory disclosures — license number, capacity, ratios, food program, accreditations |
 
 :::tip[The Compliance section does real work]
-Licence number, capacity and ratios are exactly what a diligent parent goes looking for and often can't find. Putting them in a proper section signals you have nothing to hide — and in some states it's a disclosure requirement anyway.
+License number, capacity and ratios are exactly what a diligent parent goes looking for and often can't find. Putting them in a proper section signals you have nothing to hide — and in some states it's a disclosure requirement anyway.
 :::
 
 ## Media
@@ -110,7 +110,7 @@ It's what screen readers announce, and what search engines read. It takes five s
 3. **Virtual tour** — let them look around
 4. **Testimonial** — a parent saying it instead of you
 5. **Kinderly form** — the inquiry form, on the page
-6. **Compliance** — licence, capacity, ratios
+6. **Compliance** — license, capacity, ratios
 7. **Contact** — followed by a **Map**, if your plan includes it
 
 ## Next

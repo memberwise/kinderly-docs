@@ -170,7 +170,7 @@ Most of these are also bound into the one-click [audit packet](/manage/food-prog
 | Report | What it gives you |
 |---|---|
 | **CACFP Claim Summary** | The month's workbook: meals by type and eligibility, rates applied, amount claimed — what gets keyed into the state portal |
-| **CACFP Sponsor Submission** | The monthly package a family child care home sends its sponsor: tier, daily counts, enrolment, eligibility and own-children evidence |
+| **CACFP Sponsor Submission** | The monthly package a family child care home sends its sponsor: tier, daily counts, enrollment, eligibility and own-children evidence |
 | **CACFP Food Cost per Meal** | Food spend from [Finance](/manage/finance/) against meals served and reimbursement earned. Answers whether the food program pays for itself |
 
 ### Day-to-day and paper

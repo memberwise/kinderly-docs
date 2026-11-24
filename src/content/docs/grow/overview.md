@@ -25,7 +25,7 @@ Where [Enroll](/forms/overview/) handles the paperwork and [Manage](/manage/over
 
 - **[Sites and pages](/grow/sites/)** — a real public website for your center, on its own address.
 - **[Page sections](/grow/page-sections/)** — the building blocks you assemble pages from.
-- **[Theme](/grow/theme/)** — colours, fonts and button styling across the whole site.
+- **[Theme](/grow/theme/)** — colors, fonts and button styling across the whole site.
 - **Media** — the image library your pages draw on.
 
 **Engagement**

@@ -1,6 +1,6 @@
 ---
 title: Managing files
-description: Uploading, organising, renaming, expiring and removing documents.
+description: Uploading, organizing, renaming, expiring and removing documents.
 sidebar:
   order: 2
 ---
@@ -65,7 +65,7 @@ For actions on a single file, use the **⋮** menu at the end of its row:
 | **Add to Packet** | Adds it to a packet as a step |
 | **Share via Link** | Sends it to a family on its own — see [Sending a share](/shares/sending/) |
 | **Set expiration** | Gives the document an expiry date |
-| **Rename** | Changes the filename |
+| **Rename** | Changes the filename. The extension, such as .pdf, stays the same |
 | **Move to…** | Moves it to another folder |
 | **Remove file** | Deletes it |
 

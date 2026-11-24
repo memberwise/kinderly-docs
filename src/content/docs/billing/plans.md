@@ -19,6 +19,8 @@ Four tiers: **Sprout**, **Bloom**, **Flourish** and **Grove**. Pricing is per ce
 | **Grow analytics** | — | Yes | Yes | Yes |
 | **[Scan to create](/manage/scan-documents/)** | — | Yes | Yes | Yes |
 | **[Auto-apply documents](/documents/auto-apply/)** | — | Yes | Yes | Yes |
+| **[Renewals](/documents/renewals/)** | — | Yes | Yes | Yes |
+| **[Food Program](/manage/food-program/)** | — | Yes | Yes | Yes |
 | **[Packet automations](/actions/overview/)** | Send Email and Notify Staff | Yes | Yes | Yes |
 | **Funding Center** | Match count only | 5 tracked grants | Unlimited | Unlimited |
 

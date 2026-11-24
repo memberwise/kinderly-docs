@@ -5,7 +5,7 @@ sidebar:
   order: 8
 ---
 
-Curriculum is how Kinderly turns the notes your teachers already write into documented evidence against recognised learning standards — without asking them to do a second, separate job.
+Curriculum is how Kinderly turns the notes your teachers already write into documented evidence against recognized learning standards — without asking them to do a second, separate job.
 
 The principle: teachers tag a daily note to a learning outcome in one tap, and the evidence accrues on its own.
 

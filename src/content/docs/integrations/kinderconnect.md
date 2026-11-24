@@ -106,7 +106,7 @@ From the **KinderConnect** page under Manage. Kinderly checks that every child i
 
 Rather than remembering, you can have Kinderly submit on a cadence:
 
-| Cadence | Behaviour |
+| Cadence | Behavior |
 |---|---|
 | **Daily** | Every day |
 | **Weekly** | On the weekdays you pick |
@@ -172,7 +172,7 @@ run succeeds the alert clears itself.
 
 :::caution[A failed run leaves those days unsent]
 The submission window doesn't move forward past days that failed, so the next
-scheduled run picks them up again. That's the behaviour you want — but if the
+scheduled run picks them up again. That's the behavior you want — but if the
 underlying problem isn't fixed, it will keep failing, which is why the alert
 matters.
 :::

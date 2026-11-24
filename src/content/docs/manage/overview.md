@@ -29,7 +29,7 @@ The left-hand menu groups the rest into five areas.
 ## People
 
 - **[Children](/manage/children/)** — the child record: demographics, medical, family, billing, documents and attendance.
-- **[Guardians & Contacts](/manage/guardians/)** — parents, carers, emergency contacts and anyone else attached to a child.
+- **[Guardians & Contacts](/manage/guardians/)** — parents, caregivers, emergency contacts and anyone else attached to a child.
 - **[Staff](/manage/staff/)** — your team, their roles and their hours.
 
 All three lists can [scan a paper form](/manage/scan-documents/) to add someone, and [print sheets](/manage/print-sheets/) for anyone you select.
@@ -43,12 +43,12 @@ All three lists can [scan a paper form](/manage/scan-documents/) to add someone,
 
 ## Communication
 
-- **[Messages](/manage/messages/)** — one-to-one conversations with families, and center-wide broadcasts.
+- **[Messages](/manage/messages/)** — conversations with families, in words or photos, and center-wide broadcasts. You can let parents write first.
 - **[Feed](/manage/feed/)** — your center's noticeboard: news, announcements, events and closures.
 
 ## Finance
 
-- **[Billing](/manage/billing/)** — charging families, invoices and balances.
+- **[Billing](/manage/billing/)** — charging families, invoices and balances, and [holding invoices to review](/manage/billing/#reviewing-invoices-before-they-go-out) before they go out.
 - **[Finance](/manage/finance/)** — your own operating spend, receipts and budgets.
 
 :::note[Two different money screens]

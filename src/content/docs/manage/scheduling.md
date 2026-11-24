@@ -40,13 +40,17 @@ Some shifts have a set start but no set finish: the teacher stays until enough c
 - In **Schedule Adherence**, leaving before that time isn't flagged as leaving early. Staying past it is still flagged as overtime.
 - Staff calendar links mark the shift **(out by ratio)** and say they may be sent home before the end time shown.
 
-## Why shifts matter beyond the rota
+## Why shifts matter beyond the schedule
 
 Scheduled shifts are what **Schedule Adherence** compares actual clock-in and clock-out times against. Without them there's nothing to compare to, and the report has nothing to say.
 
 :::tip[Record time off properly]
 Marking time off rather than leaving a cell blank is what stops a planned absence looking like a no-show in adherence reporting.
 :::
+
+### Time-off requests
+
+Staff ask for time off in the [Staff app](/mobile/teacher-app/#schedule-and-time-off). Administrators get a notification, and the request shows on the grid as **Pending**. Open it and set it to **Approved** or **Denied**, or answer from **Time-off requests** in the Staff app, which also shows who else is off on those days. The person is told either way.
 
 ## Children's schedules
 
@@ -60,7 +64,7 @@ For part-time children the schedule is how Kinderly knows a Tuesday absence matt
 
 ## Transitions
 
-Planned moves between [classrooms](/manage/classrooms/) — typically children ageing up.
+Planned moves between [classrooms](/manage/classrooms/) — typically children aging up.
 
 Scheduling a transition in advance means the move happens on the right date, and room counts and ratios stay correct without anyone remembering on the morning.
 

@@ -51,5 +51,5 @@ Each auto-apply document is a card on the **Auto-Apply** page. The card shows wh
 - **Deleting** the file from Documents also deletes any auto-apply documents that use it. The delete dialog warns you first and names them.
 
 :::tip[Auto-apply or share?]
-Auto-apply is for documents people **read**. If you need a family to **fill in or sign** something and send it back, [send it as a share](/shares/sending/) instead.
+Auto-apply is for documents people **read**. If you need a family to **fill in or sign** something and send it back, [send it as a share](/shares/sending/) instead, or set up a [renewal](/documents/renewals/) if it's needed every year.
 :::

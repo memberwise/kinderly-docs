@@ -28,6 +28,7 @@ All four are on every plan; tiers differ by limits. See [Plans](/billing/plans/)
 | **Share** | A private link delivering a form, document or packet to one family. |
 | **PIN** | The 6-digit code protecting a share. Emailed to the recipient with the link, and shown to you once at creation. |
 | **Unique link** | A share with no PIN that anyone with the link can open. Each person gets their own copy, with their own answers. |
+| **Renewal** | A form, PDF or file families are asked to update every year, with reminders. |
 | **Approval mode** | A packet setting holding all its actions until someone reviews and approves. |
 
 ## Manage
@@ -35,14 +36,16 @@ All four are on every plan; tiers differ by limits. See [Plans](/billing/plans/)
 | Term | Meaning |
 |---|---|
 | **Classroom** | A room. Drives ratios, alerts and name-to-face checks. |
-| **Program** | Something a family enrols in, carrying its fee structure. Drives billing. |
-| **Guardian** | Anyone attached to a child — parent, carer, emergency contact. |
+| **Program** | Something a family enrolls in, carrying its fee structure. Drives billing. |
+| **Guardian** | Anyone attached to a child — parent, caregiver, emergency contact. |
 | **Primary** | The main contact for a child. Set per child, not per guardian. |
-| **Can Pick Up** | Whether a guardian is authorised to collect a child. Separate from being a guardian. |
+| **Can Pick Up** | Whether a guardian is authorized to collect a child. Separate from being a guardian. |
 | **Ratio** | The required staff-to-child ratio for a room, counted from who is *signed in*. |
 | **Transition** | A planned move of a child between classrooms. |
 | **Billing account** | Who receives the invoice. Can have several holders and cover several children. |
+| **Review period** | Dates when automatic invoices wait under Billing → Review instead of going out. |
 | **Agency ledger** | The portion of a child's fees paid by a third party such as a state subsidy. |
+| **Notice** | What a family tells you from the Parents app: a child will be out or late, or someone else is picking up. It isn't attendance or pickup permission. |
 | **CACFP** | The USDA Child and Adult Care Food Program. Tracked per child for claims. |
 | **Custom field** | An extra field you define on the child record. |
 | **Feed** | Your center's noticeboard — news, announcements, events and closures. |
@@ -66,7 +69,7 @@ All four are on every plan; tiers differ by limits. See [Plans](/billing/plans/)
 | **Page** | One URL on a site. |
 | **Section** | A building block stacked to make a page — hero, gallery, FAQ, embedded form. |
 | **Draft** | Your unpublished edits. Families see the published version until you publish. |
-| **Theme** | Colours, fonts and button styling across the whole site. |
+| **Theme** | Colors, fonts and button styling across the whole site. |
 | **Virtual tour** | A photo walkthrough of your space, ending in a call-to-action. |
 | **Pipeline** | A board tracking prospective families from inquiry to enrolled. |
 

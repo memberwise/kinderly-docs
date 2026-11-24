@@ -39,7 +39,7 @@ Eight categories everyone applies the same way tell you more than thirty that ov
 
 ## Budgets
 
-**Budgets** sets spending allocations per category and tracks utilisation over time. With an active budget the dashboard shows what's left rather than just what's gone.
+**Budgets** sets spending allocations per category and tracks utilization over time. With an active budget the dashboard shows what's left rather than just what's gone.
 
 :::tip[Budget the categories that can run away]
 Food, supplies and maintenance are where an unnoticed overspend does damage. Rent doesn't need a budget — you know what it is. Budget what varies.

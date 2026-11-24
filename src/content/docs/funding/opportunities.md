@@ -23,7 +23,7 @@ A reimbursement grant means *you* spend first and claim it back, sometimes month
 
 If the list is empty, the profile is nearly always the reason. Kinderly says as much — offering to take you to your profile — because matching can only work from what it's been told.
 
-Check especially: state and ZIP, licence status, provider type, capacity, and whether matching-fund grants are hidden.
+Check especially: state and ZIP, license status, provider type, capacity, and whether matching-fund grants are hidden.
 
 ## Choosing what to go for
 

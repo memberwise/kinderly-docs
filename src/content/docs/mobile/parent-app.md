@@ -14,18 +14,40 @@ The **Parent app** is the companion app for families.
 - See every child linked to you with their current **signed-in / signed-out** status and classroom.
 - Open a child's profile for full details.
 
+## Absences and pickup
+
+**Absences & pickup** on the home screen tells the center ahead of time:
+
+- **Out**: choose the day or days, and a reason if you like.
+- **Running late**: choose about what time to expect you.
+- **Someone else is picking up**: their name, and optionally their relationship, phone number and a time. Ask them to bring a photo ID.
+
+Your child's teachers and the directors are notified straight away, and it shows on the classroom roster. You can see when the center has seen it, and cancel it. Staff still record attendance themselves.
+
+Below that is who is on each child's **pickup list**. The center keeps the list, so ask them to add or remove someone for good.
+
+:::note[Family only]
+Emergency contacts and case workers linked to a child can't send these or see the pickup list.
+:::
+
 ## Daily feed
 
 ![The Daily Notes screen, filtered by child and entry type](../../../assets/screenshots/mobile-parent-daily-notes.png)
 
-- Scroll a feed of everything that happened today — diaper changes, naps, food, photos, milestones, notes.
-- React to entries with 👍 ❤️ 😊.
+- Scroll a feed of everything that happened: diaper changes, naps, food, photos, milestones, notes. Keep scrolling for older notes, or tap the calendar to choose a day.
+- React to entries with 👍 ❤️ 😊. Teachers see who reacted.
+
+## Photos
+
+**Photos** on the home screen gathers every photo teachers have shared of your children, newest first. Choose one child or see them all. Tap a photo to see it full screen and save it to your phone.
+
+To save several at once, tap **Select** (or hold a photo), choose the ones you want or **Select all shown**, then **Download**. Scroll first to bring in older photos. Any that don't download stay selected so you can try again.
 
 ## Posts
 
 ![The Feed screen with News, Announcement and Event filters](../../../assets/screenshots/mobile-parent-feed.png)
 
-Read center announcements — closures, events, news — posted by admins. Posts can carry **photos and video**; video plays inline in the feed, with a still frame showing while it loads. Pinned posts appear first.
+Read center announcements — closures, events, news — posted by admins. You get a notification for new announcements and closings, unless your center chose otherwise. Posts can carry **photos and video**; video plays inline in the feed, with a still frame showing while it loads. Pinned posts appear first.
 
 Recurring events show as a single entry with their cadence — *"Occurs every Tue & Fri"* — rather than filling the feed with one row per date.
 
@@ -41,6 +63,8 @@ Tap **Start** to fill it out and sign it inside the app. You're already signed i
 
 Once you submit, it moves to **Submitted**. Tap it to review what you sent: your answers, and a copy of each document as you signed it. If your center lets you change answers after submitting, the row says **Can still be changed**.
 
+Some documents need a fresh copy every year. These show the day they're due and an **Update** button. Forms open with your last answers, so you only change what's different and sign. If your center asks for a change, the row says what to fix. An overdue one is marked in red. See [Renewals](/documents/renewals/).
+
 A form whose link has expired is marked as expired. Ask your center to send it again.
 
 :::note[Case workers and emergency contacts]
@@ -51,7 +75,8 @@ Paperwork filed on a child is shown to the child's family, not to case workers o
 
 ![The Billing screen showing balance due, payment methods, tax documents and invoices](../../../assets/screenshots/mobile-parent-billing.png)
 
-- See every outstanding bill, including line items and balance due.
+- See every invoice, including line items and balance due. The list shows five at a time. Use the arrows to see more, or choose 10 or 25 per page.
+- Tap **Filter** to narrow the list by status, due date or amount, search by invoice number or item, or change the order.
 - Tap **Pay** to pay by card (full or partial down to $0.50 — subject to your center having Stripe Connect enabled).
 - Save a card for faster payments next time. The first one saved becomes the **Default**.
 - Remove a saved card. The default can't be removed until another card is made the default.
@@ -103,7 +128,15 @@ The palette button at the top of the home screen opens **Appearance**: **Match p
 
 ## Messaging
 
-Two-way chat with your center's staff. You'll get a **push notification** on new replies.
+Two-way chat with your center's staff, in words or photos. You'll get a **push notification** on new replies.
+
+If your center allows it, **Message teachers** starts a conversation with the teachers in your child's classroom. With children in more than one room, you choose which. Those teachers and the center's administrators can see it. Without that button, your center writes first and you reply.
+
+## Notifications
+
+Tap your picture on the home screen, then **Notifications**, to choose which kinds you want: messages, daily notes, sign-in and sign-out, announcements and closings, learning, billing, and forms. **Incident reports and medication always notify you.** Turning one off only stops the notification; everything still shows in the app.
+
+If your center has turned it on, you're told when your child is **signed in or out** and by whom. You aren't told about the ones you do yourself.
 
 ## Files
 

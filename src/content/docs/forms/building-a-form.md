@@ -60,7 +60,7 @@ The properties pane is grouped into sections. Exactly which appear depends on th
 - **Required** — the family can't submit until it's filled.
 - **Min / max length** — for text fields.
 
-**Behaviour**
+**Behavior**
 - **Disabled** — shown but not editable. Useful with a default value when you want information visible but locked.
 
 **Grouping**

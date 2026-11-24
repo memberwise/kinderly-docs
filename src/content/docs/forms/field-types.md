@@ -65,7 +65,7 @@ Pick the narrowest component that fits. Asking for a time alongside a birth date
 | **Signature** | The family draws a signature with finger or mouse. | Works on touch and desktop |
 | **Image** | Displays a static image inside the form. | Not an upload — this is *you* showing *them* something, like a site map or a uniform example |
 | **Upload image** *(PRO)* | The family uploads a photo. | Immunisation records, a photo of the child |
-| **Upload doc** *(PRO)* | The family uploads a document. | Custody paperwork, court orders |
+| **Upload doc** *(PRO)* | The family uploads a document or a photo of one. | Custody paperwork, court orders |
 | **Legal** | A block of legal or consent text the family has to acknowledge. | Photo release, terms of enrollment |
 | **Payment** *(PRO)* | Collect a payment inline. | Registration fee, deposit |
 

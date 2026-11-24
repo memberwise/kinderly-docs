@@ -46,7 +46,7 @@ A **billing account** is who gets the invoice. It can have several **holders** (
 
 **New account** creates one. Children are attached from their own [record](/manage/children/#billing).
 
-Billing has three tabs along the top: **Accounts**, **Invoices** (every invoice across all accounts) and **Charges** (late fees and one-off charges waiting to be invoiced).
+Billing has four tabs along the top: **Accounts**, **Invoices** (every invoice across all accounts), **Review** (automatic invoices [held for you to check](#reviewing-invoices-before-they-go-out), with a count of how many are waiting) and **Charges** (late fees and one-off charges waiting to be invoiced).
 
 Opening an account shows its invoices on the left. On the right are the **balance due**, what's been billed and paid, the next due date, and a **Needs your attention** box listing overdue invoices, payments still processing and account credit that could pay an open invoice. Below that are the account's credit, the people who pay (**Who pays**), its children, and **Close account**.
 
@@ -96,6 +96,39 @@ You add, rename and remove agency ledgers under **Settings → Billing → Agenc
 ## Invoices
 
 The **Invoices** tab lists every invoice raised. Charges come from the [program](/manage/programs/) a child is enrolled in, with any **Program Fee Overrides** on the child's record applied automatically.
+
+### Reviewing invoices before they go out
+
+Automatic invoices normally go out on the program's billing day. You can have them wait for you instead, so you can check and change them before any family sees one. A common reason is a holiday week: you're open two days for Thanksgiving, and your policy is not to charge for the days you're closed.
+
+Set it up under **Settings → Billing → Review invoices before they're sent**:
+
+- **Review periods** hold invoices for a range of dates. Click **Add review period**, name it (the name shows on the invoices) and choose the first and last day. A period holds the invoices that would **go out** on those dates, whatever days they cover, and the dialog lists each program and the billing dates it catches. If a program's invoice for those days goes out earlier, such as a monthly program that bills on the 1st, it says so and tells you when the period would need to start.
+- **Review every invoice** holds all automatic invoices, all the time.
+
+![Review invoices before they're sent, with a Thanksgiving week and a Winter break review period](../../../assets/screenshots/billing-review-settings.png)
+
+Invoices you create yourself, and **Bill now** on the Charges tab, still go out right away.
+
+While an invoice waits under **Billing → Review**, it isn't on the family's account. It isn't in their balance, the parent app, your reports or your accounting software, nobody has been emailed, and no saved card has been charged. Late fees and other charges that were due to go on it wait with it.
+
+**You're alerted** when invoices are held: in the bell, by email, and by a push to administrators in the Staff app. Billing shows a banner until the queue is empty. If a review period ends with invoices still waiting, you get one reminder.
+
+![The Review tab with four invoices waiting, each showing its adjusted and original total](../../../assets/screenshots/billing-review.png)
+
+On the **Review** tab you can:
+
+- **Expand an invoice** to see its lines, what an agency covers, and what the family will owe. Change its due date there.
+- **Edit** one invoice: change, remove or add lines, just like [editing an invoice](#editing-an-invoice). Removing a late fee sends it back to **Charges**, where you can waive it.
+- **Adjust** all of them, or the ones you've selected, at once. Choose **Charge only for the days you're open** (2 of 5 days, for example), a percentage or a dollar amount. It's taken off each invoice's own tuition as one discount line, named however you like. Deposits and late fees aren't changed, and neither are daily and hourly fees, which already follow attendance. Adjusting again replaces the last adjustment, and **Remove adjustment** takes it off.
+- **Send all** with one button, or select some and send those. You'll see the total first, and how many families on auto-pay will be charged right away. A large batch keeps sending after you leave the page. Agency shares, account credit and auto-pay are worked out on the amount you send.
+- **Don't send** invoices that shouldn't go out at all. The family isn't billed for that period, and the late fees and charges on it go back to **Charges** for their next invoice. Find it under **Not sent** if you want it back.
+
+An invoice whose due date passed while it waited is due the day you send it, so it's never overdue when the family first sees it. If one can't be sent (its billing account was closed, for example), it stays under **Waiting** with the reason.
+
+![The Adjust dialog set to charge for 2 of 5 days, with a preview of what comes off](../../../assets/screenshots/billing-review-adjust.png)
+
+Directors can review, adjust and send from **Review invoices** in the Staff app too. Editing single lines is on the web.
 
 ### Invoice templates
 
@@ -154,7 +187,7 @@ history and can't be moved.
 ### Voiding and deleting
 
 **Void** cancels an invoice a family has already seen. It stays on the account,
-marked **Void**, so the record of what was cancelled survives. An invoice that
+marked **Void**, so the record of what was canceled survives. An invoice that
 has received a payment can't be voided — cancel the payment first.
 
 **Delete permanently** appears on voided invoices only. It removes the invoice

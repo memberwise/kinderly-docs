@@ -118,7 +118,7 @@ Two rules keep this tidy automatically:
 **Siblings** lists other children at the center who share a parent or guardian with this child. Sharing only an emergency contact or a case worker doesn't make two children siblings.
 
 :::caution["Can Pick Up" is the one to get right]
-It's the flag that answers "is this person allowed to collect this child?". Being a guardian and being authorised for pickup aren't the same thing — custody arrangements, in particular, depend on the distinction. Because it's on by default, check it whenever you add someone who shouldn't collect.
+It's the flag that answers "is this person allowed to collect this child?". Being a guardian and being authorized for pickup aren't the same thing — custody arrangements, in particular, depend on the distinction. Because it's on by default, check it whenever you add someone who shouldn't collect.
 :::
 
 ### Billing

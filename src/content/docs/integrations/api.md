@@ -17,7 +17,7 @@ together.
 
 **Manage → Settings → API Keys → Create key.**
 
-Give it a name you'll recognise, tick what it's allowed to read, and optionally
+Give it a name you'll recognize, tick what it's allowed to read, and optionally
 set an expiry date. You'll be shown the key once — copy it straight into
 whatever needs it.
 
@@ -84,7 +84,7 @@ curl "https://go.mykinderly.com/api/v1/children?limit=100&cursor=$CURSOR" \
 `limit` defaults to 50 and caps at 200.
 
 :::note[Why there are no page numbers]
-If someone enrols a child while you're on page three, page numbers shift under
+If someone enrolls a child while you're on page three, page numbers shift under
 you and a child can slip through unread — with no error, and nobody noticing
 until a name is missing from a system that should have it. A cursor is a
 position rather than a count, so that can't happen.

@@ -1,6 +1,6 @@
 ---
 title: The document viewer
-description: Add fillable fields to a PDF, line them up, add or remove pages, set the tab order, sign and annotate.
+description: Add fillable fields to a PDF, line them up, add, remove or rotate pages, set the tab order, sign and annotate.
 sidebar:
   order: 3
 ---
@@ -26,7 +26,7 @@ A government form uploaded in its fillable version can arrive with a hundred-plu
 
 **Top row** — zoom out, zoom level, zoom in, reset zoom; page back / page number / page forward; **Sign**; **Undo**; **Annotate**.
 
-**Second row** — **Save**, **Print**, **Packet**, **Share**, **Pages**, **Fields**.
+**Second row** — **Save**, **Print**, **Packet**, **Share**, **Pages**, **Rotate**, **Fields**.
 
 ## Pages
 
@@ -36,12 +36,13 @@ A government form uploaded in its fillable version can arrive with a hundred-plu
 
 - **Reorder** by dragging a thumbnail up or down, or use **Move up** and **Move down** in its menu (the **⋮** under it).
 - **Add a blank page** with **Add Page** at the bottom of the strip, or **Insert blank page before** or **after** from a page's menu. A blank page is the same size as the page next to it, so it prints like the rest.
+- **Rotate a page** that was scanned sideways or upside down with **Rotate** in the toolbar, which turns the page you're on or every page at once. **Rotate left** and **Rotate right** are in each page's menu too.
 - **Delete a page** from its menu. Kinderly asks you to confirm first and tells you how many fields are on it.
 
-Fields you've placed move with their page. Fields on a deleted page are deleted with it, along with any packet auto-fill set up for them. A built-in field with boxes on more than one page keeps the boxes on the pages that stay.
+Fields you've placed move with their page, and turn with it when you rotate, so they stay over the same spot. A wide field becomes a tall one, so rotate a scan before adding fields if you can. Fields on a deleted page are deleted with it, along with any packet auto-fill set up for them. A built-in field with boxes on more than one page keeps the boxes on the pages that stay.
 
 :::caution[Page changes rewrite the file]
-Adding, moving and deleting pages change the PDF in your library straight away, wherever it's used: shares, packets and printouts. A family partway through a share will see the new pages. Responses already sent back are kept as their own copies and don't change. Deleting a page can't be undone. To get it back you'd need to upload the original PDF again. If you have unsaved signatures or filled-in values, save first, because changing the pages reloads the document and clears them.
+Adding, moving, rotating and deleting pages change the PDF in your library straight away, wherever it's used: shares, packets and printouts. A family partway through a share will see the new pages. Responses already sent back are kept as their own copies and don't change. Deleting a page can't be undone. To get it back you'd need to upload the original PDF again. If you have unsaved signatures or filled-in values, save first, because changing the pages reloads the document and clears them.
 :::
 
 ## Adding fields
@@ -163,5 +164,5 @@ A signature box that's comfortable on a laptop can be a tiny target on a phone. 
 
 ## Next
 
-- [Managing files](/documents/managing-files/) — organising your library.
+- [Managing files](/documents/managing-files/) — organizing your library.
 - [Sending a share](/shares/sending/) — getting it to families.

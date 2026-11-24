@@ -7,13 +7,35 @@ sidebar:
 
 Messages is for talking *to* families. For things everyone should see, use the [Feed](/manage/feed/).
 
-![The Messages screen, with conversations above and center messages below](../../../assets/screenshots/manage-messages.png)
+![The Messages screen, with the list of conversations on the left and one open on the right](../../../assets/screenshots/manage-messages.png)
 
 ## Conversations
 
-The left-hand panel lists your conversations, with a **Resolved** filter for ones you've closed off. **+ New** starts one.
+The left-hand panel lists your conversations, newest first. Search by a parent's, child's or classroom's name, or choose **Open**, **Unread** or **Resolved**. **New conversation** starts one. Click a parent's name at the top of a conversation to open their profile.
 
-Families reply from the [Parents app](/mobile/parent-app/), so it's a proper two-way thread rather than a send-only channel.
+Families reply from the [Parents app](/mobile/parent-app/), so it's a proper two-way thread rather than a send-only channel. Staff can write here or from the [Teacher app](/mobile/teacher-app/), and it's the same conversation in both.
+
+### Writing a message
+
+Type and press **Enter** to send. **Shift+Enter** starts a new line. The family is notified, and sees your name.
+
+- **Add photos** with the picture button, by dragging them onto the conversation, or by pasting. Up to 10 at once. Your words go with the first photo, and the family gets one notification.
+- If something doesn't send, your message and any photos left stay put so you can try again.
+- A message you haven't sent stays with that family while you look at others, and the list shows **Draft not sent**. Leaving Messages discards it.
+- You don't need a staff profile to write. Without one, messages carry the name on your login.
+
+:::note[iPhone photos]
+Photos saved as HEIC can't be opened by most browsers. Save them as JPEG first, or send them from the Teacher app.
+:::
+
+### Letting parents write first
+
+By default staff start every conversation. Turn on **Parents can message teachers** under **Settings → App Settings → Parent App**, and a parent can start one with the teachers in their child's classroom.
+
+- It's one conversation per family per classroom, shown with the classroom, as in **Mia’s family · Sunflowers teachers**. The teachers assigned to that room and the administrators see it. Teachers in other rooms don't.
+- Center messages, and conversations a director starts, stay separate from it.
+- Family only: emergency contacts and case workers can't start one. A room with no teachers assigned isn't offered.
+- Turning it off stops new conversations. Ones a staff member has already answered carry on.
 
 :::tip[Resolve threads you've finished with]
 Resolved isn't deleted — it's "dealt with". Working through an inbox of genuinely open conversations is manageable; scrolling past three months of settled ones to find today's question isn't.
@@ -21,7 +43,7 @@ Resolved isn't deleted — it's "dealt with". Working through an inbox of genuin
 
 ## Center messages
 
-**Center Messages**, below conversations, broadcasts to multiple guardians at once. Use it for something several families need but not everyone — one classroom, or the children on a particular trip.
+The **Center messages** tab broadcasts to multiple guardians at once. Use it for something several families need but not everyone — one classroom, or the children on a particular trip.
 
 :::note[Three ways to reach families, for three different jobs]
 - **Conversation** — one family, needs a reply

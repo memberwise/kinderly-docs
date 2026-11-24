@@ -25,7 +25,7 @@ Best when an action does something you'd struggle to walk back:
 
 - Emails to a family that assume they're accepted
 - Anything that creates a billing record
-- Anything sent to an outside organisation
+- Anything sent to an outside organization
 
 :::tip[Ask yourself: what if the answers are wrong?]
 This is the whole decision. If a family fat-fingers their email address or uploads the wrong document, does your action do something awkward? A duplicate welcome email is a shrug. A billing record or a "your place is confirmed" email is not. Awkward to undo means **Require Approval**.
@@ -58,7 +58,7 @@ Approve is guarded against double-firing, so an accidental second click won't se
 | Send a family a routine confirmation | Immediate |
 | Tell a family something is confirmed or approved | Require Approval |
 | Create billing records or charges | Require Approval |
-| Send data to an outside organisation | Require Approval |
+| Send data to an outside organization | Require Approval |
 | You're not sure | Require Approval — you can always relax it later |
 
 ## Changing it later

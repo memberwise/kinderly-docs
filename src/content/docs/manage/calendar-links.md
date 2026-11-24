@@ -35,7 +35,7 @@ reason.
 ## Creating one
 
 1. Choose the calendar and, for a staff schedule, the person.
-2. Give it a name you'll recognise later — "Family calendar", "Ada's shifts".
+2. Give it a name you'll recognize later — "Family calendar", "Ada's shifts".
 3. Click **Create link**, then **Copy link**.
 
 Send that link to whoever needs it. The list shows when each one was last used,

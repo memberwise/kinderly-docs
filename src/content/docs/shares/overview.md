@@ -20,6 +20,8 @@ Every share is:
 - A **document** for reading and signing
 - A **[packet](/packets/overview/)** — several steps in one flow
 
+For something families send back **every year**, set up a [renewal](/documents/renewals/). Kinderly creates each family's share when it's due, and it's kept here like any other.
+
 ## What happens when you create one
 
 1. Kinderly generates a private link and a 6-digit PIN.
@@ -35,6 +37,8 @@ You don't have to copy the link into your own email. Kinderly sends it. The dial
 The PIN is shown **once**, at creation. It isn't recoverable afterwards — Kinderly stores it scrambled, not in plain text.
 
 If a family loses the PIN, you don't reset it: you delete the share and create a new one. That's a deliberate design choice, and it's why the link stays safe even if it's forwarded to the wrong person.
+
+[Renewals](/documents/renewals/) are the exception: every reminder email repeats the same PIN, so a family doesn't have to find the first one.
 
 :::caution[Copy the PIN before closing the dialog]
 Once you click **Done**, the PIN is gone. If you're going to pass it on by phone or text rather than relying on the email, copy it first.

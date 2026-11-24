@@ -27,7 +27,7 @@ Matching is only as good as what Kinderly knows about you. An incomplete profile
 The profile takes a few minutes and you fill it in once. See [Funding profile](/funding/profile/).
 
 :::tip[Do the profile before you go looking]
-Browsing opportunities with an empty profile is the main reason people conclude "there's nothing here". Most grants are restricted by state, licence status, provider type or quality rating — Kinderly can't match on what it hasn't been told.
+Browsing opportunities with an empty profile is the main reason people conclude "there's nothing here". Most grants are restricted by state, license status, provider type or quality rating — Kinderly can't match on what it hasn't been told.
 :::
 
 ## The workflow

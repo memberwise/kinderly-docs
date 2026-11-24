@@ -90,6 +90,8 @@ Sign-out time is when Kinderly gives up waiting, not when you shut. Setting it a
 - **Allergies**, **Immunizations** and **Certifications** take one row per allergy, dose or certificate, naming the child or staff member. A row can name someone already in Kinderly, so you can bring in immunization records on their own. An immunization row can record an exemption instead of a dose.
 - Your center's [custom fields](#custom-fields) each get a **Custom:** column.
 
+The template checks what you type as you go. Columns with a fixed set of answers, such as gender, relationship, employment type or Yes/No, have a dropdown. So do **Classroom**, **Program**, **Vaccine** and **Allergy**, which list the ones your center already has. A classroom, vaccine or allergy that isn't on the list yet gets a warning that you can accept, because the import adds it. A program has to be one you've already set up. Dates, times, amounts, phone numbers and emails are checked too, and clicking a cell shows a hint for its column. Pasted cells skip these checks, but Kinderly checks every row again when you upload. Download a fresh template after you add classrooms or programs, so the dropdowns include them.
+
 A program has to be set up in Kinderly before children can be enrolled in it from the file, and enrolling starts billing on the next billing run. Social Security numbers and W-4 details aren't in the template; add those on each person's record.
 
 If a value can't be read, such as a date written as *sometime in March* or a program Kinderly doesn't have, **Review** lists it and leaves just that value out. The rest of the row still imports. Allergies, doses and certifications already on someone's record aren't added twice.
@@ -147,16 +149,26 @@ Notes are fine for prose. If it's something you'll want to search, filter or rep
 Required staff-to-child ratios, usually by age group to match licensing. These drive ratio calculations and [out-of-ratio alerts](/manage/classrooms/).
 
 :::caution[Enter your licensing ratios, not your aspirations]
-These generate real-time alerts to staff. Setting them tighter than your licence requires produces alerts your team learns to dismiss — which is exactly what you don't want when a genuine one arrives.
+These generate real-time alerts to staff. Setting them tighter than your license requires produces alerts your team learns to dismiss — which is exactly what you don't want when a genuine one arrives.
 :::
 
 ## Billing
 
-center-level billing configuration. See [Billing](/manage/billing/).
+Center-level billing configuration, including [review periods](/manage/billing/#reviewing-invoices-before-they-go-out) that hold automatic invoices, and [late fees](/manage/billing/#late-fees). See [Billing](/manage/billing/).
 
 ## App Settings
 
-Controls for what families and staff see in the [Parents](/mobile/parent-app/) and [Teachers](/mobile/teacher-app/) apps.
+Controls for what families and staff see in the [Parents](/mobile/parent-app/) and [Teachers](/mobile/teacher-app/) apps. Three of them decide what families hear and whether they can write first:
+
+![The Parents can message teachers, sign-in notification and feed post settings](../../../assets/screenshots/settings-parent-app-families.png)
+
+- **Parents can message teachers** lets a parent start a conversation with the teachers in their child's classroom. Off to begin with. See [Messages](/manage/messages/#letting-parents-write-first).
+- **Sign-in and sign-out notifications** tells a child's family when the child is signed in or out, and by whom. Off to begin with, because who picked up is sensitive in some families. The person who signed the child isn't notified, and neither are emergency contacts or case workers.
+- **Feed post notifications** chooses which kinds of posts notify every family. Announcements and closings to begin with. Recurring events never do.
+
+Each parent can also turn kinds of notifications off for themselves. Incident reports and medication always come through.
+
+In the **Teacher App** section, **Teachers can set the time of a note** lets staff choose when a [daily note](/mobile/teacher-app/) happened, up to 7 days back. Off to begin with.
 
 ## Integrations
 

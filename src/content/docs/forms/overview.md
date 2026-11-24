@@ -5,7 +5,7 @@ sidebar:
   order: 1
 ---
 
-Forms are how Kinderly collects information from families — enrollment details, emergency contacts, photo consent, field-trip permission, medication authorisation. Anything you'd otherwise print, hand over at pickup, and chase for a week.
+Forms are how Kinderly collects information from families — enrollment details, emergency contacts, photo consent, field-trip permission, medication authorization. Anything you'd otherwise print, hand over at pickup, and chase for a week.
 
 Once a form is built it's reusable. Send it on its own, or drop it into a [packet](/packets/overview/) as one step in a longer onboarding flow.
 

@@ -20,6 +20,7 @@ The difference is that a document in Kinderly isn't just stored. You can add fil
 - **Build a form from it** — Kinderly can read a fillable PDF's existing fields and turn them into a Kinderly [form](/forms/overview/)
 - **Set an expiry** so out-of-date paperwork doesn't linger
 - **[Auto-apply](/documents/auto-apply/)** it, so every family, child or staff member gets it automatically — including people you add later
+- **[Renew](/documents/renewals/)** it every year, so each family is asked for a fresh copy and reminded until it's done
 
 ## Getting files in
 
@@ -32,7 +33,7 @@ Three buttons at the top of the library:
 You can also **drag and drop** files straight onto the library.
 
 :::tip[Upload the fillable version if you have one]
-State and county forms are often published in two flavours: a flat scan and a fillable PDF. Always upload the fillable one. Kinderly reads its existing fields automatically, which saves you placing them by hand — and it's the only version "[Start from document](/forms/overview/#four-ways-to-start)" can turn into a form.
+State and county forms are often published in two versions: a flat scan and a fillable PDF. Always upload the fillable one. Kinderly reads its existing fields automatically, which saves you placing them by hand — and it's the only version "[Start from document](/forms/overview/#four-ways-to-start)" can turn into a form.
 :::
 
 ## A sensible folder structure
@@ -50,6 +51,7 @@ The point isn't the exact names — it's separating *send to families* from *kee
 
 ## Next
 
-- [Managing files](/documents/managing-files/) — uploading, organising, expiry.
+- [Managing files](/documents/managing-files/) — uploading, organizing, expiry.
 - [The document viewer](/documents/viewer/) — adding fields and signing.
 - [Auto-apply documents](/documents/auto-apply/) — hand a document to everyone automatically.
+- [Renewals](/documents/renewals/) — ask families for an up-to-date copy every year.

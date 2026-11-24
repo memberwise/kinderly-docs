@@ -175,7 +175,7 @@ or a **custom range**. Only days you're open are included.
 The printed version is not a picture of the planner. Empty slots, buttons and
 the validation findings all come off, leaving what a cook or
 a parent actually reads: what's being served, on which day, with the same icons
-and component colours as the screen so the milk row is findable across a room.
+and component colors as the screen so the milk row is findable across a room.
 
 :::note[Findings are deliberately left off the print]
 A printed menu that says "Lunch is missing a fruit" is a menu nobody should be
@@ -201,9 +201,9 @@ The food list lives under **Setup → Food List**.
 disallowed: whole grain-rich, added sugars on cereal and yogurt, juice, and the
 milk rules by age.
 
-![The food list, with an icon and category colour for every food](../../../assets/screenshots/manage-food-program-list.png)
+![The food list, with an icon and category color for every food](../../../assets/screenshots/manage-food-program-list.png)
 
-Every food carries an **icon and a colour for its component** — blue for milk,
+Every food carries an **icon and a color for its component** — blue for milk,
 pink for fruit, green for vegetables, amber for grains, orange for meat and meat
 alternates, violet for combination dishes, teal for infant foods. A menu gets
 scanned far more often than it gets read, and a column of shapes is quicker to

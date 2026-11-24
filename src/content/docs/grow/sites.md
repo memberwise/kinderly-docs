@@ -68,4 +68,4 @@ Getting your best classroom and outdoor photos into the library first means buil
 ## Next
 
 - [Page sections](/grow/page-sections/) — what you can put on a page.
-- [Theme](/grow/theme/) — colours and fonts across the site.
+- [Theme](/grow/theme/) — colors and fonts across the site.

@@ -1,23 +1,23 @@
 ---
 title: Theme
-description: Brand colours, typography and button styling across your whole site.
+description: Brand colors, typography and button styling across your whole site.
 sidebar:
   order: 4
 ---
 
 **Grow → Theme** sets the look of every page at once. Change it here rather than fiddling with individual sections.
 
-![The Theme screen with brand colours, typography and button settings](../../../assets/screenshots/grow-theme.png)
+![The Theme screen with brand colors, typography and button settings](../../../assets/screenshots/grow-theme.png)
 
-## Brand colours
+## Brand colors
 
 - **Primary** — the accent used for buttons, eyebrows and highlights.
 - **Primary soft** — used for tints and feature backgrounds.
 
-**Templates** applies a matched primary and primary-soft pair together, which is the easy route if you don't have brand colours already.
+**Templates** applies a matched primary and primary-soft pair together, which is the easy route if you don't have brand colors already.
 
 :::tip[Use a template unless you have a brand guide]
-Picking two colours that work together is harder than it looks — a primary and a soft tint that clash make a site feel amateurish in a way that's hard to put your finger on. The templates are pre-matched.
+Picking two colors that work together is harder than it looks — a primary and a soft tint that clash make a site feel amateurish in a way that's hard to put your finger on. The templates are pre-matched.
 :::
 
 ## Typography
@@ -37,7 +37,7 @@ This applies to every call-to-action on the site, so your "Book a tour" and "Inq
 
 ## Live preview
 
-A preview panel shows how the theme renders. Check it before saving — colour choices look different applied across a page than they do as swatches.
+A preview panel shows how the theme renders. Check it before saving — color choices look different applied across a page than they do as swatches.
 
 ## Saving
 

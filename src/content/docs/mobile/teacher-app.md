@@ -12,7 +12,7 @@ The **Teacher app** is the on-the-floor companion for staff.
 ## Signing in and out
 
 - **Clock in** and **clock out** with one tap.
-- See your own **time history** — a log of every clock-in and clock-out.
+- **My hours** (the clock icon beside the clock-in button, or in the menu) shows your week: each day's shifts, the total, overtime and paid time off, counted the way [payroll](/manage/payroll/) counts them. Move back a week at a time. A missing clock-out is pointed out so you can ask your director to fix it.
 
 Clock-in is per day. If you forgot to clock out yesterday, the app shows you as clocked out this morning, so clock in again when you arrive.
 
@@ -34,8 +34,26 @@ The app re-reads your center's settings (kiosk PIN, attendance and clock-in swit
 
 - See every non-archived classroom with its enrolled count, current sign-in count, staff count, and a simple ratio indicator.
 - Open a classroom roster to see every child's **signed-in / signed-out** status for today.
+- Each child's **allergies** show on the roster and in the name-to-face check, with what the family said about today: **Out**, **Late**, or someone else picking up.
 - Sign a child in or out on behalf of a parent.
 - Move a child to a different classroom.
+
+## Naps and care
+
+**Naps & care** (the moon on the roster, or in the menu) shows every child signed in to a room with how long it's been since their last bottle, meal and diaper, and who is asleep.
+
+- **Start nap** starts the timer, for one child or everyone awake. **End nap** stops it. Any staff member can end a nap, whoever started it.
+- Tap a child to add a note for them.
+
+It's the same daily notes families see, so there's nothing to record twice. A nap reaches the family's feed when it starts, and any nap notification goes out when it ends.
+
+## From families
+
+**From families** in the menu lists what parents sent from their app: children who will be out, running late, and other people picking up, today and coming up. Tap the check mark to show the family you've seen it, or the phone to call the person picking up. The child's teachers and the administrators are notified when one arrives or is canceled.
+
+:::caution[A notice isn't attendance, or permission]
+Mark an absent child absent as you always have. Check photo ID before letting a child go with someone who isn't on their pickup list.
+:::
 
 ## Out-of-ratio alerts
 
@@ -61,7 +79,9 @@ Record what happened today, one or many children at a time. Supported entry type
 - An **Incident** note also files an [incident report](/manage/safety/#incident-reports). Pick the kind and severity, describe what happened, and save: the note goes in the day's feed, and the report goes under **Safety**, where the family is asked to sign it. A **Serious** one alerts the directors straight away. Editing the note later changes only the note; open the report from the note to change the report.
 - A **Potty** note has a **Potty / Diaper** switch. It starts on **Diaper** when every child you're logging is under 18 months old, and on **Potty** otherwise. A diaper change is labelled "Diaper" for parents, and follows the **Diaper changes** setting for parent notifications.
 - Edit or delete an entry within **30 minutes** of creating it. Admins can edit at any time.
+- Set **when** it happened, if your center allows it: pick the day and time when you write a note, or when you edit one. You can go back up to 7 days, but not into the future. Families see the time you set; staff also see when the note was really written. Setting an earlier or later time doesn't change how long you have to edit it. A **Nap** takes the day and keeps its own start and end. A **Medicine** note follows its dose, and once an incident report is filed, its note's time can't be changed. Administrators turn this on under **Settings → App settings → Teachers can set the time of a note** on the web, or **Set the time of a note** in the app's Settings. It's off until you do.
 - Upload photos straight from the phone's camera.
+- See which parents reacted to a note.
 
 ### The Learning row
 
@@ -78,7 +98,7 @@ The tag takes a second in the moment and is far more accurate than trying to rem
 ![The Schedule screen showing the current week and the Request Time Off button](../../../assets/screenshots/mobile-teacher-schedule.png)
 
 - See your shifts for the current week. A shift whose out time shows as **Ratio** has no set finish: you may be sent home once you're not needed for ratio, and no later than the time shown underneath.
-- Submit a PTO request (admins approve or deny).
+- Submit a PTO request. Administrators are notified, and you're notified of their answer.
 - Cancel a pending PTO request.
 
 ## Posts
@@ -99,7 +119,7 @@ Thirty seconds of a room doing something ordinary tells a parent more about thei
 - **Incidents**: write an incident report, with where on the body, what staff did and photos, and see which families have signed. A **Serious** report alerts the directors straight away.
 - **Drills**: whether each required drill is on track, due or overdue, and **Log a drill** right after you run one.
 
-Directors also get **Waitlist** (open seats, who's next, offer and enroll) and **Late fees** (approve or waive fees waiting to be invoiced). Drill requirements and late-fee rules are set up on the web. See [Safety](/manage/safety/), [Waitlist](/manage/waitlist/) and [Billing](/manage/billing/#late-fees).
+Directors also get **Waitlist** (open seats, who's next, offer and enroll), **Review invoices** (adjust, send or leave out automatic invoices [held for review](/manage/billing/#reviewing-invoices-before-they-go-out)) and **Late fees** (approve or waive fees waiting to be invoiced). Drill requirements and late-fee rules are set up on the web. See [Safety](/manage/safety/), [Waitlist](/manage/waitlist/) and [Billing](/manage/billing/#late-fees).
 
 ## Finding everything else
 
@@ -160,11 +180,15 @@ Above your classroom on the home screen, **Center today** shows the whole center
 ![The full Center today view: each room with its children and staff against what it needs, and who's clocked in](../../../assets/screenshots/mobile-teacher-today.png)
 
 - **Rooms**: who's here in each room, how many staff it has and how many it needs. Tap a room to open its roster.
-- **Children**: who is **late** (their schedule says they should be here by now, with 15 minutes' grace, and they haven't been signed in), who is marked **absent**, and how many are still expected later.
+- **Children**: who is **late** (their schedule says they should be here by now, with 15 minutes' grace, and they haven't been signed in), who is marked **absent**, and how many are still expected later. A family's **Out** notice counts as absent, and a later time they gave replaces the scheduled one.
 - **Staff**: who's clocked in and since when, who's late for a scheduled shift, and who's off today.
 - **Tours & follow-ups**: pipeline cards due today, tours first.
 
 Late arrivals are only worked out for children with a schedule under Manage → Scheduling.
+
+### Time-off requests
+
+**Time-off requests** in the menu lists what's waiting, with who else is already off on those days. **Approve** or **Deny**, and the person is told. Each request can be answered once; change an answer later under **Manage → Scheduling** on the web.
 
 ### Approving a returned packet
 
@@ -223,7 +247,8 @@ Removing an allergy, immunization, ratio or field takes it off the list for new 
 
 ## Messaging
 
-Two-way chat with families — with push notifications.
+Two-way chat with families, in words or photos, with push notifications.
 
-- Non-admin staff see threads for their assigned classroom only.
-- Admins see every thread.
+- Teachers see their own classroom's conversations, and those that don't belong to a classroom. Only the staff who can see a conversation are notified of it.
+- Admins, and staff with no assigned classroom, see every conversation.
+- Parents can start a conversation with their child's teachers if your center turns on **Parents can message teachers** (Settings → App Settings). It shows under the classroom's name. When a parent writes in a resolved conversation, it opens again.
