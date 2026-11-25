@@ -63,7 +63,7 @@ Tap **Start** to fill it out and sign it inside the app. You're already signed i
 
 Once you submit, it moves to **Submitted**. Tap it to review what you sent: your answers, and a copy of each document as you signed it. If your center lets you change answers after submitting, the row says **Can still be changed**.
 
-Some documents need a fresh copy every year. These show the day they're due and an **Update** button. Forms open with your last answers, so you only change what's different and sign. If your center asks for a change, the row says what to fix. An overdue one is marked in red. See [Renewals](/documents/renewals/).
+Some documents need a fresh copy every year. These show the day they're due and an **Update** button. Forms open with your last answers, so you only change what's different and sign. If your center has a copy of a document on file, you can update and sign that copy instead of sending a new one. A PDF you sign every year opens as the same copy, with your earlier answers and signatures on it. If your center asks for a change, the row says what to fix. An overdue one is marked in red. See [Renewals](/documents/renewals/).
 
 A form whose link has expired is marked as expired. Ask your center to send it again.
 
