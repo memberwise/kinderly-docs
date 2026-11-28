@@ -2,7 +2,7 @@
 title: Account setup
 description: Getting your profile, team and center details configured.
 sidebar:
-  order: 3
+  order: 4
 ---
 
 Everything here lives under **Settings**, reachable from the icon rail on the left.
@@ -63,7 +63,7 @@ Deleting removes children's records, submitted documents and signed forms. If yo
 
 ## A sensible order to set things up
 
-When you sign up, Kinderly opens the [setup wizard](/manage/settings/#setup-wizard), which covers most of this list in order. Anything you skip stays on the **Setup checklist** on your dashboard.
+When you sign up, Kinderly opens the [setup wizard](/manage/settings/#setup-wizard), which covers most of this list in order. The [Getting started guide](/getting-started/setup-guide/) walks through the whole thing, including getting families and staff onto the apps. Anything you skip stays on the **Setup checklist** on your dashboard.
 
 1. **Profile** — your name and email.
 2. **[Manage → Settings](/manage/settings/)** — center details, hours, ratios, allergy and immunization lists, meal schedule.

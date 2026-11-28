@@ -26,6 +26,10 @@ The column on the right shows what’s **coming up**: the next events and closur
 
 Click **Share something with families…** at the top of the feed, or **Create post**, to open the composer. The **Photo/video**, **Event**, **Announcement** and **Closure** buttons under it open the composer with that type already picked. To edit, pin or delete a post, use the buttons along its bottom or the **⋯** menu in its corner. **Share** lists the places you can send it. Posts take **photos and video** — up to 20 attachments each, 200 MB per clip. Families see video play inline, with a still frame while it loads.
 
+### Covering faces with emojis
+
+When a family doesn't want their child shown, cover the child's face before you post. Click the smiley button on a photo in the composer, pick an emoji, then drag it over the face. Resize it with the **Size** slider, your scroll wheel, or two fingers on a touch screen. Click **Save photo** to swap it into the post. Only the covered photo is uploaded, and none of the original photo's details (like where it was taken) go with it. Click the smiley button again to move or remove the emojis before you post. Photos already on a post can't be edited; remove the photo and add it again instead.
+
 Staff can also post straight from the [Teachers app](/mobile/teacher-app/).
 
 ## Sharing to Google

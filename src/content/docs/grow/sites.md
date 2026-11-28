@@ -51,7 +51,8 @@ Opening a page gives you a two-panel editor over a live preview.
 
 - **Sections** (left) — the blocks making up the page, in order. Drag by the handle to reorder. The **+** adds a new one.
 - **Section settings** (right) — the fields for whichever section is selected.
-- **Draft preview** shows how it looks.
+- **Draft preview** shows how it looks. Its links work, so you can try them: a link to another of your pages opens that page in the editor, links to other websites open in a new tab, and a link to a page that doesn't exist yet tells you so.
+- **Navigation** (top of the preview) opens [Navigation](/grow/navigation/), where you change the menu, footer and breadcrumb style.
 - **Hide panels** clears the editing chrome so you can see the page properly.
 - **Save now** forces a save; it autosaves as you go and shows the time it last saved.
 

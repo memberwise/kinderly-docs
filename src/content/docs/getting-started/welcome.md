@@ -72,5 +72,6 @@ else. On a smaller screen the panel covers the page instead of sitting beside it
 
 ## Next
 
+- [Getting started guide](/getting-started/setup-guide/) — setting up your center and getting families and staff onto the apps, step by step.
 - [What you get](/getting-started/what-you-get/) — plans and limits.
 - [Account setup](/getting-started/account-setup/) — getting configured.

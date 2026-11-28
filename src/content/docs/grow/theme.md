@@ -41,9 +41,10 @@ A preview panel shows how the theme renders. Check it before saving — color ch
 
 ## Saving
 
-**Save theme** applies your changes. Like everything else in Grow, this goes to the **draft** — families see it when you [publish](/grow/sites/#drafts-and-publishing).
+**Save theme** puts your changes live right away. Unlike page edits, theme changes skip the draft, so families see them as soon as you save. Check the preview first.
 
 ## Next
 
+- [Navigation](/grow/navigation/) — the menu, footer and breadcrumbs, styled by your theme.
 - [Page sections](/grow/page-sections/) — the blocks the theme styles.
 - [Sites and pages](/grow/sites/) — publishing your changes.

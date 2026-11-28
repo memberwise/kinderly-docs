@@ -20,6 +20,7 @@ Families reply from the [Parents app](/mobile/parent-app/), so it's a proper two
 Type and press **Enter** to send. **Shift+Enter** starts a new line. The family is notified, and sees your name.
 
 - **Add photos** with the picture button, by dragging them onto the conversation, or by pasting. Up to 10 at once. Your words go with the first photo, and the family gets one notification.
+- **Cover a face** before you send: click the smiley button on a photo, pick an emoji and drag it over the face. Use the **Size** slider or your scroll wheel to resize it, then **Save photo**. Only the covered photo is sent.
 - If something doesn't send, your message and any photos left stay put so you can try again.
 - A message you haven't sent stays with that family while you look at others, and the list shows **Draft not sent**. Leaving Messages discards it.
 - You don't need a staff profile to write. Without one, messages carry the name on your login.

@@ -65,6 +65,8 @@ Opening a child gives you their photo, age and classroom, and a row of quick act
 - **Print Sheet**, a [one-page sheet](/manage/print-sheets/) about this child.
 - **Scan Document**, which [reads a paper form](/manage/scan-documents/) into this child's record, such as a doctor's note or an updated contact sheet.
 
+When a family has told you in the parent app that the child will be out, running late, or picked up by someone else, a **From the family** box lists it here, today's and upcoming. **Mark seen** lets the teachers know it's been handled; it shows as seen in the staff app too.
+
 Below that, six tabs.
 
 ### Info

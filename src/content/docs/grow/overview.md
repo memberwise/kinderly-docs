@@ -17,7 +17,7 @@ Where [Enroll](/forms/overview/) handles the paperwork and [Manage](/manage/over
 - **Coming up**: tours and follow-ups due in the next 7 days.
 - **Recent pages**: the pages you edited last.
 - **Needs your attention**: a site that isn't live yet, changes you haven't published, a custom domain that isn't connecting or is still being set up, and families past their follow-up date.
-- **Shortcuts** to pages, the pipeline, tours, media, theme, analytics, site settings and the [waitlist](/manage/waitlist/).
+- **Shortcuts** to pages, the pipeline, tours, media, theme, navigation, analytics, site settings and the [waitlist](/manage/waitlist/).
 
 ## What's in it
 
@@ -26,6 +26,7 @@ Where [Enroll](/forms/overview/) handles the paperwork and [Manage](/manage/over
 - **[Sites and pages](/grow/sites/)** — a real public website for your center, on its own address.
 - **[Page sections](/grow/page-sections/)** — the building blocks you assemble pages from.
 - **[Theme](/grow/theme/)** — colors, fonts and button styling across the whole site.
+- **[Navigation](/grow/navigation/)** — the menu, footer and breadcrumbs on every page.
 - **Media** — the image library your pages draw on.
 
 **Engagement**

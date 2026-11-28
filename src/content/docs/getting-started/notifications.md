@@ -19,7 +19,15 @@ The bell checks for new notifications every 30 seconds, and again as soon as you
 
 Click the bell to open the panel. Unread notifications are in bold with a dot beside them, and you can switch between **All** and **Unread**.
 
-- **Click a notification** to mark it read and open the page it's about: the family's billing account, the classroom, the Food Program tab.
+- **Click a notification** to mark it read and go straight to the thing it's about, on the right tab. The item is outlined and scrolled into view, often with a suggestion for what to do next. For example:
+  - **A staff certificate expiring** opens that staff member on **Certifications**, with the certificate outlined and a **Record renewal** button that fills in today's date and the same renewal period.
+  - **A person's file expiring** opens their **Documents** tab on that file, with **Upload renewed version**.
+  - **A failed payment or refund** opens the family's billing account with that invoice expanded, and offers **Record payment** or **Refund another way**.
+  - **A time-off request** opens that week's staff schedule with the request open to approve or deny.
+  - **A drill reminder** picks out that drill so you can log it. **Missed medication** opens on the day the doses were missed.
+  - **A new lead** opens its card on the pipeline. **A form submitted** opens that response. **A waitlist** notification picks out the family, with **Enroll now** or **Offer a seat**.
+  - **Out today, running late & pickups** opens the child, with the family's message under **From the family** and a **Mark seen** button.
+  - **A meal count** notification opens Meal Counts on that day and meal. **Payroll** opens that pay period, or **Open a pay period** with the next dates filled in.
 - **Click the ×** to dismiss it. It's gone from your bell but not from your co-workers'.
 - **Mark all read** clears the red number but keeps everything in the list.
 - **Clear all** empties the list.

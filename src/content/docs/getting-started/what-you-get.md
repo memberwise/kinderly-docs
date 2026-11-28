@@ -2,7 +2,7 @@
 title: What you get
 description: Kinderly's plans, what's included on each, and how the limits work.
 sidebar:
-  order: 2
+  order: 3
 ---
 
 **Enroll, Manage, Grow, family billing and Ellie are on every tier**, including the free one. Mostly what you're buying when you upgrade is bigger ceilings. Some features start at Bloom: virtual tours, Grow analytics, scan to create, auto-apply documents, renewals, most packet automations, the Food Program and the Funding Center.

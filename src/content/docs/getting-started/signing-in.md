@@ -2,7 +2,7 @@
 title: Signing in
 description: Passwords, Google and Microsoft — and what happens when you use more than one.
 sidebar:
-  order: 4
+  order: 5
 ---
 
 You can sign in to Kinderly with an email and password, or with **Google** or
